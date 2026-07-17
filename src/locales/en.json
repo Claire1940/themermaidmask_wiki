@@ -52,728 +52,1586 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "The Mermaid Mask Investigation",
+    "description": "Solve a hand-painted locked-room murder aboard the Mortuga submarine. Inspect rotating 3D clues, question an eccentric crew, and rebuild the case through evidence-backed deductions."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "The Mermaid Mask",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to solve the Mortuga submarine case in The Mermaid Mask",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "Map",
+        "title": "The Mermaid Mask Walkthrough",
+        "description": "Full chapter-by-chapter story route through the submarine"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Puzzle",
+        "title": "The Mermaid Mask Puzzle Solutions",
+        "description": "Hints and direct answers for every lock and minigame"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Compass",
+        "title": "The Mermaid Mask Beginner Guide",
+        "description": "Investigation loop, 3D evidence, and deduction basics"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Users",
+        "title": "The Mermaid Mask Characters",
+        "description": "Dossiers for the detective team and every suspect"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Search",
+        "title": "The Mermaid Mask Clues",
+        "description": "Catalog of evidence, locations, and suspect connections"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Trophy",
+        "title": "The Mermaid Mask Achievements",
+        "description": "All 21 Steam achievements and unlock conditions"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Film",
+        "title": "The Mermaid Mask Ending",
+        "description": "Spoiler-controlled analysis of the final case"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "MonitorSmartphone",
+        "title": "The Mermaid Mask Platforms",
+        "description": "Steam, Switch, Switch 2, and PS5 release details"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
+    "theMermaidMaskWalkthrough": {
+      "title": "The Mermaid Mask Walkthrough",
+      "eyebrow": "Complete Story Route",
+      "subtitle": "Follow the mandatory investigation route from Stonetop Inn to the final confrontation aboard the Mortuga submarine. Each section stops before revealing later story twists.",
+      "intro": "The Mermaid Mask is structured around an opening investigation and the main murder case, The Curse in the Cauldron. Use this route to collect required evidence, unlock every area, question the full crew, and recover when the next progression trigger is unclear.",
+      "chapters": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "chapter": "Prologue",
+          "chapterTitle": "The Beginning",
+          "spoilerLevel": "Opening sequence",
+          "sections": [
+            {
+              "sectionTitle": "Prologue",
+              "steps": [
+                {
+                  "location": "Stonetop Inn",
+                  "objective": "Review the case and wake Sally.",
+                  "actions": [
+                    "Inspect The Hex of the Helmsmen book lying near Sally.",
+                    "Open the red Case File and read the locked-room murder summary.",
+                    "Interact with Sally to begin the journey to the submarine."
+                  ],
+                  "trigger": "Leave the inn after Sally joins Grimoire."
+                },
+                {
+                  "location": "Town Square",
+                  "objective": "Find the transport arranged by Captain Seafoam.",
+                  "actions": [
+                    "Inspect the square, signs, fountain, and unusual green light.",
+                    "Talk to Sally after examining the glowing area.",
+                    "Wait for the Mortuga submarine to surface and board it."
+                  ],
+                  "trigger": "Enter the submarine from the Fore Deck."
+                },
+                {
+                  "location": "Fore Deck and Parlor",
+                  "objective": "Enter the ship and restore the first interior light.",
+                  "actions": [
+                    "Inspect the glowing carved buoy on the Fore Deck.",
+                    "Enter the Parlor and let Sally operate the lever that lights the pink flame.",
+                    "Read the warning attached to the Control Room window.",
+                    "Note that the Control Room and murder floor are initially inaccessible."
+                  ],
+                  "trigger": "Move through the available corridor toward the Mess Hall."
+                },
+                {
+                  "location": "Mess Hall",
+                  "objective": "Open the snake cabinet.",
+                  "actions": [
+                    "Inspect the cards, cookware, lamps, candles, and cabinet.",
+                    "Treat each shape as its number of sides.",
+                    "Set the four displays to triangle for 3, square plus pentagon for 9, triangle plus square for 7, and square for 4."
+                  ],
+                  "trigger": "Finish inspecting the opened cabinet and continue to the Illusion Theatre."
+                },
+                {
+                  "location": "Illusion Theatre",
+                  "objective": "Examine the locked-room crime scene.",
+                  "actions": [
+                    "Inspect the ragged cloth connected to The Stargazing Girl.",
+                    "Examine the upside-down illusion poster.",
+                    "Inspect the chalk outline, the ancient stone cauldron, and the surrounding stage.",
+                    "Review every highlighted point on the cauldron before opening the deduction."
+                  ],
+                  "trigger": "Complete the first case conclusion."
+                },
+                {
+                  "location": "Deduction Screen",
+                  "objective": "Form the opening conclusion.",
+                  "actions": [
+                    "Select Magnus Mortuga as the person who unlocked the cauldron.",
+                    "Select the conclusion that he was killed by what was inside it.",
+                    "Confirm the deduction to begin the main investigation."
+                  ],
+                  "trigger": "Chapter One, The Curse in the Cauldron, begins."
+                }
+              ]
+            }
+          ]
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "chapter": "Chapter One",
+          "chapterTitle": "The Curse in the Cauldron",
+          "spoilerLevel": "Investigation and progression spoilers",
+          "sections": [
+            {
+              "sectionTitle": "Unlock the Control Room",
+              "steps": [
+                {
+                  "location": "Child's Room",
+                  "objective": "Solve the doll portrait and obtain the Glass Eyeball.",
+                  "actions": [
+                    "Read the newspaper about the Lady of the Looking Glass and the sea-serpent report on its reverse.",
+                    "Combine the six portrait cards into three complete girls.",
+                    "Place Patricia in the center with the medium-sized doll.",
+                    "Use the enlarging and shrinking lenses on the outer dolls.",
+                    "Place the fish-eye lenses over the faces of the left and right girls."
+                  ],
+                  "trigger": "Collect the Glass Eyeball from the completed mechanism."
+                },
+                {
+                  "location": "Parlor and Child's Room",
+                  "objective": "Reveal Symmetry Silkmoth.",
+                  "actions": [
+                    "Return to the Parlor and inspect the watching eyes near the Control Room door.",
+                    "Go back to the Child's Room.",
+                    "Interact with the blinking painting to reveal Symmetry Silkmoth.",
+                    "Ask Symmetry about herself, the submarine, the crew, and every available clue."
+                  ],
+                  "trigger": "Return to the Control Room after completing Symmetry's initial interview."
+                },
+                {
+                  "location": "Control Room",
+                  "objective": "Meet Sinthia Seafoam and recover the Captain's Log.",
+                  "actions": [
+                    "Question Sinthia about Mortuga, her new command, Symmetry, and the other crew members.",
+                    "Inspect the Submarine Blueprint, wheel, captain's jacket, and control equipment.",
+                    "Connect the red cable from socket 1 to 9, blue from 3 to 11, and yellow from 6 to 12.",
+                    "Take the Captain's Log from the opened compartment.",
+                    "Present the new evidence to Sinthia before leaving."
+                  ],
+                  "trigger": "The bunk rooms and additional crew interviews become part of the active route."
+                }
+              ]
+            },
+            {
+              "sectionTitle": "Search the Crew Quarters",
+              "steps": [
+                {
+                  "location": "Women's Bunk Room",
+                  "objective": "Open the pig safe and search Sinthia's bunk.",
+                  "actions": [
+                    "Read the Movie Magazine.",
+                    "Set the pig-safe number network so the top branches read 3, 4, 1 and total 8, while the second branches read 2, 3, 1 and total 6.",
+                    "Align the lower totals as 5, 9, and 2.",
+                    "Take the gloomy underwater photograph from the safe.",
+                    "Show the photograph to Sinthia and Symmetry.",
+                    "Return to Sinthia's mattress after Symmetry points out the concealed material."
+                  ],
+                  "trigger": "Collect the Inn Deeds hidden beneath the mattress."
+                },
+                {
+                  "location": "Men's Bunk Room",
+                  "objective": "Interview Dirk Dansom and J.D. Wirman.",
+                  "actions": [
+                    "Ask both men about themselves, Mortuga, the submarine, and the entire suspect list.",
+                    "Solve Dirk's phone lock by making every connected channel begin and end with matching symbols.",
+                    "Read the unlocked calls, messages, and emails.",
+                    "Rotate the typewriter's inner and outer rings so the five displayed patterns follow the required 45-degree transformations."
+                  ],
+                  "trigger": "Recover the handwritten letter addressed to Wirman from Ibis."
+                }
+              ]
+            },
+            {
+              "sectionTitle": "Meet the Remaining Crew",
+              "steps": [
+                {
+                  "location": "Dream Chamber",
+                  "objective": "Interview Dr. Zacharias Zephyr.",
+                  "actions": [
+                    "Ask Zephyr about Mortuga, his dream work, and every crew member.",
+                    "Inspect the Hex Bottle, Dream Helmet, Fog Ball, and other interactive equipment.",
+                    "Rotate and open each 3D clue until every inspection point has been registered."
+                  ],
+                  "trigger": "Add Zephyr's testimony and dream-related evidence to the notebook."
+                },
+                {
+                  "location": "Cargo Hold",
+                  "objective": "Interview Mariana Moon and locate the crew-position puzzle.",
+                  "actions": [
+                    "Question Mariana about her historical research and the other passengers.",
+                    "Search the sacks and collect the Silkwirm Map.",
+                    "Inspect the large pinboard representing the submarine.",
+                    "Leave the pinboard unfinished until every living crew member has been met."
+                  ],
+                  "trigger": "Return after interviewing Godrik Gripp and Madam Tadpole."
+                },
+                {
+                  "location": "Captain's Cabin",
+                  "objective": "Open Mortuga's private room.",
+                  "actions": [
+                    "Use the Glass Eyeball in the eye-shaped lock.",
+                    "Push the inserted eye to release the internal key.",
+                    "Inspect the broken handheld radio, table bell, ship in a bottle, and the painting titled Her.",
+                    "Rotate every collected object and examine its hidden sides."
+                  ],
+                  "trigger": "Add Mortuga's private possessions to the evidence list."
+                },
+                {
+                  "location": "Engine Room",
+                  "objective": "Interview Godrik Gripp and repair the compass.",
+                  "actions": [
+                    "Inspect three shop items to begin Gripp's full conversation.",
+                    "Question him about the ship, Mortuga, his merchandise, and the crew.",
+                    "Set the yellow compass to point left, the blue compass down, the pink compass toward roughly two o'clock, and the red compass toward the upper-left.",
+                    "Collect the repaired compass."
+                  ],
+                  "trigger": "Present the repaired object and related evidence to the characters who recognize it."
+                },
+                {
+                  "location": "Airlock Grotto",
+                  "objective": "Interview Madam Tadpole.",
+                  "actions": [
+                    "Ask Tadpole about her mermaid identity, Mortuga, and every suspect.",
+                    "Record her account of a glowing-eyed figure on the Fore Deck.",
+                    "Compare her description of its language with the shapes visible behind the cauldron.",
+                    "Inspect the diving helmet and the other grotto equipment."
+                  ],
+                  "trigger": "All eight primary suspects have now been introduced."
+                }
+              ]
+            },
+            {
+              "sectionTitle": "Connect Testimony and Evidence",
+              "steps": [
+                {
+                  "location": "Cargo Hold",
+                  "objective": "Complete the crew-location pinboard.",
+                  "actions": [
+                    "Place each living crew member at the room where they are currently stationed.",
+                    "Place Mortuga's portrait outside the submarine diagram because he is dead.",
+                    "Confirm the completed layout to establish the ship's current population and room structure."
+                  ],
+                  "trigger": "Additional testimony and personal-investigation topics become available."
+                },
+                {
+                  "location": "Cargo Hold and Engine Room",
+                  "objective": "Identify Mariana's disguised recording device.",
+                  "actions": [
+                    "Show Mariana the pipe-shaped object and related mechanical evidence.",
+                    "Establish that the pipe is a Dictaphone used to record crew conversations.",
+                    "Listen to every available recording.",
+                    "Present significant recorded statements to the people involved."
+                  ],
+                  "trigger": "New contradiction and motive topics appear in character interviews."
+                },
+                {
+                  "location": "Entire Submarine",
+                  "objective": "Unlock every personal investigation.",
+                  "actions": [
+                    "Present each newly collected clue to all characters with an available reaction.",
+                    "Revisit Sinthia and Symmetry after finding the photograph and Inn Deeds.",
+                    "Revisit Dirk and Wirman after unlocking the phone and letter.",
+                    "Revisit Zephyr, Mariana, Gripp, and Tadpole after solving their room puzzles.",
+                    "Use the notebook to locate characters who still have unread evidence reactions."
+                  ],
+                  "trigger": "A character's personal investigation opens after the required testimony and evidence have been collected."
+                },
+                {
+                  "location": "Deduction Interface",
+                  "objective": "Complete the suspect investigations.",
+                  "actions": [
+                    "Fill each conclusion with the statement supported by the collected testimony.",
+                    "Attach the physical clue that directly proves the selected conclusion.",
+                    "After an incorrect selection, use Grimoire and Sally's expanded comments to narrow the answer.",
+                    "Repeat the interview loop whenever the game indicates that a relevant clue is still missing."
+                  ],
+                  "trigger": "Complete all required character investigations."
+                }
+              ]
+            },
+            {
+              "sectionTitle": "Final Confrontation",
+              "steps": [
+                {
+                  "location": "Illusion Theatre and Final Case Sequence",
+                  "objective": "Reconstruct the locked-room murder.",
+                  "actions": [
+                    "Finish all remaining room puzzles and evidence inspections before starting the confrontation.",
+                    "Review the cauldron, stage, hidden mechanisms, crew movements, and Mortuga's possessions.",
+                    "Build the timeline using only conclusions already proven in the personal investigations.",
+                    "Present the matching physical evidence when each final deduction prompt appears."
+                  ],
+                  "trigger": "Confirm the completed murder reconstruction to enter the ending sequence.",
+                  "spoilerWarning": "The culprit, method, and final revelations are intentionally omitted."
+                }
+              ]
+            }
+          ]
         }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "theMermaidMaskPuzzleSolutions": {
+      "title": "The Mermaid Mask Puzzle Solutions",
+      "eyebrow": "Hints and Answers",
+      "subtitle": "Find spoiler-controlled hints and direct answers for the submarine's object puzzles, locks, deduction devices, and investigation minigames.",
+      "intro": "Most puzzles rely on rotating fully modeled objects, matching visual categories, or connecting evidence rather than entering traditional passwords. Open the hint first, then reveal the solution only when the mechanism remains unclear.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "chapter": "Prologue",
+          "room": "Mess Hall",
+          "puzzle": "Snake Cabinet Number Dials",
+          "hint": "Each shape represents its number of sides. Combine shapes when a display requires a larger total.",
+          "solution": "Set 3 to one triangle, 9 to one square plus one pentagon, 7 to one triangle plus one square, and 4 to one square.",
+          "reward": "Opens the cabinet and advances the route toward the crime scene."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "chapter": "Chapter One",
+          "room": "Child's Room",
+          "puzzle": "Portrait Cards and Lenses",
+          "hint": "Patricia owns the medium-sized doll, while Jennifer and Margaret look toward her from opposite sides.",
+          "solution": "Join the six cards into three complete girls. Put Patricia in the center and leave her doll unchanged. Use the magnifying and shrinking lenses on the two outer dolls, then place the fish-eye lenses over the faces of the left and right girls.",
+          "reward": "Glass Eyeball"
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "chapter": "Chapter One",
+          "room": "Control Room",
+          "puzzle": "Switchboard Cables",
+          "hint": "Only three connections are needed, and each cable joins a socket on the upper row to one on the lower row.",
+          "solution": "Connect the red cable from socket 1 to socket 9, the blue cable from socket 3 to socket 11, and the yellow cable from socket 6 to socket 12.",
+          "reward": "Captain's Log"
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "chapter": "Chapter One",
+          "room": "Control Room",
+          "puzzle": "Nine-Piece Hexagonal Mechanism",
+          "hint": "Build continuous colored rings before worrying about the cords.",
+          "solution": "Arrange all nine pieces into the hexagonal frame so the beveled edges form uninterrupted concentric bands. The magenta and red outer panels must surround a continuous yellow band, the purple inner wedges must face the center, and every cord must terminate at a matching peg or at the central joint.",
+          "reward": "Completes the Control Room mechanism and registers its associated evidence."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "chapter": "Chapter One",
+          "room": "Women's Bunk Room",
+          "puzzle": "Pink Pig Safe",
+          "hint": "The numbers on connected branches are added to produce the fixed totals at their ends.",
+          "solution": "Set the upper movable numbers to 3, 4, and 1 for a total of 8. Set the second row to 2, 3, and 1 for a total of 6. The three lower connected totals should read 5, 9, and 2.",
+          "reward": "Gloomy Underwater Photograph"
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "chapter": "Chapter One",
+          "room": "Men's Bunk Room",
+          "puzzle": "Dirk's Phone Lock",
+          "hint": "Every route has a symbol at both endpoints. The tiles between them must create one continuous matching channel.",
+          "solution": "Solve the crossing routes first. Rotate and place each tile so channel A connects identical crossed symbols from left to right, while channels B, C, and D connect their matching top and bottom symbols without a broken line. Once all four routes are continuous, the phone unlocks.",
+          "reward": "Dirk's calls, messages, and emails"
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
+          "chapter": "Chapter One",
+          "room": "Men's Bunk Room",
+          "puzzle": "Typewriter Ring Code",
+          "hint": "The five symbols are not separate pictures. Each is the previous pattern after a fixed rotation.",
+          "solution": "Use the center preview to compare neighboring target symbols. Rotate the three inner dials and three outer rings so every adjacent pattern changes by 45 degrees while preserving the same component arrangement.",
+          "reward": "Letter from Ibis to J.D. Wirman"
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "chapter": "Chapter One",
+          "room": "Dream Chamber",
+          "puzzle": "Bottle Caps",
+          "hint": "The prose clues describe visible or physical properties of the six bottles.",
+          "solution": "Place the crescent cap on the bottle with the crimson-colored label, the spade cap on the effervescent bottle, the bird-skull cap on the bottle emitting vapor, the sun-shaped cap on the fast-dripping bottle, the hand cap on the viscous bottle, and the eye cap on the bottle with the conspicuous X.",
+          "reward": "Completes the Hex Bottle inspection."
+        },
+        {
+          "chapter": "Chapter One",
+          "room": "Cabinet of Curiosity",
+          "puzzle": "Skull Classification Grid",
+          "hint": "The column symbols describe head decorations. The row symbols describe facial features.",
+          "solution": "Sort the skulls by ornament across the columns: red marking, side-marked skull, crescent marking, and horns. Sort them by face down the rows: narrow or closed eyes, prominent teeth or jaw, and large round eyes. Rotate each skull so the feature required by its row faces forward.",
+          "reward": "Completes the skull display and reveals its associated clue."
+        },
+        {
+          "chapter": "Chapter One",
+          "room": "Illusion Theatre",
+          "puzzle": "Card Suit Grid",
+          "hint": "The suit determines the row, while the character's gaze, point, or orientation determines the column.",
+          "solution": "Place every heart tile in the heart row, diamonds in the diamond row, clubs in the club row, and spades in the spade row. Within each row, order the tiles by the direction shown at the top of the column: upward, vertical, neutral, left, right, and downward.",
+          "reward": "Completes the theatre classification mechanism."
+        },
+        {
+          "chapter": "Chapter One",
+          "room": "Cargo Hold",
+          "puzzle": "Crew Location Pinboard",
+          "hint": "The board represents the submarine as it is now, not where people were during the murder.",
+          "solution": "Place every living crew member in the room where they are currently stationed. Put Magnus Mortuga's portrait outside the submarine diagram because he is no longer aboard as a living occupant.",
+          "reward": "Unlocks additional testimony and investigation topics."
+        },
+        {
+          "chapter": "Chapter One",
+          "room": "Cargo Hold",
+          "puzzle": "Glowing Mushroom Catalog",
+          "hint": "Rotate the light source and count how many mushrooms of each species glow under the required condition.",
+          "solution": "Enter Dayglo 3, Evergleam 2, Illuminight 4, and Nevergleam 5.",
+          "reward": "Completes Mariana Moon's mushroom record."
+        },
+        {
+          "chapter": "Chapter One",
+          "room": "Engine Room",
+          "puzzle": "Four Compasses",
+          "hint": "Each written clue describes how one compass should point in relation to the others.",
+          "solution": "Set the yellow compass in the upper-left to point left, the blue compass in the lower-left to point down, the pink compass in the upper-right to point toward roughly two o'clock, and the red compass in the lower-right to point toward the upper-left.",
+          "reward": "Repaired Compass"
+        },
+        {
+          "chapter": "Chapter One",
+          "room": "Airlock Grotto",
+          "puzzle": "Diving Helmet Pipe Dials",
+          "hint": "Treat every pipe as a route carrying one symbol between two dials.",
+          "solution": "Begin with the central junction dials. Rotate each dial so the symbol leaving one pipe matches the symbol entering the next dial. Continue outward until every complete pipe route starts and ends with the same symbol.",
+          "reward": "Completes the diving-helmet mechanism."
+        },
+        {
+          "chapter": "Chapter One",
+          "room": "Bilge",
+          "puzzle": "Colored Orb Mechanism",
+          "hint": "The small displays are target patterns. The large orbs must reproduce them when the colored layers overlap.",
+          "solution": "Rotate the outer metal dials first to position the red groups, then rotate the inner glass orbs to align the white and pale spheres with the small reference displays. Confirm only when both large orbs reproduce their corresponding target arrangements.",
+          "reward": "Opens the Bilge mechanism and registers its evidence."
+        },
+        {
+          "chapter": "Chapter One",
+          "room": "Dome Tank",
+          "puzzle": "Pirates, Flags, and Lighthouses",
+          "hint": "Match each pirate to the flag sharing its visual pattern, while lighthouse pieces occupy the remaining color-coded positions.",
+          "solution": "Place the yellow lighthouse at the upper-left and the cyan lighthouse at the upper-right. Put the plain pale-yellow flag pirate between them on the left and the black-and-light-blue striped flag pirate between them on the right. Place the green-striped lighthouse at the lower-left and the red lighthouse at the lower-right. Match the remaining pirates to the red-and-white striped and black-white-green flags in the corresponding side and lower-center slots.",
+          "reward": "Completes the Dome Tank display."
+        },
+        {
+          "chapter": "Chapter One",
+          "room": "Personal Investigations",
+          "puzzle": "Fill-in-the-Blank Deductions",
+          "hint": "The correct sentence must be supported by one specific clue, not merely by a suspicious statement.",
+          "solution": "Complete the sentence using the testimony established during interviews, then attach the physical evidence that directly proves it. When an answer fails, read Grimoire and Sally's expanded response to identify whether the incorrect part is the statement or the supporting clue.",
+          "reward": "Unlocks completed suspect conclusions and the final case sequence."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "theMermaidMaskBeginnerGuide": {
+      "title": "The Mermaid Mask Beginner Guide",
+      "eyebrow": "Spoiler-Free Essentials",
+      "subtitle": "Learn how exploration, questioning, 3D evidence, deductions, and the built-in hint system work before beginning the Mortuga case.",
+      "intro": "The investigation advances by finding evidence and then showing it to the right people. There is no need to guess the culprit early: search each room carefully, inspect every side of each object, and revisit the crew whenever the notebook gains a meaningful clue.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "title": "Follow the Core Investigation Loop",
+          "summary": "Every major section follows the same repeatable process.",
+          "tips": [
+            "Explore every accessible room and inspect highlighted objects.",
+            "Question the people in that area about all available topics.",
+            "Present newly collected evidence to characters who may recognize it.",
+            "Return to earlier rooms when a clue reveals a hidden compartment or new interaction.",
+            "Use the resulting testimony and evidence in a personal investigation."
+          ]
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "title": "Use the Map Frequently",
+          "summary": "The submarine expands gradually, and old rooms regularly receive new interactions.",
+          "tips": [
+            "Check every unlocked floor after a major conversation.",
+            "Revisit the Parlor and crew quarters when an object appears to watch, blink, or react.",
+            "Do not assume a completed room is permanently finished.",
+            "Use room names in the notebook to track where unfinished evidence originated."
+          ]
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "title": "Exhaust Every Interview Topic",
+          "summary": "A character's useful dialogue is divided between personal questions, suspect questions, and evidence reactions.",
+          "tips": [
+            "Ask every introductory question when meeting someone for the first time.",
+            "Ask each person about every other crew member.",
+            "Present clues even when the connection is not immediately obvious.",
+            "Return after collecting photographs, letters, logs, recordings, or property documents.",
+            "New suspicion topics appear after enough supporting evidence has been seen."
+          ]
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "title": "Inspect 3D Evidence Completely",
+          "summary": "Important clues are fully modeled objects that can hide information on their sides, back, base, or interior.",
+          "tips": [
+            "Rotate each object through a full circle.",
+            "Zoom in on seams, labels, symbols, switches, and damaged areas.",
+            "Try opening lids, turning dials, moving parts, and reversing the object.",
+            "Continue until all inspection hotspots have been acknowledged.",
+            "Recheck an object when later testimony explains a symbol you previously ignored."
+          ]
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "title": "Read the Notebook Before Wandering",
+          "summary": "The notebook records important evidence, testimony, rooms, and active lines of inquiry.",
+          "tips": [
+            "Look for subjects that still lack a conclusion.",
+            "Compare a character's statement with the physical clues collected nearby.",
+            "Use unresolved entries to decide which suspect should be revisited.",
+            "Review the notebook after every multi-step puzzle or hidden-room discovery."
+          ]
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "title": "Build Deductions from Proof",
+          "summary": "Personal investigations combine a completed statement with the clue that proves it.",
+          "tips": [
+            "Choose the sentence that directly follows from established testimony.",
+            "Attach the most specific physical clue rather than a generally suspicious item.",
+            "Separate motive, opportunity, and method instead of treating them as one conclusion.",
+            "Read Grimoire and Sally's response after a failed attempt for an additional pointer."
+          ]
+        },
+        {
+          "title": "Use Hints Without Penalty",
+          "summary": "The optional hint system can guide the next action or explain a puzzle without affecting completion.",
+          "tips": [
+            "Open the first hint when the objective is unclear.",
+            "Use deeper hints only after inspecting every part of the object.",
+            "Check whether the hint refers to a room, a person, or a deduction clue.",
+            "There is no score penalty for requesting help."
+          ]
+        },
+        {
+          "title": "Recover from a Progression Block",
+          "summary": "Most apparent dead ends are caused by one unread clue reaction or an incompletely inspected object.",
+          "tips": [
+            "Rotate every recent 3D clue again and check for missed hotspots.",
+            "Present the newest evidence to all crew members with available dialogue.",
+            "Return to the room where that evidence was discovered.",
+            "Check the map for a newly opened floor or doorway.",
+            "Complete any unfinished personal investigation shown in the notebook."
+          ]
+        },
+        {
+          "title": "Avoid Accidental Story Spoilers",
+          "summary": "The case is designed so players can investigate freely without knowing the final solution.",
+          "tips": [
+            "Use chapter- and room-specific hints instead of reading the ending route.",
+            "Finish each suspect investigation before opening final-case material.",
+            "Keep the final confrontation section collapsed until all normal dialogue is exhausted.",
+            "Treat suspicious statements as leads rather than proof of guilt."
+          ]
         }
+      ]
+    },
+    "theMermaidMaskCharactersAndSuspects": {
+      "title": "The Mermaid Mask Characters and Suspects",
+      "eyebrow": "Crew Dossiers",
+      "subtitle": "Meet Detective Grimoire, Sally, the murdered captain, and the eight eccentric people investigated aboard the Mortuga submarine.",
+      "intro": "Every crew member reacts to evidence and to the other suspects, making repeat interviews essential. These dossiers cover their public roles, relationships, testimony, investigative angles, and early evidence without naming the culprit or revealing the final solution.",
+      "items": [
+        {
+          "name": "Detective Grimoire",
+          "role": "Lead detective and player-controlled investigator",
+          "location": "Moves throughout the Mortuga submarine",
+          "relationships": [
+            "Longtime investigative partner of Sally Spears",
+            "Hired to investigate the death of Magnus Mortuga"
+          ],
+          "testimony": "Grimoire builds the case by inspecting physical evidence, questioning the crew, and completing evidence-supported deductions.",
+          "motive": "Not a suspect.",
+          "evidence": [
+            "Case File",
+            "Notebook conclusions",
+            "All collected testimony and physical clues"
+          ],
+          "spoiler": "Spoiler-free protagonist profile."
+        },
+        {
+          "name": "Sally Spears",
+          "role": "Grimoire's sharp-tongued assistant and investigative partner",
+          "location": "Travels with Grimoire",
+          "relationships": [
+            "Closest ally of Detective Grimoire",
+            "Questions and comments on the crew's behavior throughout the case"
+          ],
+          "testimony": "Sally provides observations, challenges weak deductions, and gives increasingly specific feedback after unsuccessful puzzle or conclusion attempts.",
+          "motive": "Not a suspect.",
+          "evidence": [
+            "Opening Case File discussion",
+            "Puzzle feedback",
+            "Deduction commentary"
+          ],
+          "spoiler": "Spoiler-free protagonist profile."
+        },
+        {
+          "name": "Magnus Mortuga",
+          "role": "Murdered captain and owner of the Mortuga submarine",
+          "location": "Found dead in the Illusion Theatre",
+          "relationships": [
+            "Brought the unusual crew together aboard his submarine",
+            "Connected to Sinthia Seafoam through the ship and its command",
+            "Previously associated with the Stonetop Inn property"
+          ],
+          "testimony": "Mortuga cannot testify, so his history must be reconstructed through his log, possessions, property records, and the statements of his crew.",
+          "motive": "The victim's private dealings, ownership history, and relationships provide possible motives for several suspects.",
+          "evidence": [
+            "Stone Cauldron",
+            "Captain's Log",
+            "Captain's Jacket",
+            "Inn Deeds",
+            "Broken Handheld Radio",
+            "Painting titled Her"
+          ],
+          "spoiler": "Contains early case evidence but no ending revelations."
+        },
+        {
+          "name": "Sinthia Seafoam",
+          "role": "Acting captain and experienced nautical engineer",
+          "location": "Control Room",
+          "relationships": [
+            "Friend and bunkmate of Symmetry Silkmoth",
+            "Succeeded Mortuga as the submarine's acting captain",
+            "Worked around ships and nautical machinery for many years"
+          ],
+          "testimony": "Sinthia discusses the ship, Mortuga's command, her engineering background, the crew, and the responsibilities she inherited after his death.",
+          "motive": "Her succession to command, concealed photograph, and connection to Mortuga's property history make her secrecy an important investigative angle.",
+          "evidence": [
+            "Submarine Blueprint",
+            "Captain's Log",
+            "Gloomy Underwater Photograph",
+            "Inn Deeds",
+            "Captain's Jacket"
+          ],
+          "spoiler": "Minor investigation spoilers; final conclusions are omitted."
+        },
+        {
+          "name": "Symmetry Silkmoth",
+          "role": "Illusionist aboard the submarine",
+          "location": "Child's Room",
+          "relationships": [
+            "Friend and bunkmate of Sinthia Seafoam",
+            "Connected to the submarine's theatrical spaces and illusion imagery"
+          ],
+          "testimony": "Symmetry answers questions about stagecraft, the crew, Mortuga, the strange newspaper story, the sail cloth, the illusion poster, and the Glass Eyeball.",
+          "motive": "Her knowledge of illusions, concealed spaces, and visual deception makes her relevant to an apparently impossible locked-room murder.",
+          "evidence": [
+            "Glass Eyeball",
+            "Illusion Poster",
+            "Sail Cloth",
+            "Newspaper Page",
+            "Gloomy Underwater Photograph"
+          ],
+          "spoiler": "Minor room and clue spoilers; final conclusions are omitted."
+        },
+        {
+          "name": "Madam Tadpole",
+          "role": "Self-described half-mermaid and resident of the Airlock Grotto",
+          "location": "Airlock Grotto",
+          "relationships": [
+            "Lives apart from much of the crew in the submarine's aquatic area",
+            "Provides testimony that places an unidentified figure on the Fore Deck"
+          ],
+          "testimony": "Tadpole says she saw a glowing-eyed demon on the Fore Deck around the time of the murder and heard it speak what she describes as an alien language.",
+          "motive": "Her access to the airlock, unusual account, and knowledge of activity outside the main rooms make her movements important to the timeline.",
+          "evidence": [
+            "Diving Helmet",
+            "Fore Deck testimony",
+            "Glowing-eye description",
+            "Symbols visible behind the cauldron"
+          ],
+          "spoiler": "Contains testimony revealed during the normal first interview."
+        },
+        {
+          "name": "Dr. Zacharias Zephyr",
+          "role": "Dream doctor and mystical researcher",
+          "location": "Dream Chamber",
+          "relationships": [
+            "Offers dream-related services to people aboard the submarine",
+            "His appearance and equipment become relevant to Tadpole's testimony"
+          ],
+          "testimony": "Zephyr explains his dream practice, discusses Mortuga and the crew, and comments on the unusual devices kept in his chamber.",
+          "motive": "His mysterious equipment, chemical bottles, and possible connection to unusual perceptions place his methods under scrutiny.",
+          "evidence": [
+            "Hex Bottle",
+            "Dream Helmet",
+            "Fog Ball",
+            "Bottle-cap mechanism"
+          ],
+          "spoiler": "Minor evidence spoilers; final conclusions are omitted."
+        },
+        {
+          "name": "J.D. Wirman",
+          "role": "Successful writer and author connected to The Hex of the Helmsmen",
+          "location": "Men's Bunk Room",
+          "relationships": [
+            "Shares the men's quarters with Dirk Dansom",
+            "Receives concealed correspondence from a person signing as Ibis"
+          ],
+          "testimony": "Wirman discusses his writing, his status aboard the ship, Mortuga, Dirk, and the other members of the crew.",
+          "motive": "His secret correspondence and literary connection to the case's supernatural imagery raise questions about what he knew before the murder.",
+          "evidence": [
+            "The Hex of the Helmsmen",
+            "Typewriter mechanism",
+            "Handwritten Letter from Ibis",
+            "Crew testimony"
+          ],
+          "spoiler": "Minor correspondence spoilers; the letter's final significance is omitted."
+        },
+        {
+          "name": "Dirk Dansom",
+          "role": "Actor and energetic celebrity passenger",
+          "location": "Men's Bunk Room",
+          "relationships": [
+            "Shares the men's quarters with J.D. Wirman",
+            "Appears in entertainment material found aboard the submarine"
+          ],
+          "testimony": "Dirk discusses his career, Mortuga, Wirman, and the rest of the crew. His locked phone contains private calls, messages, and emails.",
+          "motive": "Private communications and a secretly recorded statement about killing someone to become free suggest that he was under personal pressure.",
+          "evidence": [
+            "Movie Magazine",
+            "Locked Phone",
+            "Calls and Messages",
+            "Mariana's Dictaphone Recording"
+          ],
+          "spoiler": "Includes a minor recorded-dialogue spoiler but not its final interpretation."
+        },
+        {
+          "name": "Mariana Moon",
+          "role": "Historian and meticulous collector of information",
+          "location": "Cargo Hold",
+          "relationships": [
+            "Studies the submarine, its occupants, and their history",
+            "Secretly records conversations among the crew"
+          ],
+          "testimony": "Mariana discusses Mortuga's history, the crew, her research, the Silkwirm material, and the objects stored in the Cargo Hold.",
+          "motive": "Her hidden recordings show that she possessed information other suspects did not know she had, making her knowledge and timeline important.",
+          "evidence": [
+            "Silkwirm Map",
+            "Crew Location Pinboard",
+            "Pipe-shaped Dictaphone",
+            "Recorded Conversations",
+            "Mushroom Catalog"
+          ],
+          "spoiler": "Minor recording spoilers; final conclusions are omitted."
+        },
+        {
+          "name": "Godrik \"Mr\" Gripp",
+          "role": "Eccentric merchant and mechanical shopkeeper",
+          "location": "Engine Room",
+          "relationships": [
+            "Trades and repairs unusual objects for the submarine's occupants",
+            "Has direct access to machinery and navigational equipment"
+          ],
+          "testimony": "Gripp discusses his merchandise, mechanical work, Mortuga, and the other crew members after Grimoire examines the items in his shop.",
+          "motive": "His access to the submarine's mechanical systems and his work with damaged or altered objects create questions about means and opportunity.",
+          "evidence": [
+            "Four-Compass Mechanism",
+            "Broken Compass",
+            "Repaired Compass",
+            "Engine Room Merchandise"
+          ],
+          "spoiler": "Minor mechanical-clue spoilers; final conclusions are omitted."
+        }
+      ]
+    },
+    "theMermaidMaskCluesAndEvidence": {
+      "title": "The Mermaid Mask Clues and Evidence",
+      "eyebrow": "Complete Evidence Catalog",
+      "subtitle": "Track the physical objects, documents, testimony, recordings, and environmental details needed to solve Captain Mortuga's locked-room murder.",
+      "intro": "Evidence aboard the Mortuga submarine often becomes useful only after it is fully examined and presented to the correct crew member. Use this table to find each clue, identify the suspects connected to it, and see whether it is required for progression or an optional investigation detail.",
+      "columns": [
+        "Clue",
+        "Chapter",
+        "Room",
+        "Category",
+        "Found By",
+        "Examination",
+        "Suspects",
+        "Required"
       ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
+      "items": [
+        {
+          "name": "Case File",
+          "chapter": "Prologue",
+          "room": "Stonetop Inn",
+          "category": "Document",
+          "foundBy": "Open the red case folder before leaving the inn.",
+          "examination": "Read the locked-room murder summary and review the known facts about Magnus Mortuga's death.",
+          "suspects": [
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Introduces the murder case and the initial investigation objective.",
+          "required": true
+        },
+        {
+          "name": "The Hex of the Helmsmen",
+          "chapter": "Prologue",
+          "room": "Stonetop Inn",
+          "category": "Book",
+          "foundBy": "Inspect the book lying near Sally.",
+          "examination": "Read its supernatural maritime story and compare its imagery with later references to curses, masks, and the cauldron.",
+          "suspects": [
+            "J.D. Wirman",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Provides thematic context for the apparent curse surrounding the murder.",
+          "required": true
+        },
+        {
+          "name": "Unusual Green Light",
+          "chapter": "Prologue",
+          "room": "Town Square",
+          "category": "Environmental clue",
+          "foundBy": "Inspect the glowing area before the submarine surfaces.",
+          "examination": "Observe the color, location, and Sally's reaction to the light.",
+          "suspects": [
+            "Mortuga submarine"
+          ],
+          "unlocks": "Advances the arrival sequence and introduces the submarine's unusual visual technology.",
+          "required": true
+        },
+        {
+          "name": "Glowing Carved Buoy",
+          "chapter": "Prologue",
+          "room": "Fore Deck",
+          "category": "Environmental object",
+          "foundBy": "Inspect the carved buoy immediately after boarding.",
+          "examination": "Rotate the view and compare its glowing details with later descriptions of lights seen outside the submarine.",
+          "suspects": [
+            "Madam Tadpole",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Adds context to later Fore Deck testimony.",
+          "required": false
+        },
+        {
+          "name": "Ragged Sail Cloth",
+          "chapter": "Prologue",
+          "room": "Illusion Theatre",
+          "category": "Physical evidence",
+          "foundBy": "Inspect the torn fabric near the stage and crime scene.",
+          "examination": "Check the damaged edges, material, and its connection to The Stargazing Girl display.",
+          "suspects": [
+            "Symmetry Silkmoth",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Supports questions about stage equipment, concealment, and movement inside the theatre.",
+          "required": true
+        },
+        {
+          "name": "Upside-Down Illusion Poster",
+          "chapter": "Prologue",
+          "room": "Illusion Theatre",
+          "category": "Visual clue",
+          "foundBy": "Inspect the theatre poster from both orientations.",
+          "examination": "Turn the image upside down and identify how its meaning changes when viewed differently.",
+          "suspects": [
+            "Symmetry Silkmoth"
+          ],
+          "unlocks": "Establishes visual deception as an important part of the case.",
+          "required": true
+        },
+        {
+          "name": "Chalk Outline",
+          "chapter": "Prologue",
+          "room": "Illusion Theatre",
+          "category": "Crime-scene evidence",
+          "foundBy": "Inspect every highlighted point around Mortuga's body position.",
+          "examination": "Compare the body's position with the cauldron, stage entrances, and nearby mechanisms.",
+          "suspects": [
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Supports the first deduction about how the victim died.",
+          "required": true
+        },
+        {
+          "name": "Stone Cauldron",
+          "chapter": "Prologue",
+          "room": "Illusion Theatre",
+          "category": "Primary murder evidence",
+          "foundBy": "Examine the ancient cauldron beside the chalk outline.",
+          "examination": "Inspect the lock, rim, interior, exterior symbols, base, and surrounding stage connections.",
+          "suspects": [
+            "Magnus Mortuga",
+            "Symmetry Silkmoth",
+            "Madam Tadpole"
+          ],
+          "unlocks": "Allows Grimoire to conclude that Mortuga opened the cauldron and was killed by what emerged from or was concealed inside it.",
+          "required": true
+        },
+        {
+          "name": "Lady of the Looking Glass Newspaper",
+          "chapter": "Chapter One",
+          "room": "Child's Room",
+          "category": "Document",
+          "foundBy": "Read both sides of the newspaper page.",
+          "examination": "Review the illusion story on the front and the sea-serpent report printed on the reverse.",
+          "suspects": [
+            "Symmetry Silkmoth",
+            "Madam Tadpole"
+          ],
+          "unlocks": "Creates new interview topics concerning illusions and supposed sea creatures.",
+          "required": true
+        },
+        {
+          "name": "Glass Eyeball",
+          "chapter": "Chapter One",
+          "room": "Child's Room",
+          "category": "Key item",
+          "foundBy": "Complete the portrait-card and lens mechanism.",
+          "examination": "Rotate the glass eye and inspect its shape, iris, rear fitting, and mechanical edges.",
+          "suspects": [
+            "Symmetry Silkmoth",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Opens the eye-shaped lock on the Captain's Cabin.",
+          "required": true
+        },
+        {
+          "name": "Submarine Blueprint",
+          "chapter": "Chapter One",
+          "room": "Control Room",
+          "category": "Technical document",
+          "foundBy": "Inspect the plans displayed in the Control Room.",
+          "examination": "Review the submarine's floors, connected rooms, restricted sections, and possible movement routes.",
+          "suspects": [
+            "Sinthia Seafoam",
+            "Magnus Mortuga",
+            "Godrik Gripp"
+          ],
+          "unlocks": "Provides context for room access, machinery, and the crew-location investigation.",
+          "required": true
+        },
+        {
+          "name": "Captain's Log",
+          "chapter": "Chapter One",
+          "room": "Control Room",
+          "category": "Document",
+          "foundBy": "Solve the switchboard by connecting red 1 to 9, blue 3 to 11, and yellow 6 to 12.",
+          "examination": "Read Mortuga's entries and compare them with the crew's accounts of his recent actions.",
+          "suspects": [
+            "Magnus Mortuga",
+            "Sinthia Seafoam"
+          ],
+          "unlocks": "Adds new questions about Mortuga's plans, command decisions, and private concerns.",
+          "required": true
+        },
+        {
+          "name": "Gloomy Underwater Photograph",
+          "chapter": "Chapter One",
+          "room": "Women's Bunk Room",
+          "category": "Photograph",
+          "foundBy": "Open the pink pig safe and collect the concealed photograph.",
+          "examination": "Inspect the figures, setting, background, lighting, and any identifying features.",
+          "suspects": [
+            "Sinthia Seafoam",
+            "Symmetry Silkmoth",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Creates new reactions from Sinthia and Symmetry and points toward another hidden item.",
+          "required": true
+        },
+        {
+          "name": "Inn Deeds",
+          "chapter": "Chapter One",
+          "room": "Women's Bunk Room",
+          "category": "Property document",
+          "foundBy": "Search beneath Sinthia's mattress after discussing the photograph with Symmetry.",
+          "examination": "Read the ownership names, property details, dates, and connections to Stonetop Inn.",
+          "suspects": [
+            "Sinthia Seafoam",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Reveals a concealed financial and personal connection involving Mortuga.",
+          "required": true
+        },
+        {
+          "name": "Dirk's Phone",
+          "chapter": "Chapter One",
+          "room": "Men's Bunk Room",
+          "category": "Digital evidence",
+          "foundBy": "Complete the matching-symbol channel puzzle.",
+          "examination": "Read every available call record, message, and email after unlocking the device.",
+          "suspects": [
+            "Dirk Dansom",
+            "J.D. Wirman"
+          ],
+          "unlocks": "Adds private statements and relationship details to Dirk's investigation.",
+          "required": true
+        },
+        {
+          "name": "Letter from Ibis",
+          "chapter": "Chapter One",
+          "room": "Men's Bunk Room",
+          "category": "Correspondence",
+          "foundBy": "Solve the rotating typewriter-ring mechanism.",
+          "examination": "Read the full handwritten message and inspect the signature, wording, and intended recipient.",
+          "suspects": [
+            "J.D. Wirman",
+            "Ibis"
+          ],
+          "unlocks": "Introduces a secret relationship and new questions about Wirman's knowledge before the murder.",
+          "required": true
+        },
+        {
+          "name": "Hex Bottle",
+          "chapter": "Chapter One",
+          "room": "Dream Chamber",
+          "category": "Scientific or mystical object",
+          "foundBy": "Inspect Zephyr's bottle collection and complete the cap-matching puzzle.",
+          "examination": "Rotate each bottle and compare its liquid, label, vapor, viscosity, and markings with the available caps.",
+          "suspects": [
+            "Dr. Zacharias Zephyr"
+          ],
+          "unlocks": "Supports questions about altered perception, chemicals, dreams, and supernatural claims.",
+          "required": true
+        },
+        {
+          "name": "Silkwirm Map",
+          "chapter": "Chapter One",
+          "room": "Cargo Hold",
+          "category": "Map",
+          "foundBy": "Search the stored sacks and materials in the Cargo Hold.",
+          "examination": "Inspect its routes, labels, symbols, and any locations connected to Mortuga's history.",
+          "suspects": [
+            "Mariana Moon",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Expands Mariana's historical testimony and the background of the submarine's voyage.",
+          "required": true
+        },
+        {
+          "name": "Pipe-Shaped Dictaphone",
+          "chapter": "Chapter One",
+          "room": "Cargo Hold",
+          "category": "Recording device",
+          "foundBy": "Present the suspicious pipe-shaped object to Mariana after collecting the relevant mechanical evidence.",
+          "examination": "Identify its concealed recording function and play every stored conversation.",
+          "suspects": [
+            "Mariana Moon",
+            "Dirk Dansom",
+            "J.D. Wirman",
+            "Mortuga submarine crew"
+          ],
+          "unlocks": "Reveals statements the speakers did not know had been recorded and creates new contradiction topics.",
+          "required": true
+        },
+        {
+          "name": "Broken Handheld Radio",
+          "chapter": "Chapter One",
+          "room": "Captain's Cabin",
+          "category": "Mechanical evidence",
+          "foundBy": "Open the Captain's Cabin with the Glass Eyeball and inspect Mortuga's table.",
+          "examination": "Rotate the radio, inspect its damaged casing, controls, antenna, and internal components.",
+          "suspects": [
+            "Magnus Mortuga",
+            "Godrik Gripp",
+            "Sinthia Seafoam"
+          ],
+          "unlocks": "Supports questions about communication, equipment damage, and Mortuga's final activities.",
+          "required": true
+        },
+        {
+          "name": "Painting Titled Her",
+          "chapter": "Chapter One",
+          "room": "Captain's Cabin",
+          "category": "Personal possession",
+          "foundBy": "Inspect the framed painting in Mortuga's private room.",
+          "examination": "Study the depicted figure, title, frame, background, and Mortuga's reason for keeping it.",
+          "suspects": [
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Adds personal context to Mortuga's past and the emotional meaning of the case.",
+          "required": true
+        },
+        {
+          "name": "Repaired Compass",
+          "chapter": "Chapter One",
+          "room": "Engine Room",
+          "category": "Mechanical evidence",
+          "foundBy": "Solve the four-compass direction puzzle in Gripp's shop.",
+          "examination": "Inspect its casing, needle, repaired sections, and signs of previous damage or modification.",
+          "suspects": [
+            "Godrik Gripp",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Creates additional reactions from characters who recognize the object or its origin.",
+          "required": true
+        },
+        {
+          "name": "Diving Helmet",
+          "chapter": "Chapter One",
+          "room": "Airlock Grotto",
+          "category": "Equipment",
+          "foundBy": "Inspect the helmet and complete its connected pipe-dial mechanism.",
+          "examination": "Rotate the helmet, trace each pipe route, and inspect the eye pieces, seals, and breathing components.",
+          "suspects": [
+            "Madam Tadpole",
+            "Dr. Zacharias Zephyr"
+          ],
+          "unlocks": "Provides context for the glowing-eyed figure reportedly seen on the Fore Deck.",
+          "required": true
+        },
+        {
+          "name": "Crew Location Pinboard",
+          "chapter": "Chapter One",
+          "room": "Cargo Hold",
+          "category": "Deduction board",
+          "foundBy": "Return after meeting every living crew member.",
+          "examination": "Place each person in their current room and position Mortuga outside the living-occupant layout.",
+          "suspects": [
+            "All suspects",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Establishes the submarine's current population and opens additional personal investigations.",
+          "required": true
+        }
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
+    "theMermaidMaskAchievementsGuide": {
+      "title": "The Mermaid Mask Achievements Guide",
+      "eyebrow": "21 Achievement Checklist",
+      "subtitle": "Plan a complete investigation, finish every important puzzle, inspect optional evidence, and earn all 21 Steam achievements with minimal cleanup.",
+      "intro": "The Steam release contains 21 achievements covering story progress, room puzzles, evidence inspection, interviews, and full-case completion. The descriptive achievement labels below identify each unlock route without exposing late-game revelations; hidden story achievements unlock naturally when the required investigation sequence is completed.",
+      "items": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "name": "The Beginning",
+          "category": "Story",
+          "hidden": true,
+          "description": "Complete the opening sequence at Stonetop Inn and begin the journey to the Mortuga submarine.",
+          "howToUnlock": "Read the Case File, inspect The Hex of the Helmsmen, wake Sally, and leave the inn.",
+          "chapter": "Prologue",
+          "missable": false,
+          "cleanup": "Unlocks automatically during normal story progression."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "name": "All Aboard",
+          "category": "Story",
+          "hidden": true,
+          "description": "Board the Mortuga submarine after investigating the unusual light in Town Square.",
+          "howToUnlock": "Inspect the square, speak with Sally, wait for the submarine to surface, and enter from the Fore Deck.",
+          "chapter": "Prologue",
+          "missable": false,
+          "cleanup": "Unlocks automatically before the first interior investigation."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "name": "Cabinet Cracker",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Open the snake cabinet in the Mess Hall.",
+          "howToUnlock": "Treat each shape as its number of sides and enter the values 3, 9, 7, and 4 using the available shape combinations.",
+          "chapter": "Prologue",
+          "missable": false,
+          "cleanup": "Required for story progression."
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
+          "name": "The Curse in the Cauldron",
+          "category": "Story",
+          "hidden": true,
+          "description": "Complete the opening crime-scene deduction in the Illusion Theatre.",
+          "howToUnlock": "Inspect the chalk outline, ragged cloth, illusion poster, stage, and cauldron before confirming the first conclusion.",
+          "chapter": "End of Prologue",
+          "missable": false,
+          "cleanup": "Unlocks automatically when Chapter One begins."
+        },
+        {
+          "name": "Eye for Detail",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Complete the portrait-card and lens mechanism in the Child's Room.",
+          "howToUnlock": "Assemble the three girls, place Patricia in the center, resize the outer dolls, and use the fish-eye lenses on the outer faces.",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Required to obtain the Glass Eyeball."
+        },
+        {
+          "name": "Switchboard Specialist",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Restore the Control Room switchboard and recover the Captain's Log.",
+          "howToUnlock": "Connect the red cable from 1 to 9, blue from 3 to 11, and yellow from 6 to 12.",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Required for the main investigation."
+        },
+        {
+          "name": "Safe and Sound",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Open the pink pig safe in the Women's Bunk Room.",
+          "howToUnlock": "Arrange the branch values so the upper totals equal 8 and 6 and the lower connected totals equal 5, 9, and 2.",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Complete it before finishing Sinthia's personal investigation."
+        },
+        {
+          "name": "Private Caller",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Unlock Dirk Dansom's phone and read its stored communications.",
+          "howToUnlock": "Rotate the channel tiles until every route connects matching endpoint symbols, then open all calls, messages, and emails.",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "Read every phone section before leaving the device interface."
+        },
+        {
+          "name": "Written in Code",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Solve the typewriter-ring mechanism in the Men's Bunk Room.",
+          "howToUnlock": "Rotate the inner and outer rings until the five patterns follow the required 45-degree transformations.",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Required to recover the letter addressed to Wirman."
+        },
+        {
+          "name": "Sweet Dreams",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Complete the bottle-cap puzzle in Dr. Zephyr's Dream Chamber.",
+          "howToUnlock": "Match the crescent, spade, bird-skull, sun, hand, and eye caps to the bottles described by their visible and physical properties.",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "Finish the mechanism while reviewing all Dream Chamber evidence."
+        },
+        {
+          "name": "Curiosity Satisfied",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Complete the skull classification display in the Cabinet of Curiosity.",
+          "howToUnlock": "Sort each skull by its ornament and facial feature, then rotate it so the required identifying feature faces forward.",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "Complete optional room mechanisms before entering the final confrontation."
+        },
+        {
+          "name": "Know Your Crew",
+          "category": "Interview",
+          "hidden": false,
+          "description": "Meet and question every primary suspect aboard the submarine.",
+          "howToUnlock": "Complete the initial interviews with Sinthia, Symmetry, Dirk, Wirman, Zephyr, Mariana, Gripp, and Madam Tadpole.",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Ask every introductory topic when first meeting each character."
+        },
+        {
+          "name": "A Place for Everyone",
+          "category": "Deduction",
+          "hidden": false,
+          "description": "Complete the crew-location pinboard in the Cargo Hold.",
+          "howToUnlock": "Place every living crew member in their current room and position Mortuga outside the submarine's living-occupant diagram.",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Return to the board after all eight suspects have been introduced."
+        },
+        {
+          "name": "Recorded for Posterity",
+          "category": "Evidence",
+          "hidden": true,
+          "description": "Identify Mariana Moon's disguised Dictaphone and listen to its recordings.",
+          "howToUnlock": "Present the pipe-shaped object with the relevant mechanical evidence, then play every available recorded conversation.",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "Listen to every recording before completing the related personal investigations."
+        },
+        {
+          "name": "True North",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Repair the compass mechanism in the Engine Room.",
+          "howToUnlock": "Point yellow left, blue down, pink toward roughly two o'clock, and red toward the upper-left.",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Collect the repaired compass and present it to characters with new reactions."
+        },
+        {
+          "name": "Deep-Sea Diver",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Complete the diving-helmet mechanism in the Airlock Grotto.",
+          "howToUnlock": "Rotate every connected dial so each pipe route begins and ends with the same symbol.",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "Finish it during Madam Tadpole's investigation rather than postponing it."
+        },
+        {
+          "name": "Evidence Collector",
+          "category": "Collection",
+          "hidden": false,
+          "description": "Register every required physical clue used by the main investigation.",
+          "howToUnlock": "Collect documents, photographs, recordings, mechanical objects, and crime-scene evidence from every accessible room.",
+          "chapter": "Entire game",
+          "missable": true,
+          "cleanup": "Inspect each room again before the final sequence and verify that no required evidence entry remains incomplete."
+        },
+        {
+          "name": "Master Interrogator",
+          "category": "Interview",
+          "hidden": false,
+          "description": "Exhaust the important interview and evidence-reaction topics for the entire crew.",
+          "howToUnlock": "Ask each suspect about every crew member and present all major documents, photographs, recordings, and mechanical clues.",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "After every major discovery, revisit all characters showing unread dialogue indicators."
+        },
+        {
+          "name": "No Stone Unturned",
+          "category": "Exploration",
+          "hidden": false,
+          "description": "Fully inspect the submarine's interactive rooms and three-dimensional evidence objects.",
+          "howToUnlock": "Rotate each object through every angle, activate all hotspots, and complete the optional mechanisms in rooms such as the Bilge, Dome Tank, and Cabinet of Curiosity.",
+          "chapter": "Entire game",
+          "missable": true,
+          "cleanup": "Perform a complete room sweep before selecting the final-case confrontation."
+        },
+        {
+          "name": "Case Closed",
+          "category": "Story",
+          "hidden": true,
+          "description": "Complete the final reconstruction of Captain Magnus Mortuga's murder.",
+          "howToUnlock": "Finish the required personal investigations, build the final timeline, and present the matching physical evidence during the confrontation.",
+          "chapter": "Final sequence",
+          "missable": false,
+          "cleanup": "Unlocks automatically when the main story is completed."
+        },
+        {
+          "name": "Perfect Investigation",
+          "category": "Completion",
+          "hidden": true,
+          "description": "Complete the story while resolving the optional investigation content needed for full achievement completion.",
+          "howToUnlock": "Finish every required puzzle, complete optional room mechanisms, inspect all important evidence, and exhaust the significant crew reactions before closing the case.",
+          "chapter": "Entire game",
+          "missable": true,
+          "cleanup": "Use a save made before the final confrontation to finish missed inspections or optional puzzles without replaying the full game."
         }
+      ]
+    },
+    "theMermaidMaskEndingExplained": {
+      "title": "The Mermaid Mask Ending Explained",
+      "eyebrow": "Final Case Analysis",
+      "subtitle": "Understand how the Illusion Theatre murder, the cauldron, the submarine's hidden mechanisms, and the crew's overlapping secrets fit into the final reconstruction.",
+      "intro": "The ending resolves the apparent supernatural curse by combining the evidence collected across the Mortuga submarine with the crew's hidden relationships and contradictory testimony. The sections below explain the logic of the final case while separating the murder method from the unrelated secrets that made several suspects appear guilty.",
+      "items": [
+        {
+          "question": "Why does Mortuga's death initially appear supernatural?",
+          "answer": "Mortuga is found beside an ancient cauldron inside the Illusion Theatre after apparently unlocking it himself. The curse imagery from The Hex of the Helmsmen, the strange symbols, Tadpole's account of a glowing-eyed figure, and the theatrical setting encourage the crew to believe that something inhuman emerged from the cauldron.",
+          "spoiler": "Major crime-scene spoilers"
+        },
+        {
+          "question": "What does the opening deduction establish?",
+          "answer": "Grimoire establishes that Magnus Mortuga personally unlocked the cauldron and that the immediate cause of his death came from whatever was concealed, released, or presented as emerging from inside it. This becomes the foundation of the final reconstruction rather than proof that the curse was real.",
+          "spoiler": "Major investigation spoilers"
+        },
+        {
+          "question": "How does the Illusion Theatre create a locked-room mystery?",
+          "answer": "The theatre is designed around misdirection. The upside-down poster, ragged stage cloth, hidden mechanisms, lighting, movable displays, and the cauldron's construction demonstrate that an observer can be shown one version of an event while the real movement or preparation occurs out of sight.",
+          "spoiler": "Major murder-method spoilers"
+        },
+        {
+          "question": "Why are the cauldron symbols and glowing-eye testimony important?",
+          "answer": "The symbols behind the cauldron and Madam Tadpole's description of an alien language connect two events that initially seem supernatural. When compared with equipment such as the diving helmet, Dream Chamber devices, submarine lighting, and other mechanical clues, the testimony becomes evidence of disguise, distorted perception, or deliberate staging rather than a literal demon.",
+          "spoiler": "Major evidence spoilers"
+        },
+        {
+          "question": "What is the importance of Mortuga's private possessions?",
+          "answer": "The Captain's Log, Inn Deeds, broken radio, captain's jacket, ship model, table bell, and painting titled Her reveal that Mortuga's public role as an eccentric captain concealed personal commitments, ownership disputes, private communications, and emotional ties. These details explain why multiple people had reasons to confront him even though only one final reconstruction explains the murder.",
+          "spoiler": "Major motive spoilers"
+        },
+        {
+          "question": "Why do so many crew members look guilty?",
+          "answer": "Nearly every suspect hides something unrelated to the killing. Sinthia conceals property information, Symmetry understands stage deception, Dirk has troubling private communications, Wirman receives secret correspondence, Mariana records the crew, Zephyr owns perception-altering equipment, Gripp handles machinery, and Tadpole withholds an unusual sighting. The case works by separating secrecy from murder evidence.",
+          "spoiler": "Major character spoilers"
+        },
+        {
+          "question": "What do Mariana's recordings change?",
+          "answer": "The Dictaphone preserves conversations that the speakers believed were private. These recordings expose contradictions, pressure, resentments, and statements that sound incriminating when isolated. Grimoire must compare each recording with physical evidence and the established timeline instead of treating dramatic language as a confession.",
+          "spoiler": "Major testimony spoilers"
+        },
+        {
+          "question": "How do the personal investigations lead to the final answer?",
+          "answer": "Each personal investigation proves one limited conclusion about a suspect's actions, secrets, opportunity, or relationship with Mortuga. Once these smaller conclusions are supported by specific evidence, Grimoire can eliminate explanations that depend only on suspicion and combine the remaining facts into a single murder timeline.",
+          "spoiler": "Major deduction spoilers"
+        },
+        {
+          "question": "What role does Sally play in the resolution?",
+          "answer": "Sally repeatedly challenges conclusions that are emotionally convincing but unsupported. During the final sequence, her observations help distinguish what the crew assumed they saw from what the room's evidence proves. Her feedback also prevents Grimoire from confusing a hidden motive with the physical method used in the theatre.",
+          "spoiler": "Final-sequence spoilers"
+        },
+        {
+          "question": "What does the Mermaid Mask represent?",
+          "answer": "The mermaid imagery represents the boundary between an identity someone performs and the truth hidden underneath it. Masks, costumes, stage illusions, dream equipment, theatrical stories, and Mortuga's legends all allow characters to control how others see them. The final case removes those constructed identities one piece at a time.",
+          "spoiler": "Ending-theme spoilers"
+        },
+        {
+          "question": "Is the curse real?",
+          "answer": "The investigation treats the curse as part of the murderer's presentation rather than a replacement for evidence. Every decisive conclusion depends on physical objects, room access, recorded testimony, mechanical systems, and proven character movements. The supernatural atmosphere remains important to the story, but the murder is solved through observable facts.",
+          "spoiler": "Major ending spoilers"
+        },
+        {
+          "question": "What is the ending's main message?",
+          "answer": "The ending argues that suspicious behavior is not the same as guilt and that dramatic stories can hide ordinary human motives. Grimoire and Sally solve the case by examining every object from more than one angle, which mirrors the game's recurring visual puzzles and its broader theme of looking beyond the first interpretation.",
+          "spoiler": "Full thematic spoilers"
+        }
+      ]
+    },
+    "theMermaidMaskPlatformsAndSystemRequirements": {
+      "title": "The Mermaid Mask Platforms and System Requirements",
+      "eyebrow": "Release and Compatibility",
+      "subtitle": "Compare the Steam, Nintendo Switch, Nintendo Switch 2, and PlayStation 5 releases before beginning the Mortuga submarine investigation.",
+      "intro": "The Mermaid Mask launched on July 16, 2026 as a single-player hand-drawn point-and-click murder mystery. The game supports 12 languages, contains 21 Steam achievements, and holds a 99% positive Steam user-review rating based on the supplied launch information.",
+      "columns": [
+        "Platform",
+        "Release",
+        "Availability",
+        "Controls",
+        "Languages",
+        "Requirements"
       ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
+      "items": [
         {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "platform": "PC via Steam",
+          "releaseDate": "2026-07-16",
+          "availability": "Digital download through Steam",
+          "format": "Single-player point-and-click adventure",
+          "controls": "Mouse and keyboard for direct pointing, object rotation, dialogue selection, and puzzle interaction",
+          "achievements": "21 Steam achievements",
+          "languages": "12 supported languages",
+          "review": "99% positive Steam user reviews based on the supplied launch information",
+          "requirements": "Exact processor, memory, graphics, operating-system, and storage values should be confirmed on the official Steam page before purchase.",
+          "bestFor": "Players who want Steam achievements, desktop controls, and direct mouse-based puzzle interaction."
         },
         {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
+          "platform": "Nintendo Switch",
+          "releaseDate": "2026-07-16",
+          "availability": "Digital console release through Nintendo",
+          "format": "Portable and docked single-player adventure",
+          "controls": "Controller-based cursor movement, dialogue selection, object inspection, and puzzle interaction",
+          "achievements": "No Steam achievement integration",
+          "languages": "12 supported languages",
+          "review": "Steam review percentage does not represent the Nintendo version",
+          "requirements": "No user-configurable hardware requirements; a compatible Nintendo Switch console and sufficient storage are required.",
+          "bestFor": "Players who prefer portable investigation sessions or television play from a standard Nintendo Switch."
         },
         {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
+          "platform": "Nintendo Switch 2",
+          "releaseDate": "2026-07-16",
+          "availability": "Digital console release through Nintendo",
+          "format": "Single-player adventure playable on Nintendo Switch 2",
+          "controls": "Controller-based navigation and puzzle interaction",
+          "achievements": "No Steam achievement integration",
+          "languages": "12 supported languages",
+          "review": "Steam review percentage does not represent the Nintendo version",
+          "requirements": "No PC-style minimum specifications; a Nintendo Switch 2 console and sufficient free storage are required.",
+          "bestFor": "Players using Nintendo's newer hardware who want a portable or docked version."
         },
         {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
+          "platform": "PlayStation 5",
+          "releaseDate": "2026-07-16",
+          "availability": "Digital console release through PlayStation",
+          "format": "Single-player point-and-click adventure adapted for controller play",
+          "controls": "DualSense controller navigation for room exploration, conversations, evidence inspection, and puzzles",
+          "achievements": "Steam achievements are separate from any PlayStation trophy support",
+          "languages": "12 supported languages",
+          "review": "Steam review percentage does not represent the PlayStation version",
+          "requirements": "A PlayStation 5 console, available storage, and an account able to access the PlayStation storefront are required.",
+          "bestFor": "Players who prefer television-based controller play on PlayStation hardware."
         },
         {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
+          "platform": "Release Information",
+          "releaseDate": "2026-07-16",
+          "availability": "Released simultaneously across the listed PC and console platforms",
+          "format": "Detective Grimoire series murder-mystery adventure",
+          "controls": "Interface varies by platform, but all versions center on exploration, conversations, evidence rotation, and visual puzzles",
+          "achievements": "21 achievements specifically confirmed for the Steam release",
+          "languages": "12 supported languages",
+          "review": "99% positive on Steam according to the supplied data",
+          "requirements": "Platform availability and storefront requirements may change after release.",
+          "bestFor": "Players comparing launch availability before choosing a storefront."
         },
         {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
+          "platform": "Language Support",
+          "releaseDate": "Available from launch",
+          "availability": "Included with supported digital versions",
+          "format": "Text-heavy detective adventure with dialogue, documents, clue descriptions, and deduction prompts",
+          "controls": "Language can be selected through the game's settings when supported",
+          "achievements": "Achievement requirements remain the same across languages",
+          "languages": "12 supported languages",
+          "review": "Language quality and availability should be checked on the selected storefront",
+          "requirements": "No additional hardware is needed for language selection.",
+          "bestFor": "Players who need localized dialogue and investigation text."
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
+          "platform": "PC Minimum Requirements",
+          "releaseDate": "Applicable to the Steam release",
+          "availability": "Displayed on the official Steam product page",
+          "format": "Hand-drawn 2D presentation combined with rotatable three-dimensional evidence objects",
+          "controls": "Mouse and keyboard",
+          "achievements": "Steam client required for Steam achievement tracking",
+          "languages": "12 supported languages",
+          "review": "99% positive Steam user reviews based on the supplied data",
+          "requirements": "Verified minimum operating system, CPU, RAM, GPU, DirectX, and storage values must be taken from the official Steam listing.",
+          "bestFor": "Players checking whether an older or lower-powered Windows computer can run the game."
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "platform": "Recommended PC Setup",
+          "releaseDate": "Applicable to the Steam release",
+          "availability": "Use the official Steam recommendations when published or updated",
+          "format": "Narrative adventure with detailed illustrated rooms, animation, sound, and interactive 3D clues",
+          "controls": "Mouse recommended for precise object inspection",
+          "achievements": "Steam account and client required",
+          "languages": "12 supported languages",
+          "review": "Launch reception is highly positive on Steam according to the supplied information",
+          "requirements": "Use hardware meeting or exceeding the official recommended Steam specifications. Keep enough free storage for the installation and future patches.",
+          "bestFor": "Players who want smooth scene transitions and comfortable manipulation of detailed evidence objects."
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "The Mermaid Mask",
+    "titleHighlight": "FAQ",
+    "subtitle": "Everything you need to know before investigating The Mermaid Mask",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What kind of game is The Mermaid Mask?",
+        "answer": "The Mermaid Mask is a single-player, hand-painted point-and-click murder mystery. You play Detective Grimoire and solve Captain Mortuga's locked-room murder aboard the Mortuga submarine."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Is The Mermaid Mask singleplayer only?",
+        "answer": "Yes. The Mermaid Mask is a single-player story adventure. Sally accompanies Grimoire as a story character, but there is no multiplayer or co-op mode."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Where can I play The Mermaid Mask?",
+        "answer": "The Mermaid Mask launched on July 16, 2026 on PC via Steam, Nintendo Switch, Nintendo Switch 2, and PlayStation 5."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How long is The Mermaid Mask?",
+        "answer": "The Mermaid Mask is a focused detective case. Most players complete the main investigation in a single sitting, with extra time needed to inspect optional evidence and earn all 21 Steam achievements."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Does The Mermaid Mask have achievements?",
+        "answer": "Yes. The Steam release of The Mermaid Mask includes 21 achievements covering story progress, room puzzles, evidence inspection, interviews, and full-case completion."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "How do puzzles work in The Mermaid Mask?",
+        "answer": "Most puzzles in The Mermaid Mask rely on rotating fully modeled 3D objects, matching visual categories, or connecting evidence rather than entering traditional passwords. An optional hint system explains the next step without penalty."
+      },
+      {
+        "question": "Which languages does The Mermaid Mask support?",
+        "answer": "The Mermaid Mask supports 12 languages. Check the selected storefront for the current localized dialogue and investigation text."
+      },
+      {
+        "question": "Is The Mermaid Mask part of a series?",
+        "answer": "Yes. The Mermaid Mask is a Detective Grimoire game from SFB Games, continuing the detective adventure series that includes Tangle Tower."
       }
     ]
   },
@@ -802,124 +1660,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "title": "The Mermaid Mask Walkthrough",
+      "description": "Complete chapter-by-chapter walkthrough for The Mermaid Mask, covering the Mortuga submarine route, required clues, and every progression trigger.",
+      "metaTitle": "The Mermaid Mask Walkthrough - Full Story Route",
+      "metaDescription": "Follow the complete The Mermaid Mask walkthrough from Stonetop Inn to the final confrontation aboard the Mortuga submarine.",
+      "categoryLabel": "WALKTHROUGH",
+      "whatIs": "What is the walkthrough?",
+      "whatIsDescription": "A complete story route through The Mermaid Mask that lists required conversations, clue locations, and progression triggers chapter by chapter.",
+      "why": "Why use the walkthrough?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Avoid Dead Ends",
+        "step1Description": "Find the exact progression trigger when the next step is unclear",
+        "step2Title": "Collect Required Clues",
+        "step2Description": "Locate the evidence needed to open each locked area",
+        "step3Title": "Stay Spoiler-Safe",
+        "step3Description": "Each section stops before revealing later story twists"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Walkthrough Articles"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "The Mermaid Mask Puzzle Solutions",
+      "description": "Spoiler-controlled hints and direct answers for every lock, deduction device, and investigation minigame in The Mermaid Mask.",
+      "metaTitle": "The Mermaid Mask Puzzle Solutions - Hints and Answers",
+      "metaDescription": "Find hints and full solutions for every puzzle in The Mermaid Mask, organized by chapter and room.",
+      "categoryLabel": "PUZZLE SOLUTIONS",
+      "whatIs": "What are puzzle solutions?",
+      "whatIsDescription": "A room-by-room guide to the object puzzles, locks, and deduction devices aboard the Mortuga submarine, with a hint shown before the complete answer.",
+      "why": "Why check puzzle solutions?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Open the Hint First",
+        "step1Description": "Reveal only the nudge you need to keep going",
+        "step2Title": "Read the Full Solution",
+        "step2Description": "Get the exact steps when a mechanism stays unclear",
+        "step3Title": "Learn the Reward",
+        "step3Description": "See which clue or progression each puzzle unlocks"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Puzzle Articles"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "The Mermaid Mask Clues and Evidence",
+      "description": "Catalog of every clue in The Mermaid Mask, including where it is found, how to examine it, and which suspects it connects to.",
+      "metaTitle": "The Mermaid Mask Clues and Evidence Catalog",
+      "metaDescription": "Browse every clue in The Mermaid Mask with locations, examination methods, suspect links, and progression status.",
+      "categoryLabel": "CLUES & EVIDENCE",
+      "whatIs": "What are clues and evidence?",
+      "whatIsDescription": "A complete catalog of the documents, objects, recordings, and environmental details needed to solve Captain Mortuga's locked-room murder.",
+      "why": "Why track clues?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Find Every Clue",
+        "step1Description": "See where each piece of evidence is discovered",
+        "step2Title": "Inspect Completely",
+        "step2Description": "Learn how to rotate and examine each 3D object",
+        "step3Title": "Link Suspects",
+        "step3Description": "Connect each clue to the crew members it implicates"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Clue Articles"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "The Mermaid Mask Characters and Suspects",
+      "description": "Dossiers for Detective Grimoire, Sally, Captain Mortuga, and every suspect aboard the Mortuga submarine in The Mermaid Mask.",
+      "metaTitle": "The Mermaid Mask Characters and Suspects",
+      "metaDescription": "Read spoiler-controlled dossiers for every character and suspect in The Mermaid Mask.",
+      "categoryLabel": "CHARACTERS & SUSPECTS",
+      "whatIs": "Who are the suspects?",
+      "whatIsDescription": "Detailed dossiers covering each character's role, relationships, testimony, possible motive, and important evidence.",
+      "why": "Why study the characters?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Plan Interviews",
+        "step1Description": "Know which topics each suspect will respond to",
+        "step2Title": "Spot Motives",
+        "step2Description": "Separate secrecy from actual guilt",
+        "step3Title": "Avoid Spoilers",
+        "step3Description": "Final conclusions stay hidden until you reach them"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Character Articles"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "The Mermaid Mask Ending Explained",
+      "description": "Spoiler-controlled analysis of the final case in The Mermaid Mask, covering the murder method, motives, and ending themes.",
+      "metaTitle": "The Mermaid Mask Ending Explained - Final Case Analysis",
+      "metaDescription": "Understand the ending of The Mermaid Mask with a spoiler-controlled breakdown of the murder method, motives, and revelations.",
+      "categoryLabel": "ENDING & LORE",
+      "whatIs": "What does the ending explain?",
+      "whatIsDescription": "A breakdown of how the locked-room murder, the cauldron, and the crew's overlapping secrets fit into the final reconstruction.",
+      "why": "Why read the ending analysis?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Connect the Clues",
+        "step1Description": "See how earlier evidence supports the conclusion",
+        "step2Title": "Separate Secrets from Guilt",
+        "step2Description": "Understand why several suspects look guilty",
+        "step3Title": "Explore the Themes",
+        "step3Description": "Read what the Mermaid Mask represents"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Ending Articles"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "The Mermaid Mask Platforms and System Requirements",
+      "description": "Release dates, supported languages, achievements, and platform details for The Mermaid Mask on Steam, Switch, Switch 2, and PS5.",
+      "metaTitle": "The Mermaid Mask Platforms and System Requirements",
+      "metaDescription": "Compare The Mermaid Mask releases across Steam, Nintendo Switch, Nintendo Switch 2, and PlayStation 5 before buying.",
+      "categoryLabel": "PLATFORMS & SUPPORT",
+      "whatIs": "What are the platform details?",
+      "whatIsDescription": "A comparison of release dates, availability, controls, language support, and requirements across every platform that hosts The Mermaid Mask.",
+      "why": "Why check the platforms?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Compare Releases",
+        "step1Description": "See which storefronts carry the game",
+        "step2Title": "Match Your Hardware",
+        "step2Description": "Confirm compatibility before purchase",
+        "step3Title": "Plan Achievements",
+        "step3Description": "Understand which platforms track the 21 achievements"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Platform Articles"
     }
   }
 }
