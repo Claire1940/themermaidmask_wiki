@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "The Mermaid Mask Wiki - Walkthrough, Puzzles & Suspects",
+      "description": "The Mermaid Mask Wiki covers the full walkthrough, puzzle solutions, clues, suspects, achievements, endings, characters, and Mortuga submarine locations.",
+      "keywords": "The Mermaid Mask, walkthrough, puzzles, clues, suspects, endings, achievements, Mortuga",
+      "ogTitle": "The Mermaid Mask Wiki - Walkthrough, Puzzles & Suspects",
+      "ogDescription": "The Mermaid Mask Wiki covers the full walkthrough, puzzle solutions, clues, suspects, achievements, endings, characters, and Mortuga submarine locations.",
+      "twitterTitle": "The Mermaid Mask Wiki - Walkthrough, Puzzles & Suspects",
+      "twitterDescription": "The Mermaid Mask Wiki covers the full walkthrough, puzzle solutions, clues, suspects, achievements, endings, characters, and Mortuga submarine locations."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Hand-Painted Submarine Murder Mystery",
+    "title": "The Mermaid Mask Wiki",
+    "description": "Solve Captain Mortuga's locked-room murder with Detective Grimoire and Sally. Explore the Mortuga submarine, inspect 3D clues, question suspects, and master every puzzle.",
+    "getFreeCodesCTA": "View Walkthrough",
+    "playOnSteamCTA": "Buy on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Jul 16, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
-      },
-      "stat3": {
-        "value": "97%",
+        "value": "99%",
         "label": "Positive Reviews"
       },
+      "stat3": {
+        "value": "21",
+        "label": "Steam Achievements"
+      },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "12",
+        "label": "Supported Languages"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Solve the Mystery?",
+    "description": "Dive into The Mermaid Mask with our full walkthrough, puzzle solutions, and suspect guides. Get the game on Steam, PS5, and Nintendo Switch.",
+    "joinCommunity": "Steam Community",
+    "joinGame": "Buy on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "The Mermaid Mask Wiki",
+    "description": "Your complete resource hub for The Mermaid Mask walkthrough, puzzles, clues, suspects, achievements, and Mortuga submarine locations.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "YouTube",
     "twitter": "X / Twitter",
     "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "steamStore": "Reddit",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 The Mermaid Mask Wiki. Not affiliated with SFB Games.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
