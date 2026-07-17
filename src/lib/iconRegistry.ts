@@ -34,7 +34,6 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Puzzle: LucideIcons.Puzzle,
   Compass: LucideIcons.Compass,
   Search: LucideIcons.Search,
-  MagnifyingGlass: LucideIcons.MagnifyingGlass,
   Fingerprint: LucideIcons.Fingerprint,
   Trophy: LucideIcons.Trophy,
   Award: LucideIcons.Award,
