@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Book, Search, Anchor } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mermaid Mask Demo-Walkthrough: Komplette Rätsellösungen & Ermittlungsleitfaden",
+  description: "Meistern Sie die Demo von The Mermaid Mask mit unserer Schritt-für-Schritt-Anleitung. Lösen Sie das Schlangenschrank-Rätsel, finden Sie alle Hinweise im Illusionstheater und enthüllen Sie Mortugas Schicksal.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=The+Mermaid+Mask+Walkthrough",
+  date: "2026-07-18",
+  author: "The Mermaid Mask Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Der Demo-Walkthrough zu The Mermaid Mask** deckt die erste Untersuchung im Stone Top Inn und dem Mortuga-U-Boot ab.
+- **Schlüsselmechanik**: Nutzen Sie die Kartenschaltfläche unten links, um zwischen den Orten in Silkworm-on-Sea zu navigieren.
+- **Kritisches Rätsel**: Der Schlangenschrank in der Messe erfordert das Abgleichen geometrischer Formen mit der Anzahl ihrer Seiten.
+- **Hauptziel**: Untersuchen Sie den Mord im verschlossenen Raum an Kapitän Magnus Mortuga im Illusionstheater.
+- **Wichtiger Tipp**: Untersuchen Sie jeden Gegenstand in Ihrem Inventar, einschließlich der Rückseite von Plakaten und des Inhalts von Medizinfläschchen.
+</Callout>
+
+<Section icon={Search} title="Ankunft im Stone Top Inn">
+
+Die Demo für The Mermaid Mask beginnt um 4:00 Uhr morgens im Stone Top Inn, das sich in der unheimlichen Stadt Silkworm-on-Sea befindet. Als Detektiv Grimoire werden Sie von Ihrer Partnerin Sally begleitet. Die Atmosphäre wird durch visuelles Storytelling vermittelt, beginnend mit den Gegenständen, die auf der Bar liegen.
+
+**Video-Highlights:**
+- Erste Erkundung des Stone Top Inn und Vorstellung der Charaktere.
+- Überprüfung der Fallakte zum Mord an Kapitän Magnus Mortuga.
+- Erster Blick auf die Stadtkarte und das mysteriöse grüne Licht.
+
+<YouTubeEmbed videoId="5MarVTivMQQ" title="The Mermaid Mask Demo-Walkthrough | Erster Blick nach dem neuesten Demo-Update" />
+
+Bevor Sie das Gasthaus verlassen, müssen Sie mit mehreren Schlüsselobjekten interagieren, die Hintergrundwissen und Kontext für die bevorstehende Untersuchung liefern.
+
+| Gegenstandsname | Typ | Beschreibung |
+| :--- | :--- | :--- |
+| **The Helmsman** | Roman | Ein nautisches Fantasy-Abenteuer von J.D. Wearman, das Sally gehört. |
+| **Fallakte** | Dokument | Details zum Mord an Kapitän Mortuga in einem verschlossenen Raum. |
+| **Foto** | Beweismittel | Bilder des Tatorts und des Opfers Magnus Mortuga. |
+| **Brief** | Dokument | Eine handschriftliche Notiz von Kapitän Seafoam, die den Detektiv anheuert. |
+
+<Callout type="tip" title="Profi-Tipp">
+Öffnen Sie den Roman *The Helmsman* in Ihrem Inventar, um das erste Kapitel zu lesen. Er bietet thematische Parallelen zu dem „schrecklichen Ding, das in den Tiefen wartet“, dem Sie später begegnen werden.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigieren in Silkworm-on-Sea">
+
+Nach dem Verlassen des Gasthauses werden Sie in das Kartennavigationssystem eingeführt. Die Stadt Silkworm-on-Sea ist in ein unheimliches grünes Licht getaucht, das vom Hafen ausgeht. Obwohl die Demo die Erkundung einschränkt, etablieren mehrere interessante Orte die Geschichte der Stadt.
+
+<CardGrid cols={3}>
+  <Card title="Marktplatz">
+    - **Zentraler Knotenpunkt**: Verbindet das Gasthaus mit dem Hafen.
+    - **Atmosphäre**: Verlassen und neblig mit seltsamer Beleuchtung.
+    - **Schlüsselelement**: Die Quelle des grünen Lichts im Wasser.
+  </Card>
+  <Card title="Verlassene Gebäude">
+    - **Mr. Grimps Kaufhaus**: Ein derzeit leeres Geschäft.
+    - **Fortuna Hall**: Eine alte Theater-Werbetafel für Waylon Wolf.
+    - **Leuchtturm**: Sperrgebiet hoch oben auf den Felsen.
+  </Card>
+  <Card title="Der Hafen">
+    - **Hauptziel**: Der Ort, an dem das Mortuga-U-Boot angedockt ist.
+    - **Interaktion**: Gehen Sie an Bord des U-Boots, um die offizielle Untersuchung zu beginnen.
+    - **Visueller Hinweis**: Eine leuchtende Galionsfigur eines „Holzjungen“ auf dem Deck.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Beobachtung erforderlich">
+Überprüfen Sie den Namen des U-Boots auf dem Rumpf. Es hieß ursprünglich „Seafell“, bevor dieser durchgestrichen und in „Mortuga“ umbenannt wurde, was auf eine Meuterei oder eine feindliche Übernahme hindeutet.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="An Bord des Mortuga-U-Boots gehen">
+
+Sobald Sie das U-Boot betreten, beginnt das grüne Licht zu verblassen, was darauf hindeutet, dass das Schiff selbst (or etwas darin) der Köder war. Das Innere ist dunkel, sodass Sie sofort eine Lichtquelle finden müssen.
+
+<Steps>
+  <Step num="1" title="Stromversorgung wiederherstellen">
+    Steigen Sie die Leiter in den pechschwarzen Eingangsraum hinab. Suchen Sie den Hebel an der Wand, um die rosa getönten Notlichter zu aktivieren.
+  </Step>
+  <Step num="2" title="Kontrollraum überprüfen">
+    Versuchen Sie, den Kontrollraum zu betreten. Er ist von innen verschlossen, aber eine Notiz von Kapitän Seafoam ist an die Scheibe geklebt.
+  </Step>
+  <Step num="3" title="Anweisungen folgen">
+    Die Notiz führt Sie zum Tatort: eine Etage tiefer im hintersten Teil des U-Boots.
+  </Step>
+  <Step num="4" title="Die Messe untersuchen">
+    Bevor Sie sich zum Tatort begeben, halten Sie in der Messe an, um wichtige Gegenstände zu sammeln und das erste große Rätsel zu lösen.
+  </Step>
+</Steps>
+
+| U-Boot-Ebene | Schlüsselräume | Besondere Merkmale |
+| :--- | :--- | :--- |
+| **Oberdeck** | Vordeck, Eingang | Galionsfigur des Holzjungen, Lichthebel. |
+| **Mitteldeck** | Messe, Küche | Schlangenstatue, Sonnentabletten, Kochpfannen. |
+| **Unterdeck** | Illusionstheater | Tatort, Steinkessel, Blutspur. |
+
+<Callout type="info" title="Hintergrundwissen zur Umgebung">
+Das rosa Licht im U-Boot wird durch das Verbrennen einer bestimmten Substanz erzeugt. Obwohl dies für die Demo nicht entscheidend ist, deutet dieses Detail auf die einzigartige Technologie hin, die von der Mortuga-Crew verwendet wird.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Das Schlangenschrank-Rätsel">
+
+In der Messe finden Sie eine große Metallstatue einer Schlange mit einem eingebauten Schrank. Dieser Schrank ist durch vier Drehscheiben verschlossen, die jeweils unterschiedliche geometrische Formen zeigen. Dies ist eine der Haupthürden im **Demo-Walkthrough zu The Mermaid Mask**.
+
+**Logik des Rätsels:**
+Die Anzahl der Seiten jeder Form muss mit den in der Umgebung sichtbaren Zahlen oder der internen Logik der Drehscheiben-Reihenfolge übereinstimmen.
+
+| Position der Drehscheibe | Erforderliche Form | Anzahl der Seiten |
+| :--- | :--- | :--- |
+| **Links** | Dreieck | 3 Seiten |
+| **Oben** | Quadrat | 4 Seiten |
+| **Rechts** | Siebeneck (Heptagon) | 7 Seiten |
+| **Unten** | Neuneck (Nonagon) | 9 Seiten |
+
+Sobald das Rätsel gelöst ist, öffnet sich der Schrank und gibt eine Flasche Sonnentabletten frei. Diese Tabletten gibt es in drei Sorten, die später als Vergleichspunkt für am Tatort gefundene Beweise dienen können.
+
+<Checklist
+  id="mess-hall-checklist"
+  title="Ziele für den Abschluss der Messe:"
+  items={[
+    "Lösen Sie das Drehscheiben-Rätsel des Schlangenschranks",
+    "Sammeln Sie die Flasche mit den Sonnentabletten ein",
+    "Untersuchen Sie die Kugelfischlampe",
+    "Beobachten Sie die Z-förmige (oder S-förmige) Tischanordnung"
+  ]}
+/>
+
+<Callout type="success" title="Gegenstand entdeckt">
+Die Sonnentabletten befinden sich in einer braunen Glasflasche, die drei verschiedene Medizinarten enthält. Behalten Sie diese in Ihrem Inventar, um sie mit dem im Theater gefundenen „Mond-Fläschchen“ zu vergleichen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Die Untersuchung des Illusionstheaters">
+
+Der Höhepunkt der Demo findet im Illusionstheater statt. Hier starb Magnus Mortuga. Der Raum ist klein, und das Opfer wurde in einem Szenario eines „verschlossenen Raums“ gefunden, was die Untersuchung besonders anspruchsvoll macht.
+
+**Am Tatort gefundene Beweise:**
+- **Die Blutspur**: Verläuft von Mortugas Hals in den hinteren Teil des Raums, bevor sie sich sammelt.
+- **Mond-Fläschchen**: Eine zerbrochene lila Glasflasche mit botanischem Duft, markiert mit einem Mond-Symbol.
+- **Handgezeichnetes Plakat**: Betitelt mit „The Stargazing Girl“ (Das sternguckende Mädchen), das ursprünglich verkehrt herum hing.
+- **Der Kessel**: Ein uraltes Steingefäß mit tiefen Kratzern im Inneren und Seepocken auf der Außenseite.
+
+| Beweisstück | Fundort | Bedeutung |
+| :--- | :--- | :--- |
+| **Zerschmettertes Fläschchen** | Boden | Enthält lila Flüssigkeit, steht im Kontrast zu den Sonnentabletten. |
+| **Steinkessel** | Mitte | Zuvor jahrelang verschlossen, jetzt auf mysteriöse Weise offen. |
+| **Segeltuch** | Wand | Zeigt die Zeichnung eines Mädchens, das in die Sterne blickt. |
+| **Verkehrtes Plakat** | Rohr | Erwähnt die „Lady of the Looking Glass“ in der Fortuna Hall. |
+
+<Callout type="warning" title="Kritische Schlussfolgerung">
+Mortuga war allein in einem verschlossenen Raum, und es wurde keine Waffe gefunden. Der einzige andere Gegenstand im Raum ist der Steinkessel. Untersuchen Sie die Kratzer im Inneren sorgfältig; sie deuten darauf hin, dass etwas versuchte, nach *draußen* zu gelangen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Letzte Schlussfolgerungen und Ende der Demo">
+
+Die Demo endet mit einer Schlussfolgerungssequenz, in der Grimoire rekonstruieren muss, wie Mortuga starb. Sie müssen den Zustand des Kessels mit der Todesursache verknüpfen.
+
+**Wichtige Schlussfolgerungspunkte:**
+- Mortuga starb an einem sauberen Schnitt durch die Kehle.
+- Im Raum befand sich keine Klingenwaffe.
+- Der Kessel wurde vor Kurzem zum ersten Mal in der Geschichte entriegelt.
+- **Fazit**: Mortuga entriegelte den Kessel und wurde von dem getötet, was sich darin befand.
+
+<Callout type="tip" title="Letzter Schritt">
+Nach der Schlussfolgerung endet die Demo mit dem Titel „Kapitel 1: Der Fluch im Kessel“. Stellen Sie sicher, dass Sie zuvor mit der Galionsfigur des „Holzjungen“ auf dem Deck interagiert haben, da seine leuchtenden Augen das letzte Puzzleteil des Umgebungsrätsels bezüglich des grünen Lichts sind.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wo finde ich den Code für den Schlangenschrank?",
+    answer: "Es gibt keinen schriftlichen Code. Sie müssen die Seiten der geometrischen Formen auf den Drehscheiben zählen. Die Lösung besteht darin, die Anzahl der Seiten (3, 4, 7, 9) mit den Positionen der Drehscheiben abzugleichen."
+  },
+  {
+    question: "Welche Bedeutung hat das Mond-Fläschchen?",
+    answer: "Das Mond-Fläschchen ist lila und hat einen botanischen Duft, der sich von den Sonnentabletten aus der Messe unterscheidet. Seine Präsenz am Tatort deutet darauf hin, dass Mortuga vor seinem Tod eine andere Art von Medizin oder Substanz eingenommen hat."
+  },
+  {
+    question: "Wie gelange ich in den Kontrollraum des U-Boots?",
+    answer: "In der Demo ist der Kontrollraum dauerhaft verschlossen. Sie müssen den Anweisungen von Kapitän Seafoam auf dem Zettel folgen und stattdessen auf das Unterdeck gehen, um das Illusionstheater zu untersuchen."
+  },
+  {
+    question: "Gibt es im Illusionstheater eine Waffe zu finden?",
+    answer: "Nein. Das Rätsel des Demo-Walkthroughs zu The Mermaid Mask besteht darin, dass sich keine Waffe im Raum befindet. Die Schlussfolgerung legt nahe, dass der Mörder oder die „Waffe“ aus dem Inneren des Steinkessels kam."
+  }
+]} />
+
+</Section>

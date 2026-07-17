@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mermaid Mask Tangle Tower: Guía de la demo y soluciones de puzles",
+  description: "Domina la demo de NextFest de The Mermaid Mask (secuela de Tangle Tower) con esta guía paso a paso, soluciones de puzles y análisis del misterio del cuarto cerrado.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Demo+Walkthrough",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de The Mermaid Mask",
+  keywords: "The Mermaid Mask, La máscara de la sirena, Tangle Tower, guía, puzles, demo, walkthrough"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La jugabilidad principal** en la demo de **The Mermaid Mask Tangle Tower** se centra en la exploración point-and-click y la inspección de pistas en 3D.
+- **Resuelve el puzle del comedor** haciendo coincidir el número de lados de las formas (triángulo, cuadrado, pentágono) con los números de los diales.
+- **Deduce el misterio del cuarto cerrado** en el Teatro de las Ilusiones utilizando el constructor de frases del Juego Mental.
+- **Desbloquea la Galería de Arte** tras completar la demo para ver bocetos de desarrollo, estructuras de alambre en 3D y comentarios de los desarrolladores.
+</Callout>
+
+<Section icon={Map} title="Descripción general de The Mermaid Mask Tangle Tower">
+
+El género de aventuras point-and-click recibe una incorporación estilizada con el lanzamiento de la demo de NextFest para **The Mermaid Mask Tangle Tower**. Desarrollada por SFB Games, esta secuela trae de vuelta al querido dúo de detectives, el Detective Grimoire y Sally, para resolver un misterio de asesinato en un cuarto cerrado a bordo de un submarino fantástico. El juego se aleja de los sistemas tradicionales de point-and-click al eliminar los puntos de interés resaltados, animando a los jugadores a hacer clic en cualquier elemento del escenario para activar interacciones ingeniosas y totalmente dobladas.
+
+**Aspectos destacados del vídeo:**
+- **Mecánicas point-and-click** que permiten a los jugadores interactuar con cualquier elemento del fondo para escuchar diálogos e interacciones de personajes con voz.
+- **Rotación de pistas en 3D** que te permite girar, abrir y sacudir las pruebas para encontrar detalles ocultos.
+- **Doblaje fluido** con Edwin Tang y Amberly Connor como el dúo de detectives protagonista.
+
+<YouTubeEmbed videoId="68dc0HQ2FkQ" title="Los desarrolladores de Tangle Tower juegan (y analizan) su próximo juego │ The Mermaid Mask" />
+
+<Callout type="info" title="Perspectiva del Desarrollo">
+El diseño del submarino busca transmitir lujo y amplitud, inspirándose fuertemente en el Nautilus del Capitán Nemo en *Veinte mil leguas de viaje submarino*, en lugar de los estrechos buques militares.
+</Callout>
+
+Esta filosofía de diseño crea una experiencia muy atmosférica donde el desarrollo de los personajes y el humor están integrados en cada objeto interactivo. Para ayudarte a navegar por las etapas iniciales de esta investigación náutica, esta guía cubre las mecánicas principales, las ubicaciones clave y las soluciones de los puzles presentes en la demo de 2026.
+
+| Característica | Especificación |
+|---|---|
+| Desarrollador | SFB Games |
+| Protagonistas principales | Detective Grimoire / Sally |
+| Escenario principal | Silkworm Sea / Submarino Mortuga |
+| Renderizado de pistas | Modelos 3D con texturas pintadas a mano |
+| Soporte de audio | Doblaje completo / Banda sonora orquestal |
+
+</Section>
+
+<Section icon={Target} title="Explorando Silkworm Sea y el submarino Mortuga">
+
+La demo comienza a las 4:00 AM en Silkworm Sea, un pueblo pesquero abandonado envuelto en misterio. Tras despertar a Sally de su sueño, una inquietante luz verde que emana del agua atrae a los detectives a la cubierta del submarino Mortuga.
+
+Al subir a bordo, los jugadores notarán que el submarino se llamaba originalmente "Seafoam" antes de ser tachado y reemplazado por "Mortuga", lo que sugiere una historia siniestra o un motín. Explorar la cubierta exterior revela varios elementos interactivos, como un viejo bote de remos con un solo remo y una misteriosa boya de madera esculpida con la forma de un niño.
+
+<Callout type="warning" title="Examen de Pistas">
+Rota siempre las pistas 3D por completo. Algunos objetos, como libros o recipientes, pueden abrirse para revelar texto oculto, páginas dedicadas u objetos físicos guardados en su interior.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Pueblo de Silkworm Sea">
+    - **Pueblo pesquero abandonado**
+    - Actúa como el ancla narrativa
+    - Contiene la posada Stone Top Inn y el viejo faro
+  </Card>
+  <Card title="Exterior del Submarino">
+    - **Cubierta de proa del Mortuga**
+    - Presenta la misteriosa boya del niño de madera
+    - Las pistas apuntan a un cambio repentino de nombre desde Seafoam
+  </Card>
+  <Card title="Salón de Lujo">
+    - **Primera sala interior**
+    - Decorada con una estética de fiesta vampírica cargada
+    - Contiene el acceso bloqueado a la sala de control
+  </Card>
+</CardGrid>
+
+Para avanzar más profundamente en la nave, los jugadores deben interactuar con la escotilla y descender a un salón sorprendentemente lujoso. La habitación cuenta con un altavoz antiguo que reproduce música inquietante, un retrato enorme titulado "Ella" y estanterías llenas de literatura dedicada a las profundidades del océano.
+
+| Nombre de la Pista | Ubicación | Detalle Clave | Interacción 3D |
+|---|---|---|---|
+| Hex the Houndsman | Suelo de Sally | Novela fantástica de bolsillo | Abre la portada para leer la página uno |
+| Expediente del Caso | Inventario inicial | Detalles sobre la muerte de Magnus Mortuga | Gira para ver el reverso del sobre |
+| Niño de Madera | Cubierta de proa | Atrae a los jugadores con luz verde | Gira para mirar dentro del armazón hueco |
+| Retrato Grande | Salón del submarino | Titulado "Ella" con inscripción trasera | Voltea para leer el símbolo oculto |
+
+</Section>
+
+<Section icon={Sparkles} title="Resolviendo el puzle del armario del comedor">
+
+A medida que te adentras en el submarino, encontrarás el Comedor, que cuenta con una enorme estatua metálica de una serpiente marina. Integrado en esta estatua hay un armario cerrado que contiene una prueba vital. El mecanismo de cierre consta de cuatro diales, cada uno rodeado de pequeñas ventanas que muestran formas geométricas al girar.
+
+La clave para resolver este puzle reside en la relación entre los números objetivo mostrados en el centro de los diales y el número de lados de las formas que aparecen en las ventanas adyacentes.
+
+<Steps>
+  <Step num="1" title="Examina la estatua de la serpiente">
+    Localiza el armario cerrado en el área del Comedor/Cocina y haz clic en el mecanismo del dial para ampliar la vista.
+  </Step>
+  <Step num="2" title="Analiza las formas">
+    Gira los diales para ver qué formas (triángulos, cuadrados, pentágonos) aparecen en las ventanas. Ten en cuenta que los triángulos representan el 3, los cuadrados el 4 y los pentágonos el 5.
+  </Step>
+  <Step num="3" title="Haz coincidir los lados con los números">
+    Alinea las formas de modo que su recuento colectivo de lados coincida con los números del dial central. Por ejemplo, un dial que muestre '3' requiere un triángulo en su ventana.
+  </Step>
+  <Step num="4" title="Recoge las Tabletas del Sol">
+    Una vez que los cuatro diales estén correctamente alineados, pulsa el botón de confirmación para abrir el armario y recuperar las Tabletas del Sol.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Sistema de Pistas Dinámico">
+Si tienes dificultades con algún puzle, fallar tres veces desbloquea pistas progresivas de Grimoire y Sally, detallando las mecánicas del puzle sin revelar la solución final.
+</Callout>
+
+La pista de las Tabletas del Sol es un frasco 3D muy detallado. Al girarlo, puedes ver las tabletas individuales moviéndose dentro del cristal translúcido. Este frasco presenta un emblema del sol pintado a mano, que contrasta directamente con las pruebas encontradas más adelante en la investigación.
+
+| Tipo de Forma | Número de Lados | Ejemplos de Objetivo | Papel en el Puzle |
+|---|---|---|---|
+| Triángulo | 3 | Objetivo 3 | Coincidencia directa para ranuras de tres lados |
+| Cuadrado | 4 | Objetivo 4 | Coincidencia directa para ranuras de cuatro lados |
+| Pentágono | 5 | Objetivo 5 | Coincidencia directa para ranuras de cinco lados |
+| Formas Combinadas | Variable | Objetivos 7 / 8 / 9 | Requiere una eliminación cuidadosa de la disposición |
+
+</Section>
+
+<Section icon={Swords} title="Escena del crimen del Teatro de las Ilusiones y deducción del Juego Mental">
+
+El clímax de la demo tiene lugar en el Teatro de las Ilusiones, un pasillo estrecho y espeluznante situado al fondo del submarino. Esta es la escena oficial del crimen donde el Capitán Magnus Mortuga fue hallado muerto dentro de una habitación cerrada.
+
+La víctima yace de espaldas con un corte profundo en el cuello y un antiguo caldero de piedra a sus pies. Curiosamente, no hay ningún arma homicida en la habitación, lo que plantea el clásico escenario de un crimen imposible.
+
+<Callout type="tip" title="Lógica del Juego Mental">
+No adivines al azar. Lee las frases de conexión en voz alta para asegurarte de que fluyan lógicamente. El juego cuenta con doblaje completo para las frases incorrectas, que a veces pueden ofrecer pistas sutiles.
+</Callout>
+
+Para resolver este capítulo inicial, los jugadores deben utilizar la interfaz de deducción del "Juego Mental". Esta mecánica representa el proceso mental del Detective Grimoire, requiriendo que construyas una frase lógica seleccionando sujetos, verbos y objetos de las pruebas reunidas.
+
+| Objeto de Prueba | Estado Físico | Pista Narrativa | Acción Analítica |
+|---|---|---|---|
+| Caldero de Piedra | Abierto / contiene cristal | Supuestamente nunca se abrió antes | Gira para encontrar marcas de arañazos dentro |
+| Vial de la Luna Roto | Líquido derramado en el suelo | Complementa las Tabletas del Sol | Examina el fondo de cristal translúcido |
+| Póster Invertido | Pegado al revés | Anuncio de un espectáculo de magia | Gira para ver el boceto en el reverso |
+| Rastro de Sangre | Acumulada cerca del cuello | Conduce hacia la parte trasera del sub | Sigue el camino para analizar el movimiento |
+
+Para completar con éxito la deducción y pasar al Capítulo 1, construye la siguiente frase en la interfaz del Juego Mental:
+
+**"Magnus Mortuga abrió el caldero y murió por lo que había dentro."**
+
+Tras enviar esta deducción, el juego te pedirá que señales un detalle físico en el caldero de piedra. Gira el caldero para mirar dentro, selecciona las marcas de arañazos a lo largo del borde interior y confirma tu selección para completar la demo.
+
+</Section>
+
+<Section icon={Trophy} title="Contenido post-juego y Galería de Arte">
+
+Completar la demo otorga a los jugadores acceso a la Galería de Arte, una función especial que permanecerá totalmente desbloqueada en la versión final una vez que aparezcan los créditos. Esta galería ofrece una mirada fascinante entre bastidores al desarrollo del juego, mostrando la transición de los bocetos en 2D a los modelos 3D pintados a mano.
+
+La galería cuenta con extensas anotaciones de la artista conceptual principal Katherine Anger y la artista 3D Kindra. Estas notas detallan los primeros diseños de personajes para el Capitán Mortuga, los diseños ambientales para la posada Stone Top Inn y los desafíos técnicos de crear modelos 3D "wobbly" y sin iluminación que imitan perfectamente la estética de las pinturas en 2D.
+
+<Checklist
+  id="demo-completion"
+  title="Lista de verificación de finalización de la demo:"
+  items={[
+    "Completar la investigación introductoria en Silkworm Sea",
+    "Encontrar e inspeccionar las 5 pistas principales",
+    "Resolver el puzle de los diales de la estatua de la serpiente en el Comedor",
+    "Completar la deducción del Juego Mental en el Teatro de las Ilusiones",
+    "Desbloquear y explorar el archivo de la Galería de Arte"
+  ]}
+/>
+
+<Callout type="success" title="Lista de deseos y precuelas">
+Tras completar la demo, considera añadir el juego a tu lista de deseos de Steam. También puedes jugar a Tangle Tower, el juego anterior de la serie, que presenta mecánicas similares pintadas a mano y suele estar rebajado.
+</Callout>
+
+El nivel de detalle de la Galería de Arte resalta el inmenso cuidado puesto en cada píxel de esta aventura. Sirve como una excelente recompensa para los jugadores que se toman el tiempo de investigar a fondo cada rincón del submarino Mortuga.
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Necesito jugar a Tangle Tower antes de jugar a The Mermaid Mask?",
+    answer: "No. Aunque ambos juegos comparten el mismo dúo de detectives y existen dentro de un universo narrativo conectado, este título está diseñado como un misterio independiente que cualquiera puede disfrutar."
+  },
+  {
+    question: "¿Cómo obtengo pistas para los puzles del juego?",
+    answer: "El juego cuenta con un sistema de pistas progresivo. Si intentas un puzle y fallas tres veces, Grimoire y Sally discutirán el mecanismo, proporcionando tres niveles de pistas de diálogo cada vez más útiles."
+  },
+  {
+    question: "¿Cuál es la solución correcta para el Juego Mental en el Teatro de las Ilusiones?",
+    answer: "La estructura de la frase correcta para avanzar tras la demo es: 'Magnus Mortuga abrió el caldero y murió por lo que había dentro'. Luego debes señalar las marcas de arañazos dentro del caldero."
+  },
+  {
+    question: "¿Hay contenido que se pueda perder en la demo de The Mermaid Mask Tangle Tower?",
+    answer: "Sí. Debido a que puedes hacer clic en absolutamente cualquier cosa para escuchar diálogos con voz, ir directamente a la escena del crimen hará que te pierdas docenas de chistes únicos, interacciones de personajes y detalles de la ambientación del mundo."
+  }
+]} />
+
+<Callout type="info" title="Más Guías">
+Para profundizar más en la historia de Silkworm Sea y los perfiles de los personajes, consulta nuestro repositorio wiki actualizado.
+</Callout>
+
+</Section>

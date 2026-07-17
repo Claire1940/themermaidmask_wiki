@@ -10,7 +10,15 @@
       "twitterDescription": "The Mermaid Mask Wiki covers the full walkthrough, puzzle solutions, clues, suspects, achievements, endings, characters, and Mortuga submarine locations."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "puzzles": "Puzzles",
+    "release": "Release",
+    "platforms": "Platforms",
+    "reviews": "Reviews",
+    "series": "Series",
+    "media": "Media"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1659,125 +1667,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
+    "guide": {
       "title": "The Mermaid Mask Walkthrough",
-      "description": "Complete chapter-by-chapter walkthrough for The Mermaid Mask, covering the Mortuga submarine route, required clues, and every progression trigger.",
-      "metaTitle": "The Mermaid Mask Walkthrough - Full Story Route",
-      "metaDescription": "Follow the complete The Mermaid Mask walkthrough from Stonetop Inn to the final confrontation aboard the Mortuga submarine.",
+      "description": "Complete chapter-by-chapter walkthrough for The Mermaid Mask, covering the Mortuga submarine investigation, every required clue, and all story progression triggers.",
+      "metaTitle": "The Mermaid Mask Walkthrough - Full Story Route & Chapters",
+      "metaDescription": "Follow the complete The Mermaid Mask walkthrough from the Stone Top Inn to the final reveal aboard the Mortuga submarine, with every clue and trigger.",
       "categoryLabel": "WALKTHROUGH",
       "whatIs": "What is the walkthrough?",
-      "whatIsDescription": "A complete story route through The Mermaid Mask that lists required conversations, clue locations, and progression triggers chapter by chapter.",
+      "whatIsDescription": "A complete story route through The Mermaid Mask that lists required conversations, clue locations, and progression triggers chapter by chapter, so you never get stuck.",
       "why": "Why use the walkthrough?",
       "whySteps": {
         "step1Title": "Avoid Dead Ends",
         "step1Description": "Find the exact progression trigger when the next step is unclear",
         "step2Title": "Collect Required Clues",
-        "step2Description": "Locate the evidence needed to open each locked area",
+        "step2Description": "Locate the evidence needed to unlock each new area",
         "step3Title": "Stay Spoiler-Safe",
         "step3Description": "Each section stops before revealing later story twists"
       },
       "featured": "Featured & Essential",
       "all": "All Walkthrough Articles"
     },
-    "crafting": {
+    "puzzles": {
       "title": "The Mermaid Mask Puzzle Solutions",
-      "description": "Spoiler-controlled hints and direct answers for every lock, deduction device, and investigation minigame in The Mermaid Mask.",
-      "metaTitle": "The Mermaid Mask Puzzle Solutions - Hints and Answers",
-      "metaDescription": "Find hints and full solutions for every puzzle in The Mermaid Mask, organized by chapter and room.",
-      "categoryLabel": "PUZZLE SOLUTIONS",
-      "whatIs": "What are puzzle solutions?",
-      "whatIsDescription": "A room-by-room guide to the object puzzles, locks, and deduction devices aboard the Mortuga submarine, with a hint shown before the complete answer.",
-      "why": "Why check puzzle solutions?",
+      "description": "Step-by-step solutions for every puzzle in The Mermaid Mask, including the serpent dial, boat puzzle, pinboard, and typewriter, with exact answers and clue locations.",
+      "metaTitle": "The Mermaid Mask Puzzle Solutions - All Clues & Answers",
+      "metaDescription": "Solve every The Mermaid Mask puzzle with exact answers for the serpent dial, boat, pinboard, and typewriter puzzles, plus all clue locations.",
+      "categoryLabel": "PUZZLES",
+      "whatIs": "What are the puzzle solutions?",
+      "whatIsDescription": "Clear answers for every logic and environment puzzle in The Mermaid Mask, from dial alignment sequences to code input, with the clues that unlock each one.",
+      "why": "Why use the puzzle guide?",
       "whySteps": {
-        "step1Title": "Open the Hint First",
-        "step1Description": "Reveal only the nudge you need to keep going",
-        "step2Title": "Read the Full Solution",
-        "step2Description": "Get the exact steps when a mechanism stays unclear",
-        "step3Title": "Learn the Reward",
-        "step3Description": "See which clue or progression each puzzle unlocks"
+        "step1Title": "Solve Faster",
+        "step1Description": "Get the exact dial order and code for each puzzle",
+        "step2Title": "Understand the Logic",
+        "step2Description": "See which clue maps to each step of the solution",
+        "step3Title": "Catch Hidden Clues",
+        "step3Description": "Find the easy-to-miss clues that gate later puzzles"
       },
       "featured": "Featured & Essential",
-      "all": "All Puzzle Articles"
+      "all": "All Puzzle Solutions"
     },
-    "items": {
-      "title": "The Mermaid Mask Clues and Evidence",
-      "description": "Catalog of every clue in The Mermaid Mask, including where it is found, how to examine it, and which suspects it connects to.",
-      "metaTitle": "The Mermaid Mask Clues and Evidence Catalog",
-      "metaDescription": "Browse every clue in The Mermaid Mask with locations, examination methods, suspect links, and progression status.",
-      "categoryLabel": "CLUES & EVIDENCE",
-      "whatIs": "What are clues and evidence?",
-      "whatIsDescription": "A complete catalog of the documents, objects, recordings, and environmental details needed to solve Captain Mortuga's locked-room murder.",
-      "why": "Why track clues?",
+    "release": {
+      "title": "The Mermaid Mask Release Date & News",
+      "description": "The Mermaid Mask release date, demo, Steam Next Fest, Switch launch, and every official update from SFB Games, collected in one place.",
+      "metaTitle": "The Mermaid Mask Release Date, Demo & News",
+      "metaDescription": "Track The Mermaid Mask release date, demo availability, Steam Next Fest, Switch launch, and the latest official news from SFB Games.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is the release info?",
+      "whatIsDescription": "Everything about The Mermaid Mask launch schedule, including platform release dates, the playable demo, Steam Next Fest timing, and official announcements.",
+      "why": "Why follow the release info?",
       "whySteps": {
-        "step1Title": "Find Every Clue",
-        "step1Description": "See where each piece of evidence is discovered",
-        "step2Title": "Inspect Completely",
-        "step2Description": "Learn how to rotate and examine each 3D object",
-        "step3Title": "Link Suspects",
-        "step3Description": "Connect each clue to the crew members it implicates"
+        "step1Title": "Know the Date",
+        "step1Description": "Exact release dates for each platform",
+        "step2Title": "Try the Demo",
+        "step2Description": "Find when and where the demo is playable",
+        "step3Title": "Catch Updates",
+        "step3Description": "Stay on top of news, delays, and new reveals"
       },
       "featured": "Featured & Essential",
-      "all": "All Clue Articles"
+      "all": "All Release News"
     },
-    "biomes": {
-      "title": "The Mermaid Mask Characters and Suspects",
-      "description": "Dossiers for Detective Grimoire, Sally, Captain Mortuga, and every suspect aboard the Mortuga submarine in The Mermaid Mask.",
-      "metaTitle": "The Mermaid Mask Characters and Suspects",
-      "metaDescription": "Read spoiler-controlled dossiers for every character and suspect in The Mermaid Mask.",
-      "categoryLabel": "CHARACTERS & SUSPECTS",
-      "whatIs": "Who are the suspects?",
-      "whatIsDescription": "Detailed dossiers covering each character's role, relationships, testimony, possible motive, and important evidence.",
-      "why": "Why study the characters?",
+    "platforms": {
+      "title": "The Mermaid Mask Platforms & Price",
+      "description": "Every platform The Mermaid Mask is on - Steam, Switch, PS5, Xbox, iOS, and macOS - with store links, pricing, and supported device details.",
+      "metaTitle": "The Mermaid Mask Platforms, Price & Store Links",
+      "metaDescription": "Find every platform for The Mermaid Mask - Steam, Nintendo Switch, PS5, Xbox, iOS, and macOS - with pricing and official store links.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What platforms is it on?",
+      "whatIsDescription": "A full breakdown of every platform and store where you can play The Mermaid Mask, with pricing, regional availability, and supported devices.",
+      "why": "Why check the platform guide?",
       "whySteps": {
-        "step1Title": "Plan Interviews",
-        "step1Description": "Know which topics each suspect will respond to",
-        "step2Title": "Spot Motives",
-        "step2Description": "Separate secrecy from actual guilt",
-        "step3Title": "Avoid Spoilers",
-        "step3Description": "Final conclusions stay hidden until you reach them"
+        "step1Title": "Pick Your Platform",
+        "step1Description": "Compare supported devices before you buy",
+        "step2Title": "Find the Best Price",
+        "step2Description": "See pricing across each regional store",
+        "step3Title": "Get the Store Link",
+        "step3Description": "Jump straight to the official store page"
       },
       "featured": "Featured & Essential",
-      "all": "All Character Articles"
+      "all": "All Platform Info"
     },
-    "building": {
-      "title": "The Mermaid Mask Ending Explained",
-      "description": "Spoiler-controlled analysis of the final case in The Mermaid Mask, covering the murder method, motives, and ending themes.",
-      "metaTitle": "The Mermaid Mask Ending Explained - Final Case Analysis",
-      "metaDescription": "Understand the ending of The Mermaid Mask with a spoiler-controlled breakdown of the murder method, motives, and revelations.",
-      "categoryLabel": "ENDING & LORE",
-      "whatIs": "What does the ending explain?",
-      "whatIsDescription": "A breakdown of how the locked-room murder, the cauldron, and the crew's overlapping secrets fit into the final reconstruction.",
-      "why": "Why read the ending analysis?",
+    "reviews": {
+      "title": "The Mermaid Mask Reviews & Scores",
+      "description": "The Mermaid Mask reviews, Metacritic score, and critic verdicts from CreativeBloq, Edge, and more, rounded up in one place.",
+      "metaTitle": "The Mermaid Mask Reviews - Metacritic & Critic Scores",
+      "metaDescription": "Read The Mermaid Mask reviews and critic scores from Metacritic, CreativeBloq, Edge, and more, with the verdict on SFB Games mystery adventure.",
+      "categoryLabel": "REVIEWS",
+      "whatIs": "What are the reviews saying?",
+      "whatIsDescription": "A collected overview of The Mermaid Mask critical reception, including aggregate scores and standout critic opinions on its mystery, art, and puzzles.",
+      "why": "Why read the reviews?",
       "whySteps": {
-        "step1Title": "Connect the Clues",
-        "step1Description": "See how earlier evidence supports the conclusion",
-        "step2Title": "Separate Secrets from Guilt",
-        "step2Description": "Understand why several suspects look guilty",
-        "step3Title": "Explore the Themes",
-        "step3Description": "Read what the Mermaid Mask represents"
+        "step1Title": "See the Verdict",
+        "step1Description": "Get the aggregate score at a glance",
+        "step2Title": "Read the Highlights",
+        "step2Description": "Find what critics praise or critique most",
+        "step3Title": "Decide Before You Buy",
+        "step3Description": "Weigh reception against your own taste"
       },
       "featured": "Featured & Essential",
-      "all": "All Ending Articles"
+      "all": "All Reviews"
     },
-    "support": {
-      "title": "The Mermaid Mask Platforms and System Requirements",
-      "description": "Release dates, supported languages, achievements, and platform details for The Mermaid Mask on Steam, Switch, Switch 2, and PS5.",
-      "metaTitle": "The Mermaid Mask Platforms and System Requirements",
-      "metaDescription": "Compare The Mermaid Mask releases across Steam, Nintendo Switch, Nintendo Switch 2, and PlayStation 5 before buying.",
-      "categoryLabel": "PLATFORMS & SUPPORT",
-      "whatIs": "What are the platform details?",
-      "whatIsDescription": "A comparison of release dates, availability, controls, language support, and requirements across every platform that hosts The Mermaid Mask.",
-      "why": "Why check the platforms?",
+    "series": {
+      "title": "The Mermaid Mask Series, Cast & Developer",
+      "description": "The Mermaid Mask place in the Detective Grimoire series, its voice cast, characters, and developer SFB Games, all in one guide.",
+      "metaTitle": "The Mermaid Mask - Series, Cast, Characters & SFB Games",
+      "metaDescription": "Explore The Mermaid Mask place in the Detective Grimoire series, its characters and voice cast, and developer SFB Games behind the mystery.",
+      "categoryLabel": "SERIES",
+      "whatIs": "What is the series background?",
+      "whatIsDescription": "The context behind The Mermaid Mask, including its connection to Detective Grimoire and Tangle Tower, the cast of characters, and the studio that built it.",
+      "why": "Why dig into the series?",
       "whySteps": {
-        "step1Title": "Compare Releases",
-        "step1Description": "See which storefronts carry the game",
-        "step2Title": "Match Your Hardware",
-        "step2Description": "Confirm compatibility before purchase",
-        "step3Title": "Plan Achievements",
-        "step3Description": "Understand which platforms track the 21 achievements"
+        "step1Title": "Know the Connections",
+        "step1Description": "See how it links to Detective Grimoire and Tangle Tower",
+        "step2Title": "Meet the Cast",
+        "step2Description": "Learn the voice actors behind each character",
+        "step3Title": "Know the Studio",
+        "step3Description": "Understand SFB Games track record"
       },
       "featured": "Featured & Essential",
-      "all": "All Platform Articles"
+      "all": "All Series Info"
+    },
+    "media": {
+      "title": "The Mermaid Mask Trailers & Soundtrack",
+      "description": "Watch every The Mermaid Mask trailer and launch video, and explore the soundtrack from SFB Games hand-drawn mystery adventure.",
+      "metaTitle": "The Mermaid Mask Trailers, Videos & Soundtrack",
+      "metaDescription": "Watch all The Mermaid Mask trailers and launch videos, and explore the soundtrack from SFB Games hand-drawn mystery adventure.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "What media is available?",
+      "whatIsDescription": "A collected hub for The Mermaid Mask trailers, gameplay videos, and soundtrack, so you can preview the art, music, and tone before playing.",
+      "why": "Why watch the media?",
+      "whySteps": {
+        "step1Title": "Preview the Art",
+        "step1Description": "See the hand-drawn style in motion",
+        "step2Title": "Feel the Tone",
+        "step2Description": "Sample the soundtrack and atmosphere",
+        "step3Title": "Catch New Reveals",
+        "step3Description": "Stay current with new trailers and drops"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Media"
     }
   }
 }

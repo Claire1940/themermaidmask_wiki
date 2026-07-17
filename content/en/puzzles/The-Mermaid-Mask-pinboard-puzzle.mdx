@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mermaid Mask Pinboard Puzzle: Walkthrough & Solutions",
+  description: "Master the intricate pinboard puzzle in The Mermaid Mask. Learn how to connect clues, verify alibis, and solve the submarine murder mystery.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Pinboard+Puzzle+Guide",
+  date: "2026-07-18",
+  author: "The Mermaid Mask Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Objective**: Link suspects, motives, and evidence to solve the locked-room murder of Magnus Mortuga.
+- **Key Mechanic**: Use colored strings on the pinboard to connect matching nodes and resolve contradictions.
+- **Critical Clue**: The Captain's logbook contradicts Miss Seafoam's initial timeline statement.
+- **Puzzle Unlock**: Retrieve the bloody wrench from the engine room before attempting the final deduction.
+- **Optimal Strategy**: Group evidence by room location first to establish a clear timeline of events.
+</Callout>
+
+<Section icon={Map} title="Investigating the Submarine Crime Scene">
+
+The locked-room murder of Magnus Mortuga aboard the isolated submarine serves as the central mystery of the game. To progress through the narrative, you must master the mechanics of the pinboard. This system requires you to organize scattered pieces of evidence, connect suspect statements, and construct a logical timeline of the fateful night.
+
+**Video Highlights:**
+- Introduces the locked-room murder setting of Magnus Mortuga.
+- Highlights Miss Seafoam taking over as the new captain.
+- Shows the tension among the crew members under investigation.
+- Previews the dark secrets and curses surrounding the submarine.
+
+<YouTubeEmbed videoId="ljJMXZUEiT8" title="The Mermaid Mask - Official Release Date Trailer" />
+
+Before interacting with the board, search the crime scene thoroughly. Every locked drawer, discarded note, and pool of blood contains a critical node for your board. Missing even a single scrap of paper can stall your investigation, preventing you from drawing the final connections needed to identify the true culprit.
+
+<Callout type="tip" title="Search Everything">
+Always examine the floor near the victim's body. A small metallic fragment is hidden beneath the pooling blood, which serves as a vital link between the murder weapon and the engine room.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Clue Categories & Connection Mechanics">
+
+The board is divided into distinct categories. To successfully complete the puzzle, you must understand how these categories interact. Placing a card in the wrong section or using the wrong colored string to connect them will result in a failed deduction, forcing you to re-evaluate your evidence.
+
+<CardGrid cols={3}>
+  <Card title="Suspect Cards">
+    - **Identify key crew members**
+    - Track physical locations
+    - Document initial statements
+  </Card>
+  <Card title="Evidence Cards">
+    - **Physical items found**
+    - Forensic reports
+    - Weapon specifications
+  </Card>
+  <Card title="Motive Cards">
+    - **Personal grievances**
+    - Financial records
+    - Hidden relationships
+  </Card>
+</CardGrid>
+
+Connections are made using color-coded strings. Red strings denote direct relationships, blue strings represent contradictions, and yellow strings indicate unverified alibis. Balancing these connections is key to unlocking the true sequence of events.
+
+| Card Type | Primary Function | Interaction Method |
+| --- | --- | --- |
+| Suspects | Identifies key individuals | Connect to motives and alibis |
+| Evidence | Physical items from crime scene | Link to specific suspects |
+| Motives | Psychological reasons for murder | Pair with suspect profiles |
+
+<Callout type="warning" title="Watch Out for Red Herrings">
+Some motive cards are designed to mislead you. Linking a suspect to a false financial motive will break the chain of logic, causing the board to reset your progress.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Solving The Mermaid Mask Pinboard Puzzle">
+
+Resolving the board requires a systematic approach. Follow these steps to organize your thoughts, connect the correct nodes, and solve the puzzle without getting lost in the web of lies.
+
+<Steps>
+  <Step num="1" title="Gather Initial Evidence">
+    Collect the captain's logbook from the desk, the bloody wrench from the lower engine room deck, and the torn letter from the crew quarters wastebin.
+  </Step>
+  <Step num="2" title="Map Suspect Alibis">
+    Place all suspect cards on the board. Draw yellow strings from each suspect to their respective claimed locations during the time of the murder.
+  </Step>
+  <Step num="3" title="Identify Contradictions">
+    Compare the captain's logbook with Miss Seafoam's statement. Connect them using a blue string to highlight the discrepancy in the navigation logs.
+  </Step>
+  <Step num="4" title="Execute the Final Deduction">
+    Link the bloody wrench to the engine room, then connect the engine logs to the true culprit to unlock the final confrontation scene.
+  </Step>
+</Steps>
+
+Finding the physical items is the hardest part of the setup. Use the location table below to ensure you have collected all necessary components before attempting to solve the board.
+
+| Item Name | Location Found | Associated Suspect |
+| --- | --- | --- |
+| Bloody Wrench | Engine Room lower deck | Miss Seafoam |
+| Captain Logbook | Locked desk in Captain cabin | Magnus Mortuga |
+| Torn Letter | Crew quarters wastebin | Unknown |
+
+<Callout type="info" title="Locked Cabin Access">
+To access the Captain's cabin, you must first obtain the keycard from the galley. Check the pantry shelves behind the canned goods to locate it.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Advanced Deduction Strategies">
+
+To master the board, you must look beyond the obvious clues. The culprit has actively altered the submarine's logbooks to create false alibis. Comparing physical evidence against verbal testimonies is the only way to expose these fabrications.
+
+Analyze the discrepancies in the crew's statements. The table below outlines the contradictions you must highlight on your board to break the suspect's alibis.
+
+| Suspect | Claimed Alibi | Discovered Contradiction |
+| --- | --- | --- |
+| Miss Seafoam | Navigating the submarine | Engine logs show autopilot active |
+| The Chef | Preparing dinner in galley | Kitchen utensils were completely dry |
+| The Engineer | Repairing the pressure valves | Valve pressure records show no changes |
+
+Once these contradictions are linked, the board will highlight the true path forward. Use the checklist below to track your overall progress toward completing the investigation.
+
+<Checklist
+  id="investigation-milestones"
+  title="Investigation Milestones:"
+  items={[
+    "Recover all three hidden evidence items",
+    "Link all crew members to their physical locations",
+    "Expose the three primary alibi contradictions",
+    "Complete the final deduction on the pinboard"
+  ]}
+/>
+
+<Callout type="success" title="Deduction Complete">
+Exposing all three contradictions successfully unlocks the 'Master Detective' achievement and reveals the secret hatch code.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+Understanding the nuances of the investigation system can be challenging. Below are the answers to the most common questions regarding the game's central deduction mechanics.
+
+<FAQ items={[
+  {
+    question: "Why is the final deduction button locked on my board?",
+    answer: "The deduction button remains locked until you have successfully resolved all alibi contradictions. Ensure you have connected the engine logs to Miss Seafoam using a blue contradiction string."
+  },
+  {
+    question: "Where is the torn letter evidence piece located?",
+    answer: "The torn letter is located in the trash bin inside the crew quarters. You must interact with the bin twice to dig beneath the discarded papers and find the clue."
+  },
+  {
+    question: "How do I clear incorrect connections on the board?",
+    answer: "To remove a string, simply click on the pin at either end of the connection and drag it back to the tray at the bottom of the screen."
+  },
+  {
+    question: "What is the primary key to solving the puzzle?",
+    answer: "The primary key to solving the puzzle is establishing the exact timeline of the submarine's autopilot activation, which exposes the false navigation statements."
+  }
+]} />
+
+<Callout type="info" title="Need More Help?">
+If you get stuck, re-examine the victim's body. The autopsy report updates dynamically as you find new clues, often providing hints for your next connection.
+</Callout>
+
+</Section>

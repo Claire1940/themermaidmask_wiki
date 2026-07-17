@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Entwickler von The Mermaid Mask: Spielmechaniken & Mystery-Design",
+  description: "Erkunden Sie die kreative Vision des Entwicklers von The Mermaid Mask. Erfahren Sie mehr über die U-Boot-Untersuchung, JD Wormans Designphilosophie und Tipps zum Demo-Walkthrough.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=The+Mermaid+Mask+Developer",
+  date: "2026-07-18",
+  author: "The Mermaid Mask Wiki-Team",
+  keywords: "The Mermaid Mask Entwickler, JD Worman, Spielmechaniken, U-Boot Mortuga, Mystery-Design"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Der Entwickler von The Mermaid Mask**: JD Worman ist die kreative Kraft hinter diesem atmosphärischen Mystery-Titel, der Low-Poly-Ästhetik mit einer tiefgründigen Erzählweise verbindet.
+- **Atmosphärisches Setting**: Das Spiel findet hauptsächlich in einem mysteriösen U-Boot namens Mortuga statt, das früher Seafo hieß.
+- **Kern-Gameplay**: Die Spieler beteiligen sich an Ermittlungen im Detektiv-Stil und suchen nach Hinweisen, um den Mord an Magnus Mortuga aufzuklären.
+- **Schlüsselmechaniken**: Die Untersuchung umfasst die Interaktion mit Umgebungsobjekten, das Lösen von Rätseln auf Zifferblattbasis und die Interpretation kryptischer Fallberichte.
+- **Einblicke in die Demo**: Der aktuelle Build konzentriert sich auf das „Illusionstheater“ und das Rätsel um den verschlossenen Raum, in dem ein seltsamer Kessel eine Rolle spielt.
+</Callout>
+
+<Section icon={Sparkles} title="Der Entwickler von The Mermaid Mask und seine kreative Vision">
+
+Die kreative Richtung dieses Titels stammt vom **Entwickler von The Mermaid Mask**, JD Worman, der ein einzigartiges investigatives Erlebnis geschaffen hat, das Atmosphäre und Erzählweise über die Umgebung priorisiert. In einer Welt, in der die Grenze zwischen Realität und Paranormalem verschwimmt, lädt das Spiel die Spieler ein, in die Rolle von Ermittlern zu schlüpfen – speziell Sally und ihr Partner –, während sie eine Reihe unheimlicher Orte erkunden. Die Wahl eines Low-Poly-Kunststils durch den Entwickler dient dazu, das Gefühl der Isolation und des Grauens zu verstärken, sodass jeder Schatten und jedes flackernde Licht bedeutsam erscheint.
+
+**Video-Highlights:**
+- Detaillierter Walkthrough durch das Stone Top Inn und das Hafenviertel.
+- Erkundung der Innenräume des U-Boots Mortuga.
+- Analyse des Tatorts im „Illusionstheater“.
+- Erster Blick auf die Mechanik der Zifferblatt-Rätsel.
+- Kommentar zum unheimlichen grünen Licht des Spiels und den Lockmechanismen.
+
+<YouTubeEmbed videoId="4NaqpyytYnM" title="THE MERMAID MASK DEMO | Gameplay Walkthrough" />
+
+Die vom **Entwickler von The Mermaid Mask** betonte Designphilosophie dreht sich um „Zeigen, nicht Erzählen“. Anstatt schwerfälliger Exposition finden die Spieler Bücher wie *Hex des Steuermanns* oder verlassene Barhocker, die auf eine größere Welt hindeuten. Diese Art der Vermittlung stellt sicher, dass sich der Spieler wie ein echter Detektiv fühlt, der die Geschichte der *Dearest Selena* und der anschließenden Meuterei, die zur Erschaffung der Mortuga führte, Stück für Stück zusammensetzt.
+
+| Merkmal | Beschreibung | Priorität des Entwicklers |
+|:--- |:--- |:--- |
+| Kunststil | Stilisierter Low-Poly-Stil mit atmosphärischer Beleuchtung | Hoch |
+| Erzählweise | Storytelling über die Umgebung mittels Notizen und Objekten | Hoch |
+| Rätsel | Logikbasierte Zifferblatt-Rätsel und Beobachtungsgabe | Mittel |
+| Setting | Klaustrophobisches U-Boot und verlassene Küstenstädte | Hoch |
+| Audio | Gruselige Vampir-Partymusik und Umgebungsgeräusche | Mittel |
+
+<Callout type="tip" title="Einblick des Entwicklers">
+Achten Sie genau auf die Namen von Schiffen und Gebäuden. Der Übergang von „Seafo“ zu „Mortuga“ auf dem Rumpf des U-Boots ist ein entscheidender Hinweis auf die Hintergrundgeschichte des Spiels und die Art des Verschwindens der Besatzung.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Erkundung des U-Boots Mortuga: Raumaufteilung">
+
+Der zentrale Knotenpunkt der Demo ist das U-Boot Mortuga. **Der Entwickler von The Mermaid Mask** hat jeden Raum akribisch gestaltet, um die Persönlichkeit seiner ehemaligen Bewohner und die Tragödie, die sich darin ereignete, widerzuspiegeln. Das Layout ist absichtlich beengt, was die Spieler zwingt, sich mit den unheimlichen Details der Umgebung auseinanderzusetzen.
+
+<CardGrid cols={2}>
+  <Card title="Das Gesellschaftszimmer">
+    - **Atmosphäre**: Bietet eine „Vampir-Party“-Stimmung mit unheilvoller Musik.
+    - **Wichtige Gegenstände**: Kugelfisch-Lampe, halb ausgetrunkener Wein und Spielkarten.
+    - **Zweck**: Dient als Übergangsraum, der den Lebensstil der Besatzung zeigt.
+  </Card>
+  <Card title="Das Illusionstheater">
+    - **Atmosphäre**: Ein kleiner, umgestalteter Korridorabschnitt.
+    - **Wichtige Gegenstände**: Der verschlossene Kessel und die Leiche von Magnus Mortuga.
+    - **Zweck**: Der Haupttatort für das Rätsel um den verschlossenen Raum.
+  </Card>
+  <Card title="Der Kontrollraum">
+    - **Atmosphere**: Von der anderen Seite abgeklebt, in der Demo unzugänglich.
+    - **Wichtige Gegenstände**: Versteckte Hebel und Richtungsanweisungen von Kapitän Seafoam.
+    - **Zweck**: Dient als erzählerische Barriere und zukünftiger Erkundungspunkt.
+  </Card>
+  <Card title="Die Küche">
+    - **Atmosphäre**: Funktional, aber verlassen, mit Töpfen und Pfannen.
+    - **Wichtige Gegenstände**: Fischgemälde und verschiedene Küchenutensilien.
+    - **Zweck**: Trägt zum bewohnten Gefühl des Schiffes bei.
+  </Card>
+</CardGrid>
+
+Der Übergang zwischen diesen Räumen ist oft durch kleine Rätsel oder erzählerische Auslöser versperrt. Zum Beispiel ist das grüne Licht, das die Spieler zum U-Boot lockt, ein wiederkehrendes Motiv, das vom **Entwickler von The Mermaid Mask** verwendet wird, um den Fokus des Spielers auf kritische Handlungspunkte zu lenken.
+
+| Raumname | Primäre Interaktion | Bedeutung |
+|:--- |:--- |:--- |
+| Stone Top Inn | Untersuchung des Fallberichts auf der Bar | Ausgangspunkt der Ermittlung |
+| U-Boot-Deck | Beobachtung der Namensänderung zu „Mortuga“ | Beweis für Meuterei oder Umbenennung |
+| Gesellschaftszimmer | Inspektion der Z-förmigen Tische | Potenzieller Hinweis für namensbasierte Rätsel |
+| Schlangenstatue | Lösen des Vier-Zifferblatt-Rätsels | Schaltet versteckte Fächer frei |
+| Theater | Untersuchung der Blutspur und des Kessels | Aufklärung des Mordes an Magnus Mortuga |
+
+<Callout type="warning" title="Navigationswarnung">
+Ignorieren Sie das „unheimliche grüne Licht“ nicht. Obwohl es als Köder fungiert, nutzt der Entwickler es, um zu signalisieren, dass sich der Spieler in die richtige Richtung bewegt. Ihm zu folgen ist für den Fortschritt in der Demo unerlässlich.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Leitfaden zur Untersuchung">
+
+Um die Demo erfolgreich zu navigieren und die vom **Entwickler von The Mermaid Mask** festgelegten Ziele zu erreichen, müssen die Spieler einer bestimmten Abfolge von Beobachtungen folgen. Bei der Untersuchung geht es nicht nur darum, die Leiche zu finden, sondern auch das „Wie“ und „Warum“ hinter dem Szenario des verschlossenen Raums zu verstehen.
+
+<Steps>
+  <Step num="1" title="Sichern Sie den Fallbericht">
+    Finden Sie den Fallbericht im Stone Top Inn. Dieses Dokument, das von Kapitän Seafoam hinterlassen wurde, liefert den notwendigen Kontext für den Mord an Magnus Mortuga und Ihre Anwesenheit im Hafen.
+  </Step>
+  <Step num="2" title="Betreten Sie die Mortuga">
+    Folgen Sie dem grünen Licht zum Hafen und gehen Sie an Bord des U-Boots. Beachten Sie den durchgestrichenen Namen „Seafo“ auf dem Rumpf, der auf die bewegte Geschichte des Schiffes hindeutet.
+  </Step>
+  <Step num="3" title="Analysieren Sie das Gesellschaftszimmer">
+    Untersuchen Sie die Tische und die Kugelfisch-Lampe. Achten Sie auf die „Z-förmige“ (oder S-förmige) Tischanordnung, da der Entwickler Hinweise oft durch die Anordnung der Umgebung direkt vor den Augen der Spieler verbirgt.
+  </Step>
+  <Step num="4" title="Lösen Sie das Schlangen-Zifferblatt-Rätsel">
+    Interagieren Sie mit der metallenen Schlangenstatue. Sie finden dort vier Zifferblätter, die Formen rotieren lassen. Diese Mechanik ist ein Markenzeichen des Rätseldesigns des Entwicklers und erfordert eine sorgfältige Beobachtung der umgebenden Zahlen.
+  </Step>
+  <Step num="5" title="Untersuchen Sie das Illusionstheater">
+    Betreten Sie den Tatort. Untersuchen Sie die Blutspur, den umgestoßenen Hocker (der zu den Hockern im Gasthaus passt) und den verschlossenen Kessel. Bestimmen Sie, ob die Theorie der „Paranoia-Entität“ haltbar ist.
+  </Step>
+</Steps>
+
+| Aktion | Ergebnis | Hinweis |
+|:--- |:--- |:--- |
+| 'Hex des Steuermanns' lesen | Hintergrundwissen zu JD Worman | Zu Beginn in der Nähe von Sally zu finden |
+| Den Hebel ziehen | Beleuchtet das Gesellschaftszimmer | Wichtig, um kleine Hinweise zu sehen |
+| Den Kessel inspizieren | Enthüllt Kratzspuren | Deutet darauf hin, dass etwas darin gefangen war |
+| Das Poster prüfen | Kopfstehende Zeichnung an der Wand | Möglicher Hinweis auf die Perspektive des Mörders |
+
+<Callout type="success" title="Untersuchungstipp">
+Die Kratzspuren im Inneren des Kessels sind das wichtigste Beweisstück. Sie legen nahe, dass das Etwas, das Magnus Mortuga getötet hat, im Kessel eingesperrt gewesen sein könnte, bevor dieser „entriegelt“ wurde.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Wichtige Charaktere und erzählerische Einheiten">
+
+Die erzählerische Tiefe, die der **Entwickler von The Mermaid Mask** bietet, zeigt sich am besten durch seine Charaktere. Selbst diejenigen, die nicht physisch in Erscheinung treten, hinterlassen durch Notizen und Umgebungshinweise eine starke Präsenz.
+
+| Charakter | Rolle | Status |
+|:--- |:--- |:--- |
+| Sally | Hauptermittlerin / Partnerin | Aktiv (Anfangs im Tiefschlaf) |
+| Kapitän Seafoam | Arbeitgeber / U-Boot-Kapitän | Vermisst / Versteckt sich |
+| Magnus Mortuga | Mordopfer | Verstorben |
+| Felicia Stone Top | Gastwirtin / Kontaktperson | In Notizen erwähnt |
+| Sylvia Seafoam | Hafenmeisterin / Kontaktperson | In Notizen erwähnt |
+
+Die Beziehung zwischen Sally und dem Spielercharakter bietet eine geerdete Perspektive in einer ansonsten surrealen Umgebung. Sallys Skepsis gegenüber „vagen paranormalen Einheiten“ balanciert das Bedürfnis des Spielers aus, die eher übernatürlichen Elemente wie das unheimliche grüne Licht und den mysteriösen Kessel zu untersuchen.
+
+<Callout type="info" title="Anmerkung zum Charakter">
+Sallys Kommentar zu ihrer Zahnbürste ist mehr als nur schmückender Text; er verdeutlicht ihre Erwartung einer langen, potenziell gefährlichen Untersuchung und unterstreicht das Ausmaß des Mysteriums, das JD Worman aufgebaut hat.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste zum Abschluss der Demo">
+
+Bevor Sie die Demoversion des Spiels beenden, stellen Sie sicher, dass Sie alle vom **Entwickler von The Mermaid Mask** beabsichtigten Details erkundet haben. Das Übersehen kleiner Hinweise kann zu einem Missverständnis des Rätsels um den verschlossenen Raum führen.
+
+<Checklist
+  id="demo-completion"
+  title="Meilensteine der Untersuchung:"
+  items={[
+    "Den vollständigen Fallbericht im Stone Top Inn lesen",
+    "Die Namensänderung von Seafo zu Mortuga identifizieren",
+    "Den Lichtschalter im Gesellschaftszimmer freischalten",
+    "Die 'Z-förmige' Tischkonfiguration untersuchen",
+    "Das Vier-Zifferblatt-Rätsel an der Schlangenstatue finden",
+    "Die Blutspur im Illusionstheater inspizieren",
+    "Die Herkunft des umgestoßenen Hockers bestätigen"
+  ]}
+/>
+
+Der Entwickler hat geschickt „falsche Fährten“ in der Umgebung platziert, wie die zerbrochene Flasche und das auf dem Kopf stehende Poster. Zwischen diesen und tatsächlichen Hinweisen zu unterscheiden, ist die Kernherausforderung des Spielerlebnisses.
+
+| Hinweistyp | Beispiel | Verlässlichkeit |
+|:--- |:--- |:--- |
+| Physischer Beweis | Kratzspuren im Kessel | **Hoch** |
+| Umgebungshinweis | Hocker, der zum Gasthaus passt | **Hoch** |
+| Erzählerisch | Anweisungen von Kapitän Seafoam | **Mittel** |
+| Visuell | Rosa brennende Lichtquelle | **Niedrig** |
+
+<Callout type="warning" title="Warnung zum letzten Raum">
+Das Illusionstheater ist der letzte Raum in der aktuellen Demo. Sobald Sie den letzten Dialog bezüglich des Kessels auslösen, endet die Demo. Stellen Sie sicher, dass Sie das U-Boot vorher vollständig erkundet haben.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="The Mermaid Mask FAQ">
+
+<FAQ items={[
+  {
+    question: "Wer ist der Entwickler von The Mermaid Mask?",
+    answer: "Das Spiel wird von JD Worman entwickelt, einem Indie-Schöpfer, der für atmosphärische und investigative Horrorspiele mit einer ausgeprägten Low-Poly-Ästhetik bekannt ist."
+  },
+  {
+    question: "Was ist das Geheimnis der Mortuga?",
+    answer: "Die Mortuga ist ein U-Boot, in dem ein Mord in einem 'verschlossenen Raum' geschah. Der Entwickler deutet durch Umgebungshinweise wie den durchgestrichenen Namen 'Seafo' auf eine Meuterei und paranormale Beteiligung hin."
+  },
+  {
+    question: "Gibt es ein Rätsel an der Schlangenstatue?",
+    answer: "Ja, in die Schlangenstatue ist ein Schrank mit vier Zifferblättern eingebaut. Die Spieler müssen Formen in den Fenstern nach einer bestimmten Logik rotieren lassen, die wahrscheinlich mit Zahlen verknüpft ist, die an anderer Stelle im U-Boot zu finden sind."
+  },
+  {
+    question: "Wie komme ich am grünen Licht vorbei?",
+    answer: "Das grüne Licht ist ein Lockmittel. Folgen Sie ihm vom Gasthaus zum Hafen, um das U-Boot zu finden. Das Licht verblasst, sobald Sie das Deck betreten, was signalisiert, dass Sie das beabsichtigte Ziel erreicht haben."
+  }
+]} />
+
+</Section>

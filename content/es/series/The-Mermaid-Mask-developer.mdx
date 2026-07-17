@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desarrollador de The Mermaid Mask: Mecánicas de Juego y Diseño de Misterio",
+  description: "Explora la visión creativa del desarrollador de The Mermaid Mask. Aprende sobre la investigación del submarino, la filosofía de diseño de JD Worman y consejos para la demo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=The+Mermaid+Mask+Developer",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de The Mermaid Mask",
+  keywords: "The Mermaid Mask, desarrollador, JD Worman, mecánicas de juego, misterio, submarino Mortuga, investigación"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **El desarrollador de The Mermaid Mask**: JD Worman es la fuerza creativa detrás de este título de misterio atmosférico, que combina una estética low-poly con una narrativa profunda.
+- **Entorno Atmosférico**: El juego se desarrolla principalmente dentro de un misterioso submarino llamado Mortuga, anteriormente conocido como Seafo.
+- **Jugabilidad Principal**: Los jugadores participan en una investigación al estilo detective, buscando pistas para resolver el asesinato de Magnus Mortuga.
+- **Mecánicas Clave**: La investigación implica interactuar con objetos del entorno, resolver acertijos basados en diales e interpretar archivos de casos crípticos.
+- **Información de la Demo**: La versión actual se centra en el "Teatro de la Ilusión" y el misterio de la habitación cerrada que involucra un extraño caldero.
+</Callout>
+
+<Section icon={Sparkles} title="El Desarrollador de The Mermaid Mask y su Visión Creativa">
+
+La dirección creativa detrás de este título proviene del **desarrollador de The Mermaid Mask**, JD Worman, quien ha diseñado una experiencia de investigación única que prioriza la atmósfera y la narrativa ambiental. Ambientado en un mundo donde la línea entre la realidad y lo paranormal es difusa, el juego invita a los jugadores a ponerse en la piel de investigadores, específicamente Sally y su compañero, mientras navegan por una serie de lugares inquietantes. La elección del desarrollador de un estilo artístico low-poly sirve para aumentar la sensación de aislamiento y pavor, haciendo que cada sombra y luz parpadeante se sienta significativa.
+
+**Puntos destacados del video:**
+- Recorrido detallado de la posada Stone Top Inn y la zona del puerto.
+- Exploración de las salas interiores del submarino Mortuga.
+- Análisis de la escena del crimen en el "Teatro de la Ilusión".
+- Primer vistazo a las mecánicas de acertijos basados en diales.
+- Comentarios sobre la inquietante luz verde del juego y las mecánicas de atracción.
+
+<YouTubeEmbed videoId="4NaqpyytYnM" title="DEMO DE THE MERMAID MASK | Recorrido de jugabilidad" />
+
+La filosofía de diseño enfatizada por el **desarrollador de The Mermaid Mask** gira en torno a "mostrar, no contar". En lugar de una exposición pesada, los jugadores encuentran libros como *Hex of the Helmsman* o taburetes de bar abandonados que insinúan un mundo más amplio. Este método de entrega asegura que el jugador se sienta como un verdadero detective, reconstruyendo la historia del *Dearest Selena* y el motín posterior que llevó a la creación del Mortuga.
+
+| Característica | Descripción | Prioridad del Desarrollador |
+|:--- |:--- |:--- |
+| Estilo Artístico | Low-poly estilizado con iluminación atmosférica | Alta |
+| Narrativa | Narrativa ambiental a través de notas y objetos | Alta |
+| Acertijos | Acertijos de diales basados en la lógica y observación | Media |
+| Entorno | Submarino claustrofóbico y pueblos costeros abandonados | Alta |
+| Audio | Música de vampiros espeluznante con temática de fiesta y ruido ambiental | Media |
+
+<Callout type="tip" title="Perspectiva del Desarrollador">
+Presta mucha atención a los nombres de los barcos y edificios. La transición de "Seafo" a "Mortuga" en el casco del submarino es una pista principal sobre el lore del juego y la naturaleza de la desaparición de la tripulación.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Explorando el Submarino Mortuga: Desglose de Habitaciones">
+
+El núcleo central de la demo es el submarino Mortuga. **El desarrollador de The Mermaid Mask** ha diseñado meticulosamente cada habitación para reflejar la personalidad de sus antiguos habitantes y la tragedia que ocurrió en su interior. El diseño es intencionalmente estrecho, obligando a los jugadores a confrontar los detalles inquietantes del entorno.
+
+<CardGrid cols={2}>
+  <Card title="El Salón">
+    - **Atmósfera**: Presenta una vibra de "fiesta de vampiros" con música ominosa.
+    - **Objetos Clave**: Lámpara de pez globo, vino a medio terminar y cartas de juego.
+    - **Propósito**: Actúa como un espacio de transición que muestra el estilo de vida de la tripulación.
+  </Card>
+  <Card title="El Teatro de la Ilusión">
+    - **Atmósfera**: Una pequeña sección de pasillo renombrada.
+    - **Objetos Clave**: El caldero cerrado y el cuerpo de Magnus Mortuga.
+    - **Propósito**: La escena del crimen principal para el misterio de la habitación cerrada.
+  </Card>
+  <Card title="La Sala de Control">
+    - **Atmósfera**: Sellada con cinta desde el otro lado, inaccesible en la demo.
+    - **Objetos Clave**: Palancas ocultas y notas direccionales del Capitán Seafoam.
+    - **Propósito**: Sirve como barrera narrativa y punto de exploración futura.
+  </Card>
+  <Card title="La Cocina">
+    - **Atmósfera**: Funcional pero abandonada, con ollas y sartenes.
+    - **Objetos Clave**: Pinturas de peces y varios utensilios de cocina.
+    - **Propósito**: Añade a la sensación de que la vasija estaba habitada.
+  </Card>
+</CardGrid>
+
+La transición entre estas habitaciones a menudo está bloqueada por pequeños acertijos o activadores narrativos. Por ejemplo, la luz verde que atrae a los jugadores al submarino es un motivo recurrente utilizado por el **desarrollador de The Mermaid Mask** para guiar el enfoque del jugador hacia puntos críticos de la trama.
+
+| Nombre de la Habitación | Interacción Principal | Significado |
+|:--- |:--- |:--- |
+| Stone Top Inn | Examinar el archivo del caso en la barra | Punto de inicio de la investigación |
+| Cubierta del Submarino | Observar el cambio de nombre a "Mortuga" | Evidencia de motín o cambio de marca |
+| Salón | Inspeccionar las mesas en forma de Z | Pista potencial para acertijos basados en nombres |
+| Estatua de la Serpiente | Resolver el acertijo de los cuatro diales | Desbloquea compartimentos ocultos |
+| Teatro | Examinar el rastro de sangre y el caldero | Resolver el asesinato de Magnus Mortuga |
+
+<Callout type="warning" title="Advertencia de Navegación">
+No ignores la "inquietante luz verde". Aunque actúa como un señuelo, el desarrollador la usa para indicar que el jugador se mueve en la dirección correcta. Seguirla es esencial para progresar en la demo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Investigación Paso a Paso">
+
+Para navegar con éxito por la demo y cumplir con los objetivos establecidos por el **desarrollador de The Mermaid Mask**, los jugadores deben seguir una secuencia específica de observaciones. La investigación no se trata solo de encontrar el cuerpo, sino de comprender el "cómo" y el "por qué" detrás del escenario de la habitación cerrada.
+
+<Steps>
+  <Step num="1" title="Asegurar el Archivo del Caso">
+    Localiza el archivo del caso en la posada Stone Top Inn. Este documento, dejado por el Capitán Seafoam, proporciona el contexto necesario para el asesinato de Magnus Mortuga y tu presencia en el puerto.
+  </Step>
+  <Step num="2" title="Abordar el Mortuga">
+    Sigue la luz verde hasta el puerto y sube al submarino. Nota el nombre "Seafo" tachado en el casco, lo que insinúa la historia problemática de la nave.
+  </Step>
+  <Step num="3" title="Analizar el Salón">
+    Examina las mesas y la lámpara de pez globo. Presta atención a la disposición de las mesas en "forma de Z" (o forma de S), ya que el desarrollador a menudo esconde pistas a plena vista a través del diseño ambiental.
+  </Step>
+  <Step num="4" title="Resolver el Acertijo del Dial de la Serpiente">
+    Interactúa con la estatua de la serpiente de metal. Encontrarás cuatro diales que rotan formas. Esta mecánica es un elemento básico del diseño de acertijos del desarrollador, que requiere una observación cuidadosa de los números circundantes.
+  </Step>
+  <Step num="5" title="Investigar el Teatro de la Ilusión">
+    Entra en la escena del crimen. Examina el rastro de sangre, el taburete volcado (que coincide con los taburetes de la posada) y el caldero cerrado. Determina si la teoría de la "entidad de paranoia" tiene fundamento.
+  </Step>
+</Steps>
+
+| Acción | Resultado | Pista |
+|:--- |:--- |:--- |
+| Leer 'Hex of the Helmsman' | Trasfondo del lore sobre JD Worman | Encontrado cerca de Sally al inicio |
+| Tirar de la Palanca | Ilumina el Salón | Esencial para ver pistas pequeñas |
+| Inspeccionar el Caldero | Revela marcas de arañazos | Sugiere que algo estaba atrapado dentro |
+| Revisar el Póster | Dibujo al revés en la pared | Posible pista sobre la perspectiva del asesino |
+
+<Callout type="success" title="Consejo de Investigación">
+Las marcas de arañazos dentro del caldero son la pieza de evidencia más significativa. Sugieren que lo que sea que mató a Magnus Mortuga podría haber estado contenido dentro del caldero antes de ser "desbloqueado".
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Personajes Clave y Entidades Narrativas">
+
+La profundidad narrativa proporcionada por el **desarrollador de The Mermaid Mask** se ve mejor a través de sus personajes. Incluso aquellos que no aparecen físicamente dejan una fuerte presencia a través de notas e indicios ambientales.
+
+| Personaje | Rol | Estado |
+|:--- |:--- |:--- |
+| Sally | Investigadora Principal / Compañera | Activa (Inicialmente profundamente dormida) |
+| Capitán Seafoam | Empleador / Capitán del Submarino | Desaparecido / Escondido |
+| Magnus Mortuga | Víctima de Asesinato | Fallecido |
+| Felicia Stone Top | Posadera / Contacto | Mencionada en notas |
+| Sylvia Seafoam | Capitana del Puerto / Contacto | Mencionada en notas |
+
+La relación entre Sally y el personaje del jugador proporciona una perspectiva realista en un entorno que de otro modo sería surrealista. El escepticismo de Sally con respecto a las "entidades paranormales vagas" equilibra la necesidad del jugador de investigar los elementos más sobrenaturales, como la inquietante luz verde y el misterioso caldero.
+
+<Callout type="info" title="Nota del Personaje">
+El comentario de Sally sobre el cepillo de dientes es más que un simple texto de relleno; resalta su expectativa de una investigación larga y potencialmente peligrosa, enfatizando la escala del misterio que JD Worman ha construido.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Finalización de la Demo">
+
+Antes de terminar la versión demo del juego, asegúrate de haber explorado todos los detalles previstos por el **desarrollador de The Mermaid Mask**. Omitir pequeñas pistas puede llevar a una mala interpretación del misterio de la habitación cerrada.
+
+<Checklist
+  id="demo-completion"
+  title="Hitos de la Investigación:"
+  items={[
+    "Leer el Archivo del Caso completo en la posada Stone Top Inn",
+    "Identificar el cambio de nombre de Seafo a Mortuga",
+    "Desbloquear el interruptor de luz del Salón",
+    "Examinar la configuración de las mesas en 'forma de Z'",
+    "Encontrar el acertijo de cuatro diales en la estatua de la serpiente",
+    "Inspeccionar el rastro de sangre en el Teatro de la Ilusión",
+    "Confirmar el origen del taburete volcado"
+  ]}
+/>
+
+El desarrollador ha colocado inteligentemente "pistas falsas" por todo el entorno, como la botella rota y el póster al revés. Discriminar entre estas y las pistas reales es el desafío central de la experiencia de juego.
+
+| Tipo de Pista | Ejemplo | Fiabilidad |
+|:--- |:--- |:--- |
+| Evidencia Física | Marcas de arañazos en el caldero | **Alta** |
+| Ambiental | Taburete que coincide con la posada | **Alta** |
+| Narrativa | Direcciones del Capitán Seafoam | **Media** |
+| Visual | Fuente de luz rosa ardiente | **Baja** |
+
+<Callout type="warning" title="Advertencia de la Sala Final">
+El Teatro de la Ilusión es la sala final de la demo actual. Una vez que actives el diálogo final sobre el caldero, la demo concluirá. Asegúrate de haber explorado el submarino por completo antes de esto.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes de The Mermaid Mask">
+
+<FAQ items={[
+  {
+    question: "¿Quién es el desarrollador de The Mermaid Mask?",
+    answer: "El juego es desarrollado por JD Worman, un creador independiente conocido por juegos de terror atmosféricos e investigativos con una estética low-poly distintiva."
+  },
+  {
+    question: "¿Cuál es el misterio del Mortuga?",
+    answer: "El Mortuga es un submarino donde ocurrió un asesinato en una 'habitación cerrada'. El desarrollador insinúa un motín y participación paranormal a través de pistas ambientales como el nombre tachado 'Seafo'."
+  },
+  {
+    question: "¿Hay un acertijo en la estatua de la serpiente?",
+    answer: "Sí, hay un gabinete integrado en la estatua de la serpiente con cuatro diales. Los jugadores deben rotar las formas en las ventanas para que coincidan con una lógica específica, probablemente vinculada a números encontrados en otras partes del submarino."
+  },
+  {
+    question: "¿Cómo progreso más allá de la luz verde?",
+    answer: "La luz verde es un señuelo. Síguela desde la posada hasta el puerto para encontrar el submarino. La luz se desvanece una vez que subes a la cubierta, indicando que has llegado al destino previsto."
+  }
+]} />
+
+</Section>

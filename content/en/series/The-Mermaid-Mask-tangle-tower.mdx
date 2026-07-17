@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mermaid Mask Tangle Tower: Demo Walkthrough & Puzzle Guide",
+  description: "Master the NextFest demo of The Mermaid Mask (Tangle Tower sequel) with this walkthrough, puzzle solutions, and locked-room mystery breakdown.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Demo+Walkthrough",
+  date: "2026-07-18",
+  author: "The Mermaid Mask Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary gameplay** in **The Mermaid Mask tangle tower** demo revolves around point-and-click exploration and 3D clue inspection.
+- **Solve the Mess Hall puzzle** by matching the number of sides on shapes (triangle, square, pentagon) with the numbers on the dials.
+- **Deduce the locked-room mystery** in the Illusion Theater by using the custom Mind Game sentence builder.
+- **Unlock the Art Gallery** after completing the demo to view development sketches, 3D wireframes, and developer commentary.
+</Callout>
+
+<Section icon={Map} title="The Mermaid Mask Tangle Tower Overview">
+
+The point-and-click adventure genre welcomes a stylized addition with the release of the NextFest demo for **The Mermaid Mask tangle tower**. Developed by SFB Games, this sequel brings back the beloved detective duo, Detective Grimoire and Sally, to solve a locked-room murder mystery aboard a fantastical submarine. The game departs from traditional point-and-click systems by removing highlighted hotspots, encouraging players to click on any background element to trigger fully voiced, witty interactions. 
+
+**Video Highlights:**
+- **Point-and-click mechanics** allow players to click on any background element for fully voiced dialogue and character interactions.
+- **3D clue rotation** lets you spin, open, and shake evidence to find hidden details.
+- **Seamless voice acting** features Edwin Tang and Amberly Connor as the main detective duo.
+
+<YouTubeEmbed videoId="68dc0HQ2FkQ" title="Tangle Tower Devs Play (and pick apart) Their Next Game │ The Mermaid Mask" />
+
+<Callout type="info" title="Development Insight">
+The submarine setting is designed to feel luxurious and spacious, drawing heavy inspiration from Captain Nemo's Nautilus in 20,000 Leagues Under the Sea rather than cramped military vessels.
+</Callout>
+
+This design philosophy creates a highly atmospheric experience where character development and humor are woven into every interactable object. To help you navigate the initial stages of this nautical investigation, this guide covers the core mechanics, key locations, and puzzle solutions present in the 2026 demo.
+
+| Feature | Specification |
+|---|---|
+| Developer | SFB Games |
+| Lead Protagonists | Detective Grimoire / Sally |
+| Primary Setting | Silkworm Sea / Mortuga Submarine |
+| Clue Rendering | 3D models with hand-painted textures |
+| Audio Support | Full voice acting / Orchestral soundtrack |
+
+</Section>
+
+<Section icon={Target} title="Exploring Silkworm Sea and the Mortuga Submarine">
+
+The demo begins at 4:00 AM in Silkworm Sea, an abandoned fishing town shrouded in mystery. After waking Sally from her slumber, an eerie green light emanating from the water lures the detectives to the deck of the Mortuga submarine. 
+
+Upon boarding, players will notice the submarine was originally named "Seafoam" before being crossed out and replaced with "Mortuga," hinting at a sinister backstory or mutiny. Exploring the exterior deck reveals several interactive elements, including an old rowing boat with a single oar and a mysterious wooden buoy sculpted to look like a boy.
+
+<Callout type="warning" title="Clue Examination">
+Always rotate 3D clues fully. Some items, like books or containers, can be opened to reveal hidden text, dedicated pages, or physical items tucked inside.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Silkworm Sea Town">
+    - **Abandoned fishing village**
+    - Acts as the narrative anchor
+    - Contains the Stone Top Inn and old lighthouse
+  </Card>
+  <Card title="Submarine Exterior">
+    - **The Mortuga fore deck**
+    - Features the mysterious wooden boy buoy
+    - Clues point to a sudden name change from Seafoam
+  </Card>
+  <Card title="Luxurious Parlor">
+    - **First interior room**
+    - Decorated with heavy vampire party aesthetics
+    - Contains locked access to the control room
+  </Card>
+</CardGrid>
+
+To progress deeper into the vessel, players must interact with the hatch and descend into a surprisingly luxurious parlor. The room features a vintage speaker playing haunting music, a massive portrait titled "Her," and bookshelves filled with literature dedicated to the deep ocean.
+
+| Clue Name | Location | Key Detail | 3D Interaction |
+|---|---|---|---|
+| Hex the Houndsman | Sally's floor | Fantasy paperback novel | Open cover to read page one |
+| Case File | Starting inventory | Details Magnus Mortuga's death | Rotate to view back of envelope |
+| Wooden Boy | Submarine fore deck | Lures players with green light | Spin to peer inside the hollow frame |
+| Large Portrait | Submarine Parlor | Titled "Her" with rear inscription | Flip to read the hidden symbol |
+
+</Section>
+
+<Section icon={Sparkles} title="Solving the Mess Hall Cabinet Puzzle">
+
+As you venture further into the submarine, you will encounter the Mess Hall, which features a massive metal statue of a sea serpent. Built into this statue is a locked cabinet containing a vital piece of evidence. The lock mechanism consists of four dials, each surrounded by small windows that display geometric shapes when turned.
+
+The key to solving this puzzle lies in the relationship between the target numbers displayed in the center of the dials and the number of sides on the shapes appearing in the adjacent windows.
+
+<Steps>
+  <Step num="1" title="Examine the Serpent Statue">
+    Locate the locked cabinet in the Mess Hall/Kitchen area and click on the dial mechanism to zoom in.
+  </Step>
+  <Step num="2" title="Analyze the Shapes">
+    Rotate the dials to see which shapes (triangles, squares, pentagons) appear in the windows. Note that triangles represent 3, squares represent 4, and pentagons represent 5.
+  </Step>
+  <Step num="3" title="Match Sides to Numbers">
+    Align the shapes so their collective side count matches the central dial numbers. For example, a dial displaying '3' requires a triangle in its window.
+  </Step>
+  <Step num="4" title="Claim the Sun Tablets">
+    Once all four dials are correctly aligned, press the confirmation button to open the cabinet and retrieve the Sun Tablets.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dynamic Hint System">
+If you struggle with any puzzle, failing it three times unlocks progressive hints from Grimoire and Sally, detailing the puzzle mechanics without giving away the final solution.
+</Callout>
+
+The Sun Tablets clue is a highly detailed 3D bottle. When rotated, you can see individual tablets shaking inside the translucent glass. This bottle features a hand-painted sun emblem, which directly contrasts with evidence found later in the investigation.
+
+| Shape Type | Number of Sides | Dial Target Examples | Puzzle Role |
+|---|---|---|---|
+| Triangle | 3 | Target 3 | Direct match for three-sided slots |
+| Square | 4 | Target 4 | Direct match for four-sided slots |
+| Pentagon | 5 | Target 5 | Direct match for five-sided slots |
+| Combined Shapes | Variable | Targets 7 / 8 / 9 | Requires careful layout elimination |
+
+</Section>
+
+<Section icon={Swords} title="Illusion Theater Crime Scene & Mind Palace Deduction">
+
+The climax of the demo takes place in the Illusion Theater, a cramped, eerie corridor located at the very back of the submarine. This is the official crime scene where Captain Magnus Mortuga was discovered dead inside a locked room. 
+
+The victim lies on his back with a deep cut across his neck and an ancient stone cauldron resting at his feet. Strangely, no murder weapon is present in the room, setting up a classic impossible crime scenario.
+
+<Callout type="tip" title="Mind Game Logic">
+Do not guess randomly. Read the connecting phrases aloud to ensure they flow logically. The game features full voice acting for incorrect sentences, which can sometimes offer subtle clues.
+</Callout>
+
+To solve this initial chapter, players must use the "Mind Game" deduction interface. This mechanic represents Detective Grimoire's mental process, requiring you to construct a logical sentence by selecting subjects, verbs, and objects from your gathered evidence.
+
+| Evidence Item | Physical State | Narrative Clue | Analytical Action |
+|---|---|---|---|
+| Stone Cauldron | Open / contains crystal | Supposedly never unlocked before | Spin to find scratch marks inside |
+| Broken Moon Vial | Spilled liquid on floor | Complements the Sun Tablets | Examine translucent glass bottom |
+| Flipped Poster | Taped upside down | Magic show advertisement | Rotate to view sketch layout on back |
+| Blood Trail | Pooled near neck | Leads toward the back of the sub | Follow path to analyze movement |
+
+To successfully complete the deduction and transition into Chapter 1, construct the following sentence in the Mind Game interface: 
+
+**"Magnus Mortuga unlocked the cauldron and was killed by what was inside."**
+
+After submitting this deduction, the game prompts you to point out a physical detail on the stone cauldron. Rotate the cauldron to peer inside, select the scratch marks along the inner rim, and confirm your selection to complete the demo.
+
+</Section>
+
+<Section icon={Trophy} title="Post-Game Content and Art Gallery">
+
+Completing the demo grants players access to the Art Gallery, a special feature that remains fully unlocked in the final release once the credits roll. This gallery offers a fascinating look behind the scenes of the game's development, showcasing the transition from 2D sketches to 3D hand-painted models.
+
+The gallery features extensive annotations by lead concept artist Katherine Anger and 3D artist Kindra. These notes detail early character designs for Captain Mortuga, environmental layouts for the Stone Top Inn, and the technical challenges of creating unlit, wobbly 3D models that perfectly mimic the aesthetic of 2D paintings.
+
+<Checklist
+  id="demo-completion"
+  title="Demo Completion Checklist:"
+  items={[
+    "Complete the introductory investigation in Silkworm Sea",
+    "Find and inspect all 5 primary clues",
+    "Solve the Mess Hall serpent statue dial puzzle",
+    "Complete the Mind Game deduction in the Illusion Theater",
+    "Unlock and explore the Art Gallery archive"
+  ]}
+/>
+
+<Callout type="success" title="Wishlist and Prequels">
+After completing the demo, consider adding the game to your Steam wishlist. You can also play Tangle Tower, the previous game in the series, which features similar hand-painted mechanics and is often discounted.
+</Callout>
+
+The level of detail in the Art Gallery highlights the immense care put into every pixel of this adventure. It serves as an excellent reward for players who take the time to thoroughly investigate every nook and cranny of the Mortuga submarine.
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do I need to play Tangle Tower before playing The Mermaid Mask?",
+    answer: "No. While both games share the same detective duo and exist within a connected narrative universe, this title is designed as a standalone mystery that anyone can jump into and enjoy."
+  },
+  {
+    question: "How do I get hints for the puzzles in the game?",
+    answer: "The game features a progressive hint system. If you attempt a puzzle and fail three times, Grimoire and Sally will discuss the mechanism, providing three levels of increasingly helpful dialogue hints."
+  },
+  {
+    question: "What is the correct solution for the Mind Game in the Illusion Theater?",
+    answer: "The correct sentence structure to progress past the demo is: 'Magnus Mortuga unlocked the cauldron and was killed by what was inside.' You must then point out the scratch marks inside the cauldron."
+  },
+  {
+    question: "Is there any missable content in the demo of The Mermaid Mask tangle tower?",
+    answer: "Yes. Because you can click on absolutely anything for voiced dialogue, rushing straight to the crime scene will cause you to miss out on dozens of unique jokes, character interactions, and world-building details."
+  }
+]} />
+
+<Callout type="info" title="More Guides">
+For more deep dives into the lore of Silkworm Sea and character profiles, check our updated wiki repository.
+</Callout>
+
+</Section>

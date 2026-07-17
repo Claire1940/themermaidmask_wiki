@@ -1,46 +1,76 @@
 {
   "categories": [
     {
-      "category": "指南",
+      "category": "攻略",
       "keywords": [
-        "lucid blocks 指南"
+        "The Mermaid Mask 攻略",
+        "The Mermaid Mask 流程",
+        "The Mermaid Mask 全流程",
+        "The Mermaid Mask demo 流程",
+        "The Mermaid Mask 通关时长"
       ]
     },
     {
-      "category": "合成",
+      "category": "谜题",
       "keywords": [
-        "lucid blocks 合成配方",
-        "lucid blocks 神化系统"
+        "The Mermaid Mask 谜题解答",
+        "The Mermaid Mask 船谜",
+        "The Mermaid Mask 公告板谜题",
+        "The Mermaid Mask 打字机谜题",
+        "The Mermaid Mask 线索位置"
       ]
     },
     {
-      "category": "物品",
+      "category": "发布",
       "keywords": [
-        "lucid blocks 信仰法杖",
-        "lucid blocks 蜜蜂滑翔器",
-        "lucid blocks 箱子",
-        "lucid blocks 锇"
+        "The Mermaid Mask 发售日期",
+        "The Mermaid Mask Switch 发售",
+        "The Mermaid Mask 试玩版",
+        "The Mermaid Mask Steam 新品节",
+        "The Mermaid Mask 最新消息"
       ]
     },
     {
-      "category": "生物群系",
+      "category": "平台",
       "keywords": [
-        "lucid blocks 提亚玛纳地脉"
+        "The Mermaid Mask 平台",
+        "The Mermaid Mask Switch",
+        "The Mermaid Mask PS5",
+        "The Mermaid Mask Steam",
+        "The Mermaid Mask 价格",
+        "The Mermaid Mask 美服 eShop",
+        "The Mermaid Mask macOS",
+        "The Mermaid Mask iOS",
+        "The Mermaid Mask Xbox"
       ]
     },
     {
-      "category": "建造",
+      "category": "评测",
       "keywords": [
-        "lucid blocks 感质空间"
+        "The Mermaid Mask 评测",
+        "The Mermaid Mask Metacritic 评分",
+        "The Mermaid Mask CreativeBloq 评测",
+        "The Mermaid Mask Edge 评测"
       ]
     },
     {
-      "category": "技术支持",
+      "category": "系列",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks 全屏",
-        "lucid blocks 多人模式",
-        "lucid blocks 安卓版"
+        "The Mermaid Mask 侦探格里莫尔",
+        "The Mermaid Mask Tangle Tower",
+        "The Mermaid Mask SFB Games",
+        "The Mermaid Mask 开发商",
+        "The Mermaid Mask 角色",
+        "The Mermaid Mask 配音演员",
+        "The Mermaid Mask 演员表"
+      ]
+    },
+    {
+      "category": "媒体",
+      "keywords": [
+        "The Mermaid Mask 预告片",
+        "The Mermaid Mask 发售预告",
+        "The Mermaid Mask 原声带"
       ]
     }
   ]

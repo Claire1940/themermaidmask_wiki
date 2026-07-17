@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Search, BookOpen, Microscope } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mermaid Mask sfb games: Detective Strategy & Puzzle Guide",
+  description: "Master the mysteries of Silkworm Sea with our guide to The Mermaid Mask sfb games. Learn about 3D clues, the Mind Game, and submarine puzzles.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=The+Mermaid+Mask+Guide",
+  date: "2026-07-18",
+  author: "The Mermaid Mask Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Mermaid Mask sfb games** is a point-and-click detective adventure featuring Detective Grimoire and Sally.
+- **Core Mechanic**: Inspect fully 3D clues that maintain a hand-painted 2D aesthetic to find hidden secrets.
+- **Investigation Style**: There are no highlighted hotspots; players must click everything to hear fully voiced character interactions.
+- **The Mystery**: Solve the locked-room murder of Magnus Mortuga aboard a luxurious, fantasy-inspired submarine.
+- **Logic System**: Use the "Mind Game" to connect subjects and statements into cohesive logical conclusions.
+</Callout>
+
+<Section icon={Search} title="Investigation Mechanics in Silkworm Sea">
+
+The Mermaid Mask sfb games represents a significant evolution in the detective genre, specifically building upon the foundation laid by its predecessor, *Tangle Tower*. Set in the eerie, abandoned fishing town of Silkworm Sea, the game tasks players with exploring a mysterious submarine to solve a seemingly impossible murder. Unlike traditional point-and-click games that rely on "pixel hunting" or glowing hotspots, this title encourages total environmental interaction. Every object on screen, from a discarded bottle to a massive stone cauldron, triggers fully voiced dialogue between Detective Grimoire and Sally, providing deep character development and subtle world-building.
+
+**Video Highlights:**
+- **Developer Insights**: Adam and Tom Vian explain the transition from 2D to 3D clues while keeping the artistic integrity.
+- **Gameplay Flow**: A walkthrough of the opening sequence from the town square to the submarine's interior.
+- **Puzzle Preview**: Demonstration of the mechanical "Serpent Cabinet" puzzle and the hint system.
+- **The Mind Game**: How to assemble logical sentences to progress the story.
+
+<YouTubeEmbed videoId="68dc0HQ2FkQ" title="Tangle Tower Devs Play Their Next Game │ The Mermaid Mask" />
+
+The investigation is split between environmental exploration and deep-dive clue analysis. When a clue is found, it is added to your Case File, allowing you to rotate it in a full 3D space. This is essential for finding inscriptions on the back of posters or hidden compartments in bottles.
+
+| Character | Role | Primary Personality Trait | Voice Actor |
+| :--- | :--- | :--- | :--- |
+| **Detective Grimoire** | Lead Investigator | Self-styled, dramatic, intuitive | Edwin Tang |
+| **Sally** | Technical Partner | Practical, knowledgeable, sarcastic | Amberly Connor |
+| **Magnus Mortuga** | Murder Victim | Mysterious submarine captain | N/A |
+| **Captain Seafoam** | Suspect | Reclusive, potentially hostile | TBA |
+
+<Callout type="tip" title="Pro Tip">
+Always click on Sally while in a new room. Her dialogue often contains "hidden" knowledge about geography or literature that provides context for the items you find.
+</Callout>
+
+</Section>
+
+<Section icon={Microscope} title="Analyzing 3D Clues and the Case File">
+
+One of the standout features of The Mermaid Mask sfb games is the 3D clue system. Inspired by the *Ace Attorney* and *Resident Evil* series, every item found can be manipulated. This isn't just for show; the game uses a dynamic outline shader to make 3D models look exactly like 2D paintings, ensuring the art style remains consistent.
+
+<CardGrid cols={3}>
+  <Card title="Rotation & Inspection">
+    - **Flip Items**: Check the back of posters and paintings for hidden notes.
+    - **Open Containers**: Shake or open bottles to see contents like tablets or liquid.
+    - **Detail Zoom**: Focus on specific scratches or marks to trigger new dialogue.
+  </Card>
+  <Card title="The Case File">
+    - **Victim Stats**: Tracks details about Magnus Mortuga's cause of death.
+    - **Suspect List**: Keeps tabs on all eight suspects encountered on the submarine.
+    - **Evidence Log**: Stores all collected clues for later use in the Mind Game.
+  </Card>
+  <Card title="Environmental Logic">
+    - **Furniture Design**: Notice if a stool matches the bar stools in town.
+    - **Thematic Links**: Connect "Sun" and "Moon" motifs across different rooms.
+    - **Sound Cues**: Listen for spooky music or eerie mechanical hums.
+  </Card>
+</CardGrid>
+
+When inspecting the murder scene in the Illusion Theater, you must pay close attention to the spatial relationship between the victim and the environment. Mortuga was found in a locked room with an ancient stone cauldron at his feet. The lack of a weapon suggests that the environment itself—or something hidden within it—is the key to the mystery.
+
+| Clue Type | Investigation Method | Example from Game |
+| :--- | :--- | :--- |
+| **Paper Clues** | Rotate to see the back/underside | Magic Show Poster, Stargazing Girl Cloth |
+| **Mechanical Clues** | Interact with dials or levers | Serpent Cabinet, Bulkhead Door |
+| **Liquid/Glass** | Look through translucent surfaces | Sun Tablet Bottle, Moon Vial |
+| **Environmental** | Compare with other locations | Bar Stool, Stone Top Emblem |
+
+<Callout type="warning" title="Critical Detail">
+The blood trail in the Illusion Theater is non-linear. It pools out before changing direction, suggesting the body or the weapon was moved after the initial wound was inflicted.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Solving Mechanical and Logic Puzzles">
+
+Puzzles in The Mermaid Mask sfb games are designed to be "in-world" mechanisms. This means they are physical locks or systems that characters have placed there for a reason, rather than abstract brain teasers. For example, the Serpent Cabinet in the Mess Hall is a mechanical lock that protects a bottle of Sun Tablets.
+
+<Steps>
+  <Step num="1" title="Initial Interaction">
+    Click on the puzzle to bring up the interaction screen. Read the basic instructions provided by Grimoire or Sally.
+  </Step>
+  <Step num="2" title="Trial and Error">
+    Fiddle with the dials or levers. If you attempt a solution and fail, the characters will begin to discuss the puzzle.
+  </Step>
+  <Step num="3" title="Hint Level 1">
+    After the first failure, the characters provide a general observation about the mechanics (e.g., "Those numbers must mean something").
+  </Step>
+  <Step num="4" title="Hint Level 2">
+    The second failure triggers a more specific hint, narrowing down the logic required (e.g., "The shapes have different numbers of sides").
+  </Step>
+  <Step num="5" title="The 'Aha' Moment">
+    Use the gathered information to align the mechanism correctly. For the Serpent puzzle, the solution involves matching the number of sides on a shape to the digit shown in the window.
+  </Step>
+</Steps>
+
+| Puzzle Element | Logic Required | Difficulty (1-5) |
+| :--- | :--- | :--- |
+| **Serpent Cabinet** | Geometry / Side Counting | ★★☆☆☆ |
+| **Illusion Theater Door** | Environmental Observation | ★★★☆☆ |
+| **Mind Game Conclusions** | Narrative Logic / Deduction | ★★★★☆ |
+| **Art Gallery Unlocks** | Progression / Completion | ★☆☆☆☆ |
+
+<Callout type="success" title="Deduction Tip">
+The game never solves the puzzle for you. Even with three hints, you must physically input the correct sequence. This ensures that the "Aha!" moment belongs entirely to the player.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="The Mind Game: Forming Logical Conclusions">
+
+The "Mind Game" is the core narrative engine of The Mermaid Mask sfb games. It represents the detectives' thought processes as they reach a breakthrough. Instead of selecting a single answer from a list, you must construct a complete sentence using various subjects and connecting statements.
+
+**How the Mind Game Works:**
+- **Subject Selection**: Choose the person or object you are discussing (e.g., Magnus Mortuga).
+- **Action/Connection**: Choose what they did or what happened to them (e.g., "unlocked the cauldron").
+- **Result/Conclusion**: Choose the outcome or the implication (e.g., "and was killed by what was inside").
+
+If your sentence is incorrect, Grimoire will read it aloud anyway, often resulting in humorous but logically flawed statements. The game provides feedback by telling you how many parts of your sentence are correct (e.g., "3 out of 4 pieces are right"). This encourages you to refine your logic rather than guess blindly.
+
+| Mind Game Component | Purpose | Example |
+| :--- | :--- | :--- |
+| **Subject** | The 'Who' or 'What' | Magnus Mortuga / The Wooden Boy |
+| **Verb/Action** | The 'Did What' | Unlocked / Frame / Hidden |
+| **Object/Location** | The 'Where' or 'To Whom' | The Cauldron / The Bulkhead Door |
+| **Consequence** | The 'Result' | Was killed by what was inside |
+
+<Callout type="info" title="Narrative Flow">
+Mind Games often occur at the end of a chapter or after finding a critical piece of evidence. They are the only way to "lock in" your progress and move the story into the next phase.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="The Art Gallery and Development Secrets">
+
+For fans of the creative process, the Art Gallery in The Mermaid Mask sfb games offers a deep dive into how the game was made. Unlocked as you progress, this feature includes concept art, developer notes, and 3D wireframes.
+
+<Checklist
+  id="gallery-milestones"
+  title="Art Gallery Unlock Goals:"
+  items={[
+    "Collect all 3D clue previews to see the 2D-to-3D transformation.",
+    "Read Katherine Ager's notes on character silhouettes and color palettes.",
+    "Find the discarded 'Garlic Tablet' concept for the Sun Tablets.",
+    "View the early black-and-white layouts for the Silkworm Sea town square.",
+    "Unlock the 'Behind the Scenes' commentary on the orchestral soundtrack."
+  ]}
+/>
+
+The gallery is annotated by the developers, providing context on why certain ideas were cut. For instance, early designs of the submarine were much more cramped and "military-style" before the team decided on a more luxurious, Nautilus-inspired fantasy aesthetic. This ensures that the environment feels like a place of storytelling rather than just a functional vessel.
+
+<Callout type="tip" title="Completionist Advice">
+Don't check the Art Gallery until after you finish a chapter. The notes often contain spoilers regarding why a certain object was designed a specific way, which might give away a puzzle solution early.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do I need to play Tangle Tower before The Mermaid Mask sfb games?",
+    answer: "No. While there are thematic links and returning characters like Grimoire and Sally, the story is a standalone mystery designed for new players."
+  },
+  {
+    question: "How does the hint system work for difficult puzzles?",
+    answer: "The game offers three levels of hints. Each time you fail a puzzle, the characters discuss it, providing increasingly specific information without solving it for you."
+  },
+  {
+    question: "What is the 'Mind Game' mechanic?",
+    answer: "It is a logical deduction system where you assemble sentences from subjects and actions to reach a conclusion about the murder mystery."
+  },
+  {
+    question: "Can I miss clues in The Mermaid Mask sfb games?",
+    answer: "The game is designed so that critical clues are necessary for progression, but environmental flavor text and certain Art Gallery unlocks require thorough exploration."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Search, BookOpen, Anchor, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mermaid Mask guide: Walkthrough, Puzzles & Clues",
+  description: "Master the demo of The Mermaid Mask with our guide. Solve the serpent dial puzzle, analyze the crime scene, and find every hidden clue in Silkworm-on-Sea.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=The+Mermaid+Mask+Guide",
+  date: "2026-07-18",
+  author: "The Mermaid Mask Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **The Mermaid Mask guide**: Focuses on the initial investigation of Captain Magnus Mortuga's murder aboard the Mortuga submarine.
+- **Key Mechanic**: Investigation involves point-and-click exploration, dialogue analysis, and environmental puzzle-solving.
+- **Serpent Puzzle**: Requires aligning four dials (Square, Triangle, Circle, Diamond) to specific numbers based on a provided hint.
+- **Critical Clue**: The ancient stone cauldron in the Illusion Theater was found unlocked for the first time, containing mysterious scratches.
+- **Investigation Duo**: Control Detective Grimoire and his assistant Sally as they navigate the eerie town of Silkworm-on-Sea.
+</Callout>
+
+<Section icon={Map} title="Investigation Start: The Stone Top Inn">
+
+The journey begins at the Stone Top Inn in the desolate town of Silkworm-on-Sea. It is 4:00 AM, and Detective Grimoire is already on the clock while his partner, Sally, attempts to get some much-needed rest. Your first objective is to examine the case file left on the bar, which sets the stage for the mystery unfolding in the depths.
+
+**Video Highlights:**
+- **Initial Briefing**: Reviewing the case file for Captain Magnus Mortuga.
+- **Town Exploration**: Navigating Silkworm-on-Sea and spotting the green light.
+- **Submarine Entry**: Boarding the Mortuga and meeting the eerie "Wooden Boy."
+
+<YouTubeEmbed videoId="LfRCq_7ZSU8" title="The Mermaid Mask (Demo) Walkthrough" />
+
+The case file reveals that Captain Magnus Mortuga, aged 39, was found dead in the Illusion Theater of his own submarine. The room was locked from the inside, and while his throat was slit, no weapon was found at the scene. This "locked-room mystery" is the core of **The Mermaid Mask guide** for this demo.
+
+| Character | Role | Key Information |
+| :--- | :--- | :--- |
+| **Detective Grimoire** | Lead Investigator | Experienced detective sent to solve the Mortuga murder. |
+| **Sally** | Assistant | Grimoire's partner; currently reading *Hex the Helmsman*. |
+| **Magnus Mortuga** | Victim | Captain of the Mortuga submarine; found in a locked room. |
+| **Captain Seafoam** | Former Captain | The man who hired the detectives and left the case file. |
+
+<Callout type="tip" title="Detective's Advice">
+Always check Sally's inventory. In the demo, she is carrying a novel called *Hex the Helmsman* by JD Worman. Reading the back cover and the first chapter provides flavor text that hints at the nautical fantasy themes of the game.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="Boarding the Mortuga Submarine">
+
+After leaving the inn, an eerie green light lures the duo toward the harbor. You will navigate through the Town Square, passing a fountain featuring the "Silkworm Serpent"—a creature that looks more like a dragon with legs than a traditional serpent. Upon reaching the dock, you encounter the Mortuga submarine.
+
+<CardGrid cols={2}>
+  <Card title="The Wooden Boy">
+    A nightmarish wooden buoy chained to the deck. It has a face and glowing green eyes that acted as the lure to bring you to the ship.
+  </Card>
+  <Card title="The Drawing Room">
+    The first interior room of the submarine. It features a strange painting titled "Her" and a lever that controls the lighting system.
+  </Card>
+</CardGrid>
+
+Inside the submarine, the atmosphere shifts from nautical exploration to Gothic mystery. The "Drawing Room" (short for "Withdrawing Room") contains several points of interest, including a half-finished glass of wine and a speaker playing "vampire party" music.
+
+| Feature | Observation | Significance |
+| :--- | :--- | :--- |
+| **"Her" Painting** | Large, ornate wood frame | Displays an unknown being; has a brass plaque. |
+| **Pink Candles** | Lit after pulling the lever | Provides a strange, atmospheric glow to the room. |
+| **Control Room** | Taped shut from the inside | Captain Seafoam appears to be hiding here from the detectives. |
+
+<Callout type="warning" title="Locked Doors">
+The Control Room is currently inaccessible. A note taped to the window directs you to the crime scene one floor down at the back of the submarine.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Solving the Serpent Statue Dial Puzzle">
+
+As you descend into the Mess Hall, you are blocked by a large metal statue of a serpent. This statue contains a built-in cabinet that is locked by a mechanical dial puzzle. To progress in **The Mermaid Mask guide**, you must align four geometric symbols with their corresponding numbers.
+
+<Steps>
+  <Step num="1" title="Examine the Hint">
+    Look at the top right of the puzzle screen to see the required arrangement of shapes and numbers.
+  </Step>
+  <Step num="2" title="Rotate the Dials">
+    Interact with the four dials to move the Square, Triangle, Circle, and Diamond into place.
+  </Step>
+  <Step num="3" title="Confirm the Positions">
+    The Square must be on 4, the Triangle on 3, and the Circle/Diamond on their respective points as shown in the hint.
+  </Step>
+  <Step num="4" title="Collect the Reward">
+    Once aligned, the cabinet opens to reveal a bottle of "Sun Tablets."
+  </Step>
+</Steps>
+
+| Symbol | Target Number | Item Found |
+| :--- | :--- | :--- |
+| **Square** | 4 | Brown glass bottle |
+| **Triangle** | 3 | Sun Tablets (Z-shaped) |
+| **Circle** | 9 | Happy/Sunshine pills |
+
+<Callout type="success" title="Puzzle Solved">
+Solving this puzzle is mandatory to move deeper into the submarine. The Sun Tablets found here will be compared against the Moon Vial found later at the crime scene.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Crime Scene Analysis: The Illusion Theater">
+
+The Illusion Theater is where the tragedy occurred. The room is small, cramped, and was found locked from the inside. Following the trail of blood leads you to the body of Captain Mortuga, lying on his back in front of a massive stone cauldron.
+
+**Evidence Collected:**
+- **Moon Vial**: A smashed glass bottle on the floor containing a purple liquid with a botanical scent.
+- **Sail Cloth**: A thick piece of silk cloth found hanging on the wall.
+- **Stargazing Girl Banner**: A rebranding of the theater, formerly known for different performances.
+- **The Cauldron**: An ancient stone container with deep scratches on the inside.
+
+| Evidence Item | Location | Description |
+| :--- | :--- | :--- |
+| **Smashed Moon Vial** | Near the body | Labeled with a moon; spilled purple liquid. |
+| **Stone Cauldron** | At Mortuga's feet | Marked with barnacles and internal scratches. |
+| **Upside-down Poster** | Taped to the wall | Advertising "Lady of the Looking Glass." |
+| **Blood Trail** | Floor | Leads from the neck wound toward the back of the room. |
+
+<Callout type="info" title="The Cauldron Mystery">
+The case file states the cauldron has never been unlocked before, yet it was found open at the crime scene. The internal scratches suggest something—perhaps something with claws—was trapped inside.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Investigation Milestones & Checklist">
+
+To successfully complete the demo and prepare for the full release of **The Mermaid Mask**, ensure you have interacted with every key object and dialogue trigger. The interaction between Grimoire and Sally provides essential context for the "mutiny vibes" felt throughout the ship.
+
+<Checklist
+  id="demo-completion"
+  title="Investigation Checklist:"
+  items={[
+    "Read the full case file at the Stone Top Inn",
+    "Examine Sally's book 'Hex the Helmsman'",
+    "Unlock the Serpent Statue cabinet in the Mess Hall",
+    "Inspect the smashed Moon Vial in the Illusion Theater",
+    "Analyze the internal scratches in the Stone Cauldron",
+    "Trigger the final dialogue regarding the 'Curse in the Cauldron'"
+  ]}
+/>
+
+<Callout type="tip" title="Final Deduction">
+The demo concludes with a realization: Mortuga died from a clean cut across the neck in a room with no weapon. Grimoire suspects the "scratches" in the cauldron hold the key to the murderer's identity.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where do I find the case file in The Mermaid Mask guide?",
+    answer: "The case file is located on the bar of the Stone Top Inn at the very beginning of the game. You must read it to unlock travel to the harbor."
+  },
+  {
+    question: "How do I solve the dial puzzle on the serpent statue?",
+    answer: "Look at the hint in the top right corner of the puzzle interface. You need to rotate the dials so the Square aligns with 4, the Triangle with 3, and the other shapes match the diagram."
+  },
+  {
+    question: "What is the significance of the Moon Vial?",
+    answer: "The Moon Vial was found smashed near Captain Mortuga's body. It contained a purple liquid with a botanical scent, contrasting with the Sun Tablets found in the Mess Hall."
+  },
+  {
+    question: "Is there a weapon found in the Illusion Theater?",
+    answer: "No. Despite the victim having a slit throat, no blade or weapon was found in the locked room, suggesting a paranormal or highly unusual method of murder."
+  }
+]} />
+
+</Section>

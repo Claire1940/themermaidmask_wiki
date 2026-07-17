@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Search, BookOpen, Microscope } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "The Mermaid Mask sfb games: Detektiv-Strategie & Rätsel-Guide",
+  description: "Meistere die Geheimnisse von Silkworm Sea mit unserem Guide zu The Mermaid Mask sfb games. Erfahre mehr über 3D-Hinweise, das Gedankenspiel und U-Boot-Rätsel.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=The+Mermaid+Mask+Guide",
+  date: "2026-07-18",
+  author: "The Mermaid Mask Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **The Mermaid Mask sfb games** ist ein Point-and-Click-Detektivabenteuer mit Detektiv Grimoire und Sally.
+- **Kernmechanik**: Untersuche vollständige 3D-Hinweise, die eine handgemalte 2D-Ästhetik beibehalten, um verborgene Geheimnisse zu lüften.
+- **Ermittlungsstil**: Es gibt keine hervorgehobenen Hotspots; die Spieler müssen alles anklicken, um voll vertonte Interaktionen der Charaktere zu hören.
+- **Das Rätsel**: Löse den Mord im verschlossenen Raum an Magnus Mortuga an Bord eines luxuriösen, von Fantasy-Elementen inspirierten U-Boots.
+- **Logiksystem**: Nutze das „Gedankenspiel“ (Mind Game), um Subjekte und Aussagen zu schlüssigen logischen Schlussfolgerungen zu verbinden.
+</Callout>
+
+<Section icon={Search} title="Ermittlungsmechaniken in Silkworm Sea">
+
+The Mermaid Mask sfb games stellt eine bedeutende Weiterentwicklung des Detektiv-Genres dar und baut insbesondere auf dem Fundament seines Vorgängers *Tangle Tower* auf. Angesiedelt in der unheimlichen, verlassenen Fischerstadt Silkworm Sea, stellt das Spiel die Spieler vor die Aufgabe, ein mysteriöses U-Boot zu erkunden, um einen scheinbar unmöglichen Mord aufzuklären. Im Gegensatz zu traditionellen Point-and-Click-Spielen, die auf „Pixel-Hunting“ oder leuchtende Hotspots setzen, fördert dieser Titel die vollständige Interaktion mit der Umgebung. Jedes Objekt auf dem Bildschirm, von einer weggeworfenen Flasche bis hin zu einem riesigen Steinkessel, löst einen voll vertonten Dialog zwischen Detektiv Grimoire und Sally aus, was eine tiefgründige Charakterentwicklung und subtilen Weltenbau ermöglicht.
+
+**Video-Highlights:**
+- **Einblicke der Entwickler**: Adam und Tom Vian erklären den Übergang von 2D- zu 3D-Hinweisen, während die künstlerische Integrität gewahrt bleibt.
+- **Gameplay-Ablauf**: Ein Walkthrough durch die Eröffnungssequenz vom Stadtplatz bis zum Inneren des U-Boots.
+- **Rätsel-Vorschau**: Demonstration des mechanischen „Schlangenschranks“ (Serpent Cabinet) und des Hinweissystems.
+- **Das Gedankenspiel**: Wie man logische Sätze zusammensetzt, um in der Geschichte voranzukommen.
+
+<YouTubeEmbed videoId="68dc0HQ2FkQ" title="Tangle Tower Devs Play Their Next Game │ The Mermaid Mask" />
+
+Die Ermittlung ist unterteilt in die Erkundung der Umgebung und die tiefgehende Analyse von Hinweisen. Wenn ein Hinweis gefunden wird, wird er deiner Fallakte hinzugefügt, sodass du ihn im vollständigen 3D-Raum drehen kannst. Dies ist unerlässlich, um Inschriften auf der Rückseite von Postern oder versteckte Fächer in Flaschen zu finden.
+
+| Charakter | Rolle | Hauptcharaktereigenschaft | Synchronsprecher |
+| :--- | :--- | :--- | :--- |
+| **Detektiv Grimoire** | Chefermittler | Selbsternannt, dramatisch, intuitiv | Edwin Tang |
+| **Sally** | Technische Partnerin | Praktisch, sachkundig, sarkastisch | Amberly Connor |
+| **Magnus Mortuga** | Mordopfer | Mysteriöser U-Boot-Kapitän | N/A |
+| **Kapitän Seafoam** | Verdächtiger | Zurückgezogen, potenziell feindselig | TBA |
+
+<Callout type="tip" title="Profi-Tipp">
+Klicke in einem neuen Raum immer auf Sally. Ihre Dialoge enthalten oft „verborgenes“ Wissen über Geografie oder Literatur, das Kontext zu den gefundenen Gegenständen liefert.
+</Callout>
+
+</Section>
+
+<Section icon={Microscope} title="Analyse von 3D-Hinweisen und der Fallakte">
+
+Eines der herausragenden Features von The Mermaid Mask sfb games ist das 3D-Hinweissystem. Inspiriert von den Spielreihen *Ace Attorney* und *Resident Evil* kann jeder gefundene Gegenstand manipuliert werden. Das ist nicht nur reine Show; das Spiel verwendet einen dynamischen Outline-Shader, der 3D-Modelle wie 2D-Gemälde aussehen lässt, wodurch der Kunststil konsistent bleibt.
+
+<CardGrid cols={3}>
+  <Card title="Drehung & Untersuchung">
+    - **Gegenstände umdrehen**: Überprüfe die Rückseite von Postern und Gemälden auf versteckte Notizen.
+    - **Behälter öffnen**: Schüttle oder öffne Flaschen, um den Inhalt wie Tabletten oder Flüssigkeiten zu sehen.
+    - **Detail-Zoom**: Fokussiere dich auf bestimmte Kratzer oder Markierungen, um neue Dialoge auszulösen.
+  </Card>
+  <Card title="Die Fallakte">
+    - **Opferdaten**: Verfolgt Details zur Todesursache von Magnus Mortuga.
+    - **Verdächtigenliste**: Behält alle acht Verdächtigen im Auge, denen du auf dem U-Boot begegnest.
+    - **Beweisprotokoll**: Speichert alle gesammelten Hinweise für die spätere Verwendung im Gedankenspiel.
+  </Card>
+  <Card title="Umgebungslogik">
+    - **Möbeldesign**: Achte darauf, ob ein Hocker zu den Barhockern in der Stadt passt.
+    - **Thematische Verknüpfungen**: Verbinde „Sonnen“- und „Mond“-Motive in verschiedenen Räumen.
+    - **Akustische Hinweise**: Achte auf unheimliche Musik oder gespenstisches mechanisches Summen.
+  </Card>
+</CardGrid>
+
+Bei der Untersuchung des Tatorts im Illusionstheater musst du besonders auf die räumliche Beziehung zwischen dem Opfer und der Umgebung achten. Mortuga wurde in einem verschlossenen Raum mit einem alten Steinkessel zu seinen Füßen gefunden. Das Fehlen einer Waffe deutet darauf hin, dass die Umgebung selbst – oder etwas darin Verborgenes – der Schlüssel zum Geheimnis ist.
+
+| Hinweistyp | Untersuchungsmethode | Beispiel aus dem Spiel |
+| :--- | :--- | :--- |
+| **Papierhinweise** | Drehen, um die Rück-/Unterseite zu sehen | Zaubershow-Poster, Tuch des sternenguckenden Mädchens |
+| **Mechanische Hinweise** | Mit Reglern oder Hebeln interagieren | Schlangenschrank, Schott-Tür |
+| **Flüssigkeit/Glas** | Durch lichtdurchlässige Oberflächen blicken | Flasche mit Sonnentabletten, Mondfläschchen |
+| **Umgebungshinweise** | Mit anderen Orten vergleichen | Barhocker, Steinplatten-Emblem |
+
+<Callout type="warning" title="Kritisches Detail">
+Die Blutspur im Illusionstheater verläuft nicht geradlinig. Sie breitet sich aus, bevor sie die Richtung ändert, was darauf hindeutet, dass die Leiche oder die Waffe nach der ersten Wunde bewegt wurde.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lösen von mechanischen und logischen Rätseln">
+
+Die Rätsel in The Mermaid Mask sfb games sind als Mechanismen „in der Spielwelt“ konzipiert. Das bedeutet, dass es sich um physische Schlösser oder Systeme handelt, die von den Charakteren aus einem bestimmten Grund dort platziert wurden, und nicht um abstrakte Denksportaufgaben. Zum Beispiel ist der Schlangenschrank in der Kombüse ein mechanisches Schloss, das eine Flasche mit Sonnentabletten schützt.
+
+<Steps>
+  <Step num="1" title="Erste Interaktion">
+    Klicke auf das Rätsel, um den Interaktionsbildschirm aufzurufen. Lies die grundlegenden Anweisungen von Grimoire oder Sally.
+  </Step>
+  <Step num="2" title="Versuch und Irrtum">
+    Spiele mit den Reglern oder Hebeln herum. Wenn du eine Lösung versuchst und scheiterst, beginnen die Charaktere, über das Rätsel zu diskutieren.
+  </Step>
+  <Step num="3" title="Hinweisstufe 1">
+    Nach dem ersten Fehlversuch geben die Charaktere eine allgemeine Beobachtung über die Mechanik ab (z. B. „Diese Zahlen müssen etwas bedeuten“).
+  </Step>
+  <Step num="4" title="Hinweisstufe 2">
+    Der zweite Fehlversuch löst einen spezifischeren Hinweis aus, der die erforderliche Logik eingrenzt (z. B. „Die Formen haben eine unterschiedliche Anzahl von Seiten“).
+  </Step>
+  <Step num="5" title="Der „Aha“-Moment">
+    Nutze die gesammelten Informationen, um den Mechanismus richtig auszurichten. Beim Schlangenrätsel besteht die Lösung darin, die Anzahl der Seiten einer Form mit der im Fenster angezeigten Ziffer abzugleichen.
+  </Step>
+</Steps>
+
+| Rätselelement | Erforderliche Logik | Schwierigkeit (1-5) |
+| :--- | :--- | :--- |
+| **Schlangenschrank** | Geometrie / Seitenzählen | ★★☆☆☆ |
+| **Tür des Illusionstheaters** | Umgebungsbeobachtung | ★★★☆☆ |
+| **Gedankenspiel-Schlussfolgerungen** | Narrative Logik / Deduktion | ★★★★☆ |
+| **Galerie-Freischaltungen** | Fortschritt / Vervollständigung | ★☆☆☆☆ |
+
+<Callout type="success" title="Deduktions-Tipp">
+Das Spiel löst das Rätsel nie für dich. Selbst mit drei Hinweisen musst du die richtige Kombination physisch eingeben. Dies stellt sicher, dass der „Aha!“-Moment ganz dem Spieler gehört.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Das Gedankenspiel: Logische Schlussfolgerungen ziehen">
+
+Das „Gedankenspiel“ (Mind Game) ist der Kern der Erzählung in The Mermaid Mask sfb games. Es stellt die Denkprozesse der Detektive dar, wenn sie einen Durchbruch erzielen. Anstatt eine einzelne Antwort aus einer Liste auszuwählen, musst du einen vollständigen Sätze aus verschiedenen Subjekten und verbindenden Aussagen konstruieren.
+
+**So funktioniert das Gedankenspiel:**
+- **Subjektauswahl**: Wähle die Person oder das Objekt aus, über das du sprichst (z. B. Magnus Mortuga).
+- **Aktion/Verbindung**: Wähle aus, was sie getan haben oder was mit ihnen passiert ist (z. B. „öffnete den Kessel“).
+- **Ergebnis/Schlussfolgerung**: Wähle das Ergebnis oder die Auswirkung (z. B. „und wurde von dem getötet, was sich darin befand“).
+
+Wenn dein Satz falsch ist, liest Grimoire ihn trotzdem laut vor, was oft zu humorvollen, aber logisch fehlerhaften Aussagen führt. Das Spiel gibt Feedback, indem es dir mitteilt, wie viele Teile deines Satzes korrekt sind (z. B. „3 von 4 Teilen sind richtig“). Dies ermutigt dich, deine Logik zu verfeinern, anstatt blind zu raten.
+
+| Gedankenspiel-Komponente | Zweck | Beispiel |
+| :--- | :--- | :--- |
+| **Subjekt** | Das „Wer“ oder „Was“ | Magnus Mortuga / Der hölzerne Junge |
+| **Verb/Aktion** | Das „Was getan“ | Öffnete / Rahmen / Versteckt |
+| **Objekt/Ort** | Das „Wo“ oder „Mit wem“ | Der Kessel / Die Schott-Tür |
+| **Konsequenz** | Das „Ergebnis“ | Wurde von dem getötet, was sich darin befand |
+
+<Callout type="info" title="Erzählfluss">
+Gedankenspiele finden oft am Ende eines Kapitels oder nach dem Finden eines entscheidenden Beweisstücks statt. Sie sind die einzige Möglichkeit, deinen Fortschritt zu sichern und die Geschichte in die nächste Phase zu bringen.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Die Kunstgalerie und Entwicklungsgeheimnisse">
+
+Für Fans des kreativen Prozesses bietet die Kunstgalerie in The Mermaid Mask sfb games einen tiefen Einblick in die Entstehung des Spiels. Diese Funktion wird im Laufe des Spiels freigeschaltet und enthält Konzeptzeichnungen, Notizen der Entwickler und 3D-Drahtgittermodelle.
+
+<Checklist
+  id="gallery-milestones"
+  title="Freischaltziele für die Kunstgalerie:"
+  items={[
+    "Sammle alle 3D-Hinweisvorschauen, um die Verwandlung von 2D zu 3D zu sehen.",
+    "Lies Katherine Agers Notizen zu Charaktersilhouetten und Farbpaletten.",
+    "Finde das verworfene Konzept der „Knoblauchtablette“ für die Sonnentabletten.",
+    "Sieh dir die frühen Schwarz-Weiß-Entwürfe für den Stadtplatz von Silkworm Sea an.",
+    "Schalte den „Hinter den Kulissen“-Kommentar zum orchestralen Soundtrack frei."
+  ]}
+/>
+
+Die Galerie ist von den Entwicklern kommentiert und bietet Kontext dazu, warum bestimmte Ideen verworfen wurden. Zum Beispiel waren frühe Entwürfe des U-Boots viel enger und im „Militärstil“ gehalten, bevor sich das Team für eine luxuriösere, von der Nautilus inspirierte Fantasy-Ästhetik entschied. Dies stellt sicher, dass sich die Umgebung wie ein Ort des Geschichtenerzählens anfühlt und nicht nur wie ein funktionelles Schiff.
+
+<Callout type="tip" title="Tipp für Komplettierer">
+Wirf erst nach dem Beenden eines Kapitels einen Blick in die Kunstgalerie. Die Notizen enthalten oft Spoiler darüber, warum ein bestimmtes Objekt auf eine bestimmte Weise entworfen wurde, was eine Rätsellösung vorzeitig verraten könnte.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Muss ich Tangle Tower spielen, bevor ich The Mermaid Mask sfb games spiele?",
+    answer: "Nein. Obwohl es thematische Verknüpfungen und wiederkehrende Charaktere wie Grimoire und Sally gibt, ist die Geschichte ein eigenständiges Rätsel, das für neue Spieler konzipiert wurde."
+  },
+  {
+    question: "Wie funktioniert das Hinweissystem bei schwierigen Rätseln?",
+    answer: "Das Spiel bietet drei Stufen von Hinweisen. Jedes Mal, wenn du bei einem Rätsel scheiterst, diskutieren die Charaktere darüber und liefern immer spezifischere Informationen, ohne es für dich zu lösen."
+  },
+  {
+    question: "Was ist die Mechanik des „Gedankenspiels“?",
+    answer: "Es ist un logisches Deduktionssystem, bei dem du Sätze aus Subjekten und Aktionen zusammensetzt, um eine Schlussfolgerung über das Mordrätsel zu ziehen."
+  },
+  {
+    question: "Kann ich in The Mermaid Mask sfb games Hinweise verpassen?",
+    answer: "Das Spiel ist so konzipiert, dass entscheidende Hinweise für das Vorankommen notwendig sind, aber atmosphärische Umgebungstexte und bestimmte Freischaltungen in der Kunstgalerie erfordern eine gründliche Erkundung."
+  }
+]} />
+
+</Section>

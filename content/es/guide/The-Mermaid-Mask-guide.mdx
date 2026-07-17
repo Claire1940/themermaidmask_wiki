@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Search, BookOpen, Anchor, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de La máscara de la sirena: Paso a paso, acertijos y pistas",
+  description: "Domina la demo de La máscara de la sirena con nuestra guía. Resuelve el acertijo del dial de la serpiente, analiza la escena del crimen y encuentra cada pista oculta en Silkworm-on-Sea.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=The+Mermaid+Mask+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de La máscara de la sirena"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía de La máscara de la sirena**: Se centra en la investigación inicial del asesinato del capitán Magnus Mortuga a bordo del submarino Mortuga.
+- **Mecánica clave**: La investigación implica exploración de apuntar y hacer clic (point-and-click), análisis de diálogos y resolución de acertijos ambientales.
+- **Acertijo de la serpiente**: Requiere alinear cuatro diales (cuadrado, triángulo, círculo, rombo) con números específicos basados en una pista proporcionada.
+- **Pista crítica**: El antiguo caldero de piedra en el Teatro de la Ilusión se encontró desbloqueado por primera vez, conteniendo misteriosos arañazos.
+- **Dúo de investigación**: Controla al detective Grimoire y a su asistente Sally mientras navegan por el misterioso pueblo de Silkworm-on-Sea.
+</Callout>
+
+<Section icon={Map} title="Inicio de la investigación: La posada Stone Top">
+
+El viaje comienza en la posada Stone Top Inn en el desolado pueblo de Silkworm-on-Sea. Son las 4:00 AM y el detective Grimoire ya está trabajando, mientras su compañera, Sally, intenta conseguir un descanso muy necesario. Tu primer objetivo es examinar el expediente del caso que dejaron en la barra, el cual prepara el escenario para el misterio que se desarrolla en las profundidades.
+
+**Puntos destacados del video:**
+- **Sesión informativa inicial**: Revisión del expediente del caso del capitán Magnus Mortuga.
+- **Exploración del pueblo**: Navegar por Silkworm-on-Sea y divisar la luz verde.
+- **Entrada al submarino**: Abordar el Mortuga y encontrarse con el misterioso "Niño de Madera".
+
+<YouTubeEmbed videoId="LfRCq_7ZSU8" title="Paso a paso de La máscara de la sirena (Demo)" />
+
+El expediente del caso revela que el capitán Magnus Mortuga, de 39 años, fue encontrado muerto en el Teatro de la Ilusión de su propio submarino. La habitación estaba cerrada desde dentro y, aunque tenía la garganta cortada, no se encontró ningún arma en la escena. Este "misterio de la habitación cerrada" es el núcleo de la **guía de La máscara de la sirena** para esta demo.
+
+| Personaje | Rol | Información clave |
+| :--- | :--- | :--- |
+| **Detective Grimoire** | Investigador principal | Detective experimentado enviado a resolver el asesinato de Mortuga. |
+| **Sally** | Asistente | Compañera de Grimoire; actualmente leyendo *Hex the Helmsman*. |
+| **Magnus Mortuga** | Víctima | Capitán del submarino Mortuga; encontrado en una habitación cerrada. |
+| **Capitán Seafoam** | Excapitán | El hombre que contrató a los detectives y dejó el expediente del caso. |
+
+<Callout type="tip" title="Consejo del detective">
+Revisa siempre el inventario de Sally. En la demo, ella lleva una novela llamada *Hex the Helmsman* de JD Worman. Leer la contraportada y el primer capítulo proporciona un texto de ambientación que insinúa los temas de fantasía náutica del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Anchor} title="Abordar el submarino Mortuga">
+
+Tras salir de la posada, una misteriosa luz verde atrae al dúo hacia el puerto. Navegarás por la plaza del pueblo, pasando por una fuente con la "Serpiente de Silkworm", una criatura que se parece más a un dragón con patas que a una serpiente tradicional. Al llegar al muelle, te encuentras con el submarino Mortuga.
+
+<CardGrid cols={2}>
+  <Card title="El Niño de Madera">
+    Una boya de madera de pesadilla encadenada a la cubierta. Tiene un rostro y ojos verdes brillantes que actuaron como señuelo para atraerte al barco.
+  </Card>
+  <Card title="El Salón">
+    La primera sala interior del submarino. Cuenta con una extraña pintura titulada "Ella" y una palanca que controla el sistema de iluminación.
+  </Card>
+</CardGrid>
+
+Dentro del submarino, la atmósfera cambia de la exploración náutica al misterio gótico. El "Salón" (abreviatura de "Salón de visitas") contiene varios puntos de interés, incluyendo una copa de vino a medio terminar y un altavoz que reproduce música de "fiesta de vampiros".
+
+| Característica | Observación | Significado |
+| :--- | :--- | :--- |
+| **Pintura "Ella"** | Marco de madera grande y ornamentado | Muestra un ser desconocido; tiene una placa de latón. |
+| **Velas rosas** | Encendidas tras tirar de la palanca | Proporcionan un brillo extraño y atmosférico a la habitación. |
+| **Sala de control** | Cerrada con cinta adhesiva desde el interior | El capitán Seafoam parece estar escondiéndose aquí de los detectives. |
+
+<Callout type="warning" title="Puertas cerradas">
+La sala de control está inaccesible actualmente. Una nota pegada en la ventana te dirige a la escena del crimen, un piso más abajo, en la parte trasera del submarino.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Resolver el acertijo del dial de la estatua de la serpiente">
+
+Al descender al comedor, una gran estatua de metal de una serpiente te bloquea el paso. Esta estatua contiene un compartimento integrado que está cerrado por un acertijo de dial mecánico. Para avanzar en la **guía de La máscara de la sirena**, debes alinear cuatro símbolos geométricos con sus números correspondientes.
+
+<Steps>
+  <Step num="1" title="Examina la pista">
+    Mira en la esquina superior derecha de la pantalla del acertijo para ver la disposición requerida de formas y números.
+  </Step>
+  <Step num="2" title="Gira los diales">
+    Interactúa con los cuatro diales para colocar el cuadrado, el triángulo, el círculo y el rombo en su lugar.
+  </Step>
+  <Step num="3" title="Confirma las posiciones">
+    El cuadrado debe estar en el 4, el triángulo en el 3, y el círculo y el rombo en sus respectivos puntos como se muestra en la pista.
+  </Step>
+  <Step num="4" title="Recoge la recompensa">
+    Una vez alineados, el compartimento se abre para revelar una botella de "Tabletas Solares".
+  </Step>
+</Steps>
+
+| Símbolo | Número objetivo | Objeto encontrado |
+| :--- | :--- | :--- |
+| **Cuadrado** | 4 | Botella de vidrio marrón |
+| **Triángulo** | 3 | Tabletas Solares (en forma de Z) |
+| **Círculo** | 9 | Pastillas de la felicidad/solar |
+
+<Callout type="success" title="Acertijo resuelto">
+Resolver este acertijo es obligatorio para avanzar más profundamente en el submarino. Las Tabletas Solares encontradas aquí se compararán con el Vial de la Luna que se encuentra más adelante en la escena del crimen.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Análisis de la escena del crimen: El Teatro de la Ilusión">
+
+El Teatro de la Ilusión es donde ocurrió la tragedia. La sala es pequeña, estrecha y se encontró cerrada desde dentro. Seguir el rastro de sangre te lleva al cuerpo del capitán Mortuga, tendido boca arriba frente a un enorme caldero de piedra.
+
+**Evidencia recolectada:**
+- **Vial de la Luna**: Una botella de vidrio rota en el suelo que contiene un líquido púrpura con olor botánico.
+- **Tela de vela**: Un trozo grueso de tela de seda colgado en la pared.
+- **Estandarte de la Chica Contemplando las Estrellas**: Un rediseño del teatro, anteriormente conocido por diferentes espectáculos.
+- **El caldero**: Un antiguo recipiente de piedra con profundos arañazos en su interior.
+
+| Objeto de evidencia | Ubicación | Descripción |
+| :--- | :--- | :--- |
+| **Vial de la Luna roto** | Cerca del cuerpo | Etiquetado con una luna; líquido púrpura derramado. |
+| **Caldero de piedra** | A los pies de Mortuga | Marcado con percebes y arañazos internos. |
+| **Póster al revés** | Pegado a la pared | Anuncia la "Dama del Espejo". |
+| **Rastro de sangre** | Suelo | Conduce desde la herida del cuello hacia la parte trasera de la sala. |
+
+<Callout type="info" title="El misterio del caldero">
+El expediente del caso indica que el caldero nunca antes había sido desbloqueado y, sin embargo, se encontró abierto en la escena del crimen. Los arañazos internos sugieren que algo, tal vez algo con garras, estaba atrapado dentro.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de la investigación y lista de verificación">
+
+Para completar con éxito la demo y prepararte para el lanzamiento completo de **La máscara de la sirena**, asegúrate de haber interactuado con cada objeto clave y activador de diálogo. La interacción entre Grimoire y Sally proporciona un contexto esencial para las "vibras de motín" que se sienten en toda la nave.
+
+<Checklist
+  id="demo-completion"
+  title="Lista de verificación de la investigación:"
+  items={[
+    "Lee el expediente completo del caso en la posada Stone Top Inn",
+    "Examina el libro de Sally 'Hex the Helmsman'",
+    "Desbloquea el compartimento de la estatua de la serpiente en el comedor",
+    "Inspecciona el Vial de la Luna roto en el Teatro de la Ilusión",
+    "Analiza los arañazos internos en el caldero de piedra",
+    "Activa el diálogo final sobre la 'Maldición en el caldero'"
+  ]}
+/>
+
+<Callout type="tip" title="Deducción final">
+La demo concluye con una revelación: Mortuga murió por un corte limpio en el cuello en una habitación sin armas. Grimoire sospecha que los "arañazos" en el caldero contienen la clave de la identidad del asesino.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde encuentro el expediente del caso en la guía de La máscara de la sirena?",
+    answer: "El expediente del caso se encuentra en la barra de la posada Stone Top Inn al principio del juego. Debes leerlo para desbloquear el viaje al puerto."
+  },
+  {
+    question: "¿Cómo resuelvo el acertijo del dial en la estatua de la serpiente?",
+    answer: "Mira la pista en la esquina superior derecha de la interfaz del acertijo. Debes girar los diales para que el cuadrado se alinee con el 4, el triángulo con el 3 y las otras formas coincidan con el diagrama."
+  },
+  {
+    question: "¿Cuál es la importancia del Vial de la Luna?",
+    answer: "El Vial de la Luna fue encontrado roto cerca del cuerpo del capitán Mortuga. Contenía un líquido púrpura con olor botánico, que contrasta con las Tabletas Solares encontradas en el comedor."
+  },
+  {
+    question: "¿Se encontró algún arma en el Teatro de la Ilusión?",
+    answer: "No. A pesar de que la víctima tenía la garganta cortada, no se encontró ninguna hoja ni arma en la habitación cerrada, lo que sugiere un método de asesinato paranormal o sumamente inusual."
+  }
+]} />
+
+</Section>
