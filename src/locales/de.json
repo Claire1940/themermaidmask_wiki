@@ -1,1 +1,1811 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "The Mermaid Mask Wiki – Komplettlösung, Rätsel & Verdächtige",
+      "description": "Das The Mermaid Mask Wiki umfasst die gesamte Komplettlösung, Rätsellösungen, Hinweise, Verdächtige, Errungenschaften, Enden, Charaktere und Orte im Mortuga submarine.",
+      "keywords": "The Mermaid Mask, Komplettlösung, Rätsel, Hinweise, Verdächtige, Enden, Errungenschaften, Mortuga",
+      "ogTitle": "The Mermaid Mask Wiki – Komplettlösung, Rätsel & Verdächtige",
+      "ogDescription": "Das The Mermaid Mask Wiki umfasst die gesamte Komplettlösung, Rätsellösungen, Hinweise, Verdächtige, Errungenschaften, Enden, Charaktere und Orte im Mortuga submarine.",
+      "twitterTitle": "The Mermaid Mask Wiki – Komplettlösung, Rätsel & Verdächtige",
+      "twitterDescription": "Das The Mermaid Mask Wiki umfasst die gesamte Komplettlösung, Rätsellösungen, Hinweise, Verdächtige, Errungenschaften, Enden, Charaktere und Orte im Mortuga submarine."
+    }
+  },
+  "nav": {
+    "guide": "Guide",
+    "puzzles": "Rätsel",
+    "release": "Veröffentlichung",
+    "platforms": "Plattformen",
+    "reviews": "Rezensionen",
+    "series": "Serie",
+    "media": "Medien"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Auf Steam spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die von Ihnen gesuchte Seite existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Ähnliche Artikel",
+    "readMore": "Weiterlesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
+  },
+  "hero": {
+    "badge": "Handgemaltes U-Boot-Krimirätsel",
+    "title": ", [[2]], etc.) that you would like me to translate.",
+    "description": "Lösen Sie mit Detective Grimoire und Sally den Mord im verschlossenen Raum von Captain Mortuga. Erkunden Sie das Mortuga submarine, untersuchen Sie 3D-Hinweise, befragen Sie Verdächtige und meistern Sie jedes Rätsel.",
+    "getFreeCodesCTA": "Komplettlösung ansehen",
+    "playOnSteamCTA": "Auf Steam kaufen",
+    "stats": {
+      "stat1": {
+        "value": "16. Juli 2026",
+        "label": "Veröffentlichungsdatum"
+      },
+      "stat2": {
+        "value": "99%",
+        "label": "Positive Bewertungen"
+      },
+      "stat3": {
+        "value": "21",
+        "label": "Steam-Errungenschaften"
+      },
+      "stat4": {
+        "value": "12",
+        "label": "Unterstützte Sprachen"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "The Mermaid Mask-Ermittlung",
+    "description": "Löse einen handgemalten Mord in einem verschlossenen Raum an Bord der Mortuga submarine. Untersuche rotierende 3D-Hinweise, befrage eine exzentrische Crew und rekonstruiere den Fall durch beweisgestützte Schlussfolgerungen."
+  },
+  "tools": {
+    "title": "The Mermaid Mask",
+    "titleHighlight": "Ressourcen",
+    "subtitle": "Alles, was du brauchst, um den Fall der Mortuga submarine in The Mermaid Mask zu lösen",
+    "cards": [
+      {
+        "icon": "Karte",
+        "title": "The Mermaid Mask-Komplettlösung",
+        "description": "Komplette Story-Route Kapitel für Kapitel durch das U-Boot"
+      },
+      {
+        "icon": "Rätsel",
+        "title": "The Mermaid Mask-Rätsellösungen",
+        "description": "Hinweise und direkte Antworten für jedes Schloss und Minispiel"
+      },
+      {
+        "icon": "Kompass",
+        "title": "The Mermaid Mask-Einsteigerleitfaden",
+        "description": "Ermittlungsablauf, 3D-Beweise und Grundlagen der Schlussfolgerung"
+      },
+      {
+        "icon": "Benutzer",
+        "title": "The Mermaid Mask-Charaktere",
+        "description": "Dossiers für das Detektivteam und jeden Verdächtigen"
+      },
+      {
+        "icon": "Suche",
+        "title": "The Mermaid Mask-Hinweise",
+        "description": "Katalog der Beweise, Orte und Verbindungen zwischen Verdächtigen"
+      },
+      {
+        "icon": "Trophäe",
+        "title": "The Mermaid Mask Errungenschaften",
+        "description": "Alle 21 Steam-Errungenschaften und Freischaltbedingungen"
+      },
+      {
+        "icon": "Film",
+        "title": "Das Ende von The Mermaid Mask",
+        "description": "Spoilerfreie Analyse des finalen Falls"
+      },
+      {
+        "icon": "Monitor/Smartphone",
+        "title": "The Mermaid Mask Plattformen",
+        "description": "Details zur Veröffentlichung auf Steam, Switch, Switch 2 und PS5"
+      }
+    ]
+  },
+  "modules": {
+    "theMermaidMaskWalkthrough": {
+      "title": "The Mermaid Mask Komplettlösung",
+      "eyebrow": "Vollständiger Story-Pfad",
+      "subtitle": "Folge dem vorgeschriebenen Ermittlungsweg vom Stonetop Inn bis zur finalen Konfrontation an Bord des Mortuga submarine. Jeder Abschnitt endet, bevor spätere Wendungen der Geschichte enthüllt werden.",
+      "intro": "The Mermaid Mask ist um eine einleitende Ermittlung und den Hauptmordfall „The Curse in the Cauldron“ herum aufgebaut. Nutze diese Route, um die erforderlichen Beweise zu sammeln, alle Bereiche freizuschalten, die gesamte Besatzung zu befragen und den Faden wiederzufinden, wenn der nächste Fortschrittsauslöser unklar ist.",
+      "chapters": [
+        {
+          "chapter": "Prolog",
+          "chapterTitle": "Der Anfang",
+          "spoilerLevel": "Eröffnungssequenz",
+          "sections": [
+            {
+              "sectionTitle": "Prolog",
+              "steps": [
+                {
+                  "location": "Stonetop Inn",
+                  "objective": "Überprüfe den Fall und wecke Sally.",
+                  "actions": [
+                    "Untersuche das Buch „The Hex of the Helmsmen“, das in der Nähe von Sally liegt.",
+                    "Öffne die rote Fallakte und lies die Zusammenfassung des Mords im verschlossenen Raum.",
+                    "Interagiere mit Sally, um die Reise zum U-Boot zu beginnen."
+                  ],
+                  "trigger": "Verlasse die Herberge, nachdem Sally sich Grimoire angeschlossen hat."
+                },
+                {
+                  "location": "Marktplatz",
+                  "objective": "Finde das von Captain Seafoam organisierte Transportmittel.",
+                  "actions": [
+                    "Untersuche den Platz, die Schilder, den Brunnen und das ungewöhnliche grüne Licht.",
+                    "Sprich mit Sally, nachdem du den leuchtenden Bereich untersucht hast.",
+                    "Warte, bis das Mortuga submarine auftaucht, und gehe an Bord."
+                  ],
+                  "trigger": "Betritt das U-Boot vom Vordeck aus."
+                },
+                {
+                  "location": "Vordeck und Salon",
+                  "objective": "Betritt das Schiff und stelle die erste Innenbeleuchtung wieder her.",
+                  "actions": [
+                    "Untersuche die leuchtende, geschnitzte Boje auf dem Vordeck.",
+                    "Betritt den Salon und lass Sally den Hebel betätigen, der die rosa Flamme entzündet.",
+                    "Lies die Warnung, die am Fenster des Kontrollraums angebracht ist.",
+                    "Beachte, dass der Kontrollraum und das Tatort-Deck anfangs unzugänglich sind."
+                  ],
+                  "trigger": "Gehe durch den verfügbaren Korridor in Richtung der Messe."
+                },
+                {
+                  "location": "Messe",
+                  "objective": "Öffne den Schlangenschrank.",
+                  "actions": [
+                    "Untersuche die Karten, das Kochgeschirr, die Lampen, die Kerzen und den Schrank.",
+                    "Betrachte jede Form als die Anzahl ihrer Seiten.",
+                    "Stelle die vier Anzeigen auf Dreieck für 3, Quadrat plus Fünfeck für 9, Dreieck plus Quadrat für 7 und Quadrat für 4 ein."
+                  ],
+                  "trigger": "Schließe die Untersuchung des geöffneten Schranks ab und gehe weiter zum Illusion Theatre."
+                },
+                {
+                  "location": "Illusion Theatre",
+                  "objective": "Untersuche den Tatort im verschlossenen Raum.",
+                  "actions": [
+                    "Untersuche den zerrissenen Stoff, der mit The Stargazing Girl verbunden ist.",
+                    "Untersuche das auf dem Kopf stehende Illusionsplakat.",
+                    "Untersuche den Kreideumriss, den antiken Stone Cauldron und die umgebende Bühne.",
+                    "Sieh dir jeden markierten Punkt auf dem Stone Cauldron an, bevor du die Schlussfolgerung öffnest."
+                  ],
+                  "trigger": "Schließe die erste Fallrekonstruktion ab."
+                },
+                {
+                  "location": "Deduktionsbildschirm",
+                  "objective": "Ziehe die einleitende Schlussfolgerung.",
+                  "actions": [
+                    "Wähle Magnus Mortuga als die Person aus, die den Stone Cauldron geöffnet hat.",
+                    "Wähle die Schlussfolgerung aus, dass er durch das getötet wurde, was sich darin befand.",
+                    "Bestätige die Schlussfolgerung, um die Hauptuntersuchung zu beginnen."
+                  ],
+                  "trigger": "Kapitel Eins, Der Fluch im Kessel, beginnt."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "chapterTitle": "Der Fluch im Kessel",
+          "spoilerLevel": "Spoiler zu Untersuchung und Spielfortschritt",
+          "sections": [
+            {
+              "sectionTitle": "Schalte den Kontrollraum frei",
+              "steps": [
+                {
+                  "location": "Kinderzimmer",
+                  "objective": "Löse das Puppenporträt und erhalte das Glass Eyeball.",
+                  "actions": [
+                    "Lies die Zeitung über die Lady of the Looking Glass und den Seeschlangen-Bericht auf ihrer Rückseite.",
+                    "Kombiniere die sechs Porträtkarten zu drei vollständigen Mädchen.",
+                    "Platziere Patricia mit der mittelgroßen Puppe in der Mitte.",
+                    "Benutze die Vergrößerungs- und Verkleinerungslinsen bei den äußeren Puppen.",
+                    "Platziere die Fischaugenlinsen über den Gesichtern der linken und rechten Mädchen."
+                  ],
+                  "trigger": "Nimm das Glass Eyeball aus dem fertigen Mechanismus."
+                },
+                {
+                  "location": "Salon und Kinderzimmer",
+                  "objective": "Enthülle Symmetry Silkmoth.",
+                  "actions": [
+                    "Kehre in den Salon zurück und untersuche die beobachtenden Augen nahe der Tür zum Kontrollraum.",
+                    "Gehe zurück in das Kinderzimmer.",
+                    "Interagiere mit dem blinkenden Gemälde, um Symmetry Silkmoth zu enthüllen.",
+                    "Befrage Symmetry über sich selbst, das U-Boot, die Crew und jeden verfügbaren Hinweis."
+                  ],
+                  "trigger": "Kehre nach Symmetrys erstem Interview in den Kontrollraum zurück."
+                },
+                {
+                  "location": "Kontrollraum",
+                  "objective": "Triff Sinthia Seafoam und hole das Captain's Log zurück.",
+                  "actions": [
+                    "Befrage Sinthia über Mortuga, ihr neues Kommando, Symmetry und die anderen Crewmitglieder.",
+                    "Untersuche die U-Boot-Blaupause, das Steuerrad, die Kapitänsjacke und die Kontrollausrüstung.",
+                    "Verbinde das rote Kabel von Buchse 1 mit 9, das blaue von 3 mit 11 und das gelbe von 6 mit 12.",
+                    "Nimm das Captain's Log aus dem geöffneten Fach.",
+                    "Präsentiere Sinthia die neuen Beweise, bevor du gehst."
+                  ],
+                  "trigger": "Die Schlafräume und zusätzliche Crew-Interviews werden Teil der aktiven Route."
+                }
+              ]
+            },
+            {
+              "sectionTitle": "Durchsuche das Mannschaftsquartier",
+              "steps": [
+                {
+                  "location": "Schlafraum der Frauen",
+                  "objective": "Öffne den Schweine-Safe und durchsuche Sinthias Koje.",
+                  "actions": [
+                    "Lies das Filmmagazin.",
+                    "Stelle das Zahlennetzwerk des Schweine-Safes so ein, dass die oberen Zweige 3, 4, 1 zeigen und die Summe 8 ergeben, während die zweiten Zweige 2, 3, 1 zeigen und die Summe 6 ergeben.",
+                    "Richte die unteren Summen auf 5, 9 und 2 aus.",
+                    "Nimm das düstere Unterwasserfoto aus dem Safe.",
+                    "Zeige Sinthia und Symmetry das Foto.",
+                    "Kehre zu Sinthias Matratze zurück, nachdem Symmetry auf das versteckte Material hinweist."
+                  ],
+                  "trigger": "Sammle die unter der Matratze versteckten Inn Deeds ein."
+                },
+                {
+                  "location": "Männerschlafraum",
+                  "objective": "Befrage Dirk Dansom und J.D. Wirman.",
+                  "actions": [
+                    "Frage beide Männer nach sich selbst, Mortuga, dem U-Boot und der gesamten Verdächtigenliste.",
+                    "Löse Dirks Telefonsperre, indem du dafür sorgst, dass jeder verbundene Kanal mit übereinstimmenden Symbolen beginnt und endet.",
+                    "Lies die freigeschalteten Anrufe, Nachrichten und E-Mails.",
+                    "Drehe den inneren und äußeren Ring der Schreibmaschine so, dass die fünf angezeigten Muster den erforderlichen 45-Grad-Transformationen folgen."
+                  ],
+                  "trigger": "Stelle den an Wirman adressierten handschriftlichen Brief von Ibis sicher."
+                }
+              ]
+            },
+            {
+              "sectionTitle": "Triff die verbleibende Crew",
+              "steps": [
+                {
+                  "location": "Traumkammer",
+                  "objective": "Befrage Dr. Zacharias Zephyr.",
+                  "actions": [
+                    "Frage Zephyr nach Mortuga, seiner Traumarbeit und jedem Crewmitglied.",
+                    "Untersuche die Hex-Flasche, den Traumhelm, die Nebelkugel und andere interaktive Ausrüstung.",
+                    "Drehe und öffne jeden 3D-Hinweis, bis jeder Untersuchungspunkt registriert wurde."
+                  ],
+                  "trigger": "Füge Zephyrs Aussage und traumbrelevante Beweise dem Notizbuch hinzu."
+                },
+                {
+                  "location": "Laderaum",
+                  "objective": "Befrage Mariana Moon und finde das Rätsel um die Positionen der Crew.",
+                  "actions": [
+                    "Befrage Mariana zu ihren historischen Nachforschungen und den anderen Passagieren.",
+                    "Durchsuche die Säcke und sammle die Silkwirm-Karte ein.",
+                    "Untersuche die große Pinnwand, die das U-Boot darstellt.",
+                    "Lasse die Pinnwand unvollständig, bis du jedes lebende Crewmitglied getroffen hast."
+                  ],
+                  "trigger": "Kehre zurück, nachdem du Godrik Gripp und Madam Tadpole befragt hast."
+                },
+                {
+                  "location": "Kapitänskajüte",
+                  "objective": "Öffne Mortugas privates Zimmer.",
+                  "actions": [
+                    "Benutze den Glass Eyeball im augenförmigen Schloss.",
+                    "Drücke auf das eingesetzte Auge, um den internen Schlüssel freizugeben.",
+                    "Untersuche das kaputte Handfunkgerät, die Tischglocke, das Flaschenschiff und das Gemälde mit dem Titel „Her“.",
+                    "Drehe jeden gesammelten Gegenstand und untersuche seine verborgenen Seiten."
+                  ],
+                  "trigger": "Füge Mortugas privaten Besitz der Beweisliste hinzu."
+                },
+                {
+                  "location": "Maschinenraum",
+                  "objective": "Befrage Godrik Gripp und repariere den Kompass.",
+                  "actions": [
+                    "Untersuche drei Ladenartikel, um das vollständige Gespräch mit Gripp zu beginnen.",
+                    "Befrage ihn über das Schiff, Mortuga, seine Waren und die Besatzung.",
+                    "Stelle den gelben Kompass so ein, dass er nach links zeigt, den blauen nach unten, den rosa Kompass auf etwa zwei Uhr und den roten Kompass nach oben links.",
+                    "Nimm den reparierten Kompass."
+                  ],
+                  "trigger": "Präsentiere den reparierten Gegenstand und die dazugehörigen Beweise den Charakteren, die ihn wiedererkennen."
+                },
+                {
+                  "location": "Schleusengrotte",
+                  "objective": "Befrage Madam Tadpole.",
+                  "actions": [
+                    "Befrage Tadpole zu ihrer Identität als Meerjungfrau, zu Mortuga und zu jedem Verdächtigen.",
+                    "Zeichne ihren Bericht über eine Gestalt mit leuchtenden Augen auf dem Vordeck auf.",
+                    "Vergleiche ihre Beschreibung der Sprache mit den Formen, die hinter dem Kessel zu sehen sind.",
+                    "Untersuche den Taucherhelm und die andere Grottenausrüstung."
+                  ],
+                  "trigger": "Alle acht Hauptverdächtigen wurden nun vorgestellt."
+                }
+              ]
+            },
+            {
+              "sectionTitle": "Verknüpfe Aussagen und Beweise",
+              "steps": [
+                {
+                  "location": "Frachtraum",
+                  "objective": "Vervollständige die Pinnwand mit den Standorten der Besatzung.",
+                  "actions": [
+                    "Platziere jedes lebende Besatzungsmitglied in dem Raum, in dem es sich gerade befindet.",
+                    "Platziere Mortugas Porträt außerhalb des U-Boot-Diagramms, da er tot ist.",
+                    "Bestätige das fertige Layout, um die aktuelle Besatzung und Raumstruktur des Schiffes festzulegen."
+                  ],
+                  "trigger": "Zusätzliche Aussagen und Themen für persönliche Ermittlungen werden verfügbar."
+                },
+                {
+                  "location": "Frachtraum und Maschinenraum",
+                  "objective": "Identifiziere Marianas getarntes Aufnahmegerät.",
+                  "actions": [
+                    "Zeige Mariana das rohrförmige Objekt und die dazugehörigen mechanischen Beweise.",
+                    "Stelle fest, dass das Rohr ein Dictaphone ist, das zur Aufzeichnung von Besatzungsgesprächen verwendet wurde.",
+                    "Höre dir jede verfügbare Aufzeichnung an.",
+                    "Präsentiere den beteiligten Personen wichtige aufgezeichnete Aussagen."
+                  ],
+                  "trigger": "Neue Themen zu Widersprüchen und Motiven erscheinen in den Charakterbefragungen."
+                },
+                {
+                  "location": "Ganzes U-Boot",
+                  "objective": "Schalte jede persönliche Ermittlung frei.",
+                  "actions": [
+                    "Präsentiere jeden neu gefundenen Hinweis allen Charakteren, die darauf reagieren können.",
+                    "Suche Sinthia und Symmetry erneut auf, nachdem du das Foto und die Inn Deeds gefunden hast.",
+                    "Suche Dirk und Wirman erneut auf, nachdem du das Telefon und den Brief freigeschaltet hast.",
+                    "Suche Zephyr, Mariana, Gripp und Tadpole erneut auf, nachdem du ihre Rätsel in den Räumen gelöst hast.",
+                    "Verwende das Notizbuch, um Charaktere zu finden, die noch ungelesene Reaktionen auf Beweise haben."
+                  ],
+                  "trigger": "Die persönliche Untersuchung eines Charakters beginnt, sobald die erforderlichen Aussagen und Beweise gesammelt wurden."
+                },
+                {
+                  "location": "Schlussfolgerungs-Interface",
+                  "objective": "Schließe die Untersuchungen der Verdächtigen ab.",
+                  "actions": [
+                    "Fülle jede Schlussfolgerung mit der Aussage aus, die durch die gesammelten Zeugenaussagen gestützt wird.",
+                    "Hänge den physischen Beweis an, der die gewählte Schlussfolgerung direkt belegt.",
+                    "Nutze nach einer falschen Auswahl die ausführlicheren Kommentare von Detective Grimoire und Sally Spears, um die Antwort einzugrenzen.",
+                    "Wiederhole die Interview-Schleife, wann immer das Spiel anzeigt, dass noch ein relevanter Hinweis fehlt."
+                  ],
+                  "trigger": "Schließe alle erforderlichen Untersuchungen der Charaktere ab."
+                }
+              ]
+            },
+            {
+              "sectionTitle": "Finale Konfrontation",
+              "steps": [
+                {
+                  "location": "Illusion Theatre und finale Fallsequenz",
+                  "objective": "Rekonstruiere den Mord im verschlossenen Raum.",
+                  "actions": [
+                    "Löse alle verbleibenden Rätsel in den Räumen und untersuche alle Beweise, bevor du die Konfrontation beginnst.",
+                    "Überprüfe den Kessel, die Bühne, die verborgenen Mechanismen, die Bewegungen der Besatzung und den Besitz von Magnus Mortuga.",
+                    "Erstelle die Zeitleiste nur mit Schlussfolgerungen, die bereits in den persönlichen Untersuchungen bewiesen wurden.",
+                    "Präsentiere den passenden physischen Beweis, wenn die Aufforderung zur finalen Schlussfolgerung erscheint."
+                  ],
+                  "trigger": "Bestätige die abgeschlossene Mord-Rekonstruktion, um die Endsequenz zu starten.",
+                  "spoilerWarning": "Der Täter, die Methode und die abschließenden Enthüllungen wurden absichtlich weggelassen."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "theMermaidMaskPuzzleSolutions": {
+      "title": "The Mermaid Mask Rätsellösungen",
+      "eyebrow": "Hinweise und Antworten",
+      "subtitle": "Finde spoilergeschützte Hinweise und direkte Antworten für die Objekträtsel, Schlösser, Schlussfolgerungsgeräte und Untersuchungs-Minispiele an Bord des U-Boots.",
+      "intro": "Die meisten Rätsel basieren darauf, vollständig modellierte Objekte zu drehen, visuelle Kategorien zuzuordnen oder Beweise zu verknüpfen, anstatt herkömmliche Passwörter einzugeben. Öffne zuerst den Hinweis und enthülle die Lösung nur, wenn der Mechanismus weiterhin unklar bleibt.",
+      "items": [
+        {
+          "chapter": "Prolog",
+          "room": "Speisesaal",
+          "puzzle": "Zahlenräder am Schlangenschrank",
+          "hint": "Jede Form repräsentiert die Anzahl ihrer Seiten. Kombiniere die Formen, wenn eine Anzeige eine höhere Gesamtsumme erfordert.",
+          "solution": "Stelle 3 auf ein Dreieck, 9 auf ein Quadrat plus ein Fünfeck, 7 auf ein Dreieck plus ein Quadrat und 4 auf ein Quadrat ein.",
+          "reward": "Öffnet den Schrank und setzt den Weg zum Tatort fort."
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Kinderzimmer",
+          "puzzle": "Porträtkarten und Linsen",
+          "hint": "Patricia besitzt die mittelgroße Puppe, während Jennifer und Margaret von gegenüberliegenden Seiten zu ihr blicken.",
+          "solution": "Füge die sechs Karten zu drei vollständigen Mädchen zusammen. Platziere Patricia in der Mitte und lasse ihre Puppe unverändert. Benutze die Vergrößerungs- und Verkleinerungslinsen für die beiden äußeren Puppen und platziere dann die Fischaugenlinsen über den Gesichtern der linken und rechten Mädchen.",
+          "reward": "Glass Eyeball"
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Kontrollraum",
+          "puzzle": "Schalttafelkabel",
+          "hint": "Es werden nur drei Verbindungen benötigt, und jedes Kabel verbindet eine Buchse in der oberen Reihe mit einer in der unteren Reihe.",
+          "solution": "Verbinde das rote Kabel von Buchse 1 mit Buchse 9, das blaue Kabel von Buchse 3 mit Buchse 11 und das gelbe Kabel von Buchse 6 mit Buchse 12.",
+          "reward": "Captain's Log"
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Kontrollraum",
+          "puzzle": "Neunteiliger sechseckiger Mechanismus",
+          "hint": "Bilde durchgehende farbige Ringe, bevor du dich um die Kabel kümmerst.",
+          "solution": "Ordne alle neun Teile so im sechseckigen Rahmen an, dass die abgeschrägten Kanten ununterbrochene konzentrische Ringe bilden. Die magentafarbenen und roten Außenplatten müssen einen durchgehenden gelben Ring umschließen, die lila inneren Keile müssen zur Mitte zeigen und jedes Kabel muss an einem passenden Stift oder am Mittelgelenk enden.",
+          "reward": "Vervollständigt den Mechanismus im Kontrollraum und registriert das zugehörige Beweismittel."
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Frauen-Schlafraum",
+          "puzzle": "Rosa Schweinchen-Tresor",
+          "hint": "Die Zahlen auf den verbundenen Zweigen werden addiert, um die feststehenden Summen an ihren Enden zu ergeben.",
+          "solution": "Stelle die oberen beweglichen Zahlen auf 3, 4 und 1 für eine Summe von 8 ein. Stelle die zweite Reihe auf 2, 3 und 1 für eine Summe von 6 ein. Die drei unteren verbundenen Summen sollten 5, 9 und 2 lauten.",
+          "reward": "Düsteres Unterwasserfoto"
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Männer-Schlafraum",
+          "puzzle": "Dirks Telefonsperre",
+          "hint": "Jeder Weg hat an beiden Endpunkten ein Symbol. Die Kacheln dazwischen müssen einen durchgehenden, passenden Kanal bilden.",
+          "solution": "Löse zuerst die sich kreuzenden Routen. Drehe und platziere jede Kachel so, dass Kanal A identische gekreuzte Symbole von links nach rechts verbindet, während die Kanäle B, C und D ihre übereinstimmenden oberen und unteren Symbole ohne unterbrochene Linie verbinden. Sobald alle vier Routen durchgehend sind, wird das Telefon entsperrt.",
+          "reward": "Dirks Anrufe, Nachrichten und E-Mails"
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Männerschlafraum",
+          "puzzle": "Schreibmaschinen-Ringcode",
+          "hint": "Die fünf Symbole sind keine separaten Bilder. Jedes ist das vorherige Muster nach einer festen Drehung.",
+          "solution": "Nutze die mittlere Vorschau, um benachbarte Zielsymbole zu vergleichen. Drehe die drei inneren Drehscheiben und die drei äußeren Ringe so, dass sich jedes angrenzende Muster um 45 Grad ändert, während die gleiche Anordnung der Komponenten beibehalten wird.",
+          "reward": "Brief von Ibis an J.D. Wirman"
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Traumkammer",
+          "puzzle": "Flaschenverschlüsse",
+          "hint": "Die Text-Hinweise beschreiben sichtbare oder physische Eigenschaften der sechs Flaschen.",
+          "solution": "Platziere den Mondsichel-Verschluss auf der Flasche mit dem karminroten Etikett, den Pik-Verschluss auf der sprudelnden Flasche, den Vogelschädel-Verschluss auf der Flasche, die Dampf abgibt, den sonnenförmigen Verschluss auf der schnell tropfenden Flasche, den Hand-Verschluss auf der zähflüssigen Flasche und den Augen-Verschluss auf der Flasche mit dem auffälligen X.",
+          "reward": "Schließt die Untersuchung der Hex-Flasche ab."
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Kuriositätenkabinett",
+          "puzzle": "Schädel-Klassifizierungsraster",
+          "hint": "Die Spaltensymbole beschreiben Kopfschmuck. Die Zeilensymbole beschreiben Gesichtszüge.",
+          "solution": "Sortiere die Schädel nach Verzierung in den Spalten: rote Markierung, seitlich markierter Schädel, Mondsichel-Markierung und Hörner. Sortiere sie nach Gesicht in den Zeilen: schmale oder geschlossene Augen, hervorstehende Zähne oder Kiefer und große runde Augen. Drehe jeden Schädel so, dass das für seine Zeile erforderliche Merkmal nach vorne zeigt.",
+          "reward": "Vervollständigt die Schädelausstellung und enthüllt den dazugehörigen Hinweis."
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Illusion Theatre",
+          "puzzle": "Kartenfarben-Raster",
+          "hint": "Die Kartenfarbe bestimmt die Zeile, während der Blick, die Zeigerichtung oder die Ausrichtung des Charakters die Spalte bestimmt.",
+          "solution": "Platziere jede Herz-Kachel in der Herz-Zeile, Karo in der Karo-Zeile, Kreuz in der Kreuz-Zeile und Pik in der Pik-Zeile. Ordne die Kacheln innerhalb jeder Zeile nach der oben in der Spalte angezeigten Richtung: nach oben, vertikal, neutral, links, rechts und nach unten.",
+          "reward": "Vervollständigt den Theater-Klassifizierungsmechanismus."
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Laderaum",
+          "puzzle": "Pinnwand für die Crew-Standorte",
+          "hint": "Die Pinnwand stellt das U-Boot im aktuellen Zustand dar, nicht dort, wo sich die Personen während des Mordes befanden.",
+          "solution": "Platziere jedes lebende Crewmitglied in dem Raum, in dem es sich derzeit befindet. Platziere das Porträt von Magnus Mortuga außerhalb des U-Boot-Diagramms, da er sich nicht mehr als lebender Bewohner an Bord befindet.",
+          "reward": "Schaltet zusätzliche Aussagen und Untersuchungsthemen frei."
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Frachtraum",
+          "puzzle": "Leuchtpilz-Katalog",
+          "hint": "Drehe die Lichtquelle und zähle, wie viele Pilze jeder Art unter der geforderten Bedingung leuchten.",
+          "solution": "Gib Dayglo 3, Evergleam 2, Illuminight 4 und Nevergleam 5 ein.",
+          "reward": "Vervollständigt Mariana Moons Pilzaufzeichnungen."
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Maschinenraum",
+          "puzzle": "Vier Kompasse",
+          "hint": "Jeder schriftliche Hinweis beschreibt, wie ein Kompass im Verhältnis zu den anderen zeigen sollte.",
+          "solution": "Stelle den gelben Kompass oben links so ein, dass er nach links zeigt, den blauen Kompass unten links so, dass er nach unten zeigt, den rosa Kompass oben rechts so, dass er auf etwa zwei Uhr zeigt, und den roten Kompass unten rechts so, dass er nach oben links zeigt.",
+          "reward": "Reparierter Kompass"
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Schleusengrotte",
+          "puzzle": "Tauchhelm-Rohrdrehscheiben",
+          "hint": "Betrachte jedes Rohr als einen Weg, der ein Symbol zwischen zwei Drehscheiben transportiert.",
+          "solution": "Beginne mit den zentralen Verbindungsdrehscheiben. Drehe jede Drehscheibe so, dass das Symbol, das ein Rohr verlässt, mit dem Symbol übereinstimmt, das in die nächste Drehscheibe eintritt. Fahre nach außen fort, bis jeder vollständige Rohrweg mit demselben Symbol beginnt und endet.",
+          "reward": "Vervollständigt den Tauchhelm-Mechanismus."
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Bilge",
+          "puzzle": "Farbkugel-Mechanismus",
+          "hint": "Die kleinen Anzeigen sind Zielmuster. Die großen Kugeln müssen diese nachbilden, wenn sich die farbigen Schichten überlagern.",
+          "solution": "Drehe zuerst die äußeren Metallscheiben, um die roten Gruppen zu positionieren, und drehe dann die inneren Glaskugeln, um die weißen und blassen Kugeln an den kleinen Referenzanzeigen auszurichten. Bestätige erst, wenn beide großen Kugeln ihre jeweiligen Zielanordnungen nachbilden.",
+          "reward": "Öffnet den Bilge-Mechanismus und registriert dessen Beweise."
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Kuppeltank",
+          "puzzle": "Piraten, Flaggen und Leuchttürme",
+          "hint": "Ordne jeden Piraten der Flagge mit demselben visuellen Muster zu, während die Leuchtturmteile die verbleibenden farbcodierten Positionen einnehmen.",
+          "solution": "Platziere den gelben Leuchtturm oben links und den cyanfarbenen Leuchtturm oben rechts. Setze den Piraten mit der schlichten blassgelben Flagge links dazwischen und den Piraten mit der schwarz-hellblau gestreiften Flagge rechts dazwischen. Platziere den grün gestreiften Leuchtturm unten links und den roten Leuchtturm unten rechts. Ordne die verbleibenden Piraten den rot-weiß gestreiften und schwarz-weiß-grünen Flaggen in den entsprechenden seitlichen und unteren mittleren Steckplätzen zu.",
+          "reward": "Vervollständigt die Anzeige im Kuppeltank."
+        },
+        {
+          "chapter": "Kapitel Eins",
+          "room": "Persönliche Ermittlungen",
+          "puzzle": "Lückentext-Schlussfolgerungen",
+          "hint": "Der korrekte Satz muss durch einen spezifischen Hinweis gestützt werden, nicht bloß durch eine verdächtige Aussage.",
+          "solution": "Vervollständige den Satz mithilfe der in den Befragungen gesammelten Aussagen und hänge dann den physischen Beweis an, der ihn direkt belegt. Wenn eine Antwort falsch ist, lies die ausführliche Reaktion von Grimoire und Sally, um festzustellen, ob die Aussage oder der stützende Hinweis nicht stimmt.",
+          "reward": "Schaltet abgeschlossene Schlussfolgerungen zu den Verdächtigen und die finale Fallsequenz frei."
+        }
+      ]
+    },
+    "theMermaidMaskBeginnerGuide": {
+      "title": "The Mermaid Mask Einsteiger-Guide",
+      "eyebrow": "Spoilerfreie Grundlagen",
+      "subtitle": "Erfahre, wie Erkundung, Befragung, 3D-Beweise, Schlussfolgerungen und das integrierte Hinweissystem funktionieren, bevor du mit dem Mortuga-Fall beginnst.",
+      "intro": "Die Ermittlung schreitet voran, indem man Beweise findet und sie den richtigen Personen zeigt. Es ist nicht nötig, den Täter vorzeitig zu erraten: Durchsuche jeden Raum sorgfältig, untersuche jede Seite jedes Objekts und besuche die Besatzung erneut, wann immer das Notizbuch einen bedeutsamen Hinweis erhält.",
+      "items": [
+        {
+          "title": "Folge dem Kernablauf der Ermittlung",
+          "summary": "Jeder Hauptabschnitt folgt demselben wiederholbaren Prozess.",
+          "tips": [
+            "Erkunde jeden zugänglichen Raum und untersuche hervorgehobene Objekte.",
+            "Befrage die Personen in diesem Bereich zu allen verfügbaren Themen.",
+            "Präsentiere neu gesammelte Beweise Charakteren, die sie möglicherweise wiedererkennen.",
+            "Kehre in frühere Räume zurück, wenn ein Hinweis ein verstecktes Fach oder eine neue Interaktion offenbart.",
+            "Nutze die daraus resultierenden Aussagen und Beweise in einer persönlichen Ermittlung."
+          ]
+        },
+        {
+          "title": "Nutze die Karte regelmäßig",
+          "summary": "Das U-Boot erweitert sich nach und nach, und in alten Räumen ergeben sich regelmäßig neue Interaktionen.",
+          "tips": [
+            "Überprüfe nach jedem wichtigen Gespräch jedes freigeschaltete Deck.",
+            "Besuche den Salon und die Mannschaftsquartiere erneut, wenn ein Objekt zu beobachten, zu blinken oder zu reagieren scheint.",
+            "Gehe nicht davon aus, dass ein abgeschlossener Raum dauerhaft erledigt ist.",
+            "Nutze die Raumnamen im Notizbuch, um nachzuverfolgen, woher unvollständige Beweise stammten."
+          ]
+        },
+        {
+          "title": "Schöpfe jedes Befragungsthema aus",
+          "summary": "Der nützliche Dialog eines Charakters unterteilt sich in persönliche Fragen, Fragen zu Verdächtigen und Reaktionen auf Beweise.",
+          "tips": [
+            "Stelle jede Einführungsfrage, wenn du jemanden zum ersten Mal triffst.",
+            "Befrage jede Person zu jedem anderen Besatzungsmitglied.",
+            "Präsentiere Hinweise auch dann, wenn der Zusammenhang nicht sofort offensichtlich ist.",
+            "Kehre zurück, nachdem du Fotos, Briefe, Logbücher, Aufnahmen oder Eigentumsdokumente gesammelt hast.",
+            "Neue Verdachtsthemen erscheinen, sobald genügend stützende Beweise gesichtet wurden."
+          ]
+        },
+        {
+          "title": "Untersuche 3D-Beweise vollständig",
+          "summary": "Wichtige Hinweise sind vollständig modellierte Objekte, die Informationen auf ihren Seiten, ihrer Rückseite, ihrer Unterseite oder in ihrem Inneren verbergen können.",
+          "tips": [
+            "Drehe jedes Objekt einmal komplett im Kreis.",
+            "Zoome an Nähte, Etiketten, Symbole, Schalter und beschädigte Stellen heran.",
+            "Versuche, Deckel zu öffnen, Regler zu drehen, Teile zu bewegen und das Objekt umzudrehen.",
+            "Fahre fort, bis alle Untersuchungspunkte bestätigt wurden.",
+            "Überprüfe ein Objekt erneut, wenn eine spätere Aussage ein Symbol erklärt, das du zuvor ignoriert hast."
+          ]
+        },
+        {
+          "title": "Lies das Notizbuch, bevor du umherwanderst",
+          "summary": "Das Notizbuch hält wichtige Beweise, Aussagen, Räume und aktive Ermittlungsansätze fest.",
+          "tips": [
+            "Suche nach Themen, die noch ungelöst sind.",
+            "Vergleiche die Aussage eines Charakters mit den physischen Hinweisen, die in der Nähe gesammelt wurden.",
+            "Nutze ungelöste Einträge, um zu entscheiden, welchen Verdächtigen du erneut aufsuchen solltest.",
+            "Überprüfe das Notizbuch nach jedem mehrstufigen Rätsel oder der Entdeckung eines geheimen Raums."
+          ]
+        },
+        {
+          "title": "Ziehe Schlussfolgerungen aus Beweisen",
+          "summary": "Eigene Ermittlungen verknüpfen eine fertige Aussage mit dem Hinweis, der sie beweist.",
+          "tips": [
+            "Wähle den Satz, der direkt aus einer bereits etablierten Aussage folgt.",
+            "Füge den spezifischsten physischen Hinweis hinzu, anstatt eines allgemein verdächtigen Gegenstands.",
+            "Trenne Motiv, Gelegenheit und Methode, anstatt sie als eine einzige Schlussfolgerung zu behandeln.",
+            "Lies nach einem Fehlversuch die Reaktion von Grimoire und Sally, um einen zusätzlichen Hinweis zu erhalten."
+          ]
+        },
+        {
+          "title": "Nutze Hinweise ohne Nachteile",
+          "summary": "Das optionale Hinweissystem kann die nächste Aktion anleiten oder ein Rätsel erklären, ohne den Abschluss zu beeinträchtigen.",
+          "tips": [
+            "Öffne den ersten Hinweis, wenn das Ziel unklar ist.",
+            "Nutze weiterführende Hinweise erst, nachdem du jeden Teil des Objekts untersucht hast.",
+            "Überprüfe, ob sich der Hinweis auf einen Raum, eine Person oder einen Schlussfolgerungshinweis bezieht.",
+            "Es gibt keinen Punktabzug, wenn du Hilfe anforderst."
+          ]
+        },
+        {
+          "title": "Löse eine Blockade im Spielfortschritt",
+          "summary": "Die meisten scheinbaren Sackgassen werden durch eine ungelesene Reaktion auf einen Hinweis oder ein unvollständig untersuchtes Objekt verursacht.",
+          "tips": [
+            "Drehe jeden der letzten 3D-Hinweise noch einmal und suche nach übersehenen Untersuchungspunkten.",
+            "Präsentiere allen Besatzungsmitgliedern mit verfügbaren Dialogen die neuesten Beweise.",
+            "Kehre in den Raum zurück, in dem dieser Beweis entdeckt wurde.",
+            "Überprüfe die Karte auf eine neu geöffnete Etage oder Tür.",
+            "Schließe alle unvollendeten persönlichen Ermittlungen ab, die im Notizbuch angezeigt werden."
+          ]
+        },
+        {
+          "title": "Vermeide versehentliche Story-Spoiler",
+          "summary": "Der Fall ist so konzipiert, dass die Spieler frei ermitteln können, ohne die endgültige Lösung zu kennen.",
+          "tips": [
+            "Nutze kapitel- und raumspezifische Hinweise, anstatt den Lösungsweg für das Ende zu lesen.",
+            "Schließe die Ermittlung zu jedem Verdächtigen ab, bevor du Material zum finalen Fall öffnest.",
+            "Lasse den Abschnitt der finalen Konfrontation eingeklappt, bis alle normalen Dialoge ausgeschöpft sind.",
+            "Betrachte verdächtige Aussagen eher als Hinweise denn als Beweise für die Schuld."
+          ]
+        }
+      ]
+    },
+    "theMermaidMaskCharactersAndSuspects": {
+      "title": "Die Charaktere und Verdächtigen von The Mermaid Mask",
+      "eyebrow": "Dossiers der Besatzung",
+      "subtitle": "Triff Detective Grimoire, Sally, den ermordeten Kapitän und die acht exzentrischen Personen, gegen die an Bord des Mortuga submarine ermittelt wird.",
+      "intro": "Jedes Besatzungsmitglied reagiert auf Beweise und auf die anderen Verdächtigen, was wiederholte Befragungen unerlässlich macht. Diese Dossiers decken ihre öffentlichen Rollen, Beziehungen, Aussagen, Ermittlungsansätze und erste Beweise ab, ohne den Täter zu nennen oder die endgültige Lösung zu verraten.",
+      "items": [
+        {
+          "name": "Detective Grimoire",
+          "role": "Hauptermittler und spielergesteuerter Detektiv",
+          "location": "Bewegt sich überall auf dem Mortuga submarine",
+          "relationships": [
+            "Langjähriger Ermittlungspartner von Sally Spears",
+            "Beauftragt, den Tod von Magnus Mortuga zu untersuchen"
+          ],
+          "testimony": "Grimoire baut den Fall auf, indem er physische Beweise inspiziert, die Besatzung befragt und durch Beweise gestützte Schlussfolgerungen zieht.",
+          "motive": "Kein Verdächtiger.",
+          "evidence": [
+            "Fallakte",
+            "Schlussfolgerungen im Notizbuch",
+            "Alle gesammelten Zeugenaussagen und physischen Hinweise"
+          ],
+          "spoiler": "Spoilerfreies Profil des Protagonisten."
+        },
+        {
+          "name": "Sally Spears",
+          "role": "Grimoires scharfzüngige Assistentin und Ermittlungspartnerin",
+          "location": "Reist mit Grimoire",
+          "relationships": [
+            "Engste Verbündete von Detective Grimoire",
+            "Stellt Fragen und kommentiert das Verhalten der Besatzung während des gesamten Falls"
+          ],
+          "testimony": "Sally liefert Beobachtungen, hinterfragt schwache Schlussfolgerungen und gibt nach erfolglosen Rätsel- oder Lösungsversuchen immer konkreteres Feedback.",
+          "motive": "Not a suspect.",
+          "evidence": [
+            "Diskussion zur Eröffnung der Fallakte",
+            "Puzzle feedback",
+            "Deduction commentary"
+          ],
+          "spoiler": "Spoilerfreies Protagonistenprofil."
+        },
+        {
+          "name": "Magnus Mortuga",
+          "role": "Murdered captain and owner of the Mortuga submarine",
+          "location": "Tot im Illusion Theatre aufgefunden",
+          "relationships": [
+            "Brachte die ungewöhnliche Crew an Bord seines U-Boots zusammen",
+            "Connected to Sinthia Seafoam through the ship and its command",
+            "Previously associated with the Stonetop Inn property"
+          ],
+          "testimony": "Mortuga cannot testify, so his history must be reconstructed through his log, possessions, property records, and the statements of his crew.",
+          "motive": "Die privaten Geschäfte, die Besitzhistorie und die Beziehungen des Opfers liefern mögliche Motive für mehrere Verdächtige.",
+          "evidence": [
+            "Stone Cauldron",
+            "Captain's Log",
+            "Captain's Jacket",
+            "Inn Deeds",
+            "Defektes Handfunkgerät",
+            "Painting titled Her"
+          ],
+          "spoiler": "Enthält erste Beweise des Falls, aber keine Enthüllungen zum Ende."
+        },
+        {
+          "name": "Sinthia Seafoam",
+          "role": "Kommissarischer Kapitän und erfahrener Schiffsingenieur",
+          "location": "Control Room",
+          "relationships": [
+            "The Mermaid Mask",
+            "Detective Grimoire",
+            "Arbeitete viele Jahre lang mit Schiffen und nautischen Maschinen"
+          ],
+          "testimony": "Sally Spears",
+          "motive": "Magnus Mortuga",
+          "evidence": [
+            "Sinthia Seafoam",
+            "Captain's Log",
+            "Düsteres Unterwasserfoto",
+            "Inn Deeds",
+            "Symmetry Silkmoth"
+          ],
+          "spoiler": "Geringfügige Ermittlungs-Spoiler; abschließende Schlussfolgerungen wurden weggelassen."
+        },
+        {
+          "name": "Madam Tadpole",
+          "role": "Illusionist an Bord des U-Boots",
+          "location": "Child's Room",
+          "relationships": [
+            "Dr. Zacharias Zephyr",
+            "Steht in Verbindung mit den Theaterräumen und den Illusionsbildern des U-Boots"
+          ],
+          "testimony": "J.D. Wirman",
+          "motive": "Dirk Dansom",
+          "evidence": [
+            "Glass Eyeball",
+            "Illusion Poster",
+            "Sail Cloth",
+            "Newspaper Page",
+            "Düstere Unterwasserfotografie"
+          ],
+          "spoiler": "Kleinere Spoiler zu Räumen und Hinweisen; abschließende Schlussfolgerungen werden weggelassen"
+        },
+        {
+          "name": "Madam Tadpole",
+          "role": "Selbsternannte Halb-Meerjungfrau und Bewohnerin der Luftschleusengrotte",
+          "location": "Airlock Grotto",
+          "relationships": [
+            "Lebt getrennt von einem Großteil der Besatzung im aquatischen Bereich des U-Boots",
+            "Liefert eine Zeugenaussage, die eine nicht identifizierte Gestalt auf dem Vordeck verortet"
+          ],
+          "testimony": "Mariana Moon",
+          "motive": "Godrik Gripp",
+          "evidence": [
+            "Diving Helmet",
+            "Fore Deck testimony",
+            "Beschreibung der leuchtenden Augen",
+            "Symbole, die hinter dem Kessel sichtbar sind"
+          ],
+          "spoiler": "Enthält die Zeugenaussage, die während der normalen ersten Befragung enthüllt wurde"
+        },
+        {
+          "name": "Dr. Zacharias Zephyr",
+          "role": "Traumdoktor und mystischer Forscher",
+          "location": "Dream Chamber",
+          "relationships": [
+            "Bietet den Personen an Bord des U-Boots Dienstleistungen rund um Träume an",
+            "His appearance and equipment become relevant to Tadpole's testimony"
+          ],
+          "testimony": "Zephyr explains his dream practice, discusses Mortuga and the crew, and comments on the unusual devices kept in his chamber.",
+          "motive": "Seine mysteriöse Ausrüstung, Chemikalienflaschen und eine mögliche Verbindung zu ungewöhnlichen Wahrnehmungen stellen seine Methoden unter genaue Prüfung.",
+          "evidence": [
+            "Hex Bottle",
+            "Dream Helmet",
+            "Fog Ball",
+            "Bottle-cap mechanism"
+          ],
+          "spoiler": "Kleinere Spoiler zu Beweismitteln; abschließende Schlussfolgerungen werden ausgelassen."
+        },
+        {
+          "name": "J.D. Wirman",
+          "role": "Erfolgreicher Schriftsteller und Autor mit Verbindung zu The Hex of the Helmsmen",
+          "location": "Men's Bunk Room",
+          "relationships": [
+            ", [[2]], etc. markers) that you would like me to translate.",
+            "Receives concealed correspondence from a person signing as Ibis"
+          ],
+          "testimony": "Wirman discusses his writing, his status aboard the ship, Mortuga, Dirk, and the other members of the crew.",
+          "motive": "Seine geheime Korrespondenz und die literarische Verbindung zur übernatürlichen Bildsprache des Falls werfen Fragen darüber auf, was er vor dem Mord wusste.",
+          "evidence": [
+            "The Hex of the Helmsmen",
+            "Typewriter mechanism",
+            "Handwritten Letter from Ibis",
+            "Crew testimony"
+          ],
+          "spoiler": "Kleinere Spoiler zur Korrespondenz; die endgültige Bedeutung des Briefes wird ausgelassen."
+        },
+        {
+          "name": "Dirk Dansom",
+          "role": "Schauspieler und energiegeladener prominenter Passagier",
+          "location": "Men's Bunk Room",
+          "relationships": [
+            "Shares the men's quarters with J.D. Wirman",
+            "Taucht in Unterhaltungsmaterial auf, das an Bord des U-Boots gefunden wurde."
+          ],
+          "testimony": "Dirk discusses his career, Mortuga, Wirman, and the rest of the crew. His locked phone contains private calls, messages, and emails.",
+          "motive": "Private Mitteilungen und eine heimlich aufgezeichnete Aussage darüber, jemanden zu töten, um frei zu sein, deuten darauf hin, dass er unter persönlichem Druck stand.",
+          "evidence": [
+            "Movie Magazine",
+            "Locked Phone",
+            "Erkunde ein von Hand gezeichnetes, u-bootförmiges Locked-Room-Rätsel von SFB Games, den Machern von Tangle Tower.",
+            "Enthülle die Geheimnisse von Captain Magnus Mortugas U-Boot."
+          ],
+          "spoiler": "Enthält einen kleinen Spoiler zu einem aufgezeichneten Dialog, aber nicht dessen endgültige Interpretation."
+        },
+        {
+          "name": "Mariana Moon",
+          "role": "Historiker und akribischer Sammler von Informationen",
+          "location": "Cargo Hold",
+          "relationships": [
+            "Studiert das U-Boot, seine Insassen und deren Geschichte.",
+            "Zeichnet heimlich Gespräche der Besatzung auf"
+          ],
+          "testimony": "Sammle Beweise und verhöre exzentrische Verdächtige im neuesten Teil der Detective Grimoire-Reihe.",
+          "motive": "Steuere Detective Grimoire und Sally Spears, während sie das Geheimnis um Magnus Mortugas Tod lüften.",
+          "evidence": [
+            "Silkwirm Map",
+            "Pinwand für Besatzungsstandorte",
+            "Untersuche rotierende 3D-Hinweise, um versteckte Details an Bord des U-Boots zu finden.",
+            "Aufgezeichnete Gespräche",
+            "Kombiniere Beweise in logischen Rätseln, um die Wahrheit hinter dem Mord zu enthüllen."
+          ],
+          "spoiler": "Leichte Spoiler zu den Aufnahmen; die endgültigen Schlussfolgerungen wurden weggelassen"
+        },
+        {
+          "name": "Text, [[2]]Text).",
+          "role": "Exzentrischer Händler und Mechanik-Ladenbesitzer",
+          "location": "Engine Room",
+          "relationships": [
+            "Handelt mit ungewöhnlichen Objekten für die Bewohner des U-Boots und repariert diese",
+            "Hat direkten Zugriff auf Maschinen und Navigationsausrüstung"
+          ],
+          "testimony": "Triff skurrile Charaktere wie Sinthia Seafoam, Symmetry Silkmoth und Dr. Zacharias Zephyr.",
+          "motive": "Sein Zugriff auf die mechanischen Systeme des U-Boots und seine Arbeit mit beschädigten oder veränderten Objekten werfen Fragen zu Mitteln und Gelegenheiten auf",
+          "evidence": [
+            "Vier-Kompass-Mechanismus",
+            "Broken Compass",
+            "Löse das Rätsel um die legendäre „The Mermaid Mask“ und ihren Fluch.",
+            "Waren aus dem Maschinenraum"
+          ],
+          "spoiler": "Leichte Spoiler zu mechanischen Hinweisen; die endgültigen Schlussfolgerungen wurden weggelassen"
+        }
+      ]
+    },
+    "theMermaidMaskCluesAndEvidence": {
+      "title": "The Mermaid Mask Clues and Evidence",
+      "eyebrow": "Vollständiger Beweismittelkatalog",
+      "subtitle": "Track the physical objects, documents, testimony, recordings, and environmental details needed to solve Captain Mortuga's locked-room murder.",
+      "intro": "SFB Games",
+      "columns": [
+        "Clue",
+        "Chapter",
+        "Room",
+        "Category",
+        "Found By",
+        "Examination",
+        "Suspects",
+        "Required"
+      ],
+      "items": [
+        {
+          "name": "Case File",
+          "chapter": "Prologue",
+          "room": "Stonetop Inn",
+          "category": "Document",
+          "foundBy": "Öffne die rote Fallakte, bevor du das Gasthaus verlässt.",
+          "examination": "The Mermaid Mask",
+          "suspects": [
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Führt in den Mordfall und das erste Ermittlungsziel ein.",
+          "required": true
+        },
+        {
+          "name": "Detective Grimoire",
+          "chapter": "Prologue",
+          "room": "Stonetop Inn",
+          "category": "Book",
+          "foundBy": "Untersuche das Buch, das in der Nähe von Sally liegt.",
+          "examination": "Lies seine übernatürliche Seefahrergeschichte und vergleiche die Symbolik mit späteren Verweisen auf Flüche, Masken und den Kessel.",
+          "suspects": [
+            "J.D. Wirman",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Bietet thematischen Kontext für den scheinbaren Fluch, der den Mord umgibt.",
+          "required": true
+        },
+        {
+          "name": "Tangle Tower",
+          "chapter": "Prologue",
+          "room": "Town Square",
+          "category": "Sally Spears",
+          "foundBy": "Untersuche den leuchtenden Bereich, bevor das U-Boot auftaucht.",
+          "examination": "Beobachte die Farbe, den Ort und Sallys Reaktion auf das Licht.",
+          "suspects": [
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Treibt die Ankunftssequenz voran und führt die ungewöhnliche visuelle Technologie des U-Boots ein.",
+          "required": true
+        },
+        {
+          "name": "Sinthia Seafoam",
+          "chapter": "Prologue",
+          "room": "Fore Deck",
+          "category": "Symmetry Silkmoth",
+          "foundBy": "Untersuche die geschnitzte Boje sofort nach dem Anbordgehen.",
+          "examination": "Drehe die Ansicht und vergleiche die leuchtenden Details mit späteren Beschreibungen von Lichtern, die außerhalb des U-Boots gesehen wurden.",
+          "suspects": [
+            "Madam Tadpole",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Fügt späteren Zeugenaussagen zum Vordeck Kontext hinzu.",
+          "required": false
+        },
+        {
+          "name": "Madam Tadpole",
+          "chapter": "Prologue",
+          "room": "Dr. Zacharias Zephyr",
+          "category": "J.D. Wirman",
+          "foundBy": "Untersuche den zerrissenen Stoff in der Nähe der Bühne und des Tatorts.",
+          "examination": "Überprüfe die beschädigten Kanten, das Material und die Verbindung zum Display „Das sternguckende Mädchen“.",
+          "suspects": [
+            "Dirk Dansom",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Unterstützt Fragen zu Bühnenausstattung, Verbergen und Bewegungen innerhalb des Theaters.",
+          "required": true
+        },
+        {
+          "name": "Umgedrehtes Illusionsplakat",
+          "chapter": "Prologue",
+          "room": "Illusion Theatre",
+          "category": "Visual clue",
+          "foundBy": "Untersuche das Theaterplakat aus beiden Ausrichtungen.",
+          "examination": "Drehe das Bild auf den Kopf und erkenne, wie sich die Bedeutung bei unterschiedlicher Betrachtung ändert.",
+          "suspects": [
+            "Symmetry Silkmoth"
+          ],
+          "unlocks": "Etabliert visuelle Täuschung als wichtigen Aspekt des Falls.",
+          "required": true
+        },
+        {
+          "name": "Chalk Outline",
+          "chapter": "Prologue",
+          "room": "Illusion Theatre",
+          "category": "Crime-scene evidence",
+          "foundBy": "Inspect every highlighted point around Mortuga's body position.",
+          "examination": "Vergleiche die Position der Leiche mit dem Kessel, den Bühneneingängen und den Mechanismen in der Nähe.",
+          "suspects": [
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Unterstützt die erste Schlussfolgerung zur Todesursache des Opfers.",
+          "required": true
+        },
+        {
+          "name": "Stone Cauldron",
+          "chapter": "Prologue",
+          "room": "Illusion Theatre",
+          "category": "Hauptbeweismittel des Mordes",
+          "foundBy": "Untersuche den antiken Kessel neben dem Kreideumriss.",
+          "examination": "Untersuche das Schloss, den Rand, das Innere, die äußeren Symbole, den Boden und die umliegenden Bühnenverbindungen.",
+          "suspects": [
+            "Magnus Mortuga",
+            "Symmetry Silkmoth",
+            "Madam Tadpole"
+          ],
+          "unlocks": "Allows Grimoire to conclude that Mortuga opened the cauldron and was killed by what emerged from or was concealed inside it.",
+          "required": true
+        },
+        {
+          "name": "„Lady of the Looking Glass“-Zeitung",
+          "chapter": "Chapter One",
+          "room": "Child's Room",
+          "category": "Document",
+          "foundBy": "Lies beide Seiten der Zeitungsseite.",
+          "examination": "Lies dir die Illusionsgeschichte auf der Vorderseite und den Bericht über die Seeschlange auf der Rückseite durch.",
+          "suspects": [
+            "Symmetry Silkmoth",
+            "Madam Tadpole"
+          ],
+          "unlocks": "Schaltet neue Befragungsthemen bezüglich Illusionen und vermeintlicher Seekreaturen frei.",
+          "required": true
+        },
+        {
+          "name": "Glass Eyeball",
+          "chapter": "Chapter One",
+          "room": "Child's Room",
+          "category": "Key item",
+          "foundBy": "Vervollständige die Porträtkarte und den Linsenmechanismus.",
+          "examination": "Drehe den Glass Eyeball und untersuche seine Form, Iris, hintere Fassung und die mechanischen Kanten.",
+          "suspects": [
+            "Symmetry Silkmoth",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Öffnet das augenförmige Schloss an der Kapitänskajüte.",
+          "required": true
+        },
+        {
+          "name": "Submarine Blueprint",
+          "chapter": "Chapter One",
+          "room": "Control Room",
+          "category": "Technical document",
+          "foundBy": "Untersuche die im Kontrollraum ausgestellten Pläne.",
+          "examination": "Sieh dir die Decks des U-Boots, die verbundenen Räume, die Sperrbereiche und die möglichen Bewegungsrouten an.",
+          "suspects": [
+            "Sinthia Seafoam",
+            "Magnus Mortuga",
+            "Godrik Gripp"
+          ],
+          "unlocks": "Liefert Kontext für den Raumzugang, die Maschinen und die Untersuchung der Aufenthaltsorte der Besatzung.",
+          "required": true
+        },
+        {
+          "name": "Captain's Log",
+          "chapter": "Chapter One",
+          "room": "Control Room",
+          "category": "Document",
+          "foundBy": ", [[2]]), and I will translate them for you according to your instructions.",
+          "examination": "Read Mortuga's entries and compare them with the crew's accounts of his recent actions.",
+          "suspects": [
+            "Magnus Mortuga",
+            "Sinthia Seafoam"
+          ],
+          "unlocks": "Adds new questions about Mortuga's plans, command decisions, and private concerns.",
+          "required": true
+        },
+        {
+          "name": "Düsteres Unterwasserfoto",
+          "chapter": "Chapter One",
+          "room": "Women's Bunk Room",
+          "category": "Photograph",
+          "foundBy": "Öffne den rosa Schweinesafe und nimm das versteckte Foto an dich.",
+          "examination": "Untersuche die Figuren, den Schauplatz, den Hintergrund, die Beleuchtung und alle Erkennungsmerkmale.",
+          "suspects": [
+            "Sinthia Seafoam",
+            "The Mermaid Mask",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Detective Grimoire",
+          "required": true
+        },
+        {
+          "name": "Inn Deeds",
+          "chapter": "Chapter One",
+          "room": "Sally Spears",
+          "category": "Magnus Mortuga",
+          "foundBy": "Sinthia Seafoam",
+          "examination": "Symmetry Silkmoth",
+          "suspects": [
+            "Sinthia Seafoam",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Madam Tadpole",
+          "required": true
+        },
+        {
+          "name": "Dirk's Phone",
+          "chapter": "Chapter One",
+          "room": "Men's Bunk Room",
+          "category": "Dr. Zacharias Zephyr",
+          "foundBy": "Schließe das Kanal-Rätsel mit den übereinstimmenden Symbolen ab.",
+          "examination": "Lies nach dem Entsperren des Geräts alle verfügbaren Anrufprotokolle, Nachrichten und E-Mails.",
+          "suspects": [
+            "Dirk Dansom",
+            "J.D. Wirman"
+          ],
+          "unlocks": "J.D. Wirman",
+          "required": true
+        },
+        {
+          "name": "Dirk Dansom",
+          "chapter": "Chapter One",
+          "room": "Men's Bunk Room",
+          "category": "Correspondence",
+          "foundBy": "Löse den rotierenden Schreibmaschinenring-Mechanismus.",
+          "examination": "Lies die vollständige handschriftliche Nachricht und untersuche die Unterschrift, den Wortlaut und den beabsichtigten Empfänger.",
+          "suspects": [
+            "J.D. Wirman",
+            "Ibis"
+          ],
+          "unlocks": "`, `[[2]]`, `[[3]]` markers) that you would like me to translate, and I will format and translate them according to your rules.",
+          "required": true
+        },
+        {
+          "name": "Hex Bottle",
+          "chapter": "Chapter One",
+          "room": "Dream Chamber",
+          "category": "Wissenschaftliches oder mystisches Objekt",
+          "foundBy": "Inspect Zephyr's bottle collection and complete the cap-matching puzzle.",
+          "examination": "Drehe jede Flasche und vergleiche Flüssigkeit, Etikett, Dampf, Viskosität und Markierungen mit den verfügbaren Verschlüssen.",
+          "suspects": [
+            "Dr. Zacharias Zephyr"
+          ],
+          "unlocks": "Unterstützt Fragen zu veränderter Wahrnehmung, Chemikalien, Träumen und übernatürlichen Behauptungen.",
+          "required": true
+        },
+        {
+          "name": "Silkwirm Map",
+          "chapter": "Chapter One",
+          "room": "Cargo Hold",
+          "category": "Map",
+          "foundBy": "Durchsuche die gelagerten Säcke und Materialien im Frachtraum.",
+          "examination": "Inspect its routes, labels, symbols, and any locations connected to Mortuga's history.",
+          "suspects": [
+            "Mariana Moon",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Expands Mariana's historical testimony and the background of the submarine's voyage.",
+          "required": true
+        },
+        {
+          "name": "Pipe-Shaped Dictaphone",
+          "chapter": "Chapter One",
+          "room": "Cargo Hold",
+          "category": "Recording device",
+          "foundBy": "Present the suspicious pipe-shaped object to Mariana after collecting the relevant mechanical evidence.",
+          "examination": "Identifiziere die verborgene Aufnahmefunktion und spiele jedes gespeicherte Gespräch ab.",
+          "suspects": [
+            "Mariana Moon",
+            "Dirk Dansom",
+            "J.D. Wirman",
+            "Mortuga submarine crew"
+          ],
+          "unlocks": "Enthüllt Aussagen, von denen die Sprecher nicht wussten, dass sie aufgezeichnet wurden, und schafft neue Widerspruchsthemen.",
+          "required": true
+        },
+        {
+          "name": "Defektes Handfunkgerät",
+          "chapter": "Chapter One",
+          "room": "Captain's Cabin",
+          "category": "Mechanical evidence",
+          "foundBy": "Open the Captain's Cabin with the Glass Eyeball and inspect Mortuga's table.",
+          "examination": "Drehe das Radio, untersuche sein beschädigtes Gehäuse, die Bedienelemente, die Antenne und die internen Komponenten.",
+          "suspects": [
+            "Magnus Mortuga",
+            "Godrik Gripp",
+            "Sinthia Seafoam"
+          ],
+          "unlocks": "Supports questions about communication, equipment damage, and Mortuga's final activities.",
+          "required": true
+        },
+        {
+          "name": "Painting Titled Her",
+          "chapter": "Chapter One",
+          "room": "Captain's Cabin",
+          "category": "Personal possession",
+          "foundBy": "Inspect the framed painting in Mortuga's private room.",
+          "examination": "Study the depicted figure, title, frame, background, and Mortuga's reason for keeping it.",
+          "suspects": [
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Adds personal context to Mortuga's past and the emotional meaning of the case.",
+          "required": true
+        },
+        {
+          "name": "Repaired Compass",
+          "chapter": "Chapter One",
+          "room": "Engine Room",
+          "category": "Mechanical evidence",
+          "foundBy": "Solve the four-compass direction puzzle in Gripp's shop.",
+          "examination": "Untersuche sein Gehäuse, die Nadel, reparierte Stellen sowie Anzeichen früherer Schäden oder Modifikationen.",
+          "suspects": [
+            "Godrik Gripp",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Erzeugt zusätzliche Reaktionen von Charakteren, die das Objekt oder seine Herkunft erkennen.",
+          "required": true
+        },
+        {
+          "name": "Diving Helmet",
+          "chapter": "Chapter One",
+          "room": "Airlock Grotto",
+          "category": "Equipment",
+          "foundBy": "Untersuche den Helm und vervollständige seinen angeschlossenen Rohr-Wählmechanismus.",
+          "examination": "Drehe den Helm, verfolge jeden Rohrverlauf und untersuche die Sichtfenster, Dichtungen und Atemkomponenten.",
+          "suspects": [
+            "Madam Tadpole",
+            "The Mermaid Mask"
+          ],
+          "unlocks": "Liefert Kontext zu der Gestalt mit den leuchtenden Augen, die angeblich auf dem Vorderdeck gesehen wurde.",
+          "required": true
+        },
+        {
+          "name": "Pinnwand mit den Standorten der Crew",
+          "chapter": "Chapter One",
+          "room": "Cargo Hold",
+          "category": "Deduction board",
+          "foundBy": "Kehre zurück, nachdem du jedes lebende Crewmitglied getroffen hast.",
+          "examination": "Detective Grimoire",
+          "suspects": [
+            "All suspects",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Legt die aktuelle Besatzung des U-Boots fest und eröffnet zusätzliche persönliche Ermittlungen.",
+          "required": true
+        }
+      ]
+    },
+    "theMermaidMaskAchievementsGuide": {
+      "title": "Sally Spears",
+      "eyebrow": "Magnus Mortuga",
+      "subtitle": "Sinthia Seafoam",
+      "intro": "Symmetry Silkmoth",
+      "items": [
+        {
+          "name": "The Beginning",
+          "category": "Story",
+          "hidden": true,
+          "description": "Madam Tadpole",
+          "howToUnlock": "Lies die Fallakte, untersuche The Hex of the Helmsmen, wecke Sally und verlasse das Gasthaus.",
+          "chapter": "Prologue",
+          "missable": false,
+          "cleanup": "Wird automatisch während des normalen Spielverlaufs freigeschaltet."
+        },
+        {
+          "name": "All Aboard",
+          "category": "Story",
+          "hidden": true,
+          "description": "Dr. Zacharias Zephyr",
+          "howToUnlock": "Untersuche den Platz, sprich mit Sally, warte, bis das U-Boot aufgetaucht ist, und betrete es vom Vorderdeck aus.",
+          "chapter": "Prologue",
+          "missable": false,
+          "cleanup": "Wird automatisch vor der ersten Untersuchung des Innenraums freigeschaltet."
+        },
+        {
+          "name": "Cabinet Cracker",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Öffne den Schlangenschrank in der Messe.",
+          "howToUnlock": "Betrachte jede Form als ihre Anzahl an Seiten und gib die Werte 3, 9, 7 und 4 mithilfe der verfügbaren Formkombinationen ein.",
+          "chapter": "Prologue",
+          "missable": false,
+          "cleanup": "Für den Story-Fortschritt erforderlich."
+        },
+        {
+          "name": "Der Fluch im Kessel",
+          "category": "Story",
+          "hidden": true,
+          "description": "Schließe die anfängliche Tatort-Schlussfolgerung im Illusion Theatre ab.",
+          "howToUnlock": "Untersuche den Kreideumriss, das zerschlissene Tuch, das Illusionsplakat, die Bühne und den Kessel, bevor du die erste Schlussfolgerung bestätigst.",
+          "chapter": "End of Prologue",
+          "missable": false,
+          "cleanup": "Wird automatisch freigeschaltet, wenn Kapitel Eins beginnt."
+        },
+        {
+          "name": "Eye for Detail",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Vervollständige die Porträtkarte und den Linsenmechanismus im Kinderzimmer.",
+          "howToUnlock": "J.D. Wirman",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Dirk Dansom"
+        },
+        {
+          "name": "Schalttafel-Spezialist",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Restore the Control Room switchboard and recover the Captain's Log.",
+          "howToUnlock": "Connect the red cable from 1 to 9, blue from 3 to 11, and yellow from 6 to 12.",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Für die Hauptuntersuchung erforderlich."
+        },
+        {
+          "name": "Safe and Sound",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Öffne den rosa Schweinchensafe im Schlafraum der Frauen.",
+          "howToUnlock": "Ordne die Zweigwerte so an, dass die oberen Summen 8 und 6 ergeben und die unteren verbundenen Summen 5, 9 und 2 ergeben.",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Complete it before finishing Sinthia's personal investigation."
+        },
+        {
+          "name": "Private Caller",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Unlock Dirk Dansom's phone and read its stored communications.",
+          "howToUnlock": "Drehe die Kanalkacheln, bis jede Route übereinstimmende Endpunktsymbole verbindet, und öffne dann alle Anrufe, Nachrichten und E-Mails.",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "Lies jeden Telefonbereich, bevor du die Geräteschnittstelle verlässt."
+        },
+        {
+          "name": "Written in Code",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Löse den Schreibmaschinenring-Mechanismus in der Mannschaftskajüte der Männer.",
+          "howToUnlock": "Drehe den inneren und äußeren Ring, bis die fahrplanmäßigen fünf Muster den erforderlichen 45-Grad-Transformationen folgen.",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "The Mermaid Mask"
+        },
+        {
+          "name": "Sweet Dreams",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Detective Grimoire",
+          "howToUnlock": "Ordne die Halbmond-, Pik-, Vogelschädel-, Sonnen-, Hand- und Augenverschlüsse den Flaschen zu, die durch ihre sichtbaren und physischen Eigenschaften beschrieben werden.",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "Schließe den Mechanismus ab, während du alle Beweise in der Traumkammer überprüfst."
+        },
+        {
+          "name": "Sally Spears",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Vervollständige die Schädelklassifizierungs-Ausstellung in der Wunderkammer.",
+          "howToUnlock": "Sortiere jeden Schädel nach seiner Verzierung und seinem Gesichtsmerkmal und drehe ihn dann so, dass das erforderliche Erkennungsmerkmal nach vorne zeigt.",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "Vervollständige die optionalen Raummechanismen vor der finalen Konfrontation."
+        },
+        {
+          "name": "Know Your Crew",
+          "category": "Interview",
+          "hidden": false,
+          "description": "Triff und befrage jeden Hauptverdächtigen an Bord des U-Boots.",
+          "howToUnlock": "Magnus Mortuga",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Sprich jedes Einführungsthema an, wenn du den einzelnen Charakteren zum ersten Mal begegnest."
+        },
+        {
+          "name": "Sinthia Seafoam",
+          "category": "Deduction",
+          "hidden": false,
+          "description": "Vervollständige die Pinnwand mit den Standorten der Besatzung im Laderaum.",
+          "howToUnlock": "Symmetry Silkmoth",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Kehre zur Pinnwand zurück, nachdem alle acht Verdächtigen vorgestellt wurden."
+        },
+        {
+          "name": "Für die Nachwelt festgehalten",
+          "category": "Evidence",
+          "hidden": true,
+          "description": "Madam Tadpole",
+          "howToUnlock": "Präsentiere das pfeifenförmige Objekt zusammen mit den relevanten mechanischen Beweisstücken und spiele dann jedes verfügbare aufgezeichnete Gespräch ab.",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "Höre dir jede Aufnahme an, bevor du die dazugehörigen persönlichen Ermittlungen abschließt."
+        },
+        {
+          "name": "True North",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Repariere den Kompassmechanismus im Maschinenraum.",
+          "howToUnlock": "Richte Gelb nach links, Blau nach unten, Rosa auf etwa zwei Uhr und Rot nach oben links aus.",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Sammle den reparierten Kompass ein und präsentiere ihn Charakteren mit neuen Reaktionen."
+        },
+        {
+          "name": "Deep-Sea Diver",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Vervollständige den Taucherhelm-Mechanismus in der Schleusengrotte.",
+          "howToUnlock": "Drehe alle verbundenen Regler so, dass jede Rohrleitung mit demselben Symbol beginnt und endet.",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "Dr. Zacharias Zephyr"
+        },
+        {
+          "name": "J.D. Wirman",
+          "category": "Collection",
+          "hidden": false,
+          "description": "Erfasse jeden erforderlichen physischen Hinweis, der für die Hauptermittlung verwendet wird.",
+          "howToUnlock": "Sammle Dokumente, Fotos, Aufnahmen, mechanische Objekte und Tatortbeweise aus jedem zugänglichen Raum.",
+          "chapter": "Entire game",
+          "missable": true,
+          "cleanup": "Untersuche jeden Raum vor der Finalsequenz erneut und vergewissere dich, dass kein erforderlicher Beweiseintrag unvollständig bleibt."
+        },
+        {
+          "name": "Dirk Dansom",
+          "category": "Interview",
+          "hidden": false,
+          "description": "Schöpfe die wichtigen Befragungs- und Beweisreaktionsthemen für die gesamte Besatzung vollständig aus.",
+          "howToUnlock": "Befrage jeden Verdächtigen zu jedem Besatzungsmitglied und präsentiere alle wichtigen Dokumente, Fotografien, Aufnahmen und mechanischen Hinweise.",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "Suche nach jeder wichtigen Entdeckung alle Charaktere erneut auf, die Anzeigen für ungelesene Dialoge aufweisen."
+        },
+        {
+          "name": "Mariana Moon",
+          "category": "Exploration",
+          "hidden": false,
+          "description": "Untersuche die interaktiven Räume des Mortuga submarine und die dreidimensionalen Beweisobjekte vollständig.",
+          "howToUnlock": "Drehe jedes Objekt in alle Richtungen, aktiviere alle Hotspots und schließe die optionalen Mechanismen in Räumen wie der Bilge, dem Kuppeltank und dem Kuriositätenkabinett ab.",
+          "chapter": "Entire game",
+          "missable": true,
+          "cleanup": "Führe eine vollständige Durchsuchung aller Räume durch, bevor du die Konfrontation im letzten Fall auswählst."
+        },
+        {
+          "name": "Case Closed",
+          "category": "Story",
+          "hidden": true,
+          "description": "Godrik Gripp",
+          "howToUnlock": "Schließe die erforderlichen persönlichen Ermittlungen ab, erstelle den finalen Zeitstrahl und präsentiere die passenden physischen Beweise während der Konfrontation.",
+          "chapter": "Final sequence",
+          "missable": false,
+          "cleanup": "Wird automatisch freigeschaltet, wenn die Hauptgeschichte abgeschlossen ist."
+        },
+        {
+          "name": "Perfekte Ermittlung",
+          "category": "Completion",
+          "hidden": true,
+          "description": "Schließe die Geschichte ab und erledige dabei die optionalen Ermittlungsinhalte, die für den vollständigen Abschluss der Erfolge erforderlich sind.",
+          "howToUnlock": "Löse jedes erforderliche Rätsel, schließe optionale Raummechanismen ab, untersuche alle wichtigen Beweise und schöpfe die bedeutenden Reaktionen der Besatzung aus, bevor du den Fall abschließt.",
+          "chapter": "Entire game",
+          "missable": true,
+          "cleanup": "Verwende einen Spielstand vor der finalen Konfrontation, um verpasste Untersuchungen oder optionale Rätsel abzuschließen, ohne das gesamte Spiel erneut spielen zu müssen."
+        }
+      ]
+    },
+    "theMermaidMaskEndingExplained": {
+      "title": ", [[2]], etc.), and I will translate them to German following all your instructions.",
+      "eyebrow": "`, `[[2]]`, etc. markers.",
+      "subtitle": "Verstehe, wie der Mord im Illusion Theatre, der Kessel, die verborgenen Mechanismen des U-Boots und die sich überschneidenden Geheimnisse der Besatzung in die finale Rekonstruktion passen.",
+      "intro": "The ending resolves the apparent supernatural curse by combining the evidence collected across the Mortuga submarine with the crew's hidden relationships and contradictory testimony. The sections below explain the logic of the final case while separating the murder method from the unrelated secrets that made several suspects appear guilty.",
+      "items": [
+        {
+          "question": "Why does Mortuga's death initially appear supernatural?",
+          "answer": "Mortuga is found beside an ancient cauldron inside the Illusion Theatre after apparently unlocking it himself. The curse imagery from The Hex of the Helmsmen, the strange symbols, Tadpole's account of a glowing-eyed figure, and the theatrical setting encourage the crew to believe that something inhuman emerged from the cauldron.",
+          "spoiler": "Große Spoiler zum Tatort"
+        },
+        {
+          "question": "Was stellt die anfängliche Schlussfolgerung fest?",
+          "answer": "Grimoire establishes that Magnus Mortuga personally unlocked the cauldron and that the immediate cause of his death came from whatever was concealed, released, or presented as emerging from inside it. This becomes the foundation of the final reconstruction rather than proof that the curse was real.",
+          "spoiler": "Große Spoiler zur Ermittlung"
+        },
+        {
+          "question": "Wie erschafft das Illusion Theatre ein Rätsel des verschlossenen Raumes?",
+          "answer": "Das Theater ist auf Irreführung ausgelegt. Das auf dem Kopf stehende Poster, das zerfetzte Bühnentuch, die verborgenen Mechanismen, die Beleuchtung, die beweglichen Displays und die Konstruktion des Kessels zeigen, dass einem Beobachter eine Version eines Ereignisses präsentiert werden kann, während die tatsächliche Bewegung oder Vorbereitung außerhalb der Sichtweite stattfindet.",
+          "spoiler": "Große Spoiler zur Mordmethode"
+        },
+        {
+          "question": "Warum sind die Kessel-Symbole und die Zeugenaussage über die leuchtenden Augen wichtig?",
+          "answer": "The symbols behind the cauldron and Madam Tadpole's description of an alien language connect two events that initially seem supernatural. When compared with equipment such as the diving helmet, Dream Chamber devices, submarine lighting, and other mechanical clues, the testimony becomes evidence of disguise, distorted perception, or deliberate staging rather than a literal demon.",
+          "spoiler": "Große Spoiler zu den Beweisen"
+        },
+        {
+          "question": "The Mermaid Mask",
+          "answer": "Detective Grimoire",
+          "spoiler": "Große Spoiler zum Motiv"
+        },
+        {
+          "question": "Warum sehen so viele Besatzungsmitglieder schuldig aus?",
+          "answer": "Sally Spears",
+          "spoiler": "Große Charakter-Spoiler"
+        },
+        {
+          "question": "Magnus Mortuga",
+          "answer": "Sinthia Seafoam",
+          "spoiler": "Große Spoiler zu den Aussagen"
+        },
+        {
+          "question": "Wie führen die persönlichen Ermittlungen zur endgültigen Antwort?",
+          "answer": "The Mermaid Mask",
+          "spoiler": "Große Spoiler zu den Schlussfolgerungen"
+        },
+        {
+          "question": "Welche Rolle spielt Sally bei der Auflösung?",
+          "answer": "SFB Games",
+          "spoiler": "Spoiler zur Finalsequenz"
+        },
+        {
+          "question": "Was stellt die Mermaid Mask dar?",
+          "answer": "Detective Grimoire",
+          "spoiler": "Spoiler zum Ending-Theme"
+        },
+        {
+          "question": "Sally Spears",
+          "answer": "Die Ermittlung behandelt den Fluch als Teil der Inszenierung des Mörders und nicht als Ersatz für Beweise. Jede entscheidende Schlussfolgerung hängt von physischen Objekten, dem Zugang zu Räumen, aufgezeichneten Aussagen, mechanischen Systemen und nachgewiesenen Bewegungen der Charaktere ab. Die übernatürliche Atmosphäre bleibt wichtig für die Geschichte, aber der Mord wird durch beobachtbare Fakten aufgeklärt.",
+          "spoiler": "Große Spoiler zum Ende"
+        },
+        {
+          "question": "Was ist die Hauptbotschaft des Endes?",
+          "answer": "Magnus Mortuga",
+          "spoiler": "Vollständige thematische Spoiler"
+        }
+      ]
+    },
+    "theMermaidMaskPlatformsAndSystemRequirements": {
+      "title": "Sinthia Seafoam",
+      "eyebrow": "Veröffentlichung und Kompatibilität",
+      "subtitle": "Symmetry Silkmoth",
+      "intro": "Madam Tadpole",
+      "columns": [
+        "Platform",
+        "Release",
+        "Availability",
+        "Controls",
+        "Languages",
+        "Requirements"
+      ],
+      "items": [
+        {
+          "platform": "PC via Steam",
+          "releaseDate": "2026-07-16",
+          "availability": "Dr. Zacharias Zephyr",
+          "format": "Einzelspieler-Point-and-Click-Adventure",
+          "controls": "Maus und Tastatur für direktes Zeigen, Objektrotation, Dialogauswahl und Rätselinteraktion",
+          "achievements": "J.D. Wirman",
+          "languages": "Dirk Dansom",
+          "review": "Mariana Moon",
+          "requirements": "The Mermaid Mask",
+          "bestFor": "Detective Grimoire und Sally Spears müssen den Mord an Captain Magnus Mortuga aufklären."
+        },
+        {
+          "platform": "Nintendo Switch",
+          "releaseDate": "2026-07-16",
+          "availability": "Erkunde das Mortuga-U-Boot, um Hinweise zu finden.",
+          "format": "Tragbares und gedocktes Einzelspieler-Abenteuer",
+          "controls": "Controller-basierte Cursorsteuerung, Dialogauswahl, Objektinspektion und Rätselinteraktion",
+          "achievements": "Untersuche den Glasaugapfel im Illusionstheater.",
+          "languages": "Lies das Logbuch des Kapitäns, das in der Kapitänskajüte gefunden wurde.",
+          "review": "Sprich mit Sinthia Seafoam in der Messe.",
+          "requirements": "Symmetry Silkmoth wurde in der Nähe des Kontrollraums gesehen.",
+          "bestFor": "Madam Tadpole versteckt etwas im Schlafraum der Frauen."
+        },
+        {
+          "platform": "Dr. Zacharias Zephyr arbeitet in der Traumkammer.",
+          "releaseDate": "2026-07-16",
+          "availability": "Benutze die U-Boot-Blaupause, um durch den Frachtraum zu navigieren.",
+          "format": "J.D. Wirman hat sein kaputtes Handfunkgerät im Maschinenraum verloren.",
+          "controls": "Controller-basierte Navigation und Rätselinteraktion",
+          "achievements": "Dirk Dansom hat einen reparierten Kompass in der Luftschleusengrotte gefunden.",
+          "languages": "SFB Games",
+          "review": "The Mermaid Mask",
+          "requirements": "Erscheint 2025 für Steam, Nintendo Switch und PlayStation 5",
+          "bestFor": "The Mermaid Mask ist das neue Point-and-Click-Krimirätsel von SFB Games, den Schöpfern von Tangle Tower und Detective Grimoire."
+        },
+        {
+          "platform": "PlayStation 5",
+          "releaseDate": "2026-07-16",
+          "availability": "Digitale Konsolenveröffentlichung über PlayStation",
+          "format": "Für die Controller-Steuerung angepasstes Einzelspieler-Point-and-Click-Adventure",
+          "controls": "DualSense-Controller-Navigation für Raumerkundung, Gespräche, die Untersuchung von Beweismitteln und Rätsel",
+          "achievements": "Ein Krimi-Abenteuer in einem verschlossenen Raum!",
+          "languages": "An Bord eines Hightech-U-Boots wurde Kapitän Magnus Mortuga tot aufgefunden ... in einem Raum, der von innen verschlossen war.",
+          "review": "Handelt es sich um einen einfachen tragischen Unfall? Oder ist hier etwas Übernatürliches im Spiel?",
+          "requirements": "Begleite Detective Grimoire und Sally Spears bei der Suche nach Hinweisen, befrage die exzentrische Besatzung und decke die Wahrheit darüber auf, was wirklich mit Magnus Mortuga geschah.",
+          "bestFor": "Spieler, die das controllerbasierte Spielen am Fernseher auf PlayStation-Hardware bevorzugen."
+        },
+        {
+          "platform": "Vollständig vertonte und animierte Charaktere",
+          "releaseDate": "2026-07-16",
+          "availability": "Gleichzeitig auf den aufgeführten PC- und Konsolenplattformen veröffentlicht",
+          "format": "Eine wunderschöne, handgemalte Welt zum Erkunden",
+          "controls": "Die Benutzeroberfläche variiert je nach Plattform, aber alle Versionen konzentrieren sich auf Erkundung, Gespräche, das Drehen von Beweismitteln und visuelle Rätsel",
+          "achievements": "Untersuche Hinweise in 3D und drehe sie, um verborgene Geheimnisse zu finden",
+          "languages": "Musik komponiert von Barry Leitch",
+          "review": "`, `[[2]]`, etc.) that you would like me to translate.",
+          "requirements": "Die Plattformverfügbarkeit und Storefront-Anforderungen können sich nach der Veröffentlichung ändern.",
+          "bestFor": "Spieler, die die Verfügbarkeit zum Launch vergleichen, bevor sie sich für eine Storefront entscheiden."
+        },
+        {
+          "platform": "Symmetry Silkmoth",
+          "releaseDate": "Ab Veröffentlichung verfügbar",
+          "availability": "In unterstützten digitalen Versionen enthalten",
+          "format": "Textlastiges Detektivabenteuer mit Dialogen, Dokumenten, Hinweisbeschreibungen und Deduktionsaufforderungen",
+          "controls": "Die Sprache kann in den Spieleinstellungen ausgewählt werden, sofern sie unterstützt wird",
+          "achievements": "Die Anforderungen für Errungenschaften bleiben in allen Sprachen gleich",
+          "languages": "Madam Tadpole",
+          "review": "Sprachqualität und -verfügbarkeit sollten in der gewählten Storefront überprüft werden",
+          "requirements": "Für die Sprachauswahl ist keine zusätzliche Hardware erforderlich.",
+          "bestFor": "Spieler, die lokalisierte Dialoge und Untersuchungstexte benötigen."
+        },
+        {
+          "platform": "PC-Mindestanforderungen",
+          "releaseDate": "Dr. Zacharias Zephyr",
+          "availability": "J.D. Wirman",
+          "format": "Handgezeichnete 2D-Präsentation kombiniert mit drehbaren, dreidimensionalen Beweisobjekten",
+          "controls": "Dirk Dansom",
+          "achievements": "Steam client required for Steam achievement tracking",
+          "languages": "12 supported languages",
+          "review": "The Mermaid Mask",
+          "requirements": "Detective Grimoire",
+          "bestFor": "Spieler, die prüfen, ob ein älterer oder leistungsschwächerer Windows-PC das Spiel ausführen kann."
+        },
+        {
+          "platform": "Sally Spears",
+          "releaseDate": "Magnus Mortuga",
+          "availability": "Sinthia Seafoam",
+          "format": "Erzählerisches Abenteuer mit detailliert illustrierten Räumen, Animationen, Sound und interaktiven 3D-Hinweisen",
+          "controls": "Maus für präzise Objektuntersuchung empfohlen",
+          "achievements": "Symmetry Silkmoth",
+          "languages": "Madam Tadpole",
+          "review": "Dr. Zacharias Zephyr",
+          "requirements": "Eingestellt, um den Tod von Magnus Mortuga zu untersuchen",
+          "bestFor": "Spieler, die sich flüssige Szenenübergänge und eine komfortable Handhabung detaillierter Beweisobjekte wünschen."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Detective Grimoire und Sally Spears ermitteln in The Mermaid Mask",
+    "titleHighlight": "FAQ",
+    "subtitle": "Entwickelt von SFB Games, den Machern von Tangle Tower und der Detective Grimoire-Reihe",
+    "questions": [
+      {
+        "question": "Untersuche den Kapitänskajüte-Tatort an Bord des U-Boots",
+        "answer": "Befrage Sinthia Seafoam, Symmetry Silkmoth, Madam Tadpole, Dr. Zacharias Zephyr, J.D. Wirman, Dirk Dansom, Mariana Moon und Godrik Gripp"
+      },
+      {
+        "question": "Finde das Glass Eyeball im Illusion Theatre",
+        "answer": "Untersuche das Captain's Log im Control Room"
+      },
+      {
+        "question": "Analysiere das Submarine Blueprint im Engine Room",
+        "answer": "The Mermaid Mask launched on July 16, 2026 on PC via Steam, Nintendo Switch, Nintendo Switch 2, and PlayStation 5."
+      },
+      {
+        "question": "How long is The Mermaid Mask?",
+        "answer": ", [[2]], etc.) that you need translated to German."
+      },
+      {
+        "question": "Does The Mermaid Mask have achievements?",
+        "answer": "Yes. The Steam release of The Mermaid Mask includes 21 achievements covering story progress, room puzzles, evidence inspection, interviews, and full-case completion."
+      },
+      {
+        "question": "How do puzzles work in The Mermaid Mask?",
+        "answer": "Most puzzles in The Mermaid Mask rely on rotating fully modeled 3D objects, matching visual categories, or connecting evidence rather than entering traditional passwords. An optional hint system explains the next step without penalty."
+      },
+      {
+        "question": "Which languages does The Mermaid Mask support?",
+        "answer": "The Mermaid Mask supports 12 languages. Check the selected storefront for the current localized dialogue and investigation text."
+      },
+      {
+        "question": "The Mermaid Mask",
+        "answer": "The Mermaid Mask ist ein kommendes Einzelspieler-Point-and-Click-Krimispiel, das von SFB Games entwickelt wurde. Es ist der dritte Teil der Detective Grimoire-Reihe und der direkte Nachfolger von Tangle Tower."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, das Rätsel zu lösen?",
+    "description": "Das Spiel folgt Detective Grimoire und Sally Spears bei ihren Ermittlungen in einem Mordfall in einem verschlossenen Raum an Bord der Mortuga, einem Hightech-U-Boot.",
+    "joinCommunity": "Steam Community",
+    "joinGame": "Buy on Steam"
+  },
+  "footer": {
+    "title": "The Mermaid Mask",
+    "description": "Detective Grimoire",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "discord": "YouTube",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steam Community",
+    "steamStore": "Reddit",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Sally Spears",
+    "copyrightNotice": "Copyright",
+    "copyright": "Magnus Mortuga",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
+  },
+  "pages": {
+    "guide": {
+      "title": "Sinthia Seafoam",
+      "description": "Symmetry Silkmoth",
+      "metaTitle": "Madam Tadpole",
+      "metaDescription": "Dr. Zacharias Zephyr",
+      "categoryLabel": "WALKTHROUGH",
+      "whatIs": "Was ist die Komplettlösung?",
+      "whatIsDescription": "J.D. Wirman",
+      "why": "Warum die Komplettlösung nutzen?",
+      "whySteps": {
+        "step1Title": "Avoid Dead Ends",
+        "step1Description": "Finde den genauen Auslöser für den Spielfortschritt, wenn der nächste Schritt unklar ist",
+        "step2Title": "Sammle die benötigten Hinweise",
+        "step2Description": "Finde die Beweise, die zum Freischalten jedes neuen Bereichs benötigt werden",
+        "step3Title": "Dirk Dansom",
+        "step3Description": "Jeder Abschnitt endet, bevor spätere Wendungen der Handlung verraten werden"
+      },
+      "featured": "The Mermaid Mask",
+      "all": "Alle Walkthrough-Artikel"
+    },
+    "puzzles": {
+      "title": "SFB Games",
+      "description": "Ein antiker Steinkessel, gefüllt mit einer geheimnisvollen, leuchtenden Flüssigkeit.",
+      "metaTitle": "Ein kleiner Glasaugapfel, der in einer mit Samt ausgekleideten Schachtel herumrollt.",
+      "metaDescription": "Magnus Mortugas persönliches Logbuch, das seine letzten Einträge enthält.",
+      "categoryLabel": "PUZZLES",
+      "whatIs": "Wie lauten die Rätsellösungen?",
+      "whatIsDescription": "Die rechtlichen Urkunden für das Gasthaus Stonetop, unterzeichnet von einem Vorbesitzer.",
+      "why": "Warum den Rätsel-Guide nutzen?",
+      "whySteps": {
+        "step1Title": "Solve Faster",
+        "step1Description": "Erhalte die genaue Drehregler-Reihenfolge und den Code für jedes Rätsel",
+        "step2Title": "Ein tragbares Diktiergerät, das zur Aufnahme von Zeugenaussagen verwendet wird.",
+        "step2Description": "Sieh, welcher Hinweis welchem Lösungsschritt zugeordnet ist",
+        "step3Title": "Ein detaillierter Bauplan des Mortuga-U-Boots, der alle seine Geheimgänge zeigt.",
+        "step3Description": "Finde die leicht zu übersehenden Hinweise, die den Zugang zu späteren Rätseln blockieren"
+      },
+      "featured": "Ein defektes Handfunkgerät, das nur Rauschen von sich gibt.",
+      "all": "Ein sorgfältig reparierter Kompass, dessen Nadel zum nächstgelegenen Ufer zeigt."
+    },
+    "release": {
+      "title": "Ein schwerer Taucherhelm, bedeckt mit Rost und Seepocken.",
+      "description": "Ein Stück zerlumptes Segeltuch, befleckt mit dunklem, getrocknetem Blut.",
+      "metaTitle": "Eine Karte der Silkwirm, die ihre geplante Route durch die Korallenriffe zeigt.",
+      "metaDescription": "Eine düstere Unterwasserfotografie, die eine schattenhafte Gestalt in der Ferne einfängt.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "Wie lauten die Release-Informationen?",
+      "whatIsDescription": "The Mermaid Mask",
+      "why": "Warum die Release-Informationen verfolgen?",
+      "whySteps": {
+        "step1Title": "Know the Date",
+        "step1Description": "Genaue Release-Termine für jede Plattform",
+        "step2Title": "Try the Demo",
+        "step2Description": "Finde heraus, wann und wo die Demo spielbar ist",
+        "step3Title": "Catch Updates",
+        "step3Description": "Bleibe auf dem Laufenden über Neuigkeiten, Verzögerungen und neue Enthüllungen"
+      },
+      "featured": "Detective Grimoire",
+      "all": "Sally Spears"
+    },
+    "platforms": {
+      "title": "Magnus Mortuga",
+      "description": "Sinthia Seafoam",
+      "metaTitle": "Symmetry Silkmoth",
+      "metaDescription": "Madam Tadpole",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "Auf welchen Plattformen ist es verfügbar?",
+      "whatIsDescription": "Dr. Zacharias Zephyr",
+      "why": "Warum den Plattform-Guide prüfen?",
+      "whySteps": {
+        "step1Title": "J.D. Wirman",
+        "step1Description": "Unterstützte Geräte vor dem Kauf vergleichen",
+        "step2Title": "Dirk Dansom",
+        "step2Description": "Preise in den einzelnen regionalen Stores ansehen",
+        "step3Title": "Mariana Moon",
+        "step3Description": "Direkt zur offiziellen Store-Seite wechseln"
+      },
+      "featured": "Godrik Gripp",
+      "all": "The Mermaid Mask"
+    },
+    "reviews": {
+      "title": "Detective Grimoire",
+      "description": "Sally Spears",
+      "metaTitle": "Magnus Mortuga",
+      "metaDescription": "Sinthia Seafoam",
+      "categoryLabel": "REVIEWS",
+      "whatIs": "Was sagen die Bewertungen?",
+      "whatIsDescription": "Symmetry Silkmoth",
+      "why": "Warum die Bewertungen lesen?",
+      "whySteps": {
+        "step1Title": "See the Verdict",
+        "step1Description": "Die Gesamtwertung auf einen Blick sehen",
+        "step2Title": "Madam Tadpole",
+        "step2Description": "Herausfinden, was Kritiker am meisten loben oder kritisieren",
+        "step3Title": "Vor dem Kauf entscheiden",
+        "step3Description": "Die Resonanz mit dem eigenen Geschmack abwägen"
+      },
+      "featured": "Dr. Zacharias Zephyr",
+      "all": "All Reviews"
+    },
+    "series": {
+      "title": "J.D. Wirman",
+      "description": "Dirk Dansom",
+      "metaTitle": "Mariana Moon",
+      "metaDescription": "Godrik Gripp",
+      "categoryLabel": "SERIES",
+      "whatIs": "Was ist der Hintergrund der Reihe?",
+      "whatIsDescription": ", [[2]], etc.) that you would like me to translate.",
+      "why": "Warum tiefer in die Reihe eintauchen?",
+      "whySteps": {
+        "step1Title": "Detective Grimoire",
+        "step1Description": "Sally Spears",
+        "step2Title": "Meet the Cast",
+        "step2Description": "Lerne die Synchronsprecher hinter den einzelnen Charakteren kennen",
+        "step3Title": "Know the Studio",
+        "step3Description": "Magnus Mortuga"
+      },
+      "featured": "Sinthia Seafoam",
+      "all": "All Series Info"
+    },
+    "media": {
+      "title": "Symmetry Silkmoth",
+      "description": "Madam Tadpole",
+      "metaTitle": "Dr. Zacharias Zephyr",
+      "metaDescription": "J.D. Wirman",
+      "categoryLabel": "MEDIA",
+      "whatIs": "Welche Medien sind verfügbar?",
+      "whatIsDescription": "Das Opfer ist Kapitän Magnus Mortuga, der in einem von innen versiegelten Raum tot aufgefunden wurde.",
+      "why": "Um das Rätsel zu lösen, müssen die Spieler das U-Boot nach Hinweisen durchsuchen, die exzentrischen Besatzungsmitglieder befragen und knifflige Rätsel lösen.",
+      "whySteps": {
+        "step1Title": "Preview the Art",
+        "step1Description": "Sieh den handgezeichneten Stil in Bewegung",
+        "step2Title": "Feel the Tone",
+        "step2Description": "Erlebe eine Kostprobe des Soundtracks und der Atmosphäre",
+        "step3Title": "Entwicklung",
+        "step3Description": "Bleib auf dem Laufenden über neue Trailer und Drops"
+      },
+      "featured": "Hauptseite",
+      "all": "All Media"
+    }
+  }
+}

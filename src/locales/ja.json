@@ -1,1 +1,1811 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "The Mermaid Mask Wiki - 攻略、パズル＆容疑者",
+      "description": "The Mermaid Mask Wikiでは、完全な攻略、パズルの解法、手がかり、容疑者、実績、エンディング、キャラクター、そしてMortuga submarineのロケーションを網羅しています。",
+      "keywords": "The Mermaid Mask, 攻略, パズル, 手がかり, 容疑者, エンディング, 実績, Mortuga",
+      "ogTitle": "The Mermaid Mask Wiki - 攻略、パズル＆容疑者",
+      "ogDescription": "The Mermaid Mask Wikiでは、完全な攻略、パズルの解法、手がかり、容疑者、実績、エンディング、キャラクター、そしてMortuga submarineのロケーションを網羅しています。",
+      "twitterTitle": "The Mermaid Mask Wiki - 攻略、パズル＆容疑者",
+      "twitterDescription": "The Mermaid Mask Wikiでは、完全な攻略、パズルの解法、手がかり、容疑者、実績、エンディング、キャラクター、そしてMortuga submarineのロケーションを網羅しています。"
+    }
+  },
+  "nav": {
+    "guide": "ガイド",
+    "puzzles": "パズル",
+    "release": "リリース",
+    "platforms": "プラットフォーム",
+    "reviews": "レビュー",
+    "series": "シリーズ",
+    "media": "メディア"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定です"
+  },
+  "hero": {
+    "badge": "手描きの潜水艦殺人ミステリー",
+    "title": "The Mermaid Mask",
+    "description": "Detective GrimoireとSallyと共に、Mortuga船長の密室殺人事件を解決しよう。Mortuga submarineを探索し、3Dの手がかりを調べ、容疑者を尋問し、すべてのパズルを解き明かそう。",
+    "getFreeCodesCTA": "攻略を見る",
+    "playOnSteamCTA": "Steamで購入",
+    "stats": {
+      "stat1": {
+        "value": "2026年7月16日",
+        "label": "発売日"
+      },
+      "stat2": {
+        "value": "99%",
+        "label": "好評なレビュー"
+      },
+      "stat3": {
+        "value": "21",
+        "label": "Steam実績"
+      },
+      "stat4": {
+        "value": "12",
+        "label": "対応言語"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "The Mermaid Mask 捜査",
+    "description": "Mortuga submarine内で起きた、手描きのアートで描かれる密室殺人事件を解決しよう。回転する3Dの手がかりを調査し、個性的な乗組員たちに聞き込みを行い、証拠に基づいた推理で事件の真相を組み立てていこう。"
+  },
+  "tools": {
+    "title": "Detective Grimoire",
+    "titleHighlight": "リソース",
+    "subtitle": "The Mermaid MaskのMortuga submarine事件を解決するために必要なすべての情報",
+    "cards": [
+      {
+        "icon": "マップ",
+        "title": "The Mermaid Mask 攻略ガイド",
+        "description": "潜水艦内を進むチャプターごとの完全ストーリー攻略ルート"
+      },
+      {
+        "icon": "パズル",
+        "title": "The Mermaid Mask パズルの解答",
+        "description": "すべてのロックとミニゲームのヒントと解答"
+      },
+      {
+        "icon": "コンパス",
+        "title": "The Mermaid Mask 初心者向けガイド",
+        "description": "捜査のサイクル、3Dの証拠、そして推理の基本"
+      },
+      {
+        "icon": "ユーザー",
+        "title": "The Mermaid Mask キャラクター",
+        "description": "探偵チームとすべての容疑者のプロフィール"
+      },
+      {
+        "icon": "検索",
+        "title": "The Mermaid Mask 手がかり",
+        "description": "証拠、場所、容疑者のつながりの一覧"
+      },
+      {
+        "icon": "トロフィー",
+        "title": "The Mermaid Mask 実績",
+        "description": "全21個のSteam実績と解除条件"
+      },
+      {
+        "icon": "フィルム",
+        "title": "The Mermaid Mask エンディング",
+        "description": "ネタバレに配慮した最終事件の分析"
+      },
+      {
+        "icon": "モニター・スマートフォン",
+        "title": "The Mermaid Mask プラットフォーム",
+        "description": "Steam、Switch、Switch 2、PS5のリリース詳細"
+      }
+    ]
+  },
+  "modules": {
+    "theMermaidMaskWalkthrough": {
+      "title": "The Mermaid Mask 攻略",
+      "eyebrow": "ストーリー完全攻略チャート",
+      "subtitle": "Stonetop InnからMortuga submarineでの最終決戦までの必須調査ルートを解説します。各セクションは、その後のストーリー展開のネタバレになる直前で構成されています。",
+      "intro": "The Mermaid Maskは、冒頭の調査とメインの殺人事件「Stone Cauldronの呪い」で構成されています。このルートを利用して、必要な証拠の収集、全エリアの解放、全クルーへの聞き込みを行い、進行に行き詰まった際の参考にしてください。",
+      "chapters": [
+        {
+          "chapter": "プロローグ",
+          "chapterTitle": "始まり",
+          "spoilerLevel": "オープニングシーケンス",
+          "sections": [
+            {
+              "sectionTitle": "プロローグ",
+              "steps": [
+                {
+                  "location": "Stonetop Inn",
+                  "objective": "事件を振り返り、Sallyを起こす。",
+                  "actions": [
+                    "Sallyの近くにある本「The Hex of the Helmsmen」を調べる。",
+                    "赤い捜査ファイルを開き、密室殺人事件の概要を読む。",
+                    "Sallyに話しかけ、潜水艦への旅を開始する。"
+                  ],
+                  "trigger": "SallyがGrimoireに合流した後、宿を出る。"
+                },
+                {
+                  "location": "町の広場",
+                  "objective": "Captain Seafoamが手配した移動手段を見つける。",
+                  "actions": [
+                    "広場、看板、噴水、そして奇妙な緑色の光を調べる。",
+                    "光っている場所を調べた後、Sallyに話しかける。",
+                    "Mortuga submarineが浮上するのを待って乗船する。"
+                  ],
+                  "trigger": "前甲板から潜水艦に入る。"
+                },
+                {
+                  "location": "前甲板と談話室",
+                  "objective": "船内に入り、最初の船内照明を復旧する。",
+                  "actions": [
+                    "前甲板にある、彫刻の施された光るブイを調べる。",
+                    "談話室に入り、Sallyにピンクの炎を灯すレバーを操作させる。",
+                    "操縦室の窓に貼られた警告を読む。",
+                    "最初は操縦室と事件現場のフロアに入れないことに注意する。"
+                  ],
+                  "trigger": "通れる通路を通って食堂へ向かう。"
+                },
+                {
+                  "location": "食堂",
+                  "objective": "蛇のキャビネットを開ける。",
+                  "actions": [
+                    "カード、調理器具、ランプ、キャンドル、キャビネットを調べる。",
+                    "それぞれの図形をその辺の数として扱う。",
+                    "4つのディスプレイを、3の三角形、9の四角形＋五角形、7の三角形＋四角形、4の四角形に設定する。"
+                  ],
+                  "trigger": "開いたキャビネットの調査を終え、Illusion Theatreへ進む。"
+                },
+                {
+                  "location": "Sally Spears",
+                  "objective": "密室の事件現場を調べる。",
+                  "actions": [
+                    "「星を見つめる少女」に繋がっているボロボロの布を調べる。",
+                    "逆さまの錯視ポスターを調べる。",
+                    "チョークのアウトライン、古代のStone Cauldron、そして周囲のステージを調べる。",
+                    "推理を開く前に、Stone Cauldronの強調表示されたすべての箇所を確認する。"
+                  ],
+                  "trigger": "最初の事件の結論を完成させる。"
+                },
+                {
+                  "location": "推理画面",
+                  "objective": "最初の結論を導き出す。",
+                  "actions": [
+                    "Stone Cauldronの鍵を開けた人物としてMagnus Mortugaを選択する。",
+                    "彼はその中にあったものによって殺されたという結論を選択する。",
+                    "推理を確定して、本格的な捜査を開始する。"
+                  ],
+                  "trigger": "第一章「大釜の呪い」が始まる。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "chapter": "第一章",
+          "chapterTitle": "大釜の呪い",
+          "spoilerLevel": "捜査と進行に関するネタバレ",
+          "sections": [
+            {
+              "sectionTitle": "操縦室のロックを解除する。",
+              "steps": [
+                {
+                  "location": "子供部屋",
+                  "objective": "人形の肖像画の謎を解き、Glass Eyeballを入手する。",
+                  "actions": [
+                    "「鏡の貴婦人」についての新聞と、その裏面にあるシーサーペントの報告書を読む。",
+                    "6枚の肖像画カードを組み合わせて、3人の少女を完成させる。",
+                    "中央にパトリシアと中くらいの人形を配置する。",
+                    "外側の人形に拡大レンズと縮小レンズを使用する。",
+                    "左右の少女の顔に魚眼レンズを配置する。"
+                  ],
+                  "trigger": "完成した仕掛けからGlass Eyeballを回収する。"
+                },
+                {
+                  "location": "談話室と子供部屋",
+                  "objective": "Symmetry Silkmothを見つけ出す。",
+                  "actions": [
+                    "談話室に戻り、操縦室のドアの近くにある監視の目を調べる。",
+                    "子供部屋に戻る。",
+                    "まばたきする絵を調べて、Symmetry Silkmothを出現させる。",
+                    "Symmetryに彼女自身のこと、潜水艦、乗組員、そして現在の手がかりすべてについて尋ねる。"
+                  ],
+                  "trigger": "Symmetryへの最初の聞き込みを終えた後、操縦室に戻る。"
+                },
+                {
+                  "location": "操縦室",
+                  "objective": "Sinthia Seafoamに会い、Captain's Logを回収する。",
+                  "actions": [
+                    "SinthiaにMortugaのこと、彼女の新しい指揮権、Symmetry、そして他の乗組員について質問する。",
+                    "潜水艦の設計図、舵輪、船長のジャケット、そして操縦機器を調べる。",
+                    "赤いケーブルをソケット1から9へ、青を3から11へ、黄色を6から12へ接続する。",
+                    "開いた収納部からCaptain's Logを取り出す。",
+                    "立ち去る前に、新しい証拠をSinthiaに提示する。"
+                  ],
+                  "trigger": "寝台室と他の乗組員への聞き込みが進行ルートに加わる。"
+                }
+              ]
+            },
+            {
+              "sectionTitle": "乗組員居住区を探索する",
+              "steps": [
+                {
+                  "location": "女性用寝台室",
+                  "objective": "ブタの金庫を開け、Sinthiaの寝台を調べる。",
+                  "actions": [
+                    "映画雑誌を読む。",
+                    "ブタの金庫の数字ネットワークを設定し、上の枝が3、4、1で合計8に、2番目の枝が2、3、1で合計6になるようにする。",
+                    "下の合計が5、9、2になるように合わせる。",
+                    "金庫から不気味な水中写真を取り出す。",
+                    "その写真をSinthiaとSymmetryに見せる。",
+                    "Symmetryが隠された素材を指摘した後、Sinthiaのマットレスに戻る。"
+                  ],
+                  "trigger": "マットレスの下に隠されているInn Deedsを回収する。"
+                },
+                {
+                  "location": "男性用寝室",
+                  "objective": "Dirk DansomとJ.D. Wirmanにインタビューする。",
+                  "actions": [
+                    "彼ら自身のこと、Mortuga、潜水艦、そして容疑者リスト全員について二人に尋ねる。",
+                    "接続されたすべてのチャンネルの始点と終点が同じシンボルになるようにして、Dirkの携帯のロックを解除する。",
+                    "ロック解除された通話、メッセージ、メールを読む。",
+                    "表示された5つのパターンが要求される45度の変換に従うように、タイプライターの内側と外側のリングを回転させる。"
+                  ],
+                  "trigger": "IbisからWirmanに宛てられた手書きの手紙を回収する。"
+                }
+              ]
+            },
+            {
+              "sectionTitle": "残りの乗組員に会う",
+              "steps": [
+                {
+                  "location": "夢の部屋",
+                  "objective": "Dr. Zacharias Zephyrにインタビューする。",
+                  "actions": [
+                    "ZephyrにMortuga、彼の夢の研究、およびすべての乗組員について尋ねる。",
+                    "ヘックスボトル、ドリームヘルメット、フォグボール、およびその他のインタラクティブな装置を調査する。",
+                    "すべての調査ポイントが記録されるまで、各3Dの手がかりを回転させて開く。"
+                  ],
+                  "trigger": "Zephyrの証言と夢に関連する証拠を手帳に加える。"
+                },
+                {
+                  "location": "貨物室",
+                  "objective": "Mariana Moonにインタビューし、乗組員の配置パズルを見つける。",
+                  "actions": [
+                    "Marianaに彼女の歴史研究と他の乗客について質問する。",
+                    "袋の中を捜索し、Silkwirmの地図を回収する。",
+                    "潜水艦を表している大きなピンボードを調査する。",
+                    "生きているすべての乗組員に会うまで、ピンボードを未完成のままにしておく。"
+                  ],
+                  "trigger": "Godrik GrippとMadam Tadpoleにインタビューした後に戻る。"
+                },
+                {
+                  "location": "船長室",
+                  "objective": "Mortugaの私室を開ける。",
+                  "actions": [
+                    "目の形をした鍵穴にGlass Eyeballを使用する。",
+                    "差し込んだ目を押し、内部の鍵を解除する。",
+                    "壊れた携帯無線機、テーブルベル、ボトルシップ、そして「Her」と題された絵画を調査する。",
+                    "回収したすべてのオブジェクトを回転させ、その隠された側面を調べる。"
+                  ],
+                  "trigger": "Mortugaの私物を証拠リストに加える。"
+                },
+                {
+                  "location": "機関室",
+                  "objective": "Godrik Grippに聞き込みをし、コンパスを修理する。",
+                  "actions": [
+                    "Grippとの本格的な会話を始めるために、ショップのアイテムを3つ調べる。",
+                    "船、Mortuga、彼の売り物、そして乗組員について彼に質問する。",
+                    "黄色のコンパスを左に、青のコンパスを下に、ピンクのコンパスをおおよそ2時の方向に、赤のコンパスを左上に向くように設定する。",
+                    "修理されたコンパスを回収する。"
+                  ],
+                  "trigger": "修理されたアイテムと関連する証拠を、それに見覚えのあるキャラクターたちに提示する。"
+                },
+                {
+                  "location": "エアロックの洞窟",
+                  "objective": "Madam Tadpoleに聞き込みをする。",
+                  "actions": [
+                    "Tadpoleに彼女の人魚としての正体、Mortuga、そしてすべての容疑者について尋ねる。",
+                    "前甲板にいた目が光る人影に関する彼女の証言を記録する。",
+                    "彼女が説明したその言語と、大釜の背後に見える図形を比較する。",
+                    "潜水ヘルメットとその他の洞窟の装備を調べる。"
+                  ],
+                  "trigger": "これで主要な容疑者8人全員が登場した。"
+                }
+              ]
+            },
+            {
+              "sectionTitle": "証言と証拠を結びつける。",
+              "steps": [
+                {
+                  "location": "貨物室",
+                  "objective": "乗組員の配置ピンボードを完成させる。",
+                  "actions": [
+                    "生存している各乗組員を、現在配置されている部屋に配置する。",
+                    "Mortugaは死亡しているため、彼の肖像画を潜水艦の図面の外に配置する。",
+                    "完成したレイアウトを確定し、船の現在の人数と部屋の構造を確定させる。"
+                  ],
+                  "trigger": "追加の証言や個人捜査のトピックが利用可能になる。"
+                },
+                {
+                  "location": "貨物室と機関室",
+                  "objective": "偽装されたMarianaの録音機器を特定する。",
+                  "actions": [
+                    "Marianaにパイプ型のオブジェクトと関連する機械の証拠を見せる。",
+                    "そのパイプが乗組員の会話を録音するために使用されたDictaphoneであることを突き止める。",
+                    "利用可能なすべての録音を聴く。",
+                    "重要な録音された発言を関係者に提示する。"
+                  ],
+                  "trigger": "キャラクターへの聞き込みで、新たな矛盾や動機のトピックが出現する。"
+                },
+                {
+                  "location": "潜水艦全体",
+                  "objective": "すべての個人捜査をアンロックする。",
+                  "actions": [
+                    "新しく入手した各手がかりを、反応があるすべてのキャラクターに提示する。",
+                    "写真とInn Deedsを見つけた後、SinthiaとSymmetryを再訪する。",
+                    "電話と手紙のロックを解除した後、DirkとWirmanを再訪する。",
+                    "部屋のパズルを解いた後、Zephyr、Mariana、Gripp、Tadpoleを再訪する。",
+                    "ノートを使って、未読の証拠への反応が残っているキャラクターの居場所を特定する。"
+                  ],
+                  "trigger": "必要な証言と証拠が集まると、キャラクターの個別調査が開始される。"
+                },
+                {
+                  "location": "推理インターフェース",
+                  "objective": "容疑者の調査を完了する。",
+                  "actions": [
+                    "集めた証言に裏付けられた主張で、それぞれの結論を埋める。",
+                    "選択した結論を直接証明する物理的な手がかりを添付する。",
+                    "選択を間違えた後は、GrimoireとSally의追加コメントを参考にして答えを絞り込む。",
+                    "関連する手がかりがまだ不足しているとゲームが示している場合は、聞き取り調査のループを繰り返す。"
+                  ],
+                  "trigger": "必要なすべてのキャラクター調査を完了する。"
+                }
+              ]
+            },
+            {
+              "sectionTitle": "最後の対決",
+              "steps": [
+                {
+                  "location": "Illusion Theatreと最終事件シークエンス",
+                  "objective": "密室殺人事件を再構成する。",
+                  "actions": [
+                    "対決を開始する前に、残っているすべての部屋のパズルと証拠の調査を完了する。",
+                    "大釜、舞台、隠し仕掛け、乗組員の動き、そしてMortugaの所持品を確認する。",
+                    "個別調査ですでに証明された結論のみを使用して、タイムラインを構築する。",
+                    "最後の推理プロンプトが表示されるたびに、一致する物理的証拠を提示する。"
+                  ],
+                  "trigger": "完成した殺人事件の再構成を確定し、エンディングシークエンスに入る。",
+                  "spoilerWarning": "犯人、犯行手法、そして最終的な真相は意図的に省略されている。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "theMermaidMaskPuzzleSolutions": {
+      "title": "The Mermaid Mask パズル解法",
+      "eyebrow": "ヒントと解答",
+      "subtitle": "潜水艦のオブジェクトパズル、ロック、推理デバイス、調査ミニゲームの、ネタバレに配慮したヒントと直接的な解答を確認する。",
+      "intro": "ほとんどのパズルは、従来のパスワードを入力するのではなく、完全にモデリングされたオブジェクトを回転させたり、視覚的なカテゴリを一致させたり、証拠をつなぎ合わせたりするものです。まずはヒントを開き、仕組みがどうしても分からない場合にのみ解答を表示させてください。",
+      "items": [
+        {
+          "chapter": "プロローグ",
+          "room": "食堂",
+          "puzzle": "蛇のキャビネットの数字ダイヤル",
+          "hint": "各図形はその辺の数を表している。ディスプレイがより大きな合計値を求めている場合は、図形を組み合わせる。",
+          "solution": "3を三角形1つに、9を四角形1つと五角形1つに、7を三角形1つと四角形1つに、4を四角形1つに合わせます。",
+          "reward": "キャビネットを開け、事件現場へのルートを進めます。"
+        },
+        {
+          "chapter": "第一章",
+          "room": "子供部屋",
+          "puzzle": "ポートレートカードとレンズ",
+          "hint": "パトリシアは中くらいの大きさの人形を持っており、ジェニファーとマーガレットは反対側から彼女の方を向いています。",
+          "solution": "6枚 of カードを組み合わせて3人の少女を完成させます。パトリシアを中央に配置し、彼女の人形はそのままにしておきます。外側の2つの人形に拡大レンズと縮小レンズを使用し、左右の少女の顔に魚眼レンズを配置します。",
+          "reward": "Glass Eyeball"
+        },
+        {
+          "chapter": "第一章",
+          "room": "制御室",
+          "puzzle": "配電盤のケーブル",
+          "hint": "必要な接続は3つだけで、各ケーブルは上の列のソケットと下の列のソケットを繋ぎます。",
+          "solution": "赤いケーブルをソケット1からソケット9に、青いケーブルをソケット3からソケット11に、黄色いケーブルをソケット6からソケット12に接続します。",
+          "reward": "Captain's Log"
+        },
+        {
+          "chapter": "第一章",
+          "room": "制御室",
+          "puzzle": "9ピースの六角形の仕掛け",
+          "hint": "コードのことは後回しにして、まずは途切れない色付きのリングを作りましょう。",
+          "solution": "9つすべてのピースを六角形のフレームに配置し、面取りされたエッジが途切れない同心円状の帯を形成するようにします。マゼンタと赤の外側のパネルは途切れない黄色の帯を囲む必要があり、紫の内側のくさび形ピースは中央を向いている必要があり、すべてのコードは対応するペグまたは中央のジョイントに繋がっている必要があります。",
+          "reward": "制御室の仕掛けを完成させ、関連する証拠を登録します。"
+        },
+        {
+          "chapter": "第一章",
+          "room": "女性用寝室",
+          "puzzle": "ピンクのブタの金庫",
+          "hint": "接続された分岐の数字が足し合わされ、その端にある固定された合計値になります。",
+          "solution": "上の動かせる数字を3、4、1に合わせて合計を8にします。2列目を2、3、1に合わせて合計を6にします。下の接続された3つの合計値が5、9、2になるようにします。",
+          "reward": "薄暗い水中写真"
+        },
+        {
+          "chapter": "第一章",
+          "room": "男性用寝室",
+          "puzzle": "Dirkの電話のロック",
+          "hint": "すべてのルートの両端にシンボルがあります。その間にあるタイルで、1つの途切れない一致する経路を作る必要があります。",
+          "solution": "まず交差するルートを解決します。チャンネルAが左右の同じ交差したシンボルをつなぎ、チャンネルB、C、Dが途切れることなく上下の対応するシンボルをつなぐように、各タイルを回転させて配置します。4つのルートがすべてつながると、電話のロックが解除されます。",
+          "reward": "Dirkの通話、メッセージ、メール"
+        },
+        {
+          "chapter": "第一章",
+          "room": "男性寝台室",
+          "puzzle": "タイプライターリングコード",
+          "hint": "5つのシンボルは別々の絵ではありません。それぞれ、前のパターンを一定角度回転させたものです。",
+          "solution": "中央のプレビューを使用して、隣接するターゲットシンボルを比較します。同じパーツの配置を維持しながら、隣接するすべてのパターンが45度ずつ変化するように、3つの内側ダイヤルと3つの外側リングを回転させます。",
+          "reward": "IbisからJ.D. Wirmanへの手紙"
+        },
+        {
+          "chapter": "第一章",
+          "room": "夢の間",
+          "puzzle": "ボトルキャップ",
+          "hint": "文章の手がかりは、6つのボトルの見た目や物理的な特徴を説明しています。",
+          "solution": "真紅のラベルのボトルに三日月のキャップを、泡立つボトルにスペードのキャップを、蒸気を発しているボトルに鳥の頭蓋骨のキャップを、滴りが速いボトルに太陽の形のキャップを、粘り気のあるボトルに手のキャップを、そして目立つX印のあるボトルに目のキャップを配置します。",
+          "reward": "ヘックスボトルの調査を完了します。"
+        },
+        {
+          "chapter": "第一章",
+          "room": "驚異の部屋",
+          "puzzle": "頭蓋骨分類グリッド",
+          "hint": "列のシンボルは頭の装飾を表しています。行のシンボルは顔の特徴を表しています。",
+          "solution": "列全体で頭蓋骨を装飾ごとに分類します：赤い印、側面に印のある頭蓋骨、三日月の印、および角。行に沿って顔ごとに分類します：細い目または閉じた目、突き出た歯または顎、および大きな丸い目。それぞれの頭蓋骨を、その行で求められる特徴が正面を向くように回転させます。",
+          "reward": "頭蓋骨の展示を完成させ、関連する手がかりを明らかにします。"
+        },
+        {
+          "chapter": "第一章",
+          "room": "Magnus Mortuga",
+          "puzzle": "カードスートグリッド",
+          "hint": "スートが行を決定し、キャラクターの視線、指し示す方向、または向きが列を決定します。",
+          "solution": "すべてのハートのタイルをハートの行に、ダイヤをダイヤの行に、クラブをクラブの行に、スペードをスペードの行に配置します。各行の中で、列の上部に表示されている方向（上向き、垂直、ニュートラル、左、右、下向き）に従ってタイルを並べ替えます。",
+          "reward": "シアターの分類メカニズムを完了します。"
+        },
+        {
+          "chapter": "第一章",
+          "room": "貨物室",
+          "puzzle": "乗組員位置ピンボード",
+          "hint": "このボードは現在の潜水艦の状況を表しており、殺人事件発生時に人々がいた場所ではありません。",
+          "solution": "生存しているすべての乗組員を、現在配置されている部屋に配置してください。Magnus Mortugaはもう生存者として乗船していないため、彼の肖像画は潜水艦の図の外に置いてください。",
+          "reward": "追加の証言と調査トピックがアンロックされます。"
+        },
+        {
+          "chapter": "第一章",
+          "room": "貨物室",
+          "puzzle": "光るキノコのカタログ",
+          "hint": "光源を回転させ、必要な条件の下で各種のキノコがいくつ光るかを数えます。",
+          "solution": "デイグロー3、エバーグリーム2、イルミナイト4、ネバーグリーム5を入力してください。",
+          "reward": "Mariana Moonのキノコの記録を完成させます。"
+        },
+        {
+          "chapter": "第一章",
+          "room": "機関室",
+          "puzzle": "4つのコンパス",
+          "hint": "書かれた各手がかりは、1つのコンパスが他のコンパスに対してどの方向を指すべきかを示しています。",
+          "solution": "左上の黄色いコンパスを左に、左下の青いコンパスを下に、右上のピンクのコンパスをおおよそ2時の方向に、右下の赤いコンパスを左上に向けます。",
+          "reward": "修理されたコンパス"
+        },
+        {
+          "chapter": "第一章",
+          "room": "エアロックの洞窟",
+          "puzzle": "潜水ヘルメットのパイプダイヤル",
+          "hint": "すべてのパイプを、2つのダイヤルの間で1つのシンボルを運ぶルートとして扱います。",
+          "solution": "中央の接合部ダイヤルから始めます。1つのパイプから出るシンボルが次のダイヤルに入るシンボルと一致するように、各ダイヤルを回転させます。すべての完成したパイプのルートが同じシンボルで始まり、同じシンボルで終わるまで、外側に向かって進めます。",
+          "reward": "潜水ヘルメットの仕掛けを完成させます。"
+        },
+        {
+          "chapter": "第一章",
+          "room": "ビルジ",
+          "puzzle": "色付きオーブの仕掛け",
+          "hint": "小さなディスプレイは目標のパターンです。色付きのレイヤーが重なり合ったときに、大きなオーブでそれを再現する必要があります。",
+          "solution": "最初に外側の金属製ダイヤルを回して赤いグループを配置し、次に内側のガラス製オーブを回して、白と淡色の球体を小さな基準ディスプレイに合わせます。両方の大きなオーブが対応する目標の配置を再現したときにのみ、決定してください。",
+          "reward": "ビルジの仕掛けを開き、その証拠を登録します。"
+        },
+        {
+          "chapter": "第一章",
+          "room": "ドームタンク",
+          "puzzle": "海賊、旗、そして灯台",
+          "hint": "各海賊を同じ視覚パターンを持つ旗と一致させ、灯台のパーツは残りの色分けされた位置に配置します。",
+          "solution": "左上に黄色の灯台を、右上にシアンの灯台を配置します。その間の左側に無地の薄黄色の旗を持つ海賊を、右側に黒と水色の縞模様の旗を持つ海賊を配置します。左下に緑の縞模様の灯台を、右下に赤色の灯台を配置します。残りの海賊を、対応する側面と下部中央のスロットにある、赤と白の縞模様の旗および黒・白・緑の旗に合わせます。",
+          "reward": "ドームタンクの展示を完成させる。"
+        },
+        {
+          "chapter": "第1章",
+          "room": "個人捜査",
+          "puzzle": "穴埋め推理",
+          "hint": "正しい文章は、単に怪しい発言だけでなく、特定の1つの手がかりによって裏付けられている必要があります。",
+          "solution": "インタビューで得られた証言を使って文章を完成させ、それを直接証明する物理的な証拠を添付してください。回答が間違っていた場合は、GrimoireとSallyの詳しいやり取りを読んで、間違っているのが発言内容なのか、それとも裏付けとなる手がかりなのかを特定しましょう。",
+          "reward": "容疑者に関する完了済みの結論と、最終的な事件のシークエンスをアンロックします。"
+        }
+      ]
+    },
+    "theMermaidMaskBeginnerGuide": {
+      "title": "The Mermaid Mask 初心者ガイド",
+      "eyebrow": "ネタバレなしの要点",
+      "subtitle": "Mortugaの事件を始める前に、探索、聞き込み、3Dの証拠、推理、そして内蔵されたヒント機能がどのように機能するかを学びましょう。",
+      "intro": "捜査は、証拠を見つけてそれを適切な人物に見せることで進展します。早い段階で犯人を推測する必要はありません。各部屋を注意深く探索し、すべてのオブジェクトのあらゆる面を調査し、手帳に重要な手がかりが追加されるたびに乗組員を再訪問しましょう。",
+      "items": [
+        {
+          "title": "基本的な捜査ループに従う",
+          "summary": "すべての主要なセクションは、同じ繰り返しのプロセスに従います。",
+          "tips": [
+            "アクセス可能なすべての部屋を探索し、ハイライトされたオブジェクトを調査します。",
+            "そのエリアにいる人々に、利用可能なすべてのトピックについて質問します。",
+            "新しく集めた証拠を、それに見覚えがありそうなキャラクターに提示します。",
+            "手がかりによって隠し部屋や新しいインタラクションが明らかになったら、以前の部屋に戻りましょう。",
+            "得られた証言と証拠を個人捜査で活用しましょう。"
+          ]
+        },
+        {
+          "title": "マップを頻繁に使う",
+          "summary": "潜水艦は徐々に拡大し、以前訪れた部屋にも定期的に新しいインタラクションが追加されます。",
+          "tips": [
+            "重要な会話の後は、アンロックされたすべてのフロアを確認しましょう。",
+            "オブジェクトがこちらを監視している、瞬きしている、または反応しているように見えたら、談話室や乗組員の居住区を再訪問しましょう。",
+            "完了した部屋が永久に終了したと思い込まないでください。",
+            "手帳にある部屋の名前を使って、未完了の証拠がどこから得られたものかを追跡しましょう。"
+          ]
+        },
+        {
+          "title": "すべての聞き込みトピックを網羅する",
+          "summary": "キャラクターの有用なセリフは、個人的な質問、容疑者に関する質問、および証拠に対する反応に分かれています。",
+          "tips": [
+            "初めて誰かに会うときは、すべての自己紹介の質問をしましょう。",
+            "各自に他のすべての乗組員について尋ねましょう。",
+            "つながりがすぐには明らかではない場合でも、手がかりを提示してみましょう。",
+            "写真、手紙、ログ、録音、または所有権書類を集めてから戻りましょう。",
+            "十分な裏付け証拠を確認すると、新たな疑惑のトピックが出現します。"
+          ]
+        },
+        {
+          "title": "3D証拠を完全に調査する",
+          "summary": "重要な手がかりは完全にモデリングされたオブジェクトであり、側面、背面、底面、または内部に情報が隠されていることがあります。",
+          "tips": [
+            "各オブジェクトを完全に一回転させてみましょう。",
+            "継ぎ目、ラベル、シンボル、スイッチ、そして破損している箇所をズームインしましょう。",
+            "蓋を開けたり、ダイヤルを回したり、パーツを動かしたり、オブジェクトを裏返したりしてみましょう。",
+            "すべての調査ポイントが確認されるまで続けましょう。",
+            "後からの証言で、以前は見過ごしていたシンボルの意味が判明したときは、オブジェクトを再確認しましょう。"
+          ]
+        },
+        {
+          "title": "探索する前にノートを読む",
+          "summary": "ノートには、重要な証拠、証言、部屋、および進行中の調査事項が記録されます。",
+          "tips": [
+            "まだ結論の出ていない項目を探しましょう。",
+            "キャラクターの証言と、その近くで回収した物理的な手がかりを比較してみましょう。",
+            "未解決の項目を参考に、どの容疑者を再び訪ねるべきかを決めましょう。",
+            "複雑なパズルを解いた後や、隠し部屋を発見した後は、必ずノートを確認しましょう。"
+          ]
+        },
+        {
+          "title": "証拠から推理を組み立てる",
+          "summary": "独自の捜査では、完成した証言と、それを証明する手がかりを組み合わせます。",
+          "tips": [
+            "確定した証言から直接導き出される文を選択しましょう。",
+            "単に怪しそうなアイテムではなく、最も具体的な物理的手がかりを結びつけましょう。",
+            "動機、機会、手段を一つの結論としてまとめるのではなく、それぞれ分けて考えましょう。",
+            "推理に失敗した後は、追加のヒントを得るために Grimoire と Sally の反応を読みましょう。"
+          ]
+        },
+        {
+          "title": "ペナルティなしでヒントを使用する",
+          "summary": "任意のヒント機能を使えば、クリア状況に影響を与えることなく、次の行動の指針を得たりパズルの解説を見たりすることができます。",
+          "tips": [
+            "目的がわからないときは、最初のヒントを開いてみましょう。",
+            "より詳細なヒントは、オブジェクトのすべての部分を調査した後にのみ使用しましょう。",
+            "そのヒントが部屋、人物、あるいは推理の手がかりのどれを指しているかを確認しましょう。",
+            "ヘルプを求めてもスコアのペナルティはありません。"
+          ]
+        },
+        {
+          "title": "進行の行き詰まりを解消する",
+          "summary": "行き詰まったように見える原因のほとんどは、手がかりに対する未読の反応が一つあるか、オブジェクトの調査が不完全であることです。",
+          "tips": [
+            "最近入手したすべての3D手がかりをもう一度回転させ、見落としている調査ポイントがないか確認しましょう。",
+            "会話可能なすべての乗組員に最新の証拠を提示する。",
+            "その証拠が発見された部屋に戻る。",
+            "新しく開いたフロアや出入り口がないかマップを確認する。",
+            "手帳に表示されている未完了の個人捜査を完了させる。"
+          ]
+        },
+        {
+          "title": "予期せぬストーリーのネタバレを避ける",
+          "summary": "この事件は、プレイヤーが最終的な解決策を知らなくても自由に捜査できるように設計されています。",
+          "tips": [
+            "結末までのルートを読む代わりに、チャプターや部屋ごとのヒントを使用する。",
+            "最終事件の資料を開く前に、各容疑者の捜査を完了させる。",
+            "すべての通常の会話を尽くすまで、最後の対決セクションは折りたたんだままにしておく。",
+            "疑わしい発言は、有罪の証明としてではなく、手がかりとして扱う。"
+          ]
+        }
+      ]
+    },
+    "theMermaidMaskCharactersAndSuspects": {
+      "title": "Sinthia Seafoam",
+      "eyebrow": "Crew Dossiers",
+      "subtitle": "Symmetry Silkmoth",
+      "intro": "すべての乗組員が証拠や他の容疑者に反応するため、繰り返し聞き込みを行うことが不可欠です。これらの資料は、犯人の名前を明かしたり最終的な解決策を暴露したりすることなく、彼らの公的な役割、関係性、証言、捜査の視点、そして初期の証拠をカバーしています。",
+      "items": [
+        {
+          "name": "Madam Tadpole",
+          "role": "主任探偵であり、プレイヤーが操作する捜査官",
+          "location": "Dr. Zacharias Zephyr",
+          "relationships": [
+            "J.D. Wirman",
+            "Dirk Dansom"
+          ],
+          "testimony": "Mariana Moon",
+          "motive": "Not a suspect.",
+          "evidence": [
+            "Case File",
+            "Godrik Gripp",
+            "収集されたすべての証言と物的証拠"
+          ],
+          "spoiler": "ネタバレなしの主人公のプロフィール。"
+        },
+        {
+          "name": "Sally Spears",
+          "role": ", [[2]], [[3]] markers), and I will translate them to Japanese for you according to your rules!",
+          "location": "Travels with Grimoire",
+          "relationships": [
+            "Closest ally of Detective Grimoire",
+            "事件全体を通した乗組員の行動に関する疑問やコメント"
+          ],
+          "testimony": "Sallyは観察結果を共有し、根拠の薄い推理に異議を唱え、パズルや推理の試みに失敗した後は、段階的により具体的なフィードバックを提供します。",
+          "motive": "Not a suspect.",
+          "evidence": [
+            "事件ファイルについての最初の議論",
+            "Puzzle feedback",
+            "Deduction commentary"
+          ],
+          "spoiler": "ネタバレなしの主人公のプロフィール。"
+        },
+        {
+          "name": "Magnus Mortuga",
+          "role": "Murdered captain and owner of the Mortuga submarine",
+          "location": "Illusion Theatreで遺体となって発見された",
+          "relationships": [
+            "自身の潜水艦に個性的な乗組員たちを集めた",
+            "Connected to Sinthia Seafoam through the ship and its command",
+            "Previously associated with the Stonetop Inn property"
+          ],
+          "testimony": "Mortuga cannot testify, so his history must be reconstructed through his log, possessions, property records, and the statements of his crew.",
+          "motive": "被害者の個人的な取引、所有履歴、人間関係が、複数の容疑者に動機を与えている可能性がある。",
+          "evidence": [
+            "Stone Cauldron",
+            "Captain's Log",
+            ", [[2]], [[3]]), and I will translate them to Japanese according to your rules.",
+            "Inn Deeds",
+            "壊れた携帯型無線機",
+            "Painting titled Her"
+          ],
+          "spoiler": "事件初期の証拠は含まれているが、結末の真相は明かされていない。"
+        },
+        {
+          "name": "Sinthia Seafoam",
+          "role": "船長代理であり、経験豊富な船舶エンジニア",
+          "location": "Control Room",
+          "relationships": [
+            "The Mermaid Mask",
+            "Detective Grimoire",
+            "長年にわたり船や船舶用機械の近くで働いていた"
+          ],
+          "testimony": "Sally Spears",
+          "motive": "Magnus Mortuga",
+          "evidence": [
+            "Sinthia Seafoam",
+            "Captain's Log",
+            "薄暗い水中写真",
+            "Inn Deeds",
+            "Symmetry Silkmoth"
+          ],
+          "spoiler": "捜査の軽微なネタバレを含みます。最終的な結論は省略されています。"
+        },
+        {
+          "name": "Madam Tadpole",
+          "role": "潜水艦に乗るイリュージョニスト",
+          "location": "Child's Room",
+          "relationships": [
+            "Dr. Zacharias Zephyr",
+            "潜水艦の劇場スペースやイリュージョンのイメージに関連している"
+          ],
+          "testimony": "J.D. Wirman",
+          "motive": "Dirk Dansom",
+          "evidence": [
+            "Glass Eyeball",
+            "Illusion Poster",
+            "Sail Cloth",
+            "Newspaper Page",
+            "薄暗い水中写真"
+          ],
+          "spoiler": "部屋や手がかりの軽微なネタバレを含みます。最終的な結論は省略されています。"
+        },
+        {
+          "name": "Madam Tadpole",
+          "role": "自称ハーフ人魚であり、エアロックの洞窟の住人",
+          "location": "Airlock Grotto",
+          "relationships": [
+            "潜水艦の水生エリアで、他の多くの乗組員とは離れて暮らしている",
+            "前甲板に正体不明の人物がいたとする証言を提供する"
+          ],
+          "testimony": "Tadpole says she saw a glowing-eyed demon on the Fore Deck around the time of the murder and heard it speak what she describes as an alien language.",
+          "motive": "Her access to the airlock, unusual account, and knowledge of activity outside the main rooms make her movements important to the timeline.",
+          "evidence": [
+            "Diving Helmet",
+            "Fore Deck testimony",
+            "光る目の説明",
+            "大釜の後ろに見えるシンボル"
+          ],
+          "spoiler": "通常の初回尋問で明らかになった証言が含まれています。"
+        },
+        {
+          "name": "Dr. Zacharias Zephyr",
+          "role": "夢の医師であり、神秘学の研究者",
+          "location": "Dream Chamber",
+          "relationships": [
+            "潜水艦内の人々に夢に関するサービスを提供している",
+            "The Mermaid Mask"
+          ],
+          "testimony": "Detective Grimoire",
+          "motive": "彼の不可解な装置、化学薬品の瓶、そして異常な知覚との関連の可能性により、彼のやり方に疑いの目が向けられている。",
+          "evidence": [
+            "Hex Bottle",
+            "Dream Helmet",
+            "Fog Ball",
+            "Sally Spears"
+          ],
+          "spoiler": "軽微な証拠のネタバレを含みます。最終的な結論は省略されています。"
+        },
+        {
+          "name": "J.D. Wirman",
+          "role": "The Hex of the Helmsmenに関連する、成功した作家・著者",
+          "location": "Men's Bunk Room",
+          "relationships": [
+            "Magnus Mortuga",
+            "Sinthia Seafoam"
+          ],
+          "testimony": "Symmetry Silkmoth",
+          "motive": "彼の秘密の文通や、事件の超自然的なイメージとの文学的なつながりは、彼が事件前に何を知っていたのかという疑問を生じさせている。",
+          "evidence": [
+            "Madam Tadpole",
+            "Dr. Zacharias Zephyr",
+            "J.D. Wirman",
+            "Crew testimony"
+          ],
+          "spoiler": "軽微な文通のネタバレを含みます。手紙の最終的な重要性は省略されています。"
+        },
+        {
+          "name": "Dirk Dansom",
+          "role": "俳優であり、エネルギッシュなセレブの乗客",
+          "location": "Men's Bunk Room",
+          "relationships": [
+            "Dirk Dansom",
+            "潜水艦内で見つかった娯楽作品に登場する"
+          ],
+          "testimony": "Mariana Moon",
+          "motive": "個人的な通信や、自由になるために誰かを殺すことに関する密かに録音された発言は、彼が精神的なプレッシャーを感じていたことを示唆している。",
+          "evidence": [
+            "Movie Magazine",
+            "Locked Phone",
+            "Godrik Gripp",
+            "The Mermaid Mask"
+          ],
+          "spoiler": "録音された会話の軽微なネタバレを含みますが、最終的な解釈は含まれません。"
+        },
+        {
+          "name": "Mariana Moon",
+          "role": "歴史家であり、細心の注意を払う情報の収集家。",
+          "location": "Cargo Hold",
+          "relationships": [
+            "潜水艦、その乗組員、および彼らの歴史を研究している。",
+            "乗組員たちの会話を密かに録音している。"
+          ],
+          "testimony": "Detective Grimoire",
+          "motive": "Sally Spears",
+          "evidence": [
+            "Silkwirm Map",
+            "乗組員の居場所掲示板",
+            "Magnus Mortuga",
+            "録音された会話",
+            "Sinthia Seafoam"
+          ],
+          "spoiler": "録音内容の軽微なネタバレ。最終的な結論は省略されています。"
+        },
+        {
+          "name": "Symmetry Silkmoth",
+          "role": "風変わりな商人で、機械部品の店主。",
+          "location": "Engine Room",
+          "relationships": [
+            "潜水艦の乗組員のために、珍しい品の取引や修理を行っている。",
+            "機械類や航法装置に直接アクセスできる。"
+          ],
+          "testimony": "Madam Tadpole",
+          "motive": "潜水艦の機械システムへのアクセス権、および損傷したり改造されたりした物品を扱っているという事実は、犯行の手段と機会に関する疑問を生じさせる。",
+          "evidence": [
+            "4つのコンパスの仕掛け",
+            "Broken Compass",
+            "Dr. Zacharias Zephyr",
+            "機関室のグッズ"
+          ],
+          "spoiler": "軽微な機械的手がかりのネタバレを含みます。最終的な結論は省略されています。"
+        }
+      ]
+    },
+    "theMermaidMaskCluesAndEvidence": {
+      "title": "J.D. Wirman",
+      "eyebrow": "全証拠品カタログ",
+      "subtitle": "Dirk Dansom",
+      "intro": "Mariana Moon",
+      "columns": [
+        "Clue",
+        "Chapter",
+        "Room",
+        "Category",
+        "Found By",
+        "Examination",
+        "Suspects",
+        "Required"
+      ],
+      "items": [
+        {
+          "name": "Case File",
+          "chapter": "Prologue",
+          "room": "Stonetop Inn",
+          "category": "Document",
+          "foundBy": "宿を出る前に、赤い事件フォルダを開いてください。",
+          "examination": "Godrik Gripp",
+          "suspects": [
+            "Magnus Mortuga"
+          ],
+          "unlocks": "殺人事件の導入と、初期の調査目的を提示します。",
+          "required": true
+        },
+        {
+          "name": ", [[2]], etc.) that you would like me to translate.",
+          "chapter": "Prologue",
+          "room": "Stonetop Inn",
+          "category": "Book",
+          "foundBy": "Sallyの近くにある本を調べてください。",
+          "examination": "その超自然的な海洋の物語を読み、その描写を後に登場する呪い、仮面、大釜に関する言及と比較してください。",
+          "suspects": [
+            "J.D. Wirman",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "殺人事件を取り巻く呪いと思われる事象について、テーマに沿った背景情報を提供します。",
+          "required": true
+        },
+        {
+          "name": "Unusual Green Light",
+          "chapter": "Prologue",
+          "room": "Town Square",
+          "category": "Environmental clue",
+          "foundBy": "潜水艦が浮上する前に、光っている場所を調べてください。",
+          "examination": "光の色、場所、そしてその光に対するSallyの反応を観察してください。",
+          "suspects": [
+            "Mortuga submarine"
+          ],
+          "unlocks": "到着のシーケンスを進行させ、潜水艦の独特な視覚技術を紹介します。",
+          "required": true
+        },
+        {
+          "name": "Glowing Carved Buoy",
+          "chapter": "Prologue",
+          "room": "Fore Deck",
+          "category": "Environmental object",
+          "foundBy": "乗船直後に彫刻されたブイを調査する。",
+          "examination": "視点を回転させ、その光るディテールと、後に潜水艦の外で目撃された光に関する説明を比較する。",
+          "suspects": [
+            "Madam Tadpole",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "その後の前甲板での証言に背景情報を加える。",
+          "required": false
+        },
+        {
+          "name": "Ragged Sail Cloth",
+          "chapter": "Prologue",
+          "room": "Illusion Theatre",
+          "category": "Physical evidence",
+          "foundBy": "ステージと犯行現場の近くにある破れた布地を調査する。",
+          "examination": "損傷した端や素材、そして「星を見つめる少女」の展示との関連性を確認する。",
+          "suspects": [
+            "Symmetry Silkmoth",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "舞台装置、隠蔽、および劇場内での移動に関する追及を裏付ける。",
+          "required": true
+        },
+        {
+          "name": "上下逆さまのイリュージョンポスター",
+          "chapter": "Prologue",
+          "room": "Illusion Theatre",
+          "category": "Visual clue",
+          "foundBy": "劇場のポスターを両方の向きから調査する。",
+          "examination": "画像を上下逆さまにして、見方を変えることでその意味がどのように変化するかを確認する。",
+          "suspects": [
+            "Symmetry Silkmoth"
+          ],
+          "unlocks": "視覚的なトリックが事件の重要な要素であることを立証する。",
+          "required": true
+        },
+        {
+          "name": "Chalk Outline",
+          "chapter": "Prologue",
+          "room": "The Mermaid Mask",
+          "category": "Detective Grimoire",
+          "foundBy": "Sally Spears",
+          "examination": "遺体の位置と、大釜、ステージの入り口、および近くの仕掛けを比較する。",
+          "suspects": [
+            "Magnus Mortuga"
+          ],
+          "unlocks": "被害者の死因に関する最初の推理を裏付ける。",
+          "required": true
+        },
+        {
+          "name": "Stone Cauldron",
+          "chapter": "Prologue",
+          "room": "Magnus Mortuga",
+          "category": "殺人事件の主要な証拠",
+          "foundBy": "チョークの輪郭線の横にある古代の大釜を調べる。",
+          "examination": "鍵、縁、内側、外側のシンボル、底、そして周囲のステージとの接続部を調べる。",
+          "suspects": [
+            "Magnus Mortuga",
+            "Sinthia Seafoam",
+            "Madam Tadpole"
+          ],
+          "unlocks": "Symmetry Silkmoth",
+          "required": true
+        },
+        {
+          "name": "『レイディ・オブ・ザ・ルッキング・グラス』新聞",
+          "chapter": "Chapter One",
+          "room": "Child's Room",
+          "category": "Document",
+          "foundBy": "新聞のページの両面を読む。",
+          "examination": "表面のイリュージョンに関する記事と、裏面に印刷されたシーサーペントの報告を確認する。",
+          "suspects": [
+            "Madam Tadpole",
+            "Madam Tadpole"
+          ],
+          "unlocks": "イリュージョンや噂の海の生物に関する、新たな聞き込みの話題が追加される。",
+          "required": true
+        },
+        {
+          "name": "Glass Eyeball",
+          "chapter": "Chapter One",
+          "room": "Child's Room",
+          "category": "Key item",
+          "foundBy": "肖像画カードとレンズの仕掛けを完成させる。",
+          "examination": "ガラスの目を回転させ、その形状、虹彩、背面の金具、そして機械的な端部を調べる。",
+          "suspects": [
+            "Dr. Zacharias Zephyr",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "船長室にある目の形をした鍵を開ける。",
+          "required": true
+        },
+        {
+          "name": "J.D. Wirman",
+          "chapter": "Chapter One",
+          "room": "Control Room",
+          "category": "Dirk Dansom",
+          "foundBy": "制御室に掲示されている設計図を調べる。",
+          "examination": "潜水艦の階層、接続された部屋、立入禁止区域、および考えられる移動経路を確認する。",
+          "suspects": [
+            "Sinthia Seafoam",
+            "Magnus Mortuga",
+            "Godrik Gripp"
+          ],
+          "unlocks": "部屋への出入り、機械類、そして乗組員の居場所に関する調査の背景情報となる。",
+          "required": true
+        },
+        {
+          "name": "Captain's Log",
+          "chapter": "Chapter One",
+          "room": "Control Room",
+          "category": "Document",
+          "foundBy": "Mariana Moon",
+          "examination": "Godrik Gripp",
+          "suspects": [
+            "Magnus Mortuga",
+            "Sinthia Seafoam"
+          ],
+          "unlocks": "The Mermaid Mask",
+          "required": true
+        },
+        {
+          "name": "薄暗い水中の写真",
+          "chapter": "Chapter One",
+          "room": "Detective Grimoire",
+          "category": "Photograph",
+          "foundBy": "ピンクのブタの金庫を開けて、隠されていた写真を回収する。",
+          "examination": "人物、状況、背景、照明、および特徴となる要素を調べる。",
+          "suspects": [
+            "Sinthia Seafoam",
+            "Sally Spears",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Magnus Mortuga",
+          "required": true
+        },
+        {
+          "name": "Inn Deeds",
+          "chapter": "Chapter One",
+          "room": "Sinthia Seafoam",
+          "category": "Symmetry Silkmoth",
+          "foundBy": "Madam Tadpole",
+          "examination": "Dr. Zacharias Zephyr",
+          "suspects": [
+            "Sinthia Seafoam",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "J.D. Wirman",
+          "required": true
+        },
+        {
+          "name": "Dirk's Phone",
+          "chapter": "Chapter One",
+          "room": "Men's Bunk Room",
+          "category": "Dirk Dansom",
+          "foundBy": "シンボルを合わせるチャンネルパズルを解く。",
+          "examination": "デバイスのロックを解除し、閲覧可能なすべての通話履歴、メッセージ、メールを読む。",
+          "suspects": [
+            "Dirk Dansom",
+            "J.D. Wirman"
+          ],
+          "unlocks": "Mariana Moon",
+          "required": true
+        },
+        {
+          "name": "Godrik Gripp",
+          "chapter": "Chapter One",
+          "room": "Men's Bunk Room",
+          "category": "Correspondence",
+          "foundBy": "回転するタイプライターリングの仕掛けを解く。",
+          "examination": "手書きのメッセージを最後まで読み、署名、言い回し、そして宛先を調べる。",
+          "suspects": [
+            "J.D. Wirman",
+            "Ibis"
+          ],
+          "unlocks": ", [[2]], [[3]] markers.",
+          "required": true
+        },
+        {
+          "name": "Hex Bottle",
+          "chapter": "Chapter One",
+          "room": "Dream Chamber",
+          "category": "科学的または神秘的なオブジェクト",
+          "foundBy": "Inspect Zephyr's bottle collection and complete the cap-matching puzzle.",
+          "examination": "それぞれのボトルを回転させ、液体の状態、ラベル、気体、粘度、マークを、用意されているキャップと比較する。",
+          "suspects": [
+            "Dr. Zacharias Zephyr"
+          ],
+          "unlocks": "知覚の変化、化学物質、夢、そして超自然的な主張に関する質問を裏付ける。",
+          "required": true
+        },
+        {
+          "name": "Silkwirm Map",
+          "chapter": "Chapter One",
+          "room": "Cargo Hold",
+          "category": "Map",
+          "foundBy": "Cargo Holdに保管されている袋や資材の中を捜索する。",
+          "examination": "Inspect its routes, labels, symbols, and any locations connected to Mortuga's history.",
+          "suspects": [
+            "Mariana Moon",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Expands Mariana's historical testimony and the background of the submarine's voyage.",
+          "required": true
+        },
+        {
+          "name": "Pipe-Shaped Dictaphone",
+          "chapter": "Chapter One",
+          "room": "Cargo Hold",
+          "category": ", [[2]], etc.) that you would like me to translate.",
+          "foundBy": "Present the suspicious pipe-shaped object to Mariana after collecting the relevant mechanical evidence.",
+          "examination": "隠された録音機能を特定し、保存されているすべての会話を再生する。",
+          "suspects": [
+            "Mariana Moon",
+            "Dirk Dansom",
+            "J.D. Wirman",
+            "Mortuga submarine crew"
+          ],
+          "unlocks": "話し手が録音されているとは知らなかった発言を明らかにし、新たな矛盾のトピックを作成する。",
+          "required": true
+        },
+        {
+          "name": "壊れた携帯用無線機",
+          "chapter": "Chapter One",
+          "room": "Captain's Cabin",
+          "category": "The Mermaid Mask",
+          "foundBy": "Detective Grimoire",
+          "examination": "無線機を回転させ、損傷した筐体、操作部、アンテナ、内部部品を調査する。",
+          "suspects": [
+            "Magnus Mortuga",
+            "Godrik Gripp",
+            "Sinthia Seafoam"
+          ],
+          "unlocks": "Sally Spears",
+          "required": true
+        },
+        {
+          "name": "`, `[[2]]` markers) that you would like me to translate.",
+          "chapter": "Chapter One",
+          "room": "Captain's Cabin",
+          "category": "Magnus Mortuga",
+          "foundBy": "Sinthia Seafoam",
+          "examination": "Symmetry Silkmoth",
+          "suspects": [
+            "Magnus Mortuga"
+          ],
+          "unlocks": "Madam Tadpole",
+          "required": true
+        },
+        {
+          "name": ", [[2]]) so I can translate them for you.",
+          "chapter": "Chapter One",
+          "room": "Engine Room",
+          "category": "Dr. Zacharias Zephyr",
+          "foundBy": "The Mermaid Mask",
+          "examination": "筐体、針、修理箇所、そして以前の損傷や改造の痕跡を調査する。",
+          "suspects": [
+            "Godrik Gripp",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "そのオブジェクトや由来を知っているキャラクターから、さらなる反応を引き出す。",
+          "required": true
+        },
+        {
+          "name": "Diving Helmet",
+          "chapter": "Chapter One",
+          "room": "Airlock Grotto",
+          "category": "Equipment",
+          "foundBy": "ヘルメットを調査し、接続されたパイプダイヤル装置を完成させる。",
+          "examination": "ヘルメットを回転させ、各パイプの経路を辿り、覗き窓、シール、呼吸用部品を調査する。",
+          "suspects": [
+            "Madam Tadpole",
+            "Detective Grimoire"
+          ],
+          "unlocks": "前甲板で目撃されたという、目が光る人物に関する背景情報を提供する。",
+          "required": true
+        },
+        {
+          "name": "乗組員の所在掲示板",
+          "chapter": "Chapter One",
+          "room": "Cargo Hold",
+          "category": "Deduction board",
+          "foundBy": "生存しているすべての乗組員に会った後に戻る。",
+          "examination": "Sally Spears",
+          "suspects": [
+            "All suspects",
+            "Magnus Mortuga"
+          ],
+          "unlocks": "潜水艦の現在の人数を確定させ、追加の身辺調査を開始できるようにする。",
+          "required": true
+        }
+      ]
+    },
+    "theMermaidMaskAchievementsGuide": {
+      "title": "Magnus Mortuga",
+      "eyebrow": "Sinthia Seafoam",
+      "subtitle": "The Mermaid Mask",
+      "intro": "Detective Grimoire",
+      "items": [
+        {
+          "name": "The Beginning",
+          "category": "Story",
+          "hidden": true,
+          "description": "Sally Spears",
+          "howToUnlock": "捜査ファイルを読み、The Hex of the Helmsmenを調査し、Sallyを起こして、宿を出る。",
+          "chapter": "Prologue",
+          "missable": false,
+          "cleanup": "通常のストーリー進行中に自動的にアンロックされる。"
+        },
+        {
+          "name": "All Aboard",
+          "category": "Story",
+          "hidden": true,
+          "description": "Magnus Mortuga",
+          "howToUnlock": "広場を調査し、Sallyと話し、潜水艦が浮上するのを待って、前甲板から入る。",
+          "chapter": "Prologue",
+          "missable": false,
+          "cleanup": "最初の内部調査の前に自動的にアンロックされる。"
+        },
+        {
+          "name": "Cabinet Cracker",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "食堂にある蛇のキャビネットを開ける。",
+          "howToUnlock": "各図形をその辺の数として扱い、利用可能な図形の組み合わせを使って3、9、7、4の値を入力する。",
+          "chapter": "Prologue",
+          "missable": false,
+          "cleanup": "ストーリー進行に必要。"
+        },
+        {
+          "name": "大釜の中の呪い",
+          "category": "Story",
+          "hidden": true,
+          "description": "Illusion Theatreでの冒頭の事件現場の推理を完了する。",
+          "howToUnlock": "最初の結論を確定する前に、チョークの白線、ボロ布、イリュージョンのポスター、ステージ、大釜を調査する。",
+          "chapter": "End of Prologue",
+          "missable": false,
+          "cleanup": "第1章が始まると自動的にアンロックされる。"
+        },
+        {
+          "name": "Eye for Detail",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "子供部屋で肖像画カードとレンズの仕掛けを完了する。",
+          "howToUnlock": "Sinthia Seafoam",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Symmetry Silkmoth"
+        },
+        {
+          "name": "交換台のスペシャリスト",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Madam Tadpole",
+          "howToUnlock": "Dr. Zacharias Zephyr",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "本編の捜査に必要。"
+        },
+        {
+          "name": "Safe and Sound",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "女性用寝台室にあるピンクのブタの金庫を開ける。",
+          "howToUnlock": "上部の合計が8と6に、下部の接続された合計が5、9、2になるように、枝の数値を配置する。",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "J.D. Wirman"
+        },
+        {
+          "name": "Private Caller",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Dirk Dansom",
+          "howToUnlock": "すべてのルートが一致する端点の記号同士を接続するまでチャンネルタイルを回転させ、その後、すべての通話、メッセージ、メールを開く。",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "デバイスの画面を閉じる前に、電話のすべてのセクションを読む。"
+        },
+        {
+          "name": "Written in Code",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "男性用寝台室にあるタイプライターリングの仕掛けを解く。",
+          "howToUnlock": "5つのパターンが指定された45度の変形に従うまで、内側と外側のリングを回転させる。",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "Mariana Moon"
+        },
+        {
+          "name": "Sweet Dreams",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "Godrik Gripp",
+          "howToUnlock": "三日月、スペード、鳥の頭蓋骨、太陽、手、目のキャップを、見た目や物理的な特徴で示されたボトルに合わせる。",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "夢想の間にあるすべての証拠を確認しながら、仕掛けを完成させる。"
+        },
+        {
+          "name": "The Mermaid Mask",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "驚異の部屋にある頭蓋骨分類の展示を完成させる。",
+          "howToUnlock": "各頭蓋骨を装飾と顔の特徴で分類し、指定された識別特徴が正面を向くように回転させる。",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "最後の対決に入る前に、任意の部屋の仕掛けを完了する。"
+        },
+        {
+          "name": "Know Your Crew",
+          "category": "Interview",
+          "hidden": false,
+          "description": "潜水艦内のすべての主要な容疑者に会い、尋問する。",
+          "howToUnlock": "Detective Grimoire",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "各キャラクターに初めて会った際、すべての導入トピックについて尋ねる。"
+        },
+        {
+          "name": "Sally Spears",
+          "category": "Deduction",
+          "hidden": false,
+          "description": "貨物室にある乗組員の配置ピンボードを完成させる。",
+          "howToUnlock": "Magnus Mortuga",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "8人全員の容疑者が登場した後に、ボードに戻る。"
+        },
+        {
+          "name": "後世に残す記録",
+          "category": "Evidence",
+          "hidden": true,
+          "description": "Sinthia Seafoam",
+          "howToUnlock": "関連する機械の証拠と共にパイプ型のオブジェクトを提示し、再生可能なすべての録音された会話を再生する。",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "関連する個人捜査を完了する前に、すべての録音を聴く。"
+        },
+        {
+          "name": "True North",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "機関室のコンパスの仕掛けを修理する。",
+          "howToUnlock": "黄色を左、青を下、ピンクをほぼ2時の方向、赤を左上に向ける。",
+          "chapter": "Chapter One",
+          "missable": false,
+          "cleanup": "修理されたコンパスを回収し、新たな反応を示すキャラクターたちに提示する。"
+        },
+        {
+          "name": "Deep-Sea Diver",
+          "category": "Puzzle",
+          "hidden": false,
+          "description": "エアロックの洞窟にある潜水ヘルメットの仕掛けを完了する。",
+          "howToUnlock": "すべての連結されたダイヤルを回し、各パイプの経路の始点と終点が同じ記号になるようにしてください。",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "Symmetry Silkmoth"
+        },
+        {
+          "name": "Madam Tadpole",
+          "category": "Collection",
+          "hidden": false,
+          "description": "メインの捜査で使用される、必要な物理的証拠をすべて登録してください。",
+          "howToUnlock": "立ち入り可能なすべての部屋から、文書、写真、録音、機械的なオブジェクト、現場の証拠品を回収してください。",
+          "chapter": "Entire game",
+          "missable": true,
+          "cleanup": "最後のシーケンスの前に各部屋を再度調査し、必要な証拠の記録に未完了のものがないか確認してください。"
+        },
+        {
+          "name": "Dr. Zacharias Zephyr",
+          "category": "Interview",
+          "hidden": false,
+          "description": "全乗組員との重要な聞き取り調査と、証拠品に対する反応のトピックをすべて網羅してください。",
+          "howToUnlock": "各容疑者にすべての乗組員について尋ね、主要な文書、写真、録音、および機械的な手がかりをすべて提示してください。",
+          "chapter": "Chapter One",
+          "missable": true,
+          "cleanup": "大きな発見があるたびに、未読の会話インジケーターが表示されているすべてのキャラクターを再度訪ねてください。"
+        },
+        {
+          "name": "J.D. Wirman",
+          "category": "Exploration",
+          "hidden": false,
+          "description": "Mortuga submarine内のインタラクティブな部屋と3Dの証拠品を隅々まで調査してください。",
+          "howToUnlock": "各オブジェクトをあらゆる角度に回転させ、すべてのホットスポットを起動し、船底、ドームタンク、驚異の部屋などの部屋にある任意の仕掛けを完了させてください。",
+          "chapter": "Entire game",
+          "missable": true,
+          "cleanup": "最終対決を選択する前に、すべての部屋の調査を完了させてください。"
+        },
+        {
+          "name": "Case Closed",
+          "category": "Story",
+          "hidden": true,
+          "description": "Dirk Dansom",
+          "howToUnlock": "必要な個人捜査を終え、最終的なタイムラインを構築し、対決中に適切な物理的証拠を提示してください。",
+          "chapter": "Final sequence",
+          "missable": false,
+          "cleanup": "メインストーリーをクリアすると自動的に解除されます。"
+        },
+        {
+          "name": "完璧な捜査",
+          "category": "Completion",
+          "hidden": true,
+          "description": "すべての実績解除に必要な任意の捜査コンテンツを解決しつつ、ストーリーを完了する。",
+          "howToUnlock": "事件を解決する前に、すべての必須パズルを解き、任意の部屋の仕掛けを完了し、すべての重要な証拠を調査し、乗組員の重要な反応をすべて聞き出す。",
+          "chapter": "Entire game",
+          "missable": true,
+          "cleanup": "ゲームを最初からやり直すことなく、最後の対決の前に作成したセーブデータを使用して、見落とした調査や任意のパズルを完了する。"
+        }
+      ]
+    },
+    "theMermaidMaskEndingExplained": {
+      "title": "Mariana Moon",
+      "eyebrow": "Godrik Gripp",
+      "subtitle": "Illusion Theatreでの殺人事件、大釜、潜水艦の隠された仕掛け、そして乗組員の重なり合う秘密が、最終的な真相再構成にどのように当てはまるかを理解する。",
+      "intro": "Symmetry Silkmoth",
+      "items": [
+        {
+          "question": "Madam Tadpole",
+          "answer": "Dr. Zacharias Zephyr",
+          "spoiler": "事件現場に関する重大なネタバレ"
+        },
+        {
+          "question": "冒頭の推理によって何が立証されますか？",
+          "answer": ", [[2]], etc.), I will translate them to Japanese according to your rules.",
+          "spoiler": "捜査に関する重大なネタバレ"
+        },
+        {
+          "question": "Illusion Theatreはどのようにして密室の謎を作り出しているのか？",
+          "answer": "劇場はミスディレクションを中心に設計されている。逆さまのポスター、ボロボロの舞台幕、隠された仕掛け、照明、可動式のディスプレイ、そして大釜の構造は、目撃者に出来事の一面を見せつつ、実際の移動や準備を見えない場所で行えることを示している。",
+          "spoiler": "殺害方法に関する重大なネタバレ"
+        },
+        {
+          "question": "大釜のシンボルと光る目の証言はなぜ重要なのですか？",
+          "answer": "The symbols behind the cauldron and Madam Tadpole's description of an alien language connect two events that initially seem supernatural. When compared with equipment such as the diving helmet, Dream Chamber devices, submarine lighting, and other mechanical clues, the testimony becomes evidence of disguise, distorted perception, or deliberate staging rather than a literal demon.",
+          "spoiler": "証拠に関する重大なネタバレ"
+        },
+        {
+          "question": "What is the importance of Mortuga's private possessions?",
+          "answer": "The Captain's Log, Inn Deeds, broken radio, captain's jacket, ship model, table bell, and painting titled Her reveal that Mortuga's public role as an eccentric captain concealed personal commitments, ownership disputes, private communications, and emotional ties. These details explain why multiple people had reasons to confront him even though only one final reconstruction explains the murder.",
+          "spoiler": "動機に関する重大なネタバレ"
+        },
+        {
+          "question": "なぜこれほど多くの乗組員が怪しく見えるのか？",
+          "answer": "Nearly every suspect hides something unrelated to the killing. Sinthia conceals property information, Symmetry understands stage deception, Dirk has troubling private communications, Wirman receives secret correspondence, Mariana records the crew, Zephyr owns perception-altering equipment, Gripp handles machinery, and Tadpole withholds an unusual sighting. The case works by separating secrecy from murder evidence.",
+          "spoiler": "キャラクターに関する重大なネタバレ"
+        },
+        {
+          "question": "What do Mariana's recordings change?",
+          "answer": "The Dictaphone preserves conversations that the speakers believed were private. These recordings expose contradictions, pressure, resentments, and statements that sound incriminating when isolated. Grimoire must compare each recording with physical evidence and the established timeline instead of treating dramatic language as a confession.",
+          "spoiler": "証言に関する重大なネタバレ"
+        },
+        {
+          "question": "個々の調査はどのようにして最終的な答えへと繋がるのか？",
+          "answer": "Each personal investigation proves one limited conclusion about a suspect's actions, secrets, opportunity, or relationship with Mortuga. Once these smaller conclusions are supported by specific evidence, Grimoire can eliminate explanations that depend only on suspicion and combine the remaining facts into a single murder timeline.",
+          "spoiler": "推理に関する重大なネタバレ"
+        },
+        {
+          "question": "解決においてSallyはどのような役割を果たすのか？",
+          "answer": "Sally repeatedly challenges conclusions that are emotionally convincing but unsupported. During the final sequence, her observations help distinguish what the crew assumed they saw from what the room's evidence proves. Her feedback also prevents Grimoire from confusing a hidden motive with the physical method used in the theatre.",
+          "spoiler": "最終シークエンスに関するネタバレ"
+        },
+        {
+          "question": "The Mermaid Maskは何を象徴しているのか？",
+          "answer": ", [[2]], [[3]], and so on, I will translate them according to your instructions.",
+          "spoiler": "エンディングテーマに関するネタバレ"
+        },
+        {
+          "question": "Is the curse real?",
+          "answer": "調査において、呪いは証拠に代わるものではなく、犯人による演出の一部として扱われます。すべての決定的な結論は、物理的な証拠品、部屋への出入り、記録された証言、機械システム、そして立証された人物の動きに基づいています。超自然的な雰囲気は物語において重要なままですが、殺人事件は観察可能な事実を通じて解決されます。",
+          "spoiler": "エンディングの重大なネタバレ"
+        },
+        {
+          "question": "エンディングの主なメッセージは何ですか？",
+          "answer": ", [[2]], [[3]] markers) that you would like me to translate to Japanese.",
+          "spoiler": "テーマに関する完全なネタバレ"
+        }
+      ]
+    },
+    "theMermaidMaskPlatformsAndSystemRequirements": {
+      "title": "The Mermaid Mask Platforms and System Requirements",
+      "eyebrow": "リリースと互換性",
+      "subtitle": "Compare the Steam, Nintendo Switch, Nintendo Switch 2, and PlayStation 5 releases before beginning the Mortuga submarine investigation.",
+      "intro": "The Mermaid Mask launched on July 16, 2026 as a single-player hand-drawn point-and-click murder mystery. The game supports 12 languages, contains 21 Steam achievements, and holds a 99% positive Steam user-review rating based on the supplied launch information.",
+      "columns": [
+        "Platform",
+        "Release",
+        "Availability",
+        "Controls",
+        "Languages",
+        "Requirements"
+      ],
+      "items": [
+        {
+          "platform": "PC via Steam",
+          "releaseDate": "2026-07-16",
+          "availability": "Digital download through Steam",
+          "format": "シングルプレイヤーのポイント＆クリック・アドベンチャー",
+          "controls": "マウスとキーボードによる直接的なポインティング、オブジェクトの回転、会話の選択、パズル操作",
+          "achievements": "21 Steam achievements",
+          "languages": "12 supported languages",
+          "review": "The Mermaid Mask",
+          "requirements": "Detective Grimoire",
+          "bestFor": "Sally Spears"
+        },
+        {
+          "platform": "Nintendo Switch",
+          "releaseDate": "2026-07-16",
+          "availability": "The Mermaid Mask",
+          "format": "携帯モードおよびドックモード対応のシングルプレイヤー・アドベンチャー",
+          "controls": "コントローラーによるカーソル移動、会話の選択、証拠品の調査、パズル操作",
+          "achievements": "Detective Grimoire",
+          "languages": "Sally Spears",
+          "review": "Magnus Mortuga",
+          "requirements": "Sinthia Seafoam",
+          "bestFor": "Symmetry Silkmoth"
+        },
+        {
+          "platform": "Madam Tadpole",
+          "releaseDate": "2026-07-16",
+          "availability": "Dr. Zacharias Zephyr",
+          "format": "J.D. Wirman",
+          "controls": "コントローラーによるナビゲーションとパズル操作",
+          "achievements": "Dirk Dansom",
+          "languages": "Mariana Moon",
+          "review": "Godrik Gripp",
+          "requirements": "The Mermaid Mask",
+          "bestFor": "SFB Games"
+        },
+        {
+          "platform": "PlayStation 5",
+          "releaseDate": "2026-07-16",
+          "availability": "PlayStationでのデジタル版リリース",
+          "format": "コントローラー操作に最適化されたシングルプレイヤーのポイント＆クリック・アドベンチャー",
+          "controls": "DualSenseコントローラーによる探索、会話、証拠品の調査、パズル操作",
+          "achievements": "Detective Grimoire",
+          "languages": "Tangle Tower",
+          "review": "Steam",
+          "requirements": "Nintendo Switch",
+          "bestFor": "PlayStationハードウェアでテレビ画面でのコントローラープレイを好むプレイヤー。"
+        },
+        {
+          "platform": "PlayStation 5",
+          "releaseDate": "2026-07-16",
+          "availability": "リストされたPCおよびコンソールプラットフォームで同時にリリース",
+          "format": "Sally Spears",
+          "controls": "インターフェースはプラットフォームによって異なりますが、すべてのバージョンにおいて探索、会話、証拠品の回転、ビジュアルパズルが中心となっています。",
+          "achievements": "Magnus Mortuga",
+          "languages": "Sinthia Seafoam",
+          "review": "Symmetry Silkmoth",
+          "requirements": "リリース後に、対応プラットフォームやストアフロントの要件が変更される場合があります。",
+          "bestFor": "ストアフロントを選択する前に、発売時の対応状況を比較するプレイヤー。"
+        },
+        {
+          "platform": "Madam Tadpole",
+          "releaseDate": "発売時から利用可能",
+          "availability": "対応するデジタル版に含まれています",
+          "format": "会話、文書、手がかりの説明、推理プロンプトを含む、テキスト重視の推理アドベンチャー",
+          "controls": "対応している場合、ゲーム内の設定から言語を選択できます",
+          "achievements": "実績の獲得条件は言語を問わず同じです",
+          "languages": "The Mermaid Mask",
+          "review": "言語の品質や対応状況は、選択したストアフロントでご確認ください",
+          "requirements": "言語の選択に追加のハードウェアは必要ありません。",
+          "bestFor": "ローカライズされた会話や調査テキストを必要とするプレイヤー。"
+        },
+        {
+          "platform": "PC最小システム要件",
+          "releaseDate": "Detective Grimoire",
+          "availability": "Sally Spears",
+          "format": "手描き2Dの表現と、回転可能な3Dの証拠品オブジェクトの組み合わせ",
+          "controls": "Magnus Mortuga",
+          "achievements": "Sinthia Seafoam",
+          "languages": "Symmetry Silkmoth",
+          "review": "Madam Tadpole",
+          "requirements": "Dr. Zacharias Zephyr",
+          "bestFor": "古いPCや低スペックのWindowsコンピューターでゲームが動作するか確認するプレイヤー。"
+        },
+        {
+          "platform": "J.D. Wirman",
+          "releaseDate": "Dirk Dansom",
+          "availability": "`, `[[2]]`, etc. markers), and I will translate them to Japanese according to your rules!",
+          "format": "細部まで描き込まれた部屋、アニメーション、サウンド、インタラクティブな3Dの手がかりで構成されるナラティブアドベンチャー",
+          "controls": "正確なオブジェクト調査にはマウスを推奨",
+          "achievements": "Magnus Mortuga",
+          "languages": "Sinthia Seafoam",
+          "review": "Symmetry Silkmoth",
+          "requirements": "Madam Tadpole",
+          "bestFor": "スムーズなシーン遷移と、詳細な証拠品オブジェクトの快適な操作を求めるプレイヤー。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Dr. Zacharias Zephyr",
+    "titleHighlight": "FAQ",
+    "subtitle": "The Mermaid Mask",
+    "questions": [
+      {
+        "question": "Detective Grimoire",
+        "answer": "Sally Spears"
+      },
+      {
+        "question": "Magnus Mortuga",
+        "answer": "イリュージョン・シアター"
+      },
+      {
+        "question": "食堂",
+        "answer": "制御室"
+      },
+      {
+        "question": "子供部屋",
+        "answer": "女性用寝台室"
+      },
+      {
+        "question": "男性用寝台室",
+        "answer": "夢の間"
+      },
+      {
+        "question": "貨物室",
+        "answer": "船長室"
+      },
+      {
+        "question": "機関室",
+        "answer": "The Mermaid Mask"
+      },
+      {
+        "question": "Detective Grimoire",
+        "answer": "Sally Spears"
+      }
+    ]
+  },
+  "cta": {
+    "title": "謎を解く準備はいいですか？",
+    "description": "Magnus Mortuga",
+    "joinCommunity": "Steam Community",
+    "joinGame": "Buy on Steam"
+  },
+  "footer": {
+    "title": "Sinthia Seafoam",
+    "description": "Symmetry Silkmoth",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "discord": "YouTube",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steam Community",
+    "steamStore": "Reddit",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "The Mermaid Mask",
+    "copyrightNotice": "Copyright",
+    "copyright": "Detective Grimoire",
+    "disclaimer": "非公式のファン作成リソースサイト。"
+  },
+  "pages": {
+    "guide": {
+      "title": "Sally Spears",
+      "description": "Magnus Mortuga",
+      "metaTitle": "Sinthia Seafoam",
+      "metaDescription": "Symmetry Silkmoth",
+      "categoryLabel": "WALKTHROUGH",
+      "whatIs": "攻略ガイドとは？",
+      "whatIsDescription": "Madam Tadpole",
+      "why": "なぜ攻略ガイドを使うのか？",
+      "whySteps": {
+        "step1Title": "Avoid Dead Ends",
+        "step1Description": "次に進む方法が分からないときに、正確な進行トリガーを見つける",
+        "step2Title": "必要な手がかりを集める",
+        "step2Description": "各エリアを解放するために必要な証拠を見つける",
+        "step3Title": "Dr. Zacharias Zephyr",
+        "step3Description": "各セクションは、後のストーリーの急展開が明かされる前で終了します"
+      },
+      "featured": "J.D. Wirman",
+      "all": "すべての攻略記事"
+    },
+    "puzzles": {
+      "title": "Dirk Dansom",
+      "description": "Mariana Moon",
+      "metaTitle": "Godrik Gripp",
+      "metaDescription": "The Mermaid Mask",
+      "categoryLabel": "PUZZLES",
+      "whatIs": "パズルの解答は？",
+      "whatIsDescription": "Detective Grimoire",
+      "why": "なぜパズルガイドを使うのか？",
+      "whySteps": {
+        "step1Title": "Solve Faster",
+        "step1Description": "各パズルの正確なダイヤルの順番とコードを確認する",
+        "step2Title": "Sally Spears",
+        "step2Description": "どの手がかりが解決の各ステップに対応しているかを確認する",
+        "step3Title": "Magnus Mortuga",
+        "step3Description": "後のパズルを進めるために必要な、見落としやすい手がかりを見つける"
+      },
+      "featured": "Sinthia Seafoam",
+      "all": "Symmetry Silkmoth"
+    },
+    "release": {
+      "title": "Madam Tadpole",
+      "description": "Dr. Zacharias Zephyr",
+      "metaTitle": "J.D. Wirman",
+      "metaDescription": "Dirk Dansom",
+      "categoryLabel": "RELEASE",
+      "whatIs": "リリース情報は？",
+      "whatIsDescription": "Mariana Moon",
+      "why": "なぜリリース情報をチェックするのか？",
+      "whySteps": {
+        "step1Title": "Know the Date",
+        "step1Description": "各プラットフォームの正確な発売日",
+        "step2Title": "Try the Demo",
+        "step2Description": "デモのプレイ可能な時期と場所を確認する",
+        "step3Title": "Catch Updates",
+        "step3Description": "ニュース、延期、最新情報をいち早くチェック"
+      },
+      "featured": "Godrik Gripp",
+      "all": "Detective GrimoireとSally Spearsと共に、全く新しい謎に挑みましょう。"
+    },
+    "platforms": {
+      "title": "密室の中で、Magnus Mortuga船長が遺体で発見されました。",
+      "description": "手描きのアートで彩られたポイント＆クリックのアドベンチャーで、Mortuga潜水艦を探索しましょう。",
+      "metaTitle": "Tangle Towerの制作陣であるSFB Gamesによって開発されました。",
+      "metaDescription": "イリュージョン・シアターや機関室で手がかりを探しましょう。",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "対応プラットフォームは？",
+      "whatIsDescription": "証拠を求めて、石の大釜や船長日誌を調査しましょう。",
+      "why": "プラットフォームガイドを確認する理由は？",
+      "whySteps": {
+        "step1Title": "Sinthia SeafoamやDr. Zacharias Zephyrといった容疑者たちに聞き込みを行いましょう。",
+        "step1Description": "購入前に対応デバイスを比較する",
+        "step2Title": "The Mermaid Maskで殺人事件の謎を解き明かしましょう。",
+        "step2Description": "各地域のストアでの価格を確認する",
+        "step3Title": "Steam、Nintendo Switch、PlayStation 5で現在好評発売中です。",
+        "step3Description": "公式ストアページへ直接アクセス"
+      },
+      "featured": "あなたはThe Hex of the Helmsmenに隠された真実を暴くことができるでしょうか？",
+      "all": "目撃者を探すために、ストーントップ宿屋や町の広場を訪れましょう。"
+    },
+    "reviews": {
+      "title": "ディクタフォンを使って、発見した内容を記録しましょう。",
+      "description": "Madam Tadpole",
+      "metaTitle": "Dr. Zacharias Zephyr",
+      "metaDescription": "J.D. Wirman",
+      "categoryLabel": "REVIEWS",
+      "whatIs": "レビューの内容は？",
+      "whatIsDescription": "Dirk Dansom",
+      "why": "レビューを読む理由は？",
+      "whySteps": {
+        "step1Title": "See the Verdict",
+        "step1Description": "総合スコアを一目で確認する",
+        "step2Title": ", [[2]]) and I will translate them for you according to your rules.",
+        "step2Description": "批評家の主な評価や批判を確認する",
+        "step3Title": "購入前に判断する",
+        "step3Description": "評判と自分の好みを比べてみよう"
+      },
+      "featured": "Sinthia Seafoam",
+      "all": "All Reviews"
+    },
+    "series": {
+      "title": "Symmetry Silkmoth",
+      "description": "Madam Tadpole",
+      "metaTitle": "Dr. Zacharias Zephyr",
+      "metaDescription": "Explore The Mermaid Mask place in the Detective Grimoire series, its characters and voice cast, and developer SFB Games behind the mystery.",
+      "categoryLabel": "SERIES",
+      "whatIs": "シリーズの背景は？",
+      "whatIsDescription": "The context behind The Mermaid Mask, including its connection to Detective Grimoire and Tangle Tower, the cast of characters, and the studio that built it.",
+      "why": "シリーズを深掘りする理由は？",
+      "whySteps": {
+        "step1Title": "Know the Connections",
+        "step1Description": "See how it links to Detective Grimoire and Tangle Tower",
+        "step2Title": "Meet the Cast",
+        "step2Description": "各キャラクターの担当声優を知ろう",
+        "step3Title": "Know the Studio",
+        "step3Description": "Understand SFB Games track record"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Series Info"
+    },
+    "media": {
+      "title": "The Mermaid Mask Trailers & Soundtrack",
+      "description": "Watch every The Mermaid Mask trailer and launch video, and explore the soundtrack from SFB Games hand-drawn mystery adventure.",
+      "metaTitle": "The Mermaid Mask Trailers, Videos & Soundtrack",
+      "metaDescription": "Watch all The Mermaid Mask trailers and launch videos, and explore the soundtrack from SFB Games hand-drawn mystery adventure.",
+      "categoryLabel": "MEDIA",
+      "whatIs": "公開中のメディアは？",
+      "whatIsDescription": "A collected hub for The Mermaid Mask trailers, gameplay videos, and soundtrack, so you can preview the art, music, and tone before playing.",
+      "why": "Why watch the media?",
+      "whySteps": {
+        "step1Title": "Preview the Art",
+        "step1Description": "手描きのアートが動く様子を見てみよう",
+        "step2Title": "Feel the Tone",
+        "step2Description": "サウンドトラックと雰囲気を味わってみよう",
+        "step3Title": "Catch New Reveals",
+        "step3Description": "新しいトレーラーや最新情報を常にチェックしよう"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Media"
+    }
+  }
+}
