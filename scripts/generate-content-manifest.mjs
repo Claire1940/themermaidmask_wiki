@@ -54,9 +54,15 @@ function main() {
   const manifest = {}
   let total = 0
 
+  // content 目录不存在（如建站初期清空模板内容）时，生成空清单并正常返回，
+  // 而非 exit(1) —— 否则 CI 的 manifest 步骤失败会中断整个 build/deploy 流程，
+  // 且会让仓库里残留的旧 manifest 继续指向已被删除的 mdx，导致 build 引用不存在的文件。
   if (!fs.existsSync(CONTENT_DIR)) {
-    console.error(`[content-manifest] content 目录不存在: ${CONTENT_DIR}`)
-    process.exit(1)
+    fs.mkdirSync(OUT_DIR, { recursive: true })
+    fs.writeFileSync(OUT_FILE, '{}\n', 'utf8')
+    console.warn(`[content-manifest] content 目录不存在: ${CONTENT_DIR}，已生成空清单`)
+    console.log(`[content-manifest] 已生成 ${path.relative(ROOT, OUT_FILE)}：0 语言，0 篇内容`)
+    return
   }
 
   const locales = fs
