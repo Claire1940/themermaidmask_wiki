@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "El acertijo del barco de La máscara de la sirena: Guía paso a paso",
+  description: "Domina el desafiante acertijo del barco submarino en La máscara de la sirena. Sigue nuestra guía detallada paso a paso para alinear válvulas, descifrar coordenadas y progresar.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Boat+Puzzle+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de La máscara de la sirena"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: Resolver **el acertijo del barco de La máscara de la sirena** equilibrando las válvulas de vapor y alineando la brújula de navegación.
+- **Sospechosos clave**: Reúne pistas críticas de Zacharias Zephyr y Dirk D'Anjou para desbloquear el cuaderno de bitácora del capitán.
+- **Alineación de válvulas**: Gira las tres válvulas principales del motor a 45, 90 y 180 grados respectivamente para estabilizar la presión.
+- **Bloqueo de navegación**: Introduce las coordenadas precisas que se encuentran en la placa de latón dentro de la cocina del submarino.
+- **Recompensa crítica**: Desbloquea la escotilla de la cubierta inferior para continuar investigando el asesinato de Magnus Mortuga.
+</Callout>
+
+<Section icon={Map} title="Descripción general del acertijo del barco submarino">
+
+En el misterio de aguas profundas de *La máscara de la sirena*, los jugadores se encuentran atrapados a bordo de un submarino sospechoso tras el asesinato de Magnus Mortuga. Como investigador de la agencia Grim Ore, debes navegar por una atmósfera tensa, interrogar a sospechosos evasivos como Zacharias Zephyr y Dirk D'Anjou, y resolver complejos desafíos mecánicos. Uno de los obstáculos más importantes al principio del juego es **el acertijo del barco de La máscara de la sirena**, ubicado dentro de la sala de máquinas inundada de la embarcación.
+
+Resolver este acertijo es obligatorio para desbloquear las cubiertas inferiores, donde se ocultan pruebas forenses cruciales. El acertijo requiere una mezcla de observación del entorno, análisis de diálogos y manipulación mecánica precisa. Antes de intentar girar cualquier dial, los jugadores deben asegurarse de haber hablado con los miembros de la tripulación para recopilar la información de trasfondo necesaria.
+
+**Puntos destacados del video:**
+- Presentación oficial del misterio del asesinato a bordo del submarino.
+- Muestra de los sospechosos principales, incluidos Zacharias Zephyr y Dirk D'Anjou.
+- Descripción visual de la estética retroindustrial del submarino.
+- Adelanto de los acertijos mecánicos que los jugadores encontrarán durante la investigación.
+
+<YouTubeEmbed videoId="ucgepnrFhs8" title="La máscara de la sirena - Tráiler oficial de lanzamiento | Convergence Games Showcase 2026" />
+
+| Atributo | Detalles |
+|---|---|
+| Ubicación | Sala de máquinas de la cubierta inferior del submarino |
+| Dificultad | Media-Alta |
+| Requisitos previos | Tarjeta de acceso del capitán, Brújula de latón |
+| Sospechosos clave | Dirk D'Anjou, Zacharias Zephyr, Mariana Moom |
+| Recompensa principal | Acceso a los camarotes privados de la víctima |
+
+<Callout type="info" title="Consejo de investigación">
+Inspecciona el entorno a fondo antes de interactuar con la maquinaria. Varios objetos interactivos en la sala de máquinas contienen pistas sutiles que cambian según los ajustes de dificultad.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pistas necesarias y coartadas de los sospechosos">
+
+Para completar con éxito el acertijo, debes recoger tres objetos distintos repartidos por las cubiertas superiores del submarino. Sin estas pistas, los controles permanecerán bloqueados y, si intentas forzarlos, se producirá una fuga de vapor que dañará la salud de tu personaje.
+
+Habla con los sospechosos para reducir las posibles ubicaciones de estos objetos. Zacharias Zephyr tiene información sobre las herramientas de navegación, mientras que Dirk D'Anjou conoce la distribución estructural de la sala de máquinas.
+
+| Objeto de pista | Ubicación | Sospechoso asociado | Caso de uso |
+|---|---|---|---|
+| Brújula de latón | Escritorio del capitán | Zacharias Zephyr | Decodificar coordenadas de navegación |
+| Esquema de válvulas | Cajón de la cocina | Dirk D'Anjou | Comprender los niveles seguros de presión de vapor |
+| Fragmento del cuaderno de bitácora | Camarotes de la tripulación | Mariana Moom | Confirmar la secuencia de activación correcta |
+
+<CardGrid cols={3}>
+  <Card title="La brújula de latón">
+    - Se encuentra en el despacho del capitán.
+    - Se usa para alinear la consola de navegación.
+    - Presenta coordenadas grabadas en la parte posterior.
+  </Card>
+  <Card title="El esquema de válvulas">
+    - Oculto en el cajón de la cocina.
+    - Detalla los límites de presión para el motor de vapor.
+    - Destaca las zonas de peligro que se deben evitar.
+  </Card>
+  <Card title="El fragmento del cuaderno de bitácora">
+    - Descubierto debajo de una litera.
+    - Contiene notas escritas por Magnus Mortuga.
+    - Describe el orden cronológico de los pasos.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de peligro">
+No intentes girar las válvulas antes de obtener el esquema de válvulas. Hacerlo provocará un apagado de emergencia, lo que te obligará a reiniciar toda la secuencia desde el principio.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Solución del acertijo paso a paso">
+
+Una vez que hayas reunido la brújula de latón, el esquema de válvulas y el fragmento del cuaderno de bitácora, regresa a la sala de máquinas en la parte trasera de la embarcación. Sigue estos pasos con cuidado para resolver el acertijo y abrir la escotilla.
+
+<Steps>
+  <Step num="1" title="Aliviar la presión del vapor">
+    Localiza las tres válvulas de vapor en la pared izquierda de la sala de máquinas. Consulta el esquema de válvulas para ajustar la presión. Debes girar la válvula A dos vueltas completas en el sentido de las agujas del reloj, la válvula B una vuelta y media en el sentido contrario a las agujas del reloj, y la válvula C tres vueltas completas en el sentido de las agujas del reloj.
+  </Step>
+  <Step num="2" title="Alinear la brújula de navegación">
+    Interactúa con la consola central. Coloca la brújula de latón en la hendidura circular. Gira el dial hasta que la aguja apunte a 45 grados noreste, coincidiendo con las coordenadas grabadas en la parte posterior de la brújula.
+  </Step>
+  <Step num="3" title="Decodificar el cuaderno de bitácora del capitán">
+    Abre el panel de entrada de la consola. Consulta el fragmento del cuaderno de bitácora para introducir el código de fecha correcto. El código corresponde a la fecha en que Magnus Mortuga tomó el mando del submarino. Introduce la secuencia de números: 0-7-1-8.
+  </Step>
+  <Step num="4" title="Accionar la palanca principal">
+    Una vez que los manómetros de presión se estabilicen en la zona verde y el bloqueo de la brújula haga clic, tira de la pesada palanca de hierro del lado derecho de la consola. La escotilla que conduce a la cubierta inferior se abrirá.
+  </Step>
+</Steps>
+
+| Válvula | Dirección | Rotaciones | Presión objetivo |
+|---|---|---|---|
+| Válvula A | Sentido de las agujas del reloj | 2 vueltas completas | 40 PSI |
+| Válvula B | Sentido contrario a las agujas del reloj | 1.5 vueltas | 65 PSI |
+| Válvula C | Sentido de las agujas del reloj | 3 vueltas completas | 90 PSI |
+
+<Callout type="success" title="Acertijo resuelto">
+Cuando se ejecute correctamente, los manómetros de vapor se iluminarán en verde y se escuchará un sonido metálico característico de desbloqueo. Ahora puedes entrar de forma segura a la cubierta inferior.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Resolución de problemas y errores comunes">
+
+Muchos jugadores experimentan problemas al resolver **el acertijo del barco de La máscara de la sirena** debido a pequeños errores de alineación o a una lectura incorrecta de los manómetros. Si la consola no se desbloquea tras tirar de la palanca principal, consulta la siguiente tabla de resolución de problemas para identificar qué ha fallado.
+
+| Síntoma | Causa probable | Solución recomendada |
+|---|---|---|
+| Luz roja parpadeante | La presión es demasiado alta | Afloja la válvula A media vuelta para purgar el exceso de vapor |
+| Palanca atascada | La brújula está desalineada | Restablece la aguja a cero y vuelve a alinearla a 45 grados |
+| Escotilla bloqueada | Fuera de secuencia | Reinicia desde el paso 1 y verifica la introducción del código del cuaderno de bitácora |
+
+<Checklist
+  id="puzzle-checklist"
+  title="Lista de verificación:"
+  items={[
+    "Verifica que las tres válvulas estén configuradas en los niveles de PSI correctos.",
+    "Asegúrate de que la brújula de latón esté firmemente colocada en la ranura de la consola.",
+    "Confirma que el código de entrada coincida con la fecha del fragmento del cuaderno de bitácora.",
+    "Comprueba que las tuberías de vapor no estén ventilando gas al rojo vivo.",
+    "Tira de la palanca solo después de que las tres luces de la consola se queden fijas en verde."
+  ]}
+/>
+
+<Callout type="tip" title="Consejo profesional">
+Si te quedas atascado en un bucle de fallos, sal de la sala de máquinas y vuelve a hablar con Dirk D'Anjou. Te ofrecerá una pista adicional que simplifica el proceso de alineación de las válvulas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde encuentro la brújula de latón para el acertijo del barco?",
+    answer: "La brújula de latón se encuentra en el escritorio del capitán en el camarote superior. Es posible que debas distraer a Zacharias Zephyr o completar su cadena de diálogo inicial antes de poder recogerla de forma segura."
+  },
+  {
+    question: "¿Qué pasa si giro las válvulas en el orden incorrecto?",
+    answer: "Girar las válvulas en el orden incorrecto hace que se libere vapor en la sala, lo que reduce la salud de tu personaje. Si esto sucede, da un paso atrás, espera a que el vapor se disipe e inténtalo de nuevo."
+  },
+  {
+    question: "¿Puedo saltarme el acertijo del barco de La máscara de la sirena por completo?",
+    answer: "No, este acertijo es una parte fundamental de la historia principal. Resolverlo es necesario para acceder a la cubierta inferior del submarino y reunir las pruebas necesarias para identificar al asesino de Magnus Mortuga."
+  },
+  {
+    question: "¿Cuál es el código para el candado del cuaderno de bitácora del capitán?",
+    answer: "El código es 0-7-1-8, que representa la fecha en que Magnus Mortuga asumió el mando de la embarcación, tal como se detalla en el fragmento del cuaderno de bitácora encontrado en los camarotes de la tripulación."
+  }
+]} />
+
+<Callout type="info" title="Nota final">
+Vuelve a revisar tu inventario para ver si te falta algún documento si la consola del acertijo no reacciona. Avanzar en los diálogos de los sospechosos es la forma más fiable de activar la aparición de pistas.
+</Callout>
+
+</Section>

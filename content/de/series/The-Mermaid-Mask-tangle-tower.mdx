@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Die Meerjungfrauenmaske Tangle Tower: Demo-Walkthrough & Rätsel-Guide",
+  description: "Meistere die NextFest-Demo von Die Meerjungfrauenmaske (Tangle Tower-Nachfolger) mit diesem Walkthrough, Rätsellösungen und der Analyse des Falls um das verschlossene Zimmer.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Demo+Walkthrough",
+  date: "2026-07-18",
+  author: "Die Meerjungfrauenmaske Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Das **Haupt-Gameplay** in der **Die Meerjungfrauenmaske Tangle Tower**-Demo dreht sich um Point-and-Click-Erkundung und die Inspektion von 3D-Hinweisen.
+- **Löse das Rätsel in der Kombüse**, indem du die Anzahl der Seiten von Formen (Dreieck, Quadrat, Fünfeck) mit den Zahlen auf den Drehscheiben abgleichst.
+- **Löse das Rätsel des verschlossenen Zimmers** im Illusionstheater mithilfe des speziellen Gedankenspiel-Satzbauers.
+- **Schalte nach dem Abschluss der Demo die Kunstgalerie frei**, um Entwicklungsskizzen, 3D-Drahtgittermodelle und Entwicklerkommentare anzusehen.
+</Callout>
+
+<Section icon={Map} title="Überblick über Die Meerjungfrauenmaske Tangle Tower">
+
+Das Point-and-Click-Adventure-Genre erhält mit der Veröffentlichung der NextFest-Demo von **Die Meerjungfrauenmaske Tangle Tower** einen stilvollen Zuwachs. Dieser von SFB Games entwickelte Nachfolger bringt das beliebte Detektiv-Duo, Detective Grimoire und Sally, zurück, um ein mysteriöses Locked-Room-Szenario an Bord eines fantastischen U-Boots aufzuklären. Das Spiel weicht von traditionellen Point-and-Click-Systemen ab, indem es hervorgehobene Hotspots entfernt und Spieler dazu ermutigt, auf beliebige Hintergrundelemente zu klicken, um voll vertonte, geistreiche Interaktionen auszulösen. 
+
+**Video-Highlights:**
+- **Point-and-Click-Mechaniken** ermöglichen es Spielern, auf jedes beliebige Hintergrundelement zu klicken, um voll vertonte Dialoge und Charakterinteraktionen auszulösen.
+- Die **3D-Hinweisrotation** erlaubt es dir, Beweismittel zu drehen, zu öffnen und zu schütteln, um versteckte Details zu finden.
+- Die **nahtlose Synchronisation** präsentiert Edwin Tang und Amberly Connor als das Detektiv-Hauptduo.
+
+<YouTubeEmbed videoId="68dc0HQ2FkQ" title="Tangle Tower-Entwickler spielen (und zerlegen) ihr nächstes Spiel │ Die Meerjungfrauenmaske" />
+
+<Callout type="info" title="Einblick in die Entwicklung">
+Die U-Boot-Umgebung ist so gestaltet, dass sie luxuriös und geräumig wirkt. Sie ist stark von Kapitän Nemos Nautilus aus „20.000 Meilen unter dem Meer“ inspiriert und weniger von engen Militärschiffen.
+</Callout>
+
+Diese Designphilosophie schafft ein äußerst atmosphärisches Erlebnis, bei dem Charakterentwicklung und Humor in jedes interaktive Objekt eingewoben sind. Um dir den Einstieg in diese maritime Ermittlung zu erleichtern, deckt dieser Guide die Kernmechaniken, wichtigsten Schauplätze und Rätsellösungen der Demo von 2026 ab.
+
+| Feature | Spezifikation |
+|---|---|
+| Entwickler | SFB Games |
+| Hauptprotagonisten | Detective Grimoire / Sally |
+| Hauptschauplatz | Silkworm-See / Mortuga-U-Boot |
+| Hinweis-Darstellung | 3D-Modelle mit handgemalten Texturen |
+| Audio-Unterstützung | Vollständige Synchronisation / Orchestraler Soundtrack |
+
+</Section>
+
+<Section icon={Target} title="Erkundung der Silkworm-See und des Mortuga-U-Boots">
+
+Die Demo beginnt um 4:00 Uhr morgens in der Silkworm-See, einem verlassenen Fischerdorf, das in Geheimnisse gehüllt ist. Nachdem Sally aus dem Schlaf geweckt wurde, lockt ein unheimliches grünes Licht, das aus dem Wasser dringt, die Detektive an Deck des Mortuga-U-Boots. 
+
+Beim Betreten werden die Spieler bemerken, dass das U-Boot ursprünglich den Namen „Seafoam“ trug, bevor dieser durchgestrichen und durch „Mortuga“ ersetzt wurde – ein Hinweis auf eine düstere Vorgeschichte oder eine Meuterei. Die Erkundung des Außendecks offenbart mehrere interaktive Elemente, darunter ein altes Ruderboot mit einem einzelnen Riemen und eine mysteriöse Holzboje, die wie ein Junge geformt ist.
+
+<Callout type="warning" title="Hinweis-Untersuchung">
+Drehe 3D-Hinweise immer vollständig. Einige Gegenstände wie Bücher oder Behälter können geöffnet werden, um versteckten Text, spezielle Seiten oder darin versteckte physische Objekte freizulegen.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Fischerdorf Silkworm-See">
+    - **Verlassenes Fischerdorf**
+    - Dient als erzählerischer Anker
+    - Beinhaltet das Stone Top Inn und den alten Leuchtturm
+  </Card>
+  <Card title="U-Boot-Außenseite">
+    - **Das Vordeck der Mortuga**
+    - Zeigt die mysteriöse Holzjungen-Boje
+    - Hinweise deuten auf eine plötzliche Namensänderung von Seafoam hin
+  </Card>
+  <Card title="Luxuriöser Salon">
+    - **Erster Innenraum**
+    - Dekoriert mit einer ausgeprägten Vampir-Party-Ästhetik
+    - Enthält einen verschlossenen Zugang zum Kontrollraum
+  </Card>
+</CardGrid>
+
+Um tiefer in das Schiff vorzudringen, müssen die Spieler mit der Luke interagieren und in einen überraschend luxuriösen Salon hinabsteigen. Der Raum verfügt über einen antiken Lautsprecher, der eindringliche Musik spielt, ein riesiges Porträt mit dem Titel „Her“ (Sie) und Bücherregale voller Literatur über die Tiefsee.
+
+| Name des Hinweises | Fundort | Wichtiges Detail | 3D-Interaktion |
+|---|---|---|---|
+| Hex the Houndsman | Sallys Boden | Fantasy-Taschenbuch | Einband öffnen, um Seite eins zu lesen |
+| Fallakte | Startinventar | Details zum Tod von Magnus Mortuga | Drehen, um die Rückseite des Umschlags zu sehen |
+| Holzjunge | U-Boot-Vordeck | Lockt Spieler mit grünem Licht an | Drehen, um in den hohlen Rahmen zu blicken |
+| Großes Porträt | U-Boot-Salon | Betitelt mit „Her“ mit rückseitiger Inschrift | Umdrehen, um das versteckte Symbol zu lesen |
+
+</Section>
+
+<Section icon={Sparkles} title="Lösung des Schrankrätsels in der Kombüse">
+
+Wenn du dich weiter in das U-Boot hineinwagst, stößt du auf die Kombüse, in der sich eine riesige Metallstatue einer Seeschlange befindet. In diese Statue ist ein verschlossener Schrank eingebaut, der ein wichtiges Beweisstück enthält. Der Schlossmechanismus besteht aus vier Drehscheiben, die jeweils von kleinen Fenstern umgeben sind, die beim Drehen geometrische Formen anzeigen.
+
+Der Schlüssel zur Lösung dieses Rätsels liegt in der Beziehung zwischen den Zielzahlen in der Mitte der Drehscheiben und der Anzahl der Seiten der Formen, die in den angrenzenden Fenstern erscheinen.
+
+<Steps>
+  <Step num="1" title="Untersuche die Schlangenstatue">
+    Finde den verschlossenen Schrank im Bereich Kombüse/Küche und klicke auf den Drehscheibenmechanismus, um heranzuzoomen.
+  </Step>
+  <Step num="2" title="Analysiere die Formen">
+    Drehe die Scheiben, um zu sehen, welche Formen (Dreiecke, Quadrate, Fünfecke) in den Fenstern erscheinen. Beachte, dass Dreiecke für 3, Quadrate für 4 und Fünfecke für 5 stehen.
+  </Step>
+  <Step num="3" title="Seiten mit Zahlen abgleichen">
+    Richte die Formen so aus, dass ihre Gesamtzahl an Seiten mit den mittleren Zahlen der Drehscheiben übereinstimmt. Beispielsweise erfordert eine Scheibe, die „3“ anzeigt, ein Dreieck im Fenster.
+  </Step>
+  <Step num="4" title="Sonnentabletten einsammeln">
+    Sobald alle vier Drehscheiben korrekt ausgerichtet sind, drücke den Bestätigungsknopf, um den Schrank zu öffnen und die Sonnentabletten an dich zu nehmen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dynamisches Hinweissystem">
+Wenn du bei einem Rätsel Schwierigkeiten hast, schaltet dreimaliges Scheitern schrittweise Hinweise von Grimoire und Sally frei, die die Rätselmechanik erklären, ohne die endgültige Lösung zu verraten.
+</Callout>
+
+Der Hinweis „Sonnentabletten“ ist eine detailreiche 3D-Flasche. Wenn man sie dreht, kann man die einzelnen Tabletten sehen, die im durchscheinenden Glas wackeln. Diese Flasche ist mit einem handgemalten Sonnenemblem versehen, das in direktem Kontrast zu Beweisen steht, die später bei den Ermittlungen gefunden werden.
+
+| Formtyp | Anzahl der Seiten | Beispiele für Zielwerte | Rolle im Rätsel |
+|---|---|---|---|
+| Dreieck | 3 | Zielwert 3 | Direkte Übereinstimmung für dreiseitige Slots |
+| Quadrat | 4 | Zielwert 4 | Direkte Übereinstimmung für vierseitige Slots |
+| Fünfeck | 5 | Zielwert 5 | Direkte Übereinstimmung für fünfseitige Slots |
+| Kombinierte Formen | Variabel | Zielwerte 7 / 8 / 9 | Erfordert sorgfältiges Ausschlussverfahren |
+
+</Section>
+
+<Section icon={Swords} title="Tatort Illusionstheater & Gedankenpalast-Schlussfolgerung">
+
+Der Höhepunkt der Demo findet im Illusionstheater statt, einem engen, unheimlichen Korridor ganz im hinteren Teil des U-Boots. Dies ist der offizielle Tatort, an dem Kapitän Magnus Mortuga tot in einem verschlossenen Raum aufgefunden wurde. 
+
+Das Opfer liegt auf dem Rücken mit einem tiefen Schnitt im Nacken, und ein alter Steinkessel steht zu seinen Füßen. Seltsamerweise befindet sich keine Mordwaffe im Raum, was ein klassisches Szenario eines „unmöglichen Verbrechens“ darstellt.
+
+<Callout type="tip" title="Gedankenspiel-Logik">
+Rate nicht einfach wild drauflos. Lies die verbindenden Sätze laut vor, um sicherzustellen, dass sie logisch klingen. Das Spiel bietet eine vollständige Synchronisation für falsche Sätze, was manchmal subtile Hinweise liefern kann.
+</Callout>
+
+Um dieses erste Kapitel zu lösen, müssen die Spieler die „Gedankenspiel“-Schnittstelle für Schlussfolgerungen nutzen. Diese Mechanik repräsentiert den Denkprozess von Detective Grimoire und erfordert, dass du einen logischen Satz bildest, indem du Subjekte, Verben und Objekte aus deinen gesammelten Beweisen auswählst.
+
+| Beweisstück | Physischer Zustand | Erzählerischer Hinweis | Analytische Aktion |
+|---|---|---|---|
+| Steinkessel | Offen / enthält Kristall | Wurde angeblich noch nie zuvor geöffnet | Drehen, um Kratzspuren im Inneren zu finden |
+| Zerbrochenes Mondfläschchen | Verschüttete Flüssigkeit auf dem Boden | Ergänzt die Sonnentabletten | Durchscheinenden Glasboden untersuchen |
+| Umgedrehtes Poster | Auf dem Kopf aufgeklebt | Werbung für eine Zaubershow | Drehen, um das Skizzen-Layout auf der Rückseite zu sehen |
+| Blutspur | Nahe dem Nacken angesammelt | Führt zum hinteren Teil des U-Boots | Dem Pfad folgen, um die Bewegung zu analysieren |
+
+Um die Schlussfolgerung erfolgreich abzuschließen und zu Kapitel 1 überzugehen, bilde folgenden Satz in der Gedankenspiel-Schnittstelle: 
+
+**„Magnus Mortuga öffnete den Kessel und wurde von dem getötet, was darin war.“** (bzw. auf Englisch: **"Magnus Mortuga unlocked the cauldron and was killed by what was inside."**)
+
+Nach dem Absenden dieser Schlussfolgerung fordert dich das Spiel auf, ein physisches Detail am Steinkessel zu markieren. Drehe den Kessel, um hineinzusehen, wähle die Kratzspuren am inneren Rand aus und bestätige deine Auswahl, um die Demo abzuschließen.
+
+</Section>
+
+<Section icon={Trophy} title="Post-Game-Inhalte und Kunstgalerie">
+
+Das Abschließen der Demo gewährt Spielern Zugriff auf die Kunstgalerie, ein besonderes Feature, das auch in der Vollversion nach dem Abspann vollständig freigeschaltet bleibt. Diese Galerie bietet einen faszinierenden Blick hinter die Kulissen der Spielentwicklung und zeigt den Übergang von 2D-Skizzen zu handgemalten 3D-Modellen.
+
+Die Galerie enthält ausführliche Anmerkungen der leitenden Konzeptkünstlerin Katherine Anger und der 3D-Künstlerin Kindra. Diese Notizen beschreiben frühe Charakterentwürfe für Kapitän Mortuga, Umgebungslayouts für das Stone Top Inn und die technischen Herausforderungen bei der Erstellung unbeleuchteter, wackeliger 3D-Modelle, die die Ästhetik von 2D-Gemälden perfekt nachahmen.
+
+<Checklist
+  id="demo-completion"
+  title="Checkliste zum Abschluss der Demo:"
+  items={[
+    "Schließe die einleitende Untersuchung in der Silkworm-See ab",
+    "Finde und untersuche alle 5 Haupt-Hinweise",
+    "Löse das Drehscheibenrätsel an der Schlangenstatue in der Kombüse",
+    "Schließe die Gedankenspiel-Schlussfolgerung im Illusionstheater ab",
+    "Schalte das Archiv der Kunstgalerie frei und erkunde es"
+  ]}
+/>
+
+<Callout type="success" title="Wunschliste und Vorgänger">
+Nachdem du die Demo abgeschlossen hast, solltest du das Spiel auf deine Steam-Wunschliste setzen. Du kannst auch Tangle Tower spielen, den Vorgänger der Reihe, der ähnliche handgemalte Mechaniken bietet und oft im Angebot ist.
+</Callout>
+
+Der Detailreichtum in der Kunstgalerie unterstreicht die immense Sorgfalt, die in jeden Pixel dieses Abenteuers gesteckt wurde. Sie dient als hervorragende Belohnung für Spieler, die sich die Zeit nehmen, jeden Winkel des Mortuga-U-Boots gründlich zu untersuchen.
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Muss ich Tangle Tower spielen, bevor ich Die Meerjungfrauenmaske spiele?",
+    answer: "Nein. Obwohl beide Spiele dasselbe Detektiv-Duo teilen und im selben erzählerischen Universum spielen, ist dieser Titel als eigenständiges Rätsel konzipiert, in das jeder problemlos einsteigen und es genießen kann."
+  },
+  {
+    question: "Wie erhalte ich Hinweise für die Rätsel im Spiel?",
+    answer: "Das Spiel verfügt über ein progressives Hinweissystem. Wenn du ein Rätsel versuchst und dreimal scheiterst, besprechen Grimoire und Sally den Mechanismus und geben dir in drei Stufen immer hilfreichere Dialoghinweise."
+  },
+  {
+    question: "Was ist die richtige Lösung für das Gedankenspiel im Illusionstheater?",
+    answer: "Die richtige Satzstruktur, um in der Demo weiterzukommen, lautet: „Magnus Mortuga öffnete den Kessel und wurde von dem getötet, was darin war.“ (bzw. auf Englisch: 'Magnus Mortuga unlocked the cauldron and was killed by what was inside.'). Danach musst du auf die Kratzspuren im Kessel zeigen."
+  },
+  {
+    question: "Gibt es in der Demo von Die Meerjungfrauenmaske Tangle Tower verpassbare Inhalte?",
+    answer: "Ja. Da du absolut alles anklicken kannst, um vertonte Dialoge zu hören, verpasst du Dutzende von einzigartigen Witzen, Charakterinteraktionen und Details zum Weltaufbau, wenn du direkt zum Tatort eilst."
+  }
+]} />
+
+<Callout type="info" title="Weitere Guides">
+Für weitere tiefgehende Einblicke in die Geschichte der Silkworm-See und Charakterprofile besuche unser aktualisiertes Wiki-Repository.
+</Callout>
+
+</Section>

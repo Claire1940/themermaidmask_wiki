@@ -74,6 +74,28 @@
         "file": "The-Mermaid-Mask-xbox-one-store"
       }
     ],
+    "puzzles": [
+      {
+        "slug": "The-Mermaid-Mask-boat-puzzle",
+        "file": "The-Mermaid-Mask-boat-puzzle"
+      },
+      {
+        "slug": "The-Mermaid-Mask-clue-locations",
+        "file": "The-Mermaid-Mask-clue-locations"
+      },
+      {
+        "slug": "The-Mermaid-Mask-pinboard-puzzle",
+        "file": "The-Mermaid-Mask-pinboard-puzzle"
+      },
+      {
+        "slug": "The-Mermaid-Mask-puzzle-solutions",
+        "file": "The-Mermaid-Mask-puzzle-solutions"
+      },
+      {
+        "slug": "The-Mermaid-Mask-typewriter-puzzle",
+        "file": "The-Mermaid-Mask-typewriter-puzzle"
+      }
+    ],
     "release": [
       {
         "slug": "The-Mermaid-Mask-demo",
@@ -90,6 +112,10 @@
       {
         "slug": "The-Mermaid-Mask-steam-next-fest",
         "file": "The-Mermaid-Mask-steam-next-fest"
+      },
+      {
+        "slug": "The-Mermaid-Mask-switch-release-date",
+        "file": "The-Mermaid-Mask-switch-release-date"
       }
     ],
     "reviews": [
@@ -104,6 +130,10 @@
       {
         "slug": "The-Mermaid-Mask-metacritic",
         "file": "The-Mermaid-Mask-metacritic"
+      },
+      {
+        "slug": "The-Mermaid-Mask-review",
+        "file": "The-Mermaid-Mask-review"
       }
     ],
     "series": [
@@ -126,6 +156,10 @@
       {
         "slug": "The-Mermaid-Mask-sfb-games",
         "file": "The-Mermaid-Mask-sfb-games"
+      },
+      {
+        "slug": "The-Mermaid-Mask-tangle-tower",
+        "file": "The-Mermaid-Mask-tangle-tower"
       },
       {
         "slug": "The-Mermaid-Mask-voice-actors",
@@ -340,6 +374,10 @@
     ],
     "platforms": [
       {
+        "slug": "The-Mermaid-Mask-ios",
+        "file": "The-Mermaid-Mask-ios"
+      },
+      {
         "slug": "The-Mermaid-Mask-macos-store",
         "file": "The-Mermaid-Mask-macos-store"
       },
@@ -372,10 +410,36 @@
         "file": "The-Mermaid-Mask-xbox-one-store"
       }
     ],
+    "puzzles": [
+      {
+        "slug": "The-Mermaid-Mask-boat-puzzle",
+        "file": "The-Mermaid-Mask-boat-puzzle"
+      },
+      {
+        "slug": "The-Mermaid-Mask-clue-locations",
+        "file": "The-Mermaid-Mask-clue-locations"
+      },
+      {
+        "slug": "The-Mermaid-Mask-pinboard-puzzle",
+        "file": "The-Mermaid-Mask-pinboard-puzzle"
+      },
+      {
+        "slug": "The-Mermaid-Mask-puzzle-solutions",
+        "file": "The-Mermaid-Mask-puzzle-solutions"
+      },
+      {
+        "slug": "The-Mermaid-Mask-typewriter-puzzle",
+        "file": "The-Mermaid-Mask-typewriter-puzzle"
+      }
+    ],
     "release": [
       {
         "slug": "The-Mermaid-Mask-demo",
         "file": "The-Mermaid-Mask-demo"
+      },
+      {
+        "slug": "The-Mermaid-Mask-news",
+        "file": "The-Mermaid-Mask-news"
       },
       {
         "slug": "The-Mermaid-Mask-release-date",
@@ -384,12 +448,20 @@
       {
         "slug": "The-Mermaid-Mask-steam-next-fest",
         "file": "The-Mermaid-Mask-steam-next-fest"
+      },
+      {
+        "slug": "The-Mermaid-Mask-switch-release-date",
+        "file": "The-Mermaid-Mask-switch-release-date"
       }
     ],
     "reviews": [
       {
         "slug": "The-Mermaid-Mask-creativebloq",
         "file": "The-Mermaid-Mask-creativebloq"
+      },
+      {
+        "slug": "The-Mermaid-Mask-edge",
+        "file": "The-Mermaid-Mask-edge"
       },
       {
         "slug": "The-Mermaid-Mask-metacritic",
@@ -440,6 +512,10 @@
       {
         "slug": "The-Mermaid-Mask-full-playthrough",
         "file": "The-Mermaid-Mask-full-playthrough"
+      },
+      {
+        "slug": "The-Mermaid-Mask-guide",
+        "file": "The-Mermaid-Mask-guide"
       },
       {
         "slug": "The-Mermaid-Mask-hltb",
@@ -502,10 +578,36 @@
         "file": "The-Mermaid-Mask-xbox-one-store"
       }
     ],
+    "puzzles": [
+      {
+        "slug": "The-Mermaid-Mask-boat-puzzle",
+        "file": "The-Mermaid-Mask-boat-puzzle"
+      },
+      {
+        "slug": "The-Mermaid-Mask-clue-locations",
+        "file": "The-Mermaid-Mask-clue-locations"
+      },
+      {
+        "slug": "The-Mermaid-Mask-pinboard-puzzle",
+        "file": "The-Mermaid-Mask-pinboard-puzzle"
+      },
+      {
+        "slug": "The-Mermaid-Mask-puzzle-solutions",
+        "file": "The-Mermaid-Mask-puzzle-solutions"
+      },
+      {
+        "slug": "The-Mermaid-Mask-typewriter-puzzle",
+        "file": "The-Mermaid-Mask-typewriter-puzzle"
+      }
+    ],
     "release": [
       {
         "slug": "The-Mermaid-Mask-demo",
         "file": "The-Mermaid-Mask-demo"
+      },
+      {
+        "slug": "The-Mermaid-Mask-news",
+        "file": "The-Mermaid-Mask-news"
       },
       {
         "slug": "The-Mermaid-Mask-release-date",
